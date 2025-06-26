@@ -1,0 +1,448 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:15:11 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=75154",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Chang Su\",\n        \"reasoning\": \"The author's name is listed first in the author list on the second page of the paper, associated with superscript '1'.\",\n        \"quote\": \"Chang Su,1,17\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Health Service Administration and Policy, College of Public Health, Temple University, Philadelphia, PA 19122, USA\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed on page 2.\",\n          \"quote\": \"1Department of Health Service Administration and Policy, College of Public Health, Temple University, Philadelphia, PA 19122, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Yu Hou\",\n        \"reasoning\": \"The author's name is listed second in the author list on the second page of the paper, associated with superscripts '2' and '3'.\",\n        \"quote\": \"Yu Hou,2,3,17\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed on page 2.\",\n          \"quote\": \"2Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA\"\n        },\n        {\n          \"value\": \"Department of Surgery, University of Minnesota, Minneapolis, MN 55455, USA\",\n          \"reasoning\": \"The superscript '3' next to the author's name corresponds to the third affiliation listed on page 2.\",\n          \"quote\": \"3Department of Surgery, University of Minnesota, Minneapolis, MN 55455, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Manqi Zhou\",\n        \"reasoning\": \"The author's name is listed third in the author list on the second page of the paper, associated with superscript '4'.\",\n        \"quote\": \"Manqi Zhou,4\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Computational Biology, Cornell University, Ithaca, NY 14850, USA\",\n          \"reasoning\": \"The superscript '4' next to the author's name corresponds to the fourth affiliation listed on page 2.\",\n          \"quote\": \"4Department of Computational Biology, Cornell University, Ithaca, NY 14850, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Suraj Rajendran\",\n        \"reasoning\": \"The author's name is listed in the author list on the second page of the paper, associated with superscript '5'.\",\n        \"quote\": \"Suraj Rajendran,5\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Tri-Institutional Computational Biology & Medicine Program, Cornell University, New York, NY 10065, USA\",\n          \"reasoning\": \"The superscript '5' next to the author's name corresponds to the fifth affiliation listed on page 2.\",\n          \"quote\": \"5Tri-Institutional Computational Biology & Medicine Program, Cornell University, New York, NY 10065, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jacqueline R.M. A. Maasch\",\n        \"reasoning\": \"The author's name is listed in the author list on the second page of the paper, associated with superscript '6'.\",\n        \"quote\": \"Jacqueline R.M. A. Maasch,6\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Computer Science, Cornell Tech, New York, NY 10044, USA\",\n          \"reasoning\": \"The superscript '6' next to the author's name corresponds to the sixth affiliation listed on page 2.\",\n          \"quote\": \"6Department of Computer Science, Cornell Tech, New York, NY 10044, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Zehra Abedi\",\n        \"reasoning\": \"The author's name is listed in the author list on the second page of the paper, associated with superscript '2'.\",\n        \"quote\": \"Zehra Abedi,2\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed on page 2.\",\n          \"quote\": \"2Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Haotan Zhang\",\n        \"reasoning\": \"The author's name is listed in the author list on the second page of the paper, associated with superscript '7'.\",\n        \"quote\": \"Haotan Zhang,7\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA\",\n          \"reasoning\": \"The superscript '7' next to the author's name corresponds to the seventh affiliation listed on page 2.\",\n          \"quote\": \"7Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Zilong Bai\",\n        \"reasoning\": \"The author's name is listed in the author list on the second page of the paper, associated with superscript '2'.\",\n        \"quote\": \"Zilong Bai,2\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed on page 2.\",\n          \"quote\": \"2Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Anthony Cuturrufo\",\n        \"reasoning\": \"The author's name is listed in the author list on the second page of the paper, associated with superscript '8'.\",\n        \"quote\": \"Anthony Cuturrufo,8\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Computer Science, Cornell University, Ithaca, NY 14850, USA\",\n          \"reasoning\": \"The superscript '8' next to the author's name corresponds to the eighth affiliation listed on page 2.\",\n          \"quote\": \"8Computer Science, Cornell University, Ithaca, NY 14850, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Winston Guo\",\n        \"reasoning\": \"The author's name is listed in the author list on the second page of the paper, associated with superscript '7'.\",\n        \"quote\": \"Winston Guo,7\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA\",\n          \"reasoning\": \"The superscript '7' next to the author's name corresponds to the seventh affiliation listed on page 2.\",\n          \"quote\": \"7Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Fayzan F. Chaudhry\",\n        \"reasoning\": \"The author's name is listed in the author list on the second page of the paper, associated with superscript '9'.\",\n        \"quote\": \"Fayzan F. Chaudhry,9\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Medicine, Weill Cornell Medicine, New York, NY 10021, USA\",\n          \"reasoning\": \"The superscript '9' next to the author's name corresponds to the ninth affiliation listed on page 2.\",\n          \"quote\": \"9Department of Medicine, Weill Cornell Medicine, New York, NY 10021, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Gregory Ghahramani\",\n        \"reasoning\": \"The author's name is listed in the author list on the second page of the paper, associated with superscript '7'.\",\n        \"quote\": \"Gregory Ghahramani,7\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA\",\n          \"reasoning\": \"The superscript '7' next to the author's name corresponds to the seventh affiliation listed on page 2.\",\n          \"quote\": \"7Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jian Tang\",\n        \"reasoning\": \"The author's name is listed in the author list on the second page of the paper, associated with superscript '10'.\",\n        \"quote\": \"Jian Tang,10\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila-Quebec AI Institute and HEC Montreal, Montreal, QC H2S 3H1, Canada\",\n          \"reasoning\": \"The superscript '10' next to the author's name corresponds to the tenth affiliation listed on page 2.\",\n          \"quote\": \"10Mila-Quebec AI Institute and HEC Montreal, Montreal, QC H2S 3H1, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Feixiong Cheng\",\n        \"reasoning\": \"The author's name is listed in the author list on the second page of the paper, associated with superscripts '11', '12', and '13'.\",\n        \"quote\": \"Feixiong Cheng,11,12,13\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Genomic Medicine Institute, Lerner Research Institute, Cleveland Clinic, Cleveland, OH 44195, USA\",\n          \"reasoning\": \"The superscript '11' next to the author's name corresponds to the eleventh affiliation listed on page 2.\",\n          \"quote\": \"11Genomic Medicine Institute, Lerner Research Institute, Cleveland Clinic, Cleveland, OH 44195, USA\"\n        },\n        {\n          \"value\": \"Department of Molecular Medicine, Cleveland Clinic Lerner College of Medicine, Case Western Reserve University, Cleveland, OH 44195, USA\",\n          \"reasoning\": \"The superscript '12' next to the author's name corresponds to the twelfth affiliation listed on page 2.\",\n          \"quote\": \"12Department of Molecular Medicine, Cleveland Clinic Lerner College of Medicine, Case Western Reserve University, Cleveland, OH 44195, USA\"\n        },\n        {\n          \"value\": \"Case Comprehensive Cancer Center, Case Western Reserve University School of Medicine, Cleveland, OH 44106, USA\",\n          \"reasoning\": \"The superscript '13' next to the author's name corresponds to the thirteenth affiliation listed on page 2.\",\n          \"quote\": \"13Case Comprehensive Cancer Center, Case Western Reserve University School of Medicine, Cleveland, OH 44106, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Yue Li\",\n        \"reasoning\": \"The author's name is listed in the author list on the second page of the paper, associated with superscript '14'.\",\n        \"quote\": \"Yue Li,14\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"School of Computer Science, McGill University, Montreal, QC H3A 0C6, Canada\",\n          \"reasoning\": \"The superscript '14' next to the author's name corresponds to the fourteenth affiliation listed on pages 2 and 3.\",\n          \"quote\": \"14School of Computer Science, McGill University, Montreal, QC H3A 0C6, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Rui Zhang\",\n        \"reasoning\": \"The author's name is listed in the author list on the second page of the paper, associated with superscript '3'.\",\n        \"quote\": \"Rui Zhang,3\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Surgery, University of Minnesota, Minneapolis, MN 55455, USA\",\n          \"reasoning\": \"The superscript '3' next to the author's name corresponds to the third affiliation listed on page 2.\",\n          \"quote\": \"3Department of Surgery, University of Minnesota, Minneapolis, MN 55455, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Steven T. DeKosky\",\n        \"reasoning\": \"The author's name is listed in the author list on the second page of the paper, associated with superscript '15'.\",\n        \"quote\": \"Steven T. DeKosky,15\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Neurology, College of Medicine, University of Florida, Gainesville, FL 32610, USA\",\n          \"reasoning\": \"The superscript '15' next to the author's name corresponds to the fifteenth affiliation listed on page 3.\",\n          \"quote\": \"15Department of Neurology, College of Medicine, University of Florida, Gainesville, FL 32610, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jiang Bian\",\n        \"reasoning\": \"The author's name is listed in the author list on the second page of the paper, associated with superscript '16'.\",\n        \"quote\": \"Jiang Bian,16\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Health Outcomes & Biomedical Informatics, College of Medicine, University of Florida, Gainesville, FL 32610, USA\",\n          \"reasoning\": \"The superscript '16' next to the author's name corresponds to the sixteenth affiliation listed on page 3.\",\n          \"quote\": \"16Department of Health Outcomes & Biomedical Informatics, College of Medicine, University of Florida, Gainesville, FL 32610, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Fei Wang\",\n        \"reasoning\": \"The author's name is listed last in the author list on the second page of the paper, associated with superscript '2'.\",\n        \"quote\": \"Fei Wang,2,18,*\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed on page 2.\",\n          \"quote\": \"2Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Department of Health Service Administration and Policy, College of Public Health, Temple University, Philadelphia, PA 19122, USA\",\n      \"reasoning\": \"This affiliation is numbered '1' in the list of affiliations on page 2 and is linked to author Chang Su.\",\n      \"quote\": \"1Department of Health Service Administration and Policy, College of Public Health, Temple University, Philadelphia, PA 19122, USA\"\n    },\n    {\n      \"value\": \"Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA\",\n      \"reasoning\": \"This affiliation is numbered '2' in the list of affiliations on page 2 and is linked to authors Yu Hou, Zehra Abedi, Zilong Bai, and Fei Wang.\",\n      \"quote\": \"2Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA\"\n    },\n    {\n      \"value\": \"Department of Surgery, University of Minnesota, Minneapolis, MN 55455, USA\",\n      \"reasoning\": \"This affiliation is numbered '3' in the list of affiliations on page 2 and is linked to authors Yu Hou and Rui Zhang.\",\n      \"quote\": \"3Department of Surgery, University of Minnesota, Minneapolis, MN 55455, USA\"\n    },\n    {\n      \"value\": \"Department of Computational Biology, Cornell University, Ithaca, NY 14850, USA\",\n      \"reasoning\": \"This affiliation is numbered '4' in the list of affiliations on page 2 and is linked to author Manqi Zhou.\",\n      \"quote\": \"4Department of Computational Biology, Cornell University, Ithaca, NY 14850, USA\"\n    },\n    {\n      \"value\": \"Tri-Institutional Computational Biology & Medicine Program, Cornell University, New York, NY 10065, USA\",\n      \"reasoning\": \"This affiliation is numbered '5' in the list of affiliations on page 2 and is linked to author Suraj Rajendran.\",\n      \"quote\": \"5Tri-Institutional Computational Biology & Medicine Program, Cornell University, New York, NY 10065, USA\"\n    },\n    {\n      \"value\": \"Department of Computer Science, Cornell Tech, New York, NY 10044, USA\",\n      \"reasoning\": \"This affiliation is numbered '6' in the list of affiliations on page 2 and is linked to author Jacqueline R.M. A. Maasch.\",\n      \"quote\": \"6Department of Computer Science, Cornell Tech, New York, NY 10044, USA\"\n    },\n    {\n      \"value\": \"Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA\",\n      \"reasoning\": \"This affiliation is numbered '7' in the list of affiliations on page 2 and is linked to authors Haotan Zhang, Winston Guo, and Gregory Ghahramani.\",\n      \"quote\": \"7Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA\"\n    },\n    {\n      \"value\": \"Computer Science, Cornell University, Ithaca, NY 14850, USA\",\n      \"reasoning\": \"This affiliation is numbered '8' in the list of affiliations on page 2 and is linked to author Anthony Cuturrufo.\",\n      \"quote\": \"8Computer Science, Cornell University, Ithaca, NY 14850, USA\"\n    },\n    {\n      \"value\": \"Department of Medicine, Weill Cornell Medicine, New York, NY 10021, USA\",\n      \"reasoning\": \"This affiliation is numbered '9' in the list of affiliations on page 2 and is linked to author Fayzan F. Chaudhry.\",\n      \"quote\": \"9Department of Medicine, Weill Cornell Medicine, New York, NY 10021, USA\"\n    },\n    {\n      \"value\": \"Mila-Quebec AI Institute and HEC Montreal, Montreal, QC H2S 3H1, Canada\",\n      \"reasoning\": \"This affiliation is numbered '10' in the list of affiliations on page 2 and is linked to author Jian Tang.\",\n      \"quote\": \"10Mila-Quebec AI Institute and HEC Montreal, Montreal, QC H2S 3H1, Canada\"\n    },\n    {\n      \"value\": \"Genomic Medicine Institute, Lerner Research Institute, Cleveland Clinic, Cleveland, OH 44195, USA\",\n      \"reasoning\": \"This affiliation is numbered '11' in the list of affiliations on page 2 and is linked to author Feixiong Cheng.\",\n      \"quote\": \"11Genomic Medicine Institute, Lerner Research Institute, Cleveland Clinic, Cleveland, OH 44195, USA\"\n    },\n    {\n      \"value\": \"Department of Molecular Medicine, Cleveland Clinic Lerner College of Medicine, Case Western Reserve University, Cleveland, OH 44195, USA\",\n      \"reasoning\": \"This affiliation is numbered '12' in the list of affiliations on page 2 and is linked to author Feixiong Cheng.\",\n      \"quote\": \"12Department of Molecular Medicine, Cleveland Clinic Lerner College of Medicine, Case Western Reserve University, Cleveland, OH 44195, USA\"\n    },\n    {\n      \"value\": \"Case Comprehensive Cancer Center, Case Western Reserve University School of Medicine, Cleveland, OH 44106, USA\",\n      \"reasoning\": \"This affiliation is numbered '13' in the list of affiliations on page 2 and is linked to author Feixiong Cheng.\",\n      \"quote\": \"13Case Comprehensive Cancer Center, Case Western Reserve University School of Medicine, Cleveland, OH 44106, USA\"\n    },\n    {\n      \"value\": \"School of Computer Science, McGill University, Montreal, QC H3A 0C6, Canada\",\n      \"reasoning\": \"This affiliation is numbered '14' in the list of affiliations that continues on page 3 and is linked to author Yue Li.\",\n      \"quote\": \"14School of Computer Science, McGill University, Montreal, QC H3A 0C6, Canada\"\n    },\n    {\n      \"value\": \"Department of Neurology, College of Medicine, University of Florida, Gainesville, FL 32610, USA\",\n      \"reasoning\": \"This affiliation is numbered '15' in the list of affiliations on page 3 and is linked to author Steven T. DeKosky.\",\n      \"quote\": \"15Department of Neurology, College of Medicine, University of Florida, Gainesville, FL 32610, USA\"\n    },\n    {\n      \"value\": \"Department of Health Outcomes & Biomedical Informatics, College of Medicine, University of Florida, Gainesville, FL 32610, USA\",\n      \"reasoning\": \"This affiliation is numbered '16' in the list of affiliations on page 3 and is linked to author Jiang Bian.\",\n      \"quote\": \"16Department of Health Outcomes & Biomedical Informatics, College of Medicine, University of Florida, Gainesville, FL 32610, USA\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 5403,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 7121,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 6708
+      }
+    ],
+    "thoughts_token_count": 2621,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 15145,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Chang Su",
+          "reasoning": "The author's name is listed first in the author list on the second page of the paper, associated with superscript '1'.",
+          "quote": "Chang Su,1,17"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Health Service Administration and Policy, College of Public Health, Temple University, Philadelphia, PA 19122, USA",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed on page 2.",
+            "quote": "1Department of Health Service Administration and Policy, College of Public Health, Temple University, Philadelphia, PA 19122, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Yu Hou",
+          "reasoning": "The author's name is listed second in the author list on the second page of the paper, associated with superscripts '2' and '3'.",
+          "quote": "Yu Hou,2,3,17"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed on page 2.",
+            "quote": "2Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA"
+          },
+          {
+            "value": "Department of Surgery, University of Minnesota, Minneapolis, MN 55455, USA",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third affiliation listed on page 2.",
+            "quote": "3Department of Surgery, University of Minnesota, Minneapolis, MN 55455, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Manqi Zhou",
+          "reasoning": "The author's name is listed third in the author list on the second page of the paper, associated with superscript '4'.",
+          "quote": "Manqi Zhou,4"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Computational Biology, Cornell University, Ithaca, NY 14850, USA",
+            "reasoning": "The superscript '4' next to the author's name corresponds to the fourth affiliation listed on page 2.",
+            "quote": "4Department of Computational Biology, Cornell University, Ithaca, NY 14850, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Suraj Rajendran",
+          "reasoning": "The author's name is listed in the author list on the second page of the paper, associated with superscript '5'.",
+          "quote": "Suraj Rajendran,5"
+        },
+        "affiliations": [
+          {
+            "value": "Tri-Institutional Computational Biology & Medicine Program, Cornell University, New York, NY 10065, USA",
+            "reasoning": "The superscript '5' next to the author's name corresponds to the fifth affiliation listed on page 2.",
+            "quote": "5Tri-Institutional Computational Biology & Medicine Program, Cornell University, New York, NY 10065, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jacqueline R.M. A. Maasch",
+          "reasoning": "The author's name is listed in the author list on the second page of the paper, associated with superscript '6'.",
+          "quote": "Jacqueline R.M. A. Maasch,6"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Computer Science, Cornell Tech, New York, NY 10044, USA",
+            "reasoning": "The superscript '6' next to the author's name corresponds to the sixth affiliation listed on page 2.",
+            "quote": "6Department of Computer Science, Cornell Tech, New York, NY 10044, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Zehra Abedi",
+          "reasoning": "The author's name is listed in the author list on the second page of the paper, associated with superscript '2'.",
+          "quote": "Zehra Abedi,2"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed on page 2.",
+            "quote": "2Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Haotan Zhang",
+          "reasoning": "The author's name is listed in the author list on the second page of the paper, associated with superscript '7'.",
+          "quote": "Haotan Zhang,7"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA",
+            "reasoning": "The superscript '7' next to the author's name corresponds to the seventh affiliation listed on page 2.",
+            "quote": "7Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Zilong Bai",
+          "reasoning": "The author's name is listed in the author list on the second page of the paper, associated with superscript '2'.",
+          "quote": "Zilong Bai,2"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed on page 2.",
+            "quote": "2Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Anthony Cuturrufo",
+          "reasoning": "The author's name is listed in the author list on the second page of the paper, associated with superscript '8'.",
+          "quote": "Anthony Cuturrufo,8"
+        },
+        "affiliations": [
+          {
+            "value": "Computer Science, Cornell University, Ithaca, NY 14850, USA",
+            "reasoning": "The superscript '8' next to the author's name corresponds to the eighth affiliation listed on page 2.",
+            "quote": "8Computer Science, Cornell University, Ithaca, NY 14850, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Winston Guo",
+          "reasoning": "The author's name is listed in the author list on the second page of the paper, associated with superscript '7'.",
+          "quote": "Winston Guo,7"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA",
+            "reasoning": "The superscript '7' next to the author's name corresponds to the seventh affiliation listed on page 2.",
+            "quote": "7Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Fayzan F. Chaudhry",
+          "reasoning": "The author's name is listed in the author list on the second page of the paper, associated with superscript '9'.",
+          "quote": "Fayzan F. Chaudhry,9"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Medicine, Weill Cornell Medicine, New York, NY 10021, USA",
+            "reasoning": "The superscript '9' next to the author's name corresponds to the ninth affiliation listed on page 2.",
+            "quote": "9Department of Medicine, Weill Cornell Medicine, New York, NY 10021, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Gregory Ghahramani",
+          "reasoning": "The author's name is listed in the author list on the second page of the paper, associated with superscript '7'.",
+          "quote": "Gregory Ghahramani,7"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA",
+            "reasoning": "The superscript '7' next to the author's name corresponds to the seventh affiliation listed on page 2.",
+            "quote": "7Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jian Tang",
+          "reasoning": "The author's name is listed in the author list on the second page of the paper, associated with superscript '10'.",
+          "quote": "Jian Tang,10"
+        },
+        "affiliations": [
+          {
+            "value": "Mila-Quebec AI Institute and HEC Montreal, Montreal, QC H2S 3H1, Canada",
+            "reasoning": "The superscript '10' next to the author's name corresponds to the tenth affiliation listed on page 2.",
+            "quote": "10Mila-Quebec AI Institute and HEC Montreal, Montreal, QC H2S 3H1, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Feixiong Cheng",
+          "reasoning": "The author's name is listed in the author list on the second page of the paper, associated with superscripts '11', '12', and '13'.",
+          "quote": "Feixiong Cheng,11,12,13"
+        },
+        "affiliations": [
+          {
+            "value": "Genomic Medicine Institute, Lerner Research Institute, Cleveland Clinic, Cleveland, OH 44195, USA",
+            "reasoning": "The superscript '11' next to the author's name corresponds to the eleventh affiliation listed on page 2.",
+            "quote": "11Genomic Medicine Institute, Lerner Research Institute, Cleveland Clinic, Cleveland, OH 44195, USA"
+          },
+          {
+            "value": "Department of Molecular Medicine, Cleveland Clinic Lerner College of Medicine, Case Western Reserve University, Cleveland, OH 44195, USA",
+            "reasoning": "The superscript '12' next to the author's name corresponds to the twelfth affiliation listed on page 2.",
+            "quote": "12Department of Molecular Medicine, Cleveland Clinic Lerner College of Medicine, Case Western Reserve University, Cleveland, OH 44195, USA"
+          },
+          {
+            "value": "Case Comprehensive Cancer Center, Case Western Reserve University School of Medicine, Cleveland, OH 44106, USA",
+            "reasoning": "The superscript '13' next to the author's name corresponds to the thirteenth affiliation listed on page 2.",
+            "quote": "13Case Comprehensive Cancer Center, Case Western Reserve University School of Medicine, Cleveland, OH 44106, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Yue Li",
+          "reasoning": "The author's name is listed in the author list on the second page of the paper, associated with superscript '14'.",
+          "quote": "Yue Li,14"
+        },
+        "affiliations": [
+          {
+            "value": "School of Computer Science, McGill University, Montreal, QC H3A 0C6, Canada",
+            "reasoning": "The superscript '14' next to the author's name corresponds to the fourteenth affiliation listed on pages 2 and 3.",
+            "quote": "14School of Computer Science, McGill University, Montreal, QC H3A 0C6, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Rui Zhang",
+          "reasoning": "The author's name is listed in the author list on the second page of the paper, associated with superscript '3'.",
+          "quote": "Rui Zhang,3"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Surgery, University of Minnesota, Minneapolis, MN 55455, USA",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third affiliation listed on page 2.",
+            "quote": "3Department of Surgery, University of Minnesota, Minneapolis, MN 55455, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Steven T. DeKosky",
+          "reasoning": "The author's name is listed in the author list on the second page of the paper, associated with superscript '15'.",
+          "quote": "Steven T. DeKosky,15"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Neurology, College of Medicine, University of Florida, Gainesville, FL 32610, USA",
+            "reasoning": "The superscript '15' next to the author's name corresponds to the fifteenth affiliation listed on page 3.",
+            "quote": "15Department of Neurology, College of Medicine, University of Florida, Gainesville, FL 32610, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jiang Bian",
+          "reasoning": "The author's name is listed in the author list on the second page of the paper, associated with superscript '16'.",
+          "quote": "Jiang Bian,16"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Health Outcomes & Biomedical Informatics, College of Medicine, University of Florida, Gainesville, FL 32610, USA",
+            "reasoning": "The superscript '16' next to the author's name corresponds to the sixteenth affiliation listed on page 3.",
+            "quote": "16Department of Health Outcomes & Biomedical Informatics, College of Medicine, University of Florida, Gainesville, FL 32610, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Fei Wang",
+          "reasoning": "The author's name is listed last in the author list on the second page of the paper, associated with superscript '2'.",
+          "quote": "Fei Wang,2,18,*"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed on page 2.",
+            "quote": "2Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Department of Health Service Administration and Policy, College of Public Health, Temple University, Philadelphia, PA 19122, USA",
+        "reasoning": "This affiliation is numbered '1' in the list of affiliations on page 2 and is linked to author Chang Su.",
+        "quote": "1Department of Health Service Administration and Policy, College of Public Health, Temple University, Philadelphia, PA 19122, USA"
+      },
+      {
+        "value": "Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA",
+        "reasoning": "This affiliation is numbered '2' in the list of affiliations on page 2 and is linked to authors Yu Hou, Zehra Abedi, Zilong Bai, and Fei Wang.",
+        "quote": "2Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, USA"
+      },
+      {
+        "value": "Department of Surgery, University of Minnesota, Minneapolis, MN 55455, USA",
+        "reasoning": "This affiliation is numbered '3' in the list of affiliations on page 2 and is linked to authors Yu Hou and Rui Zhang.",
+        "quote": "3Department of Surgery, University of Minnesota, Minneapolis, MN 55455, USA"
+      },
+      {
+        "value": "Department of Computational Biology, Cornell University, Ithaca, NY 14850, USA",
+        "reasoning": "This affiliation is numbered '4' in the list of affiliations on page 2 and is linked to author Manqi Zhou.",
+        "quote": "4Department of Computational Biology, Cornell University, Ithaca, NY 14850, USA"
+      },
+      {
+        "value": "Tri-Institutional Computational Biology & Medicine Program, Cornell University, New York, NY 10065, USA",
+        "reasoning": "This affiliation is numbered '5' in the list of affiliations on page 2 and is linked to author Suraj Rajendran.",
+        "quote": "5Tri-Institutional Computational Biology & Medicine Program, Cornell University, New York, NY 10065, USA"
+      },
+      {
+        "value": "Department of Computer Science, Cornell Tech, New York, NY 10044, USA",
+        "reasoning": "This affiliation is numbered '6' in the list of affiliations on page 2 and is linked to author Jacqueline R.M. A. Maasch.",
+        "quote": "6Department of Computer Science, Cornell Tech, New York, NY 10044, USA"
+      },
+      {
+        "value": "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA",
+        "reasoning": "This affiliation is numbered '7' in the list of affiliations on page 2 and is linked to authors Haotan Zhang, Winston Guo, and Gregory Ghahramani.",
+        "quote": "7Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065, USA"
+      },
+      {
+        "value": "Computer Science, Cornell University, Ithaca, NY 14850, USA",
+        "reasoning": "This affiliation is numbered '8' in the list of affiliations on page 2 and is linked to author Anthony Cuturrufo.",
+        "quote": "8Computer Science, Cornell University, Ithaca, NY 14850, USA"
+      },
+      {
+        "value": "Department of Medicine, Weill Cornell Medicine, New York, NY 10021, USA",
+        "reasoning": "This affiliation is numbered '9' in the list of affiliations on page 2 and is linked to author Fayzan F. Chaudhry.",
+        "quote": "9Department of Medicine, Weill Cornell Medicine, New York, NY 10021, USA"
+      },
+      {
+        "value": "Mila-Quebec AI Institute and HEC Montreal, Montreal, QC H2S 3H1, Canada",
+        "reasoning": "This affiliation is numbered '10' in the list of affiliations on page 2 and is linked to author Jian Tang.",
+        "quote": "10Mila-Quebec AI Institute and HEC Montreal, Montreal, QC H2S 3H1, Canada"
+      },
+      {
+        "value": "Genomic Medicine Institute, Lerner Research Institute, Cleveland Clinic, Cleveland, OH 44195, USA",
+        "reasoning": "This affiliation is numbered '11' in the list of affiliations on page 2 and is linked to author Feixiong Cheng.",
+        "quote": "11Genomic Medicine Institute, Lerner Research Institute, Cleveland Clinic, Cleveland, OH 44195, USA"
+      },
+      {
+        "value": "Department of Molecular Medicine, Cleveland Clinic Lerner College of Medicine, Case Western Reserve University, Cleveland, OH 44195, USA",
+        "reasoning": "This affiliation is numbered '12' in the list of affiliations on page 2 and is linked to author Feixiong Cheng.",
+        "quote": "12Department of Molecular Medicine, Cleveland Clinic Lerner College of Medicine, Case Western Reserve University, Cleveland, OH 44195, USA"
+      },
+      {
+        "value": "Case Comprehensive Cancer Center, Case Western Reserve University School of Medicine, Cleveland, OH 44106, USA",
+        "reasoning": "This affiliation is numbered '13' in the list of affiliations on page 2 and is linked to author Feixiong Cheng.",
+        "quote": "13Case Comprehensive Cancer Center, Case Western Reserve University School of Medicine, Cleveland, OH 44106, USA"
+      },
+      {
+        "value": "School of Computer Science, McGill University, Montreal, QC H3A 0C6, Canada",
+        "reasoning": "This affiliation is numbered '14' in the list of affiliations that continues on page 3 and is linked to author Yue Li.",
+        "quote": "14School of Computer Science, McGill University, Montreal, QC H3A 0C6, Canada"
+      },
+      {
+        "value": "Department of Neurology, College of Medicine, University of Florida, Gainesville, FL 32610, USA",
+        "reasoning": "This affiliation is numbered '15' in the list of affiliations on page 3 and is linked to author Steven T. DeKosky.",
+        "quote": "15Department of Neurology, College of Medicine, University of Florida, Gainesville, FL 32610, USA"
+      },
+      {
+        "value": "Department of Health Outcomes & Biomedical Informatics, College of Medicine, University of Florida, Gainesville, FL 32610, USA",
+        "reasoning": "This affiliation is numbered '16' in the list of affiliations on page 3 and is linked to author Jiang Bian.",
+        "quote": "16Department of Health Outcomes & Biomedical Informatics, College of Medicine, University of Florida, Gainesville, FL 32610, USA"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

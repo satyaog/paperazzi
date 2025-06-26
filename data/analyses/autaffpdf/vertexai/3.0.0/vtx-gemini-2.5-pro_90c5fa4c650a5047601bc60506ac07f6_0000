@@ -1,0 +1,320 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:19:32 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=60222",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Rahul K Arora\",\n        \"reasoning\": \"The author's name is listed first in the author list provided in the paper. The initials 'RKA' are used to link this author to their affiliations.\",\n        \"quote\": \"*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute of Biomedical Engineering, University of Oxford, Oxford OX3 7DQ, UK\",\n          \"reasoning\": \"The affiliations section links the initials 'RKA' to the 'Institute of Biomedical Engineering' which is part of the 'University of Oxford, Oxford OX3 7DQ, UK'.\",\n          \"quote\": \"Institute of Biomedical Engineering (RKA) and Centre for Evidence-Based Medicine (NB), University of Oxford, Oxford OX3 7DQ, UK\"\n        },\n        {\n          \"value\": \"Centre for Health Informatics, Cumming School of Medicine, University of Calgary, AB, Canada\",\n          \"reasoning\": \"The affiliations section links the initials 'RKA' to the 'Centre for Health Informatics, Cumming School of Medicine' which is part of the 'University of Calgary, AB, Canada'.\",\n          \"quote\": \"Centre for Health Informatics, Cumming School of Medicine (RKA, EM, TW), and Schulich School of Engineering (EM), University of Calgary, AB, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Abel Joseph\",\n        \"reasoning\": \"The author's name is listed second in the author list provided in the paper. The initials 'AJ' are used to link this author to their affiliation.\",\n        \"quote\": \"*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada\",\n          \"reasoning\": \"The affiliations section links the initials 'AJ' to the 'Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada'.\",\n          \"quote\": \"Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada (AJ, JVW, SR, AA)\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jordan Van Wyk\",\n        \"reasoning\": \"The author's name is listed third in the author list provided in the paper. The initials 'JVW' are used to link this author to their affiliation.\",\n        \"quote\": \"*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada\",\n          \"reasoning\": \"The affiliations section links the initials 'JVW' to the 'Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada'.\",\n          \"quote\": \"Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada (AJ, JVW, SR, AA)\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Simona Rocco\",\n        \"reasoning\": \"The author's name is listed fourth in the author list provided in the paper. The initials 'SR' are used to link this author to their affiliation.\",\n        \"quote\": \"*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada\",\n          \"reasoning\": \"The affiliations section links the initials 'SR' to the 'Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada'.\",\n          \"quote\": \"Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada (AJ, JVW, SR, AA)\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Austin Atmaja\",\n        \"reasoning\": \"The author's name is listed fifth in the author list provided in the paper. The initials 'AA' are used to link this author to their affiliation.\",\n        \"quote\": \"*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada\",\n          \"reasoning\": \"The affiliations section links the initials 'AA' to the 'Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada'.\",\n          \"quote\": \"Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada (AJ, JVW, SR, AA)\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Ewan May\",\n        \"reasoning\": \"The author's name is listed sixth in the author list provided in the paper. The initials 'EM' are used to link this author to their affiliations.\",\n        \"quote\": \"*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Centre for Health Informatics, Cumming School of Medicine, University of Calgary, AB, Canada\",\n          \"reasoning\": \"The affiliations section links the initials 'EM' to the 'Centre for Health Informatics, Cumming School of Medicine' at the 'University of Calgary, AB, Canada'.\",\n          \"quote\": \"Centre for Health Informatics, Cumming School of Medicine (RKA, EM, TW), and Schulich School of Engineering (EM), University of Calgary, AB, Canada\"\n        },\n        {\n          \"value\": \"Schulich School of Engineering, University of Calgary, AB, Canada\",\n          \"reasoning\": \"The affiliations section links the initials 'EM' to the 'Schulich School of Engineering' at the 'University of Calgary, AB, Canada'.\",\n          \"quote\": \"Centre for Health Informatics, Cumming School of Medicine (RKA, EM, TW), and Schulich School of Engineering (EM), University of Calgary, AB, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Tingting Yan\",\n        \"reasoning\": \"The author's name is listed seventh in the author list provided in the paper. The initials 'TY' are used to link this author to their affiliations.\",\n        \"quote\": \"*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Faculty of Medicine, University of Toronto, Toronto, ON, Canada\",\n          \"reasoning\": \"The affiliations section links the initials 'TY' to the 'Faculty of Medicine' at the 'University of Toronto, Toronto, ON, Canada'.\",\n          \"quote\": \"Faculty of Medicine (TY, NB) and Dalla Lana School of Public Health (TY), University of Toronto, Toronto, ON, Canada\"\n        },\n        {\n          \"value\": \"Dalla Lana School of Public Health, University of Toronto, Toronto, ON, Canada\",\n          \"reasoning\": \"The affiliations section links the initials 'TY' to the 'Dalla Lana School of Public Health' at the 'University of Toronto, Toronto, ON, Canada'.\",\n          \"quote\": \"Faculty of Medicine (TY, NB) and Dalla Lana School of Public Health (TY), University of Toronto, Toronto, ON, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Niklas Bobrovitz\",\n        \"reasoning\": \"The author's name is listed eighth in the author list provided in the paper. The initials 'NB' are used to link this author to their affiliations.\",\n        \"quote\": \"*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Centre for Evidence-Based Medicine, University of Oxford, Oxford OX3 7DQ, UK\",\n          \"reasoning\": \"The affiliations section links the initials 'NB' to the 'Centre for Evidence-Based Medicine' at the 'University of Oxford, Oxford OX3 7DQ, UK'.\",\n          \"quote\": \"Institute of Biomedical Engineering (RKA) and Centre for Evidence-Based Medicine (NB), University of Oxford, Oxford OX3 7DQ, UK\"\n        },\n        {\n          \"value\": \"Faculty of Medicine, University of Toronto, Toronto, ON, Canada\",\n          \"reasoning\": \"The affiliations section links the initials 'NB' to the 'Faculty of Medicine' at the 'University of Toronto, Toronto, ON, Canada'.\",\n          \"quote\": \"Faculty of Medicine (TY, NB) and Dalla Lana School of Public Health (TY), University of Toronto, Toronto, ON, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jonathan Chevrier\",\n        \"reasoning\": \"The author's name is listed ninth in the author list provided in the paper. The initials 'JC' are used to link this author to their affiliation.\",\n        \"quote\": \"*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Epidemiology, Biostatistics, and Occupational Health, Faculty of Medicine, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliations section links the initials 'JC' to the 'Department of Epidemiology, Biostatistics, and Occupational Health' at the 'Faculty of Medicine, McGill University, Montreal, QC, Canada'.\",\n          \"quote\": \"Department of Epidemiology, Biostatistics, and Occupational Health (JC, DLB), and McGill Interdisciplinary Initiative in Infection and Immunity (MPC), Faculty of Medicine, McGill University, Montreal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Matthew P Cheng\",\n        \"reasoning\": \"The author's name is listed tenth in the author list provided in the paper. The initials 'MPC' are used to link this author to their affiliation.\",\n        \"quote\": \"*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"McGill Interdisciplinary Initiative in Infection and Immunity, Faculty of Medicine, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliations section links the initials 'MPC' to the 'McGill Interdisciplinary Initiative in Infection and Immunity' at the 'Faculty of Medicine, McGill University, Montreal, QC, Canada'.\",\n          \"quote\": \"Department of Epidemiology, Biostatistics, and Occupational Health (JC, DLB), and McGill Interdisciplinary Initiative in Infection and Immunity (MPC), Faculty of Medicine, McGill University, Montreal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Tyler Williamson\",\n        \"reasoning\": \"The author's name is listed eleventh in the author list provided in the paper. The initials 'TW' are used to link this author to their affiliation.\",\n        \"quote\": \"*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Centre for Health Informatics, Cumming School of Medicine, University of Calgary, AB, Canada\",\n          \"reasoning\": \"The affiliations section links the initials 'TW' to the 'Centre for Health Informatics, Cumming School of Medicine' at the 'University of Calgary, AB, Canada'.\",\n          \"quote\": \"Centre for Health Informatics, Cumming School of Medicine (RKA, EM, TW), and Schulich School of Engineering (EM), University of Calgary, AB, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"David L Buckeridge\",\n        \"reasoning\": \"The author's name is listed last in the author list provided in the paper. The initials 'DLB' are used to link this author to their affiliation.\",\n        \"quote\": \"*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Epidemiology, Biostatistics, and Occupational Health, Faculty of Medicine, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliations section links the initials 'DLB' to the 'Department of Epidemiology, Biostatistics, and Occupational Health' at the 'Faculty of Medicine, McGill University, Montreal, QC, Canada'.\",\n          \"quote\": \"Department of Epidemiology, Biostatistics, and Occupational Health (JC, DLB), and McGill Interdisciplinary Initiative in Infection and Immunity (MPC), Faculty of Medicine, McGill University, Montreal, QC, Canada\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Institute of Biomedical Engineering, University of Oxford, Oxford OX3 7DQ, UK\",\n      \"reasoning\": \"This affiliation is listed in the text and associated with author RKA.\",\n      \"quote\": \"Institute of Biomedical Engineering (RKA) and Centre for Evidence-Based Medicine (NB), University of Oxford, Oxford OX3 7DQ, UK\"\n    },\n    {\n      \"value\": \"Centre for Evidence-Based Medicine, University of Oxford, Oxford OX3 7DQ, UK\",\n      \"reasoning\": \"This affiliation is listed in the text and associated with author NB.\",\n      \"quote\": \"Institute of Biomedical Engineering (RKA) and Centre for Evidence-Based Medicine (NB), University of Oxford, Oxford OX3 7DQ, UK\"\n    },\n    {\n      \"value\": \"Centre for Health Informatics, Cumming School of Medicine, University of Calgary, AB, Canada\",\n      \"reasoning\": \"This affiliation is listed in the text and associated with authors RKA, EM, and TW.\",\n      \"quote\": \"Centre for Health Informatics, Cumming School of Medicine (RKA, EM, TW), and Schulich School of Engineering (EM), University of Calgary, AB, Canada\"\n    },\n    {\n      \"value\": \"Schulich School of Engineering, University of Calgary, AB, Canada\",\n      \"reasoning\": \"This affiliation is listed in the text and associated with author EM.\",\n      \"quote\": \"Centre for Health Informatics, Cumming School of Medicine (RKA, EM, TW), and Schulich School of Engineering (EM), University of Calgary, AB, Canada\"\n    },\n    {\n      \"value\": \"Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada\",\n      \"reasoning\": \"This affiliation is listed in the text and associated with authors AJ, JVW, SR, and AA.\",\n      \"quote\": \"Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada (AJ, JVW, SR, AA)\"\n    },\n    {\n      \"value\": \"Faculty of Medicine, University of Toronto, Toronto, ON, Canada\",\n      \"reasoning\": \"This affiliation is listed in the text and associated with authors TY and NB.\",\n      \"quote\": \"Faculty of Medicine (TY, NB) and Dalla Lana School of Public Health (TY), University of Toronto, Toronto, ON, Canada\"\n    },\n    {\n      \"value\": \"Dalla Lana School of Public Health, University of Toronto, Toronto, ON, Canada\",\n      \"reasoning\": \"This affiliation is listed in the text and associated with author TY.\",\n      \"quote\": \"Faculty of Medicine (TY, NB) and Dalla Lana School of Public Health (TY), University of Toronto, Toronto, ON, Canada\"\n    },\n    {\n      \"value\": \"Department of Epidemiology, Biostatistics, and Occupational Health, Faculty of Medicine, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is listed in the text and associated with authors JC and DLB.\",\n      \"quote\": \"Department of Epidemiology, Biostatistics, and Occupational Health (JC, DLB), and McGill Interdisciplinary Initiative in Infection and Immunity (MPC), Faculty of Medicine, McGill University, Montreal, QC, Canada\"\n    },\n    {\n      \"value\": \"McGill Interdisciplinary Initiative in Infection and Immunity, Faculty of Medicine, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is listed in the text and associated with author MPC.\",\n      \"quote\": \"Department of Epidemiology, Biostatistics, and Occupational Health (JC, DLB), and McGill Interdisciplinary Initiative in Infection and Immunity (MPC), Faculty of Medicine, McGill University, Montreal, QC, Canada\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 4148,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 671,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 258
+      }
+    ],
+    "thoughts_token_count": 2888,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 7707,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Rahul K Arora",
+          "reasoning": "The author's name is listed first in the author list provided in the paper. The initials 'RKA' are used to link this author to their affiliations.",
+          "quote": "*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge"
+        },
+        "affiliations": [
+          {
+            "value": "Institute of Biomedical Engineering, University of Oxford, Oxford OX3 7DQ, UK",
+            "reasoning": "The affiliations section links the initials 'RKA' to the 'Institute of Biomedical Engineering' which is part of the 'University of Oxford, Oxford OX3 7DQ, UK'.",
+            "quote": "Institute of Biomedical Engineering (RKA) and Centre for Evidence-Based Medicine (NB), University of Oxford, Oxford OX3 7DQ, UK"
+          },
+          {
+            "value": "Centre for Health Informatics, Cumming School of Medicine, University of Calgary, AB, Canada",
+            "reasoning": "The affiliations section links the initials 'RKA' to the 'Centre for Health Informatics, Cumming School of Medicine' which is part of the 'University of Calgary, AB, Canada'.",
+            "quote": "Centre for Health Informatics, Cumming School of Medicine (RKA, EM, TW), and Schulich School of Engineering (EM), University of Calgary, AB, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Abel Joseph",
+          "reasoning": "The author's name is listed second in the author list provided in the paper. The initials 'AJ' are used to link this author to their affiliation.",
+          "quote": "*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge"
+        },
+        "affiliations": [
+          {
+            "value": "Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada",
+            "reasoning": "The affiliations section links the initials 'AJ' to the 'Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada'.",
+            "quote": "Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada (AJ, JVW, SR, AA)"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jordan Van Wyk",
+          "reasoning": "The author's name is listed third in the author list provided in the paper. The initials 'JVW' are used to link this author to their affiliation.",
+          "quote": "*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge"
+        },
+        "affiliations": [
+          {
+            "value": "Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada",
+            "reasoning": "The affiliations section links the initials 'JVW' to the 'Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada'.",
+            "quote": "Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada (AJ, JVW, SR, AA)"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Simona Rocco",
+          "reasoning": "The author's name is listed fourth in the author list provided in the paper. The initials 'SR' are used to link this author to their affiliation.",
+          "quote": "*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge"
+        },
+        "affiliations": [
+          {
+            "value": "Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada",
+            "reasoning": "The affiliations section links the initials 'SR' to the 'Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada'.",
+            "quote": "Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada (AJ, JVW, SR, AA)"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Austin Atmaja",
+          "reasoning": "The author's name is listed fifth in the author list provided in the paper. The initials 'AA' are used to link this author to their affiliation.",
+          "quote": "*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge"
+        },
+        "affiliations": [
+          {
+            "value": "Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada",
+            "reasoning": "The affiliations section links the initials 'AA' to the 'Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada'.",
+            "quote": "Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada (AJ, JVW, SR, AA)"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Ewan May",
+          "reasoning": "The author's name is listed sixth in the author list provided in the paper. The initials 'EM' are used to link this author to their affiliations.",
+          "quote": "*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge"
+        },
+        "affiliations": [
+          {
+            "value": "Centre for Health Informatics, Cumming School of Medicine, University of Calgary, AB, Canada",
+            "reasoning": "The affiliations section links the initials 'EM' to the 'Centre for Health Informatics, Cumming School of Medicine' at the 'University of Calgary, AB, Canada'.",
+            "quote": "Centre for Health Informatics, Cumming School of Medicine (RKA, EM, TW), and Schulich School of Engineering (EM), University of Calgary, AB, Canada"
+          },
+          {
+            "value": "Schulich School of Engineering, University of Calgary, AB, Canada",
+            "reasoning": "The affiliations section links the initials 'EM' to the 'Schulich School of Engineering' at the 'University of Calgary, AB, Canada'.",
+            "quote": "Centre for Health Informatics, Cumming School of Medicine (RKA, EM, TW), and Schulich School of Engineering (EM), University of Calgary, AB, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Tingting Yan",
+          "reasoning": "The author's name is listed seventh in the author list provided in the paper. The initials 'TY' are used to link this author to their affiliations.",
+          "quote": "*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge"
+        },
+        "affiliations": [
+          {
+            "value": "Faculty of Medicine, University of Toronto, Toronto, ON, Canada",
+            "reasoning": "The affiliations section links the initials 'TY' to the 'Faculty of Medicine' at the 'University of Toronto, Toronto, ON, Canada'.",
+            "quote": "Faculty of Medicine (TY, NB) and Dalla Lana School of Public Health (TY), University of Toronto, Toronto, ON, Canada"
+          },
+          {
+            "value": "Dalla Lana School of Public Health, University of Toronto, Toronto, ON, Canada",
+            "reasoning": "The affiliations section links the initials 'TY' to the 'Dalla Lana School of Public Health' at the 'University of Toronto, Toronto, ON, Canada'.",
+            "quote": "Faculty of Medicine (TY, NB) and Dalla Lana School of Public Health (TY), University of Toronto, Toronto, ON, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Niklas Bobrovitz",
+          "reasoning": "The author's name is listed eighth in the author list provided in the paper. The initials 'NB' are used to link this author to their affiliations.",
+          "quote": "*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge"
+        },
+        "affiliations": [
+          {
+            "value": "Centre for Evidence-Based Medicine, University of Oxford, Oxford OX3 7DQ, UK",
+            "reasoning": "The affiliations section links the initials 'NB' to the 'Centre for Evidence-Based Medicine' at the 'University of Oxford, Oxford OX3 7DQ, UK'.",
+            "quote": "Institute of Biomedical Engineering (RKA) and Centre for Evidence-Based Medicine (NB), University of Oxford, Oxford OX3 7DQ, UK"
+          },
+          {
+            "value": "Faculty of Medicine, University of Toronto, Toronto, ON, Canada",
+            "reasoning": "The affiliations section links the initials 'NB' to the 'Faculty of Medicine' at the 'University of Toronto, Toronto, ON, Canada'.",
+            "quote": "Faculty of Medicine (TY, NB) and Dalla Lana School of Public Health (TY), University of Toronto, Toronto, ON, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jonathan Chevrier",
+          "reasoning": "The author's name is listed ninth in the author list provided in the paper. The initials 'JC' are used to link this author to their affiliation.",
+          "quote": "*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Epidemiology, Biostatistics, and Occupational Health, Faculty of Medicine, McGill University, Montreal, QC, Canada",
+            "reasoning": "The affiliations section links the initials 'JC' to the 'Department of Epidemiology, Biostatistics, and Occupational Health' at the 'Faculty of Medicine, McGill University, Montreal, QC, Canada'.",
+            "quote": "Department of Epidemiology, Biostatistics, and Occupational Health (JC, DLB), and McGill Interdisciplinary Initiative in Infection and Immunity (MPC), Faculty of Medicine, McGill University, Montreal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Matthew P Cheng",
+          "reasoning": "The author's name is listed tenth in the author list provided in the paper. The initials 'MPC' are used to link this author to their affiliation.",
+          "quote": "*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge"
+        },
+        "affiliations": [
+          {
+            "value": "McGill Interdisciplinary Initiative in Infection and Immunity, Faculty of Medicine, McGill University, Montreal, QC, Canada",
+            "reasoning": "The affiliations section links the initials 'MPC' to the 'McGill Interdisciplinary Initiative in Infection and Immunity' at the 'Faculty of Medicine, McGill University, Montreal, QC, Canada'.",
+            "quote": "Department of Epidemiology, Biostatistics, and Occupational Health (JC, DLB), and McGill Interdisciplinary Initiative in Infection and Immunity (MPC), Faculty of Medicine, McGill University, Montreal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Tyler Williamson",
+          "reasoning": "The author's name is listed eleventh in the author list provided in the paper. The initials 'TW' are used to link this author to their affiliation.",
+          "quote": "*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge"
+        },
+        "affiliations": [
+          {
+            "value": "Centre for Health Informatics, Cumming School of Medicine, University of Calgary, AB, Canada",
+            "reasoning": "The affiliations section links the initials 'TW' to the 'Centre for Health Informatics, Cumming School of Medicine' at the 'University of Calgary, AB, Canada'.",
+            "quote": "Centre for Health Informatics, Cumming School of Medicine (RKA, EM, TW), and Schulich School of Engineering (EM), University of Calgary, AB, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "David L Buckeridge",
+          "reasoning": "The author's name is listed last in the author list provided in the paper. The initials 'DLB' are used to link this author to their affiliation.",
+          "quote": "*Rahul K Arora, Abel Joseph, Jordan Van Wyk, Simona Rocco, Austin Atmaja, Ewan May, Tingting Yan, Niklas Bobrovitz, Jonathan Chevrier, Matthew P Cheng, Tyler Williamson, David L Buckeridge"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Epidemiology, Biostatistics, and Occupational Health, Faculty of Medicine, McGill University, Montreal, QC, Canada",
+            "reasoning": "The affiliations section links the initials 'DLB' to the 'Department of Epidemiology, Biostatistics, and Occupational Health' at the 'Faculty of Medicine, McGill University, Montreal, QC, Canada'.",
+            "quote": "Department of Epidemiology, Biostatistics, and Occupational Health (JC, DLB), and McGill Interdisciplinary Initiative in Infection and Immunity (MPC), Faculty of Medicine, McGill University, Montreal, QC, Canada"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Institute of Biomedical Engineering, University of Oxford, Oxford OX3 7DQ, UK",
+        "reasoning": "This affiliation is listed in the text and associated with author RKA.",
+        "quote": "Institute of Biomedical Engineering (RKA) and Centre for Evidence-Based Medicine (NB), University of Oxford, Oxford OX3 7DQ, UK"
+      },
+      {
+        "value": "Centre for Evidence-Based Medicine, University of Oxford, Oxford OX3 7DQ, UK",
+        "reasoning": "This affiliation is listed in the text and associated with author NB.",
+        "quote": "Institute of Biomedical Engineering (RKA) and Centre for Evidence-Based Medicine (NB), University of Oxford, Oxford OX3 7DQ, UK"
+      },
+      {
+        "value": "Centre for Health Informatics, Cumming School of Medicine, University of Calgary, AB, Canada",
+        "reasoning": "This affiliation is listed in the text and associated with authors RKA, EM, and TW.",
+        "quote": "Centre for Health Informatics, Cumming School of Medicine (RKA, EM, TW), and Schulich School of Engineering (EM), University of Calgary, AB, Canada"
+      },
+      {
+        "value": "Schulich School of Engineering, University of Calgary, AB, Canada",
+        "reasoning": "This affiliation is listed in the text and associated with author EM.",
+        "quote": "Centre for Health Informatics, Cumming School of Medicine (RKA, EM, TW), and Schulich School of Engineering (EM), University of Calgary, AB, Canada"
+      },
+      {
+        "value": "Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada",
+        "reasoning": "This affiliation is listed in the text and associated with authors AJ, JVW, SR, and AA.",
+        "quote": "Faculty of Engineering, University of Waterloo, Waterloo, ON, Canada (AJ, JVW, SR, AA)"
+      },
+      {
+        "value": "Faculty of Medicine, University of Toronto, Toronto, ON, Canada",
+        "reasoning": "This affiliation is listed in the text and associated with authors TY and NB.",
+        "quote": "Faculty of Medicine (TY, NB) and Dalla Lana School of Public Health (TY), University of Toronto, Toronto, ON, Canada"
+      },
+      {
+        "value": "Dalla Lana School of Public Health, University of Toronto, Toronto, ON, Canada",
+        "reasoning": "This affiliation is listed in the text and associated with author TY.",
+        "quote": "Faculty of Medicine (TY, NB) and Dalla Lana School of Public Health (TY), University of Toronto, Toronto, ON, Canada"
+      },
+      {
+        "value": "Department of Epidemiology, Biostatistics, and Occupational Health, Faculty of Medicine, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is listed in the text and associated with authors JC and DLB.",
+        "quote": "Department of Epidemiology, Biostatistics, and Occupational Health (JC, DLB), and McGill Interdisciplinary Initiative in Infection and Immunity (MPC), Faculty of Medicine, McGill University, Montreal, QC, Canada"
+      },
+      {
+        "value": "McGill Interdisciplinary Initiative in Infection and Immunity, Faculty of Medicine, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is listed in the text and associated with author MPC.",
+        "quote": "Department of Epidemiology, Biostatistics, and Occupational Health (JC, DLB), and McGill Interdisciplinary Initiative in Infection and Immunity (MPC), Faculty of Medicine, McGill University, Montreal, QC, Canada"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

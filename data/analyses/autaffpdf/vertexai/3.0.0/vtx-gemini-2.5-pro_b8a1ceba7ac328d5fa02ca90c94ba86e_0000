@@ -1,0 +1,153 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:47:30 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=27635",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Alexandra Luccioni\",\n        \"reasoning\": \"The name is listed as the first author in the author block at the beginning of the paper.\",\n        \"quote\": \"Alexandra Luccioni, Université de Montréal, Mila, Montreal H2S 3H1, Canada\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Université de Montréal, Mila, Montreal H2S 3H1, Canada\",\n          \"reasoning\": \"This is the full affiliation listed directly next to the author's name in the paper.\",\n          \"quote\": \"Alexandra Luccioni, Université de Montréal, Mila, Montreal H2S 3H1, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Victor Schmidt\",\n        \"reasoning\": \"The name is listed as the second author in the author block at the beginning of the paper.\",\n        \"quote\": \"Victor Schmidt, Université de Montréal, Mila, Montreal H2S 3H1, Canada\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Université de Montréal, Mila, Montreal H2S 3H1, Canada\",\n          \"reasoning\": \"This is the full affiliation listed directly next to the author's name in the paper.\",\n          \"quote\": \"Victor Schmidt, Université de Montréal, Mila, Montreal H2S 3H1, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Vahe Vardanyan\",\n        \"reasoning\": \"The name is listed as the third author in the author block at the beginning of the paper.\",\n        \"quote\": \"Vahe Vardanyan, Ubisoft, Montreal H2T 1S6, Canada\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Ubisoft, Montreal H2T 1S6, Canada\",\n          \"reasoning\": \"This is the full affiliation listed directly next to the author's name in the paper.\",\n          \"quote\": \"Vahe Vardanyan, Ubisoft, Montreal H2T 1S6, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Yoshua Bengio\",\n        \"reasoning\": \"The name is listed as the fourth author in the author block at the beginning of the paper.\",\n        \"quote\": \"Yoshua Bengio, Université de Montréal, Mila, Montreal H2S 3H1, Canada\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Université de Montréal, Mila, Montreal H2S 3H1, Canada\",\n          \"reasoning\": \"This is the full affiliation listed directly next to the author's name in the paper.\",\n          \"quote\": \"Yoshua Bengio, Université de Montréal, Mila, Montreal H2S 3H1, Canada\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Université de Montréal, Mila, Montreal H2S 3H1, Canada\",\n      \"reasoning\": \"This affiliation is listed for authors Alexandra Luccioni, Victor Schmidt, and Yoshua Bengio.\",\n      \"quote\": \"Alexandra Luccioni, Université de Montréal, Mila, Montreal H2S 3H1, Canada\"\n    },\n    {\n      \"value\": \"Ubisoft, Montreal H2T 1S6, Canada\",\n      \"reasoning\": \"This affiliation is listed for author Vahe Vardanyan.\",\n      \"quote\": \"Vahe Vardanyan, Ubisoft, Montreal H2T 1S6, Canada\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 848,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 2219,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 1806
+      }
+    ],
+    "thoughts_token_count": 1817,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 4884,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Alexandra Luccioni",
+          "reasoning": "The name is listed as the first author in the author block at the beginning of the paper.",
+          "quote": "Alexandra Luccioni, Université de Montréal, Mila, Montreal H2S 3H1, Canada"
+        },
+        "affiliations": [
+          {
+            "value": "Université de Montréal, Mila, Montreal H2S 3H1, Canada",
+            "reasoning": "This is the full affiliation listed directly next to the author's name in the paper.",
+            "quote": "Alexandra Luccioni, Université de Montréal, Mila, Montreal H2S 3H1, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Victor Schmidt",
+          "reasoning": "The name is listed as the second author in the author block at the beginning of the paper.",
+          "quote": "Victor Schmidt, Université de Montréal, Mila, Montreal H2S 3H1, Canada"
+        },
+        "affiliations": [
+          {
+            "value": "Université de Montréal, Mila, Montreal H2S 3H1, Canada",
+            "reasoning": "This is the full affiliation listed directly next to the author's name in the paper.",
+            "quote": "Victor Schmidt, Université de Montréal, Mila, Montreal H2S 3H1, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Vahe Vardanyan",
+          "reasoning": "The name is listed as the third author in the author block at the beginning of the paper.",
+          "quote": "Vahe Vardanyan, Ubisoft, Montreal H2T 1S6, Canada"
+        },
+        "affiliations": [
+          {
+            "value": "Ubisoft, Montreal H2T 1S6, Canada",
+            "reasoning": "This is the full affiliation listed directly next to the author's name in the paper.",
+            "quote": "Vahe Vardanyan, Ubisoft, Montreal H2T 1S6, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Yoshua Bengio",
+          "reasoning": "The name is listed as the fourth author in the author block at the beginning of the paper.",
+          "quote": "Yoshua Bengio, Université de Montréal, Mila, Montreal H2S 3H1, Canada"
+        },
+        "affiliations": [
+          {
+            "value": "Université de Montréal, Mila, Montreal H2S 3H1, Canada",
+            "reasoning": "This is the full affiliation listed directly next to the author's name in the paper.",
+            "quote": "Yoshua Bengio, Université de Montréal, Mila, Montreal H2S 3H1, Canada"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Université de Montréal, Mila, Montreal H2S 3H1, Canada",
+        "reasoning": "This affiliation is listed for authors Alexandra Luccioni, Victor Schmidt, and Yoshua Bengio.",
+        "quote": "Alexandra Luccioni, Université de Montréal, Mila, Montreal H2S 3H1, Canada"
+      },
+      {
+        "value": "Ubisoft, Montreal H2T 1S6, Canada",
+        "reasoning": "This affiliation is listed for author Vahe Vardanyan.",
+        "quote": "Vahe Vardanyan, Ubisoft, Montreal H2T 1S6, Canada"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

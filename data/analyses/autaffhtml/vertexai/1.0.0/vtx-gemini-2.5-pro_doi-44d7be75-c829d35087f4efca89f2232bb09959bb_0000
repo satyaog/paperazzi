@@ -1,0 +1,167 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sat, 12 Jul 2025 03:22:46 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=38775",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Xiuhui Yang\",\n        \"reasoning\": \"The author's name is explicitly listed in the 'highwire-cite-authors' section of the HTML. The first and last names are contained within 'nlm-given-names' and 'nlm-surname' spans.\",\n        \"quote\": \"<span  class=\\\"highwire-citation-authors\\\"><span class=\\\"highwire-citation-author first\\\" data-delta=\\\"0\\\"><span class=\\\"nlm-given-names\\\">Xiuhui</span> <span class=\\\"nlm-surname\\\">Yang</span></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"School of Software, Shandong University, 1500 Shunhua, Jinan, 250101, Shandong, China\",\n          \"reasoning\": \"The affiliation is found within a hidden div with the ID 'hw-article-author-popups-node-3547669--2489837231'. The author 'Xiuhui Yang' corresponds to 'author-tooltip-0', which contains the affiliation marked with superscript '1'.\",\n          \"quote\": \"<div class=\\\"author-tooltip-0\\\"><div class=\\\"author-tooltip-name\\\">Xiuhui Yang </div><div class=\\\"author-tooltip-affiliation\\\"><span class=\\\"author-tooltip-text\\\"><div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>School of Software, Shandong University</span>, 1500 Shunhua, Jinan, 250101, Shandong, <span class='nlm-country'>China</span></div></span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Koren K. Mann\",\n        \"reasoning\": \"The author's name is explicitly listed in the 'highwire-cite-authors' section of the HTML. The first name, middle initial, and last name are contained within 'nlm-given-names' and 'nlm-surname' spans.\",\n        \"quote\": \"<span class=\\\"highwire-citation-author\\\" data-delta=\\\"1\\\"><span class=\\\"nlm-given-names\\\">Koren K.</span> <span class=\\\"nlm-surname\\\">Mann</span></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Pharmacology and Therapeutics, McGill, University, Montreal, H3G 1Y6, QC, Canada\",\n          \"reasoning\": \"The affiliation is found within a hidden div with the ID 'hw-article-author-popups-node-3547669--2489837231'. The author 'Koren K. Mann' corresponds to 'author-tooltip-1', which contains the affiliation marked with superscript '2'.\",\n          \"quote\": \"<div class=\\\"author-tooltip-1\\\"><div class=\\\"author-tooltip-name\\\">Koren K. Mann </div><div class=\\\"author-tooltip-affiliation\\\"><span class=\\\"author-tooltip-text\\\"><div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Department of Pharmacology and Therapeutics, McGill, University</span>, Montreal, H3G 1Y6, QC, <span class='nlm-country'>Canada</span></div></span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Hao Wu\",\n        \"reasoning\": \"The author's name is explicitly listed in the 'highwire-cite-authors' section of the HTML. The first and last names are contained within 'nlm-given-names' and 'nlm-surname' spans.\",\n        \"quote\": \"<span class=\\\"highwire-citation-author hw-author-orcid-logo-wrapper\\\" data-delta=\\\"2\\\"><a href=\\\"http://orcid.org/0000-0003-2340-9258\\\" target=\\\"_blank\\\" class=\\\"hw-author-orcid-logo link-icon-only link-icon\\\"><span class=\\\"hw-icon-orcid hw-icon-color-orcid\\\"></span> <span class=\\\"title element-invisible\\\">View ORCID Profile</span></a><span class=\\\"nlm-given-names\\\">Hao</span> <span class=\\\"nlm-surname\\\">Wu</span></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"School of Software, Shandong University, 1500 Shunhua, Jinan, 250101, Shandong, China\",\n          \"reasoning\": \"The affiliation is found within a hidden div with the ID 'hw-article-author-popups-node-3547669--2489837231'. The author 'Hao Wu' corresponds to 'author-tooltip-2', which contains the affiliation marked with superscript '1'.\",\n          \"quote\": \"<div class=\\\"author-tooltip-2\\\"><div class=\\\"author-tooltip-name\\\">Hao Wu </div><div class=\\\"author-tooltip-affiliation\\\"><span class=\\\"author-tooltip-text\\\"><div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>School of Software, Shandong University</span>, 1500 Shunhua, Jinan, 250101, Shandong, <span class='nlm-country'>China</span></div></span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jun Ding\",\n        \"reasoning\": \"The author's name is explicitly listed in the 'highwire-cite-authors' section of the HTML. The first and last names are contained within 'nlm-given-names' and 'nlm-surname' spans.\",\n        \"quote\": \"<span class=\\\"highwire-citation-author hw-author-orcid-logo-wrapper\\\" data-delta=\\\"3\\\"><a href=\\\"http://orcid.org/0000-0001-5183-6885\\\" target=\\\"_blank\\\" class=\\\"hw-author-orcid-logo link-icon-only link-icon\\\"><span class=\\\"hw-icon-orcid hw-icon-color-orcid\\\"></span> <span class=\\\"title element-invisible\\\">View ORCID Profile</span></a><span class=\\\"nlm-given-names\\\">Jun</span> <span class=\\\"nlm-surname\\\">Ding</span></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Meakins-Christie Laboratories, Department of Medicine, McGill, University Health Centre, Montreal, H4A 3J1, QC, Canada\",\n          \"reasoning\": \"The affiliation is found within a hidden div with the ID 'hw-article-author-popups-node-3547669--2489837231'. The author 'Jun Ding' corresponds to 'author-tooltip-3', which contains multiple affiliations. This is the first one, marked with superscript '3'.\",\n          \"quote\": \"<div class=\\\"author-tooltip-3\\\"><div class=\\\"author-tooltip-name\\\">Jun Ding </div><div class=\\\"author-tooltip-affiliation\\\"><span class=\\\"author-tooltip-text\\\"><div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Meakins-Christie Laboratories, Department of Medicine, McGill, University Health Centre</span>, Montreal, H4A 3J1, QC, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Mila-Quebec AI Institute, Montreal, H2S 3H1, QC, Canada\",\n          \"reasoning\": \"The affiliation is found within a hidden div with the ID 'hw-article-author-popups-node-3547669--2489837231'. The author 'Jun Ding' corresponds to 'author-tooltip-3', which contains multiple affiliations. This is the second one, marked with superscript '4'.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>4</span><span class='nlm-institution'>Mila-Quebec AI Institute</span>, Montreal, H2S 3H1, QC, <span class='nlm-country'>Canada</span></div></span></div>\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"School of Software, Shandong University, 1500 Shunhua, Jinan, 250101, Shandong, China\",\n      \"reasoning\": \"This affiliation is listed for authors Xiuhui Yang and Hao Wu and is identified by the superscript '1' in the author affiliation tooltips.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>School of Software, Shandong University</span>, 1500 Shunhua, Jinan, 250101, Shandong, <span class='nlm-country'>China</span></div>\"\n    },\n    {\n      \"value\": \"Department of Pharmacology and Therapeutics, McGill, University, Montreal, H3G 1Y6, QC, Canada\",\n      \"reasoning\": \"This affiliation is listed for author Koren K. Mann and is identified by the superscript '2' in the author affiliation tooltips.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Department of Pharmacology and Therapeutics, McGill, University</span>, Montreal, H3G 1Y6, QC, <span class='nlm-country'>Canada</span></div>\"\n    },\n    {\n      \"value\": \"Meakins-Christie Laboratories, Department of Medicine, McGill, University Health Centre, Montreal, H4A 3J1, QC, Canada\",\n      \"reasoning\": \"This affiliation is listed for author Jun Ding and is identified by the superscript '3' in the author affiliation tooltips.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Meakins-Christie Laboratories, Department of Medicine, McGill, University Health Centre</span>, Montreal, H4A 3J1, QC, <span class='nlm-country'>Canada</span></div>\"\n    },\n    {\n      \"value\": \"Mila-Quebec AI Institute, Montreal, H2S 3H1, QC, Canada\",\n      \"reasoning\": \"This affiliation is listed for author Jun Ding and is identified by the superscript '4' in the author affiliation tooltips.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>4</span><span class='nlm-institution'>Mila-Quebec AI Institute</span>, Montreal, H2S 3H1, QC, <span class='nlm-country'>Canada</span></div>\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 2463,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 38853,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 38853
+      }
+    ],
+    "thoughts_token_count": 2045,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 43361,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Xiuhui Yang",
+          "reasoning": "The author's name is explicitly listed in the 'highwire-cite-authors' section of the HTML. The first and last names are contained within 'nlm-given-names' and 'nlm-surname' spans.",
+          "quote": "<span  class=\"highwire-citation-authors\"><span class=\"highwire-citation-author first\" data-delta=\"0\"><span class=\"nlm-given-names\">Xiuhui</span> <span class=\"nlm-surname\">Yang</span></span>"
+        },
+        "affiliations": [
+          {
+            "value": "School of Software, Shandong University, 1500 Shunhua, Jinan, 250101, Shandong, China",
+            "reasoning": "The affiliation is found within a hidden div with the ID 'hw-article-author-popups-node-3547669--2489837231'. The author 'Xiuhui Yang' corresponds to 'author-tooltip-0', which contains the affiliation marked with superscript '1'.",
+            "quote": "<div class=\"author-tooltip-0\"><div class=\"author-tooltip-name\">Xiuhui Yang </div><div class=\"author-tooltip-affiliation\"><span class=\"author-tooltip-text\"><div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>School of Software, Shandong University</span>, 1500 Shunhua, Jinan, 250101, Shandong, <span class='nlm-country'>China</span></div></span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Koren K. Mann",
+          "reasoning": "The author's name is explicitly listed in the 'highwire-cite-authors' section of the HTML. The first name, middle initial, and last name are contained within 'nlm-given-names' and 'nlm-surname' spans.",
+          "quote": "<span class=\"highwire-citation-author\" data-delta=\"1\"><span class=\"nlm-given-names\">Koren K.</span> <span class=\"nlm-surname\">Mann</span></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Pharmacology and Therapeutics, McGill, University, Montreal, H3G 1Y6, QC, Canada",
+            "reasoning": "The affiliation is found within a hidden div with the ID 'hw-article-author-popups-node-3547669--2489837231'. The author 'Koren K. Mann' corresponds to 'author-tooltip-1', which contains the affiliation marked with superscript '2'.",
+            "quote": "<div class=\"author-tooltip-1\"><div class=\"author-tooltip-name\">Koren K. Mann </div><div class=\"author-tooltip-affiliation\"><span class=\"author-tooltip-text\"><div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Department of Pharmacology and Therapeutics, McGill, University</span>, Montreal, H3G 1Y6, QC, <span class='nlm-country'>Canada</span></div></span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Hao Wu",
+          "reasoning": "The author's name is explicitly listed in the 'highwire-cite-authors' section of the HTML. The first and last names are contained within 'nlm-given-names' and 'nlm-surname' spans.",
+          "quote": "<span class=\"highwire-citation-author hw-author-orcid-logo-wrapper\" data-delta=\"2\"><a href=\"http://orcid.org/0000-0003-2340-9258\" target=\"_blank\" class=\"hw-author-orcid-logo link-icon-only link-icon\"><span class=\"hw-icon-orcid hw-icon-color-orcid\"></span> <span class=\"title element-invisible\">View ORCID Profile</span></a><span class=\"nlm-given-names\">Hao</span> <span class=\"nlm-surname\">Wu</span></span>"
+        },
+        "affiliations": [
+          {
+            "value": "School of Software, Shandong University, 1500 Shunhua, Jinan, 250101, Shandong, China",
+            "reasoning": "The affiliation is found within a hidden div with the ID 'hw-article-author-popups-node-3547669--2489837231'. The author 'Hao Wu' corresponds to 'author-tooltip-2', which contains the affiliation marked with superscript '1'.",
+            "quote": "<div class=\"author-tooltip-2\"><div class=\"author-tooltip-name\">Hao Wu </div><div class=\"author-tooltip-affiliation\"><span class=\"author-tooltip-text\"><div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>School of Software, Shandong University</span>, 1500 Shunhua, Jinan, 250101, Shandong, <span class='nlm-country'>China</span></div></span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jun Ding",
+          "reasoning": "The author's name is explicitly listed in the 'highwire-cite-authors' section of the HTML. The first and last names are contained within 'nlm-given-names' and 'nlm-surname' spans.",
+          "quote": "<span class=\"highwire-citation-author hw-author-orcid-logo-wrapper\" data-delta=\"3\"><a href=\"http://orcid.org/0000-0001-5183-6885\" target=\"_blank\" class=\"hw-author-orcid-logo link-icon-only link-icon\"><span class=\"hw-icon-orcid hw-icon-color-orcid\"></span> <span class=\"title element-invisible\">View ORCID Profile</span></a><span class=\"nlm-given-names\">Jun</span> <span class=\"nlm-surname\">Ding</span></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Meakins-Christie Laboratories, Department of Medicine, McGill, University Health Centre, Montreal, H4A 3J1, QC, Canada",
+            "reasoning": "The affiliation is found within a hidden div with the ID 'hw-article-author-popups-node-3547669--2489837231'. The author 'Jun Ding' corresponds to 'author-tooltip-3', which contains multiple affiliations. This is the first one, marked with superscript '3'.",
+            "quote": "<div class=\"author-tooltip-3\"><div class=\"author-tooltip-name\">Jun Ding </div><div class=\"author-tooltip-affiliation\"><span class=\"author-tooltip-text\"><div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Meakins-Christie Laboratories, Department of Medicine, McGill, University Health Centre</span>, Montreal, H4A 3J1, QC, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Mila-Quebec AI Institute, Montreal, H2S 3H1, QC, Canada",
+            "reasoning": "The affiliation is found within a hidden div with the ID 'hw-article-author-popups-node-3547669--2489837231'. The author 'Jun Ding' corresponds to 'author-tooltip-3', which contains multiple affiliations. This is the second one, marked with superscript '4'.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>4</span><span class='nlm-institution'>Mila-Quebec AI Institute</span>, Montreal, H2S 3H1, QC, <span class='nlm-country'>Canada</span></div></span></div>"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "School of Software, Shandong University, 1500 Shunhua, Jinan, 250101, Shandong, China",
+        "reasoning": "This affiliation is listed for authors Xiuhui Yang and Hao Wu and is identified by the superscript '1' in the author affiliation tooltips.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>School of Software, Shandong University</span>, 1500 Shunhua, Jinan, 250101, Shandong, <span class='nlm-country'>China</span></div>"
+      },
+      {
+        "value": "Department of Pharmacology and Therapeutics, McGill, University, Montreal, H3G 1Y6, QC, Canada",
+        "reasoning": "This affiliation is listed for author Koren K. Mann and is identified by the superscript '2' in the author affiliation tooltips.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Department of Pharmacology and Therapeutics, McGill, University</span>, Montreal, H3G 1Y6, QC, <span class='nlm-country'>Canada</span></div>"
+      },
+      {
+        "value": "Meakins-Christie Laboratories, Department of Medicine, McGill, University Health Centre, Montreal, H4A 3J1, QC, Canada",
+        "reasoning": "This affiliation is listed for author Jun Ding and is identified by the superscript '3' in the author affiliation tooltips.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Meakins-Christie Laboratories, Department of Medicine, McGill, University Health Centre</span>, Montreal, H4A 3J1, QC, <span class='nlm-country'>Canada</span></div>"
+      },
+      {
+        "value": "Mila-Quebec AI Institute, Montreal, H2S 3H1, QC, Canada",
+        "reasoning": "This affiliation is listed for author Jun Ding and is identified by the superscript '4' in the author affiliation tooltips.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>4</span><span class='nlm-institution'>Mila-Quebec AI Institute</span>, Montreal, H2S 3H1, QC, <span class='nlm-country'>Canada</span></div>"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.1101/2023.11.22.568376"
+    }
+  }
+}

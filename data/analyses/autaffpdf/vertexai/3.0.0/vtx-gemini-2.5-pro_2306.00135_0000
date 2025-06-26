@@ -1,0 +1,188 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:44:20 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=29082",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Clara Lacroce\",\n        \"reasoning\": \"The author's name 'Clara Lacroce' is listed first in the author list, and is associated with superscripts '1' and '2', indicating her affiliations.\",\n        \"quote\": \"Clara Lacroce*1,2, Borja Balle³, Prakash Panangaden¹,2, and Guillaume Rabusseau2,4,5\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"School of Computer Science, McGill University, Montréal, Canada\",\n          \"reasoning\": \"The superscript '1' next to Clara Lacroce's name corresponds to the first affiliation listed: 'School of Computer Science, McGill University, Montréal, Canada'.\",\n          \"quote\": \"1School of Computer Science, McGill University, Montréal, Canada\"\n        },\n        {\n          \"value\": \"Mila, Montréal, Canada\",\n          \"reasoning\": \"The superscript '2' next to Clara Lacroce's name corresponds to the second affiliation listed: 'Mila, Montréal, Canada'.\",\n          \"quote\": \"2Mila, Montréal, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Borja Balle\",\n        \"reasoning\": \"The author's name 'Borja Balle' is listed second in the author list, and is associated with superscript '3', indicating his affiliation.\",\n        \"quote\": \"Clara Lacroce*1,2, Borja Balle³, Prakash Panangaden¹,2, and Guillaume Rabusseau2,4,5\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"DeepMind, London, United Kingdom.\",\n          \"reasoning\": \"The superscript '3' next to Borja Balle's name corresponds to the third affiliation listed: 'DeepMind, London, United Kingdom.'.\",\n          \"quote\": \"3DeepMind, London, United Kingdom.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Prakash Panangaden\",\n        \"reasoning\": \"The author's name 'Prakash Panangaden' is listed third in the author list, and is associated with superscripts '1' and '2', indicating his affiliations.\",\n        \"quote\": \"Clara Lacroce*1,2, Borja Balle³, Prakash Panangaden¹,2, and Guillaume Rabusseau2,4,5\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"School of Computer Science, McGill University, Montréal, Canada\",\n          \"reasoning\": \"The superscript '1' next to Prakash Panangaden's name corresponds to the first affiliation listed: 'School of Computer Science, McGill University, Montréal, Canada'.\",\n          \"quote\": \"1School of Computer Science, McGill University, Montréal, Canada\"\n        },\n        {\n          \"value\": \"Mila, Montréal, Canada\",\n          \"reasoning\": \"The superscript '2' next to Prakash Panangaden's name corresponds to the second affiliation listed: 'Mila, Montréal, Canada'.\",\n          \"quote\": \"2Mila, Montréal, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Guillaume Rabusseau\",\n        \"reasoning\": \"The author's name 'Guillaume Rabusseau' is listed fourth in the author list, and is associated with superscripts '2', '4', and '5', indicating his affiliations.\",\n        \"quote\": \"Clara Lacroce*1,2, Borja Balle³, Prakash Panangaden¹,2, and Guillaume Rabusseau2,4,5\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila, Montréal, Canada\",\n          \"reasoning\": \"The superscript '2' next to Guillaume Rabusseau's name corresponds to the second affiliation listed: 'Mila, Montréal, Canada'.\",\n          \"quote\": \"2Mila, Montréal, Canada\"\n        },\n        {\n          \"value\": \"DIRO, Université de Montréal, Montréal, Canada\",\n          \"reasoning\": \"The superscript '4' next to Guillaume Rabusseau's name corresponds to the fourth affiliation listed: 'DIRO, Université de Montréal, Montréal, Canada'.\",\n          \"quote\": \"4DIRO, Université de Montréal, Montréal, Canada\"\n        },\n        {\n          \"value\": \"CIFAR AI Chair\",\n          \"reasoning\": \"The superscript '5' next to Guillaume Rabusseau's name corresponds to the fifth affiliation listed: 'CIFAR AI Chair'.\",\n          \"quote\": \"5CIFAR AI Chair\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"School of Computer Science, McGill University, Montréal, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed in the paper and is marked with the superscript '1'.\",\n      \"quote\": \"1School of Computer Science, McGill University, Montréal, Canada\"\n    },\n    {\n      \"value\": \"Mila, Montréal, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed in the paper and is marked with the superscript '2'.\",\n      \"quote\": \"2Mila, Montréal, Canada\"\n    },\n    {\n      \"value\": \"DeepMind, London, United Kingdom.\",\n      \"reasoning\": \"This affiliation is explicitly listed in the paper and is marked with the superscript '3'.\",\n      \"quote\": \"3DeepMind, London, United Kingdom.\"\n    },\n    {\n      \"value\": \"DIRO, Université de Montréal, Montréal, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed in the paper and is marked with the superscript '4'.\",\n      \"quote\": \"4DIRO, Université de Montréal, Montréal, Canada\"\n    },\n    {\n      \"value\": \"CIFAR AI Chair\",\n      \"reasoning\": \"This affiliation is explicitly listed in the paper and is marked with the superscript '5'.\",\n      \"quote\": \"5CIFAR AI Chair\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 1406,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 8669,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 8256
+      }
+    ],
+    "thoughts_token_count": 979,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 11054,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Clara Lacroce",
+          "reasoning": "The author's name 'Clara Lacroce' is listed first in the author list, and is associated with superscripts '1' and '2', indicating her affiliations.",
+          "quote": "Clara Lacroce*1,2, Borja Balle³, Prakash Panangaden¹,2, and Guillaume Rabusseau2,4,5"
+        },
+        "affiliations": [
+          {
+            "value": "School of Computer Science, McGill University, Montréal, Canada",
+            "reasoning": "The superscript '1' next to Clara Lacroce's name corresponds to the first affiliation listed: 'School of Computer Science, McGill University, Montréal, Canada'.",
+            "quote": "1School of Computer Science, McGill University, Montréal, Canada"
+          },
+          {
+            "value": "Mila, Montréal, Canada",
+            "reasoning": "The superscript '2' next to Clara Lacroce's name corresponds to the second affiliation listed: 'Mila, Montréal, Canada'.",
+            "quote": "2Mila, Montréal, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Borja Balle",
+          "reasoning": "The author's name 'Borja Balle' is listed second in the author list, and is associated with superscript '3', indicating his affiliation.",
+          "quote": "Clara Lacroce*1,2, Borja Balle³, Prakash Panangaden¹,2, and Guillaume Rabusseau2,4,5"
+        },
+        "affiliations": [
+          {
+            "value": "DeepMind, London, United Kingdom.",
+            "reasoning": "The superscript '3' next to Borja Balle's name corresponds to the third affiliation listed: 'DeepMind, London, United Kingdom.'.",
+            "quote": "3DeepMind, London, United Kingdom."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Prakash Panangaden",
+          "reasoning": "The author's name 'Prakash Panangaden' is listed third in the author list, and is associated with superscripts '1' and '2', indicating his affiliations.",
+          "quote": "Clara Lacroce*1,2, Borja Balle³, Prakash Panangaden¹,2, and Guillaume Rabusseau2,4,5"
+        },
+        "affiliations": [
+          {
+            "value": "School of Computer Science, McGill University, Montréal, Canada",
+            "reasoning": "The superscript '1' next to Prakash Panangaden's name corresponds to the first affiliation listed: 'School of Computer Science, McGill University, Montréal, Canada'.",
+            "quote": "1School of Computer Science, McGill University, Montréal, Canada"
+          },
+          {
+            "value": "Mila, Montréal, Canada",
+            "reasoning": "The superscript '2' next to Prakash Panangaden's name corresponds to the second affiliation listed: 'Mila, Montréal, Canada'.",
+            "quote": "2Mila, Montréal, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Guillaume Rabusseau",
+          "reasoning": "The author's name 'Guillaume Rabusseau' is listed fourth in the author list, and is associated with superscripts '2', '4', and '5', indicating his affiliations.",
+          "quote": "Clara Lacroce*1,2, Borja Balle³, Prakash Panangaden¹,2, and Guillaume Rabusseau2,4,5"
+        },
+        "affiliations": [
+          {
+            "value": "Mila, Montréal, Canada",
+            "reasoning": "The superscript '2' next to Guillaume Rabusseau's name corresponds to the second affiliation listed: 'Mila, Montréal, Canada'.",
+            "quote": "2Mila, Montréal, Canada"
+          },
+          {
+            "value": "DIRO, Université de Montréal, Montréal, Canada",
+            "reasoning": "The superscript '4' next to Guillaume Rabusseau's name corresponds to the fourth affiliation listed: 'DIRO, Université de Montréal, Montréal, Canada'.",
+            "quote": "4DIRO, Université de Montréal, Montréal, Canada"
+          },
+          {
+            "value": "CIFAR AI Chair",
+            "reasoning": "The superscript '5' next to Guillaume Rabusseau's name corresponds to the fifth affiliation listed: 'CIFAR AI Chair'.",
+            "quote": "5CIFAR AI Chair"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "School of Computer Science, McGill University, Montréal, Canada",
+        "reasoning": "This affiliation is explicitly listed in the paper and is marked with the superscript '1'.",
+        "quote": "1School of Computer Science, McGill University, Montréal, Canada"
+      },
+      {
+        "value": "Mila, Montréal, Canada",
+        "reasoning": "This affiliation is explicitly listed in the paper and is marked with the superscript '2'.",
+        "quote": "2Mila, Montréal, Canada"
+      },
+      {
+        "value": "DeepMind, London, United Kingdom.",
+        "reasoning": "This affiliation is explicitly listed in the paper and is marked with the superscript '3'.",
+        "quote": "3DeepMind, London, United Kingdom."
+      },
+      {
+        "value": "DIRO, Université de Montréal, Montréal, Canada",
+        "reasoning": "This affiliation is explicitly listed in the paper and is marked with the superscript '4'.",
+        "quote": "4DIRO, Université de Montréal, Montréal, Canada"
+      },
+      {
+        "value": "CIFAR AI Chair",
+        "reasoning": "This affiliation is explicitly listed in the paper and is marked with the superscript '5'.",
+        "quote": "5CIFAR AI Chair"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

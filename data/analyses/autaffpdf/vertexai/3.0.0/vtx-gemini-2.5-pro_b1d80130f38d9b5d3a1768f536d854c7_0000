@@ -1,0 +1,373 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:43:51 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=41757",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Elif Bilgic\",\n        \"reasoning\": \"The author's name 'Elif Bilgic' is listed first in the author list of the paper. A superscript 'a' is associated with this author, linking to their affiliation.\",\n        \"quote\": \"Elif Bilgica\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Surgery, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript 'a' next to the author's name corresponds to the first listed affiliation.\",\n          \"quote\": \"a Department of Surgery, McGill University, Montreal, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Andrew Gorgy\",\n        \"reasoning\": \"The author's name 'Andrew Gorgy' is listed second in the author list. A superscript 'a' is associated with this author, linking to their affiliation.\",\n        \"quote\": \"Andrew Gorgyª\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Surgery, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript 'a' next to the author's name corresponds to the first listed affiliation.\",\n          \"quote\": \"a Department of Surgery, McGill University, Montreal, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Alison Yang\",\n        \"reasoning\": \"The author's name 'Alison Yang' is listed third in the author list. A superscript 'a' is associated with this author, linking to their affiliation.\",\n        \"quote\": \"Alison Yanga\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Surgery, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript 'a' next to the author's name corresponds to the first listed affiliation.\",\n          \"quote\": \"a Department of Surgery, McGill University, Montreal, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Michelle Cwintal\",\n        \"reasoning\": \"The author's name 'Michelle Cwintal' is listed fourth in the author list. A superscript 'a' is associated with this author, linking to their affiliation.\",\n        \"quote\": \"Michelle Cwintala\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Surgery, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript 'a' next to the author's name corresponds to the first listed affiliation.\",\n          \"quote\": \"a Department of Surgery, McGill University, Montreal, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Hamed Ranjbar\",\n        \"reasoning\": \"The author's name 'Hamed Ranjbar' is listed fifth in the author list. A superscript 'a' is associated with this author, linking to their affiliation.\",\n        \"quote\": \"Hamed Ranjbara\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Surgery, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript 'a' next to the author's name corresponds to the first listed affiliation.\",\n          \"quote\": \"a Department of Surgery, McGill University, Montreal, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Kalin Kahla\",\n        \"reasoning\": \"The author's name 'Kalin Kahla' is listed sixth in the author list. A superscript 'a' is associated with this author, linking to their affiliation.\",\n        \"quote\": \"Kalin Kahlaª\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Surgery, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript 'a' next to the author's name corresponds to the first listed affiliation.\",\n          \"quote\": \"a Department of Surgery, McGill University, Montreal, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Dheeksha Reddy\",\n        \"reasoning\": \"The author's name 'Dheeksha Reddy' is listed seventh in the author list. A superscript 'a' is associated with this author, linking to their affiliation.\",\n        \"quote\": \"Dheeksha Reddy\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Surgery, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript 'a' next to the author's name corresponds to the first listed affiliation.\",\n          \"quote\": \"a Department of Surgery, McGill University, Montreal, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Kexin Li\",\n        \"reasoning\": \"The author's name 'Kexin Li' is listed eighth in the author list. A superscript 'a' is associated with this author, linking to their affiliation.\",\n        \"quote\": \"Kexin Lia\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Surgery, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript 'a' next to the author's name corresponds to the first listed affiliation.\",\n          \"quote\": \"a Department of Surgery, McGill University, Montreal, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Helin Ozturk\",\n        \"reasoning\": \"The author's name 'Helin Ozturk' is listed ninth in the author list. A superscript 'a' is associated with this author, linking to their affiliation.\",\n        \"quote\": \"Helin Ozturk\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Surgery, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript 'a' next to the author's name corresponds to the first listed affiliation.\",\n          \"quote\": \"a Department of Surgery, McGill University, Montreal, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Eric Zimmermann\",\n        \"reasoning\": \"The author's name 'Eric Zimmermann' is listed tenth in the author list. A superscript 'a' is associated with this author, linking to their affiliation.\",\n        \"quote\": \"Eric Zimmermanna\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Surgery, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript 'a' next to the author's name corresponds to the first listed affiliation.\",\n          \"quote\": \"a Department of Surgery, McGill University, Montreal, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Andrea Quaiattini\",\n        \"reasoning\": \"The author's name 'Andrea Quaiattini' is listed eleventh in the author list. Superscripts 'b' and 'c' are associated with this author, linking to their affiliations.\",\n        \"quote\": \"Andrea Quaiattini b, c\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Schulich Library of Physical Sciences, Life Sciences, and Engineering, McGill University, Canada\",\n          \"reasoning\": \"The superscript 'b' next to the author's name corresponds to the second listed affiliation.\",\n          \"quote\": \"b Schulich Library of Physical Sciences, Life Sciences, and Engineering, McGill University, Canada\"\n        },\n        {\n          \"value\": \"Institute of Health Sciences Education, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript 'c' next to the author's name corresponds to the third listed affiliation.\",\n          \"quote\": \"c Institute of Health Sciences Education, McGill University, Montreal, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Samira Abbasgholizadeh-Rahimi\",\n        \"reasoning\": \"The author's name 'Samira Abbasgholizadeh-Rahimi' is listed twelfth in the author list. Superscripts 'd', 'e', 'f', and 'g' are associated with this author, linking to their affiliations.\",\n        \"quote\": \"Samira Abbasgholizadeh-Rahimi d, e, f, g\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Family Medicine, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript 'd' next to the author's name corresponds to the fourth listed affiliation.\",\n          \"quote\": \"d Department of Family Medicine, McGill University, Montreal, Quebec, Canada\"\n        },\n        {\n          \"value\": \"Department of Electrical and Computer Engineering, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The superscript 'e' next to the author's name corresponds to the fifth listed affiliation.\",\n          \"quote\": \"e Department of Electrical and Computer Engineering, McGill University, Montreal, Canada\"\n        },\n        {\n          \"value\": \"Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Canada\",\n          \"reasoning\": \"The superscript 'f' next to the author's name corresponds to the sixth listed affiliation.\",\n          \"quote\": \"f Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Canada\"\n        },\n        {\n          \"value\": \"Mila Quebec AI Institute, Montreal, Canada\",\n          \"reasoning\": \"The superscript 'g' next to the author's name corresponds to the seventh listed affiliation.\",\n          \"quote\": \"g Mila Quebec Al Institute, Montreal, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Dan Poenaru\",\n        \"reasoning\": \"The author's name 'Dan Poenaru' is listed thirteenth in the author list. Superscripts 'c' and 'h' are associated with this author, linking to their affiliations.\",\n        \"quote\": \"Dan Poenaruh\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute of Health Sciences Education, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript 'c' next to the author's name corresponds to the third listed affiliation.\",\n          \"quote\": \"c Institute of Health Sciences Education, McGill University, Montreal, Quebec, Canada\"\n        },\n        {\n          \"value\": \"Department of Pediatric Surgery, McGill University, Canada\",\n          \"reasoning\": \"The superscript 'h' next to the author's name corresponds to the eighth listed affiliation.\",\n          \"quote\": \"h Department of Pediatric Surgery, McGill University, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jason M. Harley\",\n        \"reasoning\": \"The author's name 'Jason M. Harley' is the last author listed. Superscripts 'a', 'c', 'i', and 'j' are associated with this author, linking to their affiliations.\",\n        \"quote\": \"Jason M. Harley a, c, i, j, *\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Surgery, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript 'a' next to the author's name corresponds to the first listed affiliation.\",\n          \"quote\": \"a Department of Surgery, McGill University, Montreal, Quebec, Canada\"\n        },\n        {\n          \"value\": \"Institute of Health Sciences Education, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript 'c' next to the author's name corresponds to the third listed affiliation.\",\n          \"quote\": \"c Institute of Health Sciences Education, McGill University, Montreal, Quebec, Canada\"\n        },\n        {\n          \"value\": \"Research Institute of the McGill University Health Centre, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript 'i' next to the author's name corresponds to the ninth listed affiliation.\",\n          \"quote\": \"i Research Institute of the McGill University Health Centre, Montreal, Quebec, Canada\"\n        },\n        {\n          \"value\": \"Steinberg Centre for Simulation and Interactive Learning, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript 'j' next to the author's name corresponds to the tenth listed affiliation.\",\n          \"quote\": \"j Steinberg Centre for Simulation and Interactive Learning, McGill University, Montreal, Quebec, Canada\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Department of Surgery, McGill University, Montreal, Quebec, Canada\",\n      \"reasoning\": \"This is the first affiliation listed, marked with the superscript 'a' and associated with multiple authors.\",\n      \"quote\": \"a Department of Surgery, McGill University, Montreal, Quebec, Canada\"\n    },\n    {\n      \"value\": \"Schulich Library of Physical Sciences, Life Sciences, and Engineering, McGill University, Canada\",\n      \"reasoning\": \"This is the second affiliation listed, marked with the superscript 'b'.\",\n      \"quote\": \"b Schulich Library of Physical Sciences, Life Sciences, and Engineering, McGill University, Canada\"\n    },\n    {\n      \"value\": \"Institute of Health Sciences Education, McGill University, Montreal, Quebec, Canada\",\n      \"reasoning\": \"This is the third affiliation listed, marked with the superscript 'c'.\",\n      \"quote\": \"c Institute of Health Sciences Education, McGill University, Montreal, Quebec, Canada\"\n    },\n    {\n      \"value\": \"Department of Family Medicine, McGill University, Montreal, Quebec, Canada\",\n      \"reasoning\": \"This is the fourth affiliation listed, marked with the superscript 'd'.\",\n      \"quote\": \"d Department of Family Medicine, McGill University, Montreal, Quebec, Canada\"\n    },\n    {\n      \"value\": \"Department of Electrical and Computer Engineering, McGill University, Montreal, Canada\",\n      \"reasoning\": \"This is the fifth affiliation listed, marked with the superscript 'e'.\",\n      \"quote\": \"e Department of Electrical and Computer Engineering, McGill University, Montreal, Canada\"\n    },\n    {\n      \"value\": \"Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Canada\",\n      \"reasoning\": \"This is the sixth affiliation listed, marked with the superscript 'f'.\",\n      \"quote\": \"f Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Canada\"\n    },\n    {\n      \"value\": \"Mila Quebec AI Institute, Montreal, Canada\",\n      \"reasoning\": \"This is the seventh affiliation listed, marked with the superscript 'g'.\",\n      \"quote\": \"g Mila Quebec Al Institute, Montreal, Canada\"\n    },\n    {\n      \"value\": \"Department of Pediatric Surgery, McGill University, Canada\",\n      \"reasoning\": \"This is the eighth affiliation listed, marked with the superscript 'h'.\",\n      \"quote\": \"h Department of Pediatric Surgery, McGill University, Canada\"\n    },\n    {\n      \"value\": \"Research Institute of the McGill University Health Centre, Montreal, Quebec, Canada\",\n      \"reasoning\": \"This is the ninth affiliation listed, marked with the superscript 'i'.\",\n      \"quote\": \"i Research Institute of the McGill University Health Centre, Montreal, Quebec, Canada\"\n    },\n    {\n      \"value\": \"Steinberg Centre for Simulation and Interactive Learning, McGill University, Montreal, Quebec, Canada\",\n      \"reasoning\": \"This is the tenth affiliation listed, marked with the superscript 'j'.\",\n      \"quote\": \"j Steinberg Centre for Simulation and Interactive Learning, McGill University, Montreal, Quebec, Canada\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 3627,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 671,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 258
+      }
+    ],
+    "thoughts_token_count": 1137,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 5435,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Elif Bilgic",
+          "reasoning": "The author's name 'Elif Bilgic' is listed first in the author list of the paper. A superscript 'a' is associated with this author, linking to their affiliation.",
+          "quote": "Elif Bilgica"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Surgery, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The superscript 'a' next to the author's name corresponds to the first listed affiliation.",
+            "quote": "a Department of Surgery, McGill University, Montreal, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Andrew Gorgy",
+          "reasoning": "The author's name 'Andrew Gorgy' is listed second in the author list. A superscript 'a' is associated with this author, linking to their affiliation.",
+          "quote": "Andrew Gorgyª"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Surgery, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The superscript 'a' next to the author's name corresponds to the first listed affiliation.",
+            "quote": "a Department of Surgery, McGill University, Montreal, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Alison Yang",
+          "reasoning": "The author's name 'Alison Yang' is listed third in the author list. A superscript 'a' is associated with this author, linking to their affiliation.",
+          "quote": "Alison Yanga"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Surgery, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The superscript 'a' next to the author's name corresponds to the first listed affiliation.",
+            "quote": "a Department of Surgery, McGill University, Montreal, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Michelle Cwintal",
+          "reasoning": "The author's name 'Michelle Cwintal' is listed fourth in the author list. A superscript 'a' is associated with this author, linking to their affiliation.",
+          "quote": "Michelle Cwintala"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Surgery, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The superscript 'a' next to the author's name corresponds to the first listed affiliation.",
+            "quote": "a Department of Surgery, McGill University, Montreal, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Hamed Ranjbar",
+          "reasoning": "The author's name 'Hamed Ranjbar' is listed fifth in the author list. A superscript 'a' is associated with this author, linking to their affiliation.",
+          "quote": "Hamed Ranjbara"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Surgery, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The superscript 'a' next to the author's name corresponds to the first listed affiliation.",
+            "quote": "a Department of Surgery, McGill University, Montreal, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Kalin Kahla",
+          "reasoning": "The author's name 'Kalin Kahla' is listed sixth in the author list. A superscript 'a' is associated with this author, linking to their affiliation.",
+          "quote": "Kalin Kahlaª"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Surgery, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The superscript 'a' next to the author's name corresponds to the first listed affiliation.",
+            "quote": "a Department of Surgery, McGill University, Montreal, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Dheeksha Reddy",
+          "reasoning": "The author's name 'Dheeksha Reddy' is listed seventh in the author list. A superscript 'a' is associated with this author, linking to their affiliation.",
+          "quote": "Dheeksha Reddy"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Surgery, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The superscript 'a' next to the author's name corresponds to the first listed affiliation.",
+            "quote": "a Department of Surgery, McGill University, Montreal, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Kexin Li",
+          "reasoning": "The author's name 'Kexin Li' is listed eighth in the author list. A superscript 'a' is associated with this author, linking to their affiliation.",
+          "quote": "Kexin Lia"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Surgery, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The superscript 'a' next to the author's name corresponds to the first listed affiliation.",
+            "quote": "a Department of Surgery, McGill University, Montreal, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Helin Ozturk",
+          "reasoning": "The author's name 'Helin Ozturk' is listed ninth in the author list. A superscript 'a' is associated with this author, linking to their affiliation.",
+          "quote": "Helin Ozturk"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Surgery, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The superscript 'a' next to the author's name corresponds to the first listed affiliation.",
+            "quote": "a Department of Surgery, McGill University, Montreal, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Eric Zimmermann",
+          "reasoning": "The author's name 'Eric Zimmermann' is listed tenth in the author list. A superscript 'a' is associated with this author, linking to their affiliation.",
+          "quote": "Eric Zimmermanna"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Surgery, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The superscript 'a' next to the author's name corresponds to the first listed affiliation.",
+            "quote": "a Department of Surgery, McGill University, Montreal, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Andrea Quaiattini",
+          "reasoning": "The author's name 'Andrea Quaiattini' is listed eleventh in the author list. Superscripts 'b' and 'c' are associated with this author, linking to their affiliations.",
+          "quote": "Andrea Quaiattini b, c"
+        },
+        "affiliations": [
+          {
+            "value": "Schulich Library of Physical Sciences, Life Sciences, and Engineering, McGill University, Canada",
+            "reasoning": "The superscript 'b' next to the author's name corresponds to the second listed affiliation.",
+            "quote": "b Schulich Library of Physical Sciences, Life Sciences, and Engineering, McGill University, Canada"
+          },
+          {
+            "value": "Institute of Health Sciences Education, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The superscript 'c' next to the author's name corresponds to the third listed affiliation.",
+            "quote": "c Institute of Health Sciences Education, McGill University, Montreal, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Samira Abbasgholizadeh-Rahimi",
+          "reasoning": "The author's name 'Samira Abbasgholizadeh-Rahimi' is listed twelfth in the author list. Superscripts 'd', 'e', 'f', and 'g' are associated with this author, linking to their affiliations.",
+          "quote": "Samira Abbasgholizadeh-Rahimi d, e, f, g"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Family Medicine, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The superscript 'd' next to the author's name corresponds to the fourth listed affiliation.",
+            "quote": "d Department of Family Medicine, McGill University, Montreal, Quebec, Canada"
+          },
+          {
+            "value": "Department of Electrical and Computer Engineering, McGill University, Montreal, Canada",
+            "reasoning": "The superscript 'e' next to the author's name corresponds to the fifth listed affiliation.",
+            "quote": "e Department of Electrical and Computer Engineering, McGill University, Montreal, Canada"
+          },
+          {
+            "value": "Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Canada",
+            "reasoning": "The superscript 'f' next to the author's name corresponds to the sixth listed affiliation.",
+            "quote": "f Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Canada"
+          },
+          {
+            "value": "Mila Quebec AI Institute, Montreal, Canada",
+            "reasoning": "The superscript 'g' next to the author's name corresponds to the seventh listed affiliation.",
+            "quote": "g Mila Quebec Al Institute, Montreal, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Dan Poenaru",
+          "reasoning": "The author's name 'Dan Poenaru' is listed thirteenth in the author list. Superscripts 'c' and 'h' are associated with this author, linking to their affiliations.",
+          "quote": "Dan Poenaruh"
+        },
+        "affiliations": [
+          {
+            "value": "Institute of Health Sciences Education, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The superscript 'c' next to the author's name corresponds to the third listed affiliation.",
+            "quote": "c Institute of Health Sciences Education, McGill University, Montreal, Quebec, Canada"
+          },
+          {
+            "value": "Department of Pediatric Surgery, McGill University, Canada",
+            "reasoning": "The superscript 'h' next to the author's name corresponds to the eighth listed affiliation.",
+            "quote": "h Department of Pediatric Surgery, McGill University, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jason M. Harley",
+          "reasoning": "The author's name 'Jason M. Harley' is the last author listed. Superscripts 'a', 'c', 'i', and 'j' are associated with this author, linking to their affiliations.",
+          "quote": "Jason M. Harley a, c, i, j, *"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Surgery, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The superscript 'a' next to the author's name corresponds to the first listed affiliation.",
+            "quote": "a Department of Surgery, McGill University, Montreal, Quebec, Canada"
+          },
+          {
+            "value": "Institute of Health Sciences Education, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The superscript 'c' next to the author's name corresponds to the third listed affiliation.",
+            "quote": "c Institute of Health Sciences Education, McGill University, Montreal, Quebec, Canada"
+          },
+          {
+            "value": "Research Institute of the McGill University Health Centre, Montreal, Quebec, Canada",
+            "reasoning": "The superscript 'i' next to the author's name corresponds to the ninth listed affiliation.",
+            "quote": "i Research Institute of the McGill University Health Centre, Montreal, Quebec, Canada"
+          },
+          {
+            "value": "Steinberg Centre for Simulation and Interactive Learning, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The superscript 'j' next to the author's name corresponds to the tenth listed affiliation.",
+            "quote": "j Steinberg Centre for Simulation and Interactive Learning, McGill University, Montreal, Quebec, Canada"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Department of Surgery, McGill University, Montreal, Quebec, Canada",
+        "reasoning": "This is the first affiliation listed, marked with the superscript 'a' and associated with multiple authors.",
+        "quote": "a Department of Surgery, McGill University, Montreal, Quebec, Canada"
+      },
+      {
+        "value": "Schulich Library of Physical Sciences, Life Sciences, and Engineering, McGill University, Canada",
+        "reasoning": "This is the second affiliation listed, marked with the superscript 'b'.",
+        "quote": "b Schulich Library of Physical Sciences, Life Sciences, and Engineering, McGill University, Canada"
+      },
+      {
+        "value": "Institute of Health Sciences Education, McGill University, Montreal, Quebec, Canada",
+        "reasoning": "This is the third affiliation listed, marked with the superscript 'c'.",
+        "quote": "c Institute of Health Sciences Education, McGill University, Montreal, Quebec, Canada"
+      },
+      {
+        "value": "Department of Family Medicine, McGill University, Montreal, Quebec, Canada",
+        "reasoning": "This is the fourth affiliation listed, marked with the superscript 'd'.",
+        "quote": "d Department of Family Medicine, McGill University, Montreal, Quebec, Canada"
+      },
+      {
+        "value": "Department of Electrical and Computer Engineering, McGill University, Montreal, Canada",
+        "reasoning": "This is the fifth affiliation listed, marked with the superscript 'e'.",
+        "quote": "e Department of Electrical and Computer Engineering, McGill University, Montreal, Canada"
+      },
+      {
+        "value": "Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Canada",
+        "reasoning": "This is the sixth affiliation listed, marked with the superscript 'f'.",
+        "quote": "f Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Canada"
+      },
+      {
+        "value": "Mila Quebec AI Institute, Montreal, Canada",
+        "reasoning": "This is the seventh affiliation listed, marked with the superscript 'g'.",
+        "quote": "g Mila Quebec Al Institute, Montreal, Canada"
+      },
+      {
+        "value": "Department of Pediatric Surgery, McGill University, Canada",
+        "reasoning": "This is the eighth affiliation listed, marked with the superscript 'h'.",
+        "quote": "h Department of Pediatric Surgery, McGill University, Canada"
+      },
+      {
+        "value": "Research Institute of the McGill University Health Centre, Montreal, Quebec, Canada",
+        "reasoning": "This is the ninth affiliation listed, marked with the superscript 'i'.",
+        "quote": "i Research Institute of the McGill University Health Centre, Montreal, Quebec, Canada"
+      },
+      {
+        "value": "Steinberg Centre for Simulation and Interactive Learning, McGill University, Montreal, Quebec, Canada",
+        "reasoning": "This is the tenth affiliation listed, marked with the superscript 'j'.",
+        "quote": "j Steinberg Centre for Simulation and Interactive Learning, McGill University, Montreal, Quebec, Canada"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

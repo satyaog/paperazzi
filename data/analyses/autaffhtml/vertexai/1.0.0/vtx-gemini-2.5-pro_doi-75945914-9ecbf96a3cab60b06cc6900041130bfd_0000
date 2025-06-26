@@ -1,0 +1,175 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sat, 12 Jul 2025 00:20:56 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=31769",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Sijie Cheng\",\n        \"reasoning\": \"The author's name is explicitly listed in the 'authors' section of the HTML document.\",\n        \"quote\": \"<div class=\\\"authors\\\"><span class=\\\"descriptor\\\">Authors:</span><a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Cheng,+S\\\" rel=\\\"nofollow\\\">Sijie Cheng</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Meituan Platform\",\n          \"reasoning\": \"The HTML document does not provide an explicit list of affiliations or use any markers to link authors to institutions. However, the abstract repeatedly mentions that the research and experiments were conducted using data from the 'Meituan Platform'. As no other affiliations are mentioned and all authors are listed together without distinction, it is inferred that all authors are affiliated with the Meituan Platform.\",\n          \"quote\": \"Extensive experiments on real-world product taxonomies in Meituan Platform, a leading Chinese vertical e-commerce platform to order take-out with more than 70 million daily active users, demonstrate the superiority of our proposed framework over state-of-the-art methods.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Zhouhong Gu\",\n        \"reasoning\": \"The author's name is explicitly listed in the 'authors' section of the HTML document.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Gu,+Z\\\" rel=\\\"nofollow\\\">Zhouhong Gu</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Meituan Platform\",\n          \"reasoning\": \"The HTML document does not provide an explicit list of affiliations or use any markers to link authors to institutions. However, the abstract repeatedly mentions that the research and experiments were conducted using data from the 'Meituan Platform'. As no other affiliations are mentioned and all authors are listed together without distinction, it is inferred that all authors are affiliated with the Meituan Platform.\",\n          \"quote\": \"Extensive experiments on real-world product taxonomies in Meituan Platform, a leading Chinese vertical e-commerce platform to order take-out with more than 70 million daily active users, demonstrate the superiority of our proposed framework over state-of-the-art methods.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Bang Liu\",\n        \"reasoning\": \"The author's name is explicitly listed in the 'authors' section of the HTML document.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Liu,+B\\\" rel=\\\"nofollow\\\">Bang Liu</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Meituan Platform\",\n          \"reasoning\": \"The HTML document does not provide an explicit list of affiliations or use any markers to link authors to institutions. However, the abstract repeatedly mentions that the research and experiments were conducted using data from the 'Meituan Platform'. As no other affiliations are mentioned and all authors are listed together without distinction, it is inferred that all authors are affiliated with the Meituan Platform.\",\n          \"quote\": \"Extensive experiments on real-world product taxonomies in Meituan Platform, a leading Chinese vertical e-commerce platform to order take-out with more than 70 million daily active users, demonstrate the superiority of our proposed framework over state-of-the-art methods.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Rui Xie\",\n        \"reasoning\": \"The author's name is explicitly listed in the 'authors' section of the HTML document.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Xie,+R\\\" rel=\\\"nofollow\\\">Rui Xie</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Meituan Platform\",\n          \"reasoning\": \"The HTML document does not provide an explicit list of affiliations or use any markers to link authors to institutions. However, the abstract repeatedly mentions that the research and experiments were conducted using data from the 'Meituan Platform'. As no other affiliations are mentioned and all authors are listed together without distinction, it is inferred that all authors are affiliated with the Meituan Platform.\",\n          \"quote\": \"Extensive experiments on real-world product taxonomies in Meituan Platform, a leading Chinese vertical e-commerce platform to order take-out with more than 70 million daily active users, demonstrate the superiority of our proposed framework over state-of-the-art methods.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Wei Wu\",\n        \"reasoning\": \"The author's name is explicitly listed in the 'authors' section of the HTML document.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Wu,+W\\\" rel=\\\"nofollow\\\">Wei Wu</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Meituan Platform\",\n          \"reasoning\": \"The HTML document does not provide an explicit list of affiliations or use any markers to link authors to institutions. However, the abstract repeatedly mentions that the research and experiments were conducted using data from the 'Meituan Platform'. As no other affiliations are mentioned and all authors are listed together without distinction, it is inferred that all authors are affiliated with the Meituan Platform.\",\n          \"quote\": \"Extensive experiments on real-world product taxonomies in Meituan Platform, a leading Chinese vertical e-commerce platform to order take-out with more than 70 million daily active users, demonstrate the superiority of our proposed framework over state-of-the-art methods.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Yanghua Xiao\",\n        \"reasoning\": \"The author's name is explicitly listed in the 'authors' section of the HTML document.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Xiao,+Y\\\" rel=\\\"nofollow\\\">Yanghua Xiao</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Meituan Platform\",\n          \"reasoning\": \"The HTML document does not provide an explicit list of affiliations or use any markers to link authors to institutions. However, the abstract repeatedly mentions that the research and experiments were conducted using data from the 'Meituan Platform'. As no other affiliations are mentioned and all authors are listed together without distinction, it is inferred that all authors are affiliated with the Meituan Platform.\",\n          \"quote\": \"Extensive experiments on real-world product taxonomies in Meituan Platform, a leading Chinese vertical e-commerce platform to order take-out with more than 70 million daily active users, demonstrate the superiority of our proposed framework over state-of-the-art methods.\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Meituan Platform\",\n      \"reasoning\": \"The HTML document does not provide an explicit list of affiliations. However, the abstract mentions that the experiments were conducted on the 'Meituan Platform', which is the only institution mentioned in the text. Given the lack of any other affiliation information, it is considered the sole affiliation for all authors.\",\n      \"quote\": \"Extensive experiments on real-world product taxonomies in Meituan Platform, a leading Chinese vertical e-commerce platform to order take-out with more than 70 million daily active users, demonstrate the superiority of our proposed framework over state-of-the-art methods.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 1763,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 18616,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 18616
+      }
+    ],
+    "thoughts_token_count": 1794,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 22173,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Sijie Cheng",
+          "reasoning": "The author's name is explicitly listed in the 'authors' section of the HTML document.",
+          "quote": "<div class=\"authors\"><span class=\"descriptor\">Authors:</span><a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Cheng,+S\" rel=\"nofollow\">Sijie Cheng</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Meituan Platform",
+            "reasoning": "The HTML document does not provide an explicit list of affiliations or use any markers to link authors to institutions. However, the abstract repeatedly mentions that the research and experiments were conducted using data from the 'Meituan Platform'. As no other affiliations are mentioned and all authors are listed together without distinction, it is inferred that all authors are affiliated with the Meituan Platform.",
+            "quote": "Extensive experiments on real-world product taxonomies in Meituan Platform, a leading Chinese vertical e-commerce platform to order take-out with more than 70 million daily active users, demonstrate the superiority of our proposed framework over state-of-the-art methods."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Zhouhong Gu",
+          "reasoning": "The author's name is explicitly listed in the 'authors' section of the HTML document.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Gu,+Z\" rel=\"nofollow\">Zhouhong Gu</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Meituan Platform",
+            "reasoning": "The HTML document does not provide an explicit list of affiliations or use any markers to link authors to institutions. However, the abstract repeatedly mentions that the research and experiments were conducted using data from the 'Meituan Platform'. As no other affiliations are mentioned and all authors are listed together without distinction, it is inferred that all authors are affiliated with the Meituan Platform.",
+            "quote": "Extensive experiments on real-world product taxonomies in Meituan Platform, a leading Chinese vertical e-commerce platform to order take-out with more than 70 million daily active users, demonstrate the superiority of our proposed framework over state-of-the-art methods."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Bang Liu",
+          "reasoning": "The author's name is explicitly listed in the 'authors' section of the HTML document.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Liu,+B\" rel=\"nofollow\">Bang Liu</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Meituan Platform",
+            "reasoning": "The HTML document does not provide an explicit list of affiliations or use any markers to link authors to institutions. However, the abstract repeatedly mentions that the research and experiments were conducted using data from the 'Meituan Platform'. As no other affiliations are mentioned and all authors are listed together without distinction, it is inferred that all authors are affiliated with the Meituan Platform.",
+            "quote": "Extensive experiments on real-world product taxonomies in Meituan Platform, a leading Chinese vertical e-commerce platform to order take-out with more than 70 million daily active users, demonstrate the superiority of our proposed framework over state-of-the-art methods."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Rui Xie",
+          "reasoning": "The author's name is explicitly listed in the 'authors' section of the HTML document.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Xie,+R\" rel=\"nofollow\">Rui Xie</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Meituan Platform",
+            "reasoning": "The HTML document does not provide an explicit list of affiliations or use any markers to link authors to institutions. However, the abstract repeatedly mentions that the research and experiments were conducted using data from the 'Meituan Platform'. As no other affiliations are mentioned and all authors are listed together without distinction, it is inferred that all authors are affiliated with the Meituan Platform.",
+            "quote": "Extensive experiments on real-world product taxonomies in Meituan Platform, a leading Chinese vertical e-commerce platform to order take-out with more than 70 million daily active users, demonstrate the superiority of our proposed framework over state-of-the-art methods."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Wei Wu",
+          "reasoning": "The author's name is explicitly listed in the 'authors' section of the HTML document.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Wu,+W\" rel=\"nofollow\">Wei Wu</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Meituan Platform",
+            "reasoning": "The HTML document does not provide an explicit list of affiliations or use any markers to link authors to institutions. However, the abstract repeatedly mentions that the research and experiments were conducted using data from the 'Meituan Platform'. As no other affiliations are mentioned and all authors are listed together without distinction, it is inferred that all authors are affiliated with the Meituan Platform.",
+            "quote": "Extensive experiments on real-world product taxonomies in Meituan Platform, a leading Chinese vertical e-commerce platform to order take-out with more than 70 million daily active users, demonstrate the superiority of our proposed framework over state-of-the-art methods."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Yanghua Xiao",
+          "reasoning": "The author's name is explicitly listed in the 'authors' section of the HTML document.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Xiao,+Y\" rel=\"nofollow\">Yanghua Xiao</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Meituan Platform",
+            "reasoning": "The HTML document does not provide an explicit list of affiliations or use any markers to link authors to institutions. However, the abstract repeatedly mentions that the research and experiments were conducted using data from the 'Meituan Platform'. As no other affiliations are mentioned and all authors are listed together without distinction, it is inferred that all authors are affiliated with the Meituan Platform.",
+            "quote": "Extensive experiments on real-world product taxonomies in Meituan Platform, a leading Chinese vertical e-commerce platform to order take-out with more than 70 million daily active users, demonstrate the superiority of our proposed framework over state-of-the-art methods."
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Meituan Platform",
+        "reasoning": "The HTML document does not provide an explicit list of affiliations. However, the abstract mentions that the experiments were conducted on the 'Meituan Platform', which is the only institution mentioned in the text. Given the lack of any other affiliation information, it is considered the sole affiliation for all authors.",
+        "quote": "Extensive experiments on real-world product taxonomies in Meituan Platform, a leading Chinese vertical e-commerce platform to order take-out with more than 70 million daily active users, demonstrate the superiority of our proposed framework over state-of-the-art methods."
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.48550/arXiv.2203.14921"
+    }
+  }
+}

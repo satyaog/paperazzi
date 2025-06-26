@@ -1,0 +1,391 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:20:29 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=57043",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Kimia Shafighi\",\n        \"reasoning\": \"The author's name is listed first in the author list, with a superscript '1' and an asterisk indicating the corresponding author.\",\n        \"quote\": \"Kimia Shafighi¹*\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed.\",\n          \"quote\": \"1 Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Sylvia Villeneuve\",\n        \"reasoning\": \"The author's name is listed second in the author list with superscripts '2,3,4'.\",\n        \"quote\": \"Sylvia Villeneuve²,³,⁴\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed.\",\n          \"quote\": \"2 McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\"\n        },\n        {\n          \"value\": \"Department of Psychiatry, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript '3' next to the author's name corresponds to the third affiliation listed.\",\n          \"quote\": \"3 Department of Psychiatry, McGill University, Montreal, Quebec, Canada\"\n        },\n        {\n          \"value\": \"Douglas Mental Health University Institute, Studies on Prevention of Alzheimer's Disease (StoP-AD) Centre, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript '4' next to the author's name corresponds to the fourth affiliation listed.\",\n          \"quote\": \"4 Douglas Mental Health University Institute, Studies on Prevention of Alzheimer's Disease (StoP-AD) Centre, Montreal, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Pedro Rosa Neto\",\n        \"reasoning\": \"The author's name is listed third in the author list with superscripts '4,5,6,7'.\",\n        \"quote\": \"Pedro Rosa Neto⁴,⁵,⁶,⁷\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Douglas Mental Health University Institute, Studies on Prevention of Alzheimer's Disease (StoP-AD) Centre, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript '4' next to the author's name corresponds to the fourth affiliation listed.\",\n          \"quote\": \"4 Douglas Mental Health University Institute, Studies on Prevention of Alzheimer's Disease (StoP-AD) Centre, Montreal, Quebec, Canada\"\n        },\n        {\n          \"value\": \"Translational Neuroimaging Laboratory, McGill University Research Centre for Studies in Aging, Alzheimer's Disease Research Unit, Montreal, Canada\",\n          \"reasoning\": \"The superscript '5' next to the author's name corresponds to the fifth affiliation listed.\",\n          \"quote\": \"5 Translational Neuroimaging Laboratory, McGill University Research Centre for Studies in Aging, Alzheimer's Disease Research Unit, Montreal, Canada\"\n        },\n        {\n          \"value\": \"Le Centre Intégré Universitaire de Santé et de Services Sociaux (CIUSSS) de l'Ouest-de-l'Île-de-Montréal, Montréal, Canada\",\n          \"reasoning\": \"The superscript '6' next to the author's name corresponds to the sixth affiliation listed.\",\n          \"quote\": \"6 Le Centre Intégré Universitaire de Santé et de Services Sociaux (CIUSSS) de l'Ouest-de-l'Île-de-Montréal, Montréal, Canada\"\n        },\n        {\n          \"value\": \"Department of Neurology and Neurosurgery, Psychiatry and Pharmacology and Therapeutics, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The superscript '7' next to the author's name corresponds to the seventh affiliation listed.\",\n          \"quote\": \"7 Department of Neurology and Neurosurgery, Psychiatry and Pharmacology and Therapeutics, McGill University, Montreal, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"AmanPreet Badhwar\",\n        \"reasoning\": \"The author's name is listed fourth in the author list with superscripts '8,9'.\",\n        \"quote\": \"AmanPreet Badhwar⁸,⁹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Département de Pharmacologie et Physiologie & Institut de Génie Biomédical, Faculté de Médecine, Université de Montréal, Montréal, Canada\",\n          \"reasoning\": \"The superscript '8' next to the author's name corresponds to the eighth affiliation listed.\",\n          \"quote\": \"8 Département de Pharmacologie et Physiologie & Institut de Génie Biomédical, Faculté de Médecine, Université de Montréal, Montréal, Canada\"\n        },\n        {\n          \"value\": \"Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal (CRIUGM), Montréal, Canada\",\n          \"reasoning\": \"The superscript '9' next to the author's name corresponds to the ninth affiliation listed.\",\n          \"quote\": \"9 Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal (CRIUGM), Montréal, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Judes Poirier\",\n        \"reasoning\": \"The author's name is listed fifth in the author list with superscript '10'.\",\n        \"quote\": \"Judes Poirier¹⁰\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Centre for Studies in the Prevention of Alzheimer's Disease, Douglas Mental Health Institute, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The superscript '10' next to the author's name corresponds to the tenth affiliation listed.\",\n          \"quote\": \"10 Centre for Studies in the Prevention of Alzheimer's Disease, Douglas Mental Health Institute, McGill University, Montreal, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Vaibhav Sharma\",\n        \"reasoning\": \"The author's name is listed sixth in the author list with superscript '1'.\",\n        \"quote\": \"Vaibhav Sharma¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed.\",\n          \"quote\": \"1 Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Yasser Iturria Medina\",\n        \"reasoning\": \"The author's name is listed seventh in the author list with superscripts '2,11,12'.\",\n        \"quote\": \"Yasser Iturria Medina²,¹¹,¹²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed.\",\n          \"quote\": \"2 McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\"\n        },\n        {\n          \"value\": \"Neurology and Neurosurgery Department, Montreal Neurological Institute (MNI), Faculty of Medicine, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The superscript '11' next to the author's name corresponds to the eleventh affiliation listed.\",\n          \"quote\": \"11 Neurology and Neurosurgery Department, Montreal Neurological Institute (MNI), Faculty of Medicine, McGill University, Montreal, Canada\"\n        },\n        {\n          \"value\": \"Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The superscript '12' next to the author's name corresponds to the twelfth affiliation listed.\",\n          \"quote\": \"12 Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Patricia P. Silveira\",\n        \"reasoning\": \"The author's name is listed eighth in the author list with superscripts '3,12'.\",\n        \"quote\": \"Patricia P. Silveira³,¹²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Psychiatry, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The superscript '3' next to the author's name corresponds to the third affiliation listed.\",\n          \"quote\": \"3 Department of Psychiatry, McGill University, Montreal, Quebec, Canada\"\n        },\n        {\n          \"value\": \"Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The superscript '12' next to the author's name corresponds to the twelfth affiliation listed.\",\n          \"quote\": \"12 Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Laurette Dube\",\n        \"reasoning\": \"The author's name is listed ninth in the author list with superscript '13'.\",\n        \"quote\": \"Laurette Dube¹³\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"The superscript '13' next to the author's name corresponds to the thirteenth affiliation listed.\",\n          \"quote\": \"13 Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"David Glahn\",\n        \"reasoning\": \"The author's name is listed tenth in the author list with superscripts '14,15'.\",\n        \"quote\": \"David Glahn¹⁴,¹⁵\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Tommy Fuss Center for Neuropsychiatric Disease Research, Department of Psychiatry, Boston Children's Hospital, Boston, MA, United States of America\",\n          \"reasoning\": \"The superscript '14' next to the author's name corresponds to the fourteenth affiliation listed.\",\n          \"quote\": \"14 Tommy Fuss Center for Neuropsychiatric Disease Research, Department of Psychiatry, Boston Children's Hospital, Boston, MA, United States of America\"\n        },\n        {\n          \"value\": \"Department of Psychiatry, Harvard Medical School, Boston, MA, United States of America\",\n          \"reasoning\": \"The superscript '15' next to the author's name corresponds to the fifteenth affiliation listed.\",\n          \"quote\": \"15 Department of Psychiatry, Harvard Medical School, Boston, MA, United States of America\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Danilo Bzdok\",\n        \"reasoning\": \"The author's name is listed eleventh in the author list with superscripts '1,2,16,17'.\",\n        \"quote\": \"Danilo Bzdok¹,²,¹⁶,¹⁷\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed.\",\n          \"quote\": \"1 Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\"\n        },\n        {\n          \"value\": \"McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed.\",\n          \"quote\": \"2 McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\"\n        },\n        {\n          \"value\": \"School of Computer Science, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The superscript '16' next to the author's name corresponds to the sixteenth affiliation listed.\",\n          \"quote\": \"16 School of Computer Science, McGill University, Montreal, Canada\"\n        },\n        {\n          \"value\": \"Mila-Quebec Artificial Intelligence Institute, Montreal, Canada\",\n          \"reasoning\": \"The superscript '17' next to the author's name corresponds to the seventeenth affiliation listed.\",\n          \"quote\": \"17 Mila-Quebec Artificial Intelligence Institute, Montreal, Canada\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\",\n      \"reasoning\": \"This is the first affiliation listed in the paper, identified by the number '1'.\",\n      \"quote\": \"1 Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\"\n    },\n    {\n      \"value\": \"McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\",\n      \"reasoning\": \"This is the second affiliation listed in the paper, identified by the number '2'.\",\n      \"quote\": \"2 McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\"\n    },\n    {\n      \"value\": \"Department of Psychiatry, McGill University, Montreal, Quebec, Canada\",\n      \"reasoning\": \"This is the third affiliation listed in the paper, identified by the number '3'.\",\n      \"quote\": \"3 Department of Psychiatry, McGill University, Montreal, Quebec, Canada\"\n    },\n    {\n      \"value\": \"Douglas Mental Health University Institute, Studies on Prevention of Alzheimer's Disease (StoP-AD) Centre, Montreal, Quebec, Canada\",\n      \"reasoning\": \"This is the fourth affiliation listed in the paper, identified by the number '4'.\",\n      \"quote\": \"4 Douglas Mental Health University Institute, Studies on Prevention of Alzheimer's Disease (StoP-AD) Centre, Montreal, Quebec, Canada\"\n    },\n    {\n      \"value\": \"Translational Neuroimaging Laboratory, McGill University Research Centre for Studies in Aging, Alzheimer's Disease Research Unit, Montreal, Canada\",\n      \"reasoning\": \"This is the fifth affiliation listed in the paper, identified by the number '5'.\",\n      \"quote\": \"5 Translational Neuroimaging Laboratory, McGill University Research Centre for Studies in Aging, Alzheimer's Disease Research Unit, Montreal, Canada\"\n    },\n    {\n      \"value\": \"Le Centre Intégré Universitaire de Santé et de Services Sociaux (CIUSSS) de l'Ouest-de-l'Île-de-Montréal, Montréal, Canada\",\n      \"reasoning\": \"This is the sixth affiliation listed in the paper, identified by the number '6'.\",\n      \"quote\": \"6 Le Centre Intégré Universitaire de Santé et de Services Sociaux (CIUSSS) de l'Ouest-de-l'Île-de-Montréal, Montréal, Canada\"\n    },\n    {\n      \"value\": \"Department of Neurology and Neurosurgery, Psychiatry and Pharmacology and Therapeutics, McGill University, Montreal, Canada\",\n      \"reasoning\": \"This is the seventh affiliation listed in the paper, identified by the number '7'.\",\n      \"quote\": \"7 Department of Neurology and Neurosurgery, Psychiatry and Pharmacology and Therapeutics, McGill University, Montreal, Canada\"\n    },\n    {\n      \"value\": \"Département de Pharmacologie et Physiologie & Institut de Génie Biomédical, Faculté de Médecine, Université de Montréal, Montréal, Canada\",\n      \"reasoning\": \"This is the eighth affiliation listed in the paper, identified by the number '8'.\",\n      \"quote\": \"8 Département de Pharmacologie et Physiologie & Institut de Génie Biomédical, Faculté de Médecine, Université de Montréal, Montréal, Canada\"\n    },\n    {\n      \"value\": \"Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal (CRIUGM), Montréal, Canada\",\n      \"reasoning\": \"This is the ninth affiliation listed in the paper, identified by the number '9'.\",\n      \"quote\": \"9 Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal (CRIUGM), Montréal, Canada\"\n    },\n    {\n      \"value\": \"Centre for Studies in the Prevention of Alzheimer's Disease, Douglas Mental Health Institute, McGill University, Montreal, Canada\",\n      \"reasoning\": \"This is the tenth affiliation listed in the paper, identified by the number '10'.\",\n      \"quote\": \"10 Centre for Studies in the Prevention of Alzheimer's Disease, Douglas Mental Health Institute, McGill University, Montreal, Canada\"\n    },\n    {\n      \"value\": \"Neurology and Neurosurgery Department, Montreal Neurological Institute (MNI), Faculty of Medicine, McGill University, Montreal, Canada\",\n      \"reasoning\": \"This is the eleventh affiliation listed in the paper, identified by the number '11'.\",\n      \"quote\": \"11 Neurology and Neurosurgery Department, Montreal Neurological Institute (MNI), Faculty of Medicine, McGill University, Montreal, Canada\"\n    },\n    {\n      \"value\": \"Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada\",\n      \"reasoning\": \"This is the twelfth affiliation listed in the paper, identified by the number '12'.\",\n      \"quote\": \"12 Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada\"\n    },\n    {\n      \"value\": \"Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This is the thirteenth affiliation listed in the paper, identified by the number '13'.\",\n      \"quote\": \"13 Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\"\n    },\n    {\n      \"value\": \"Tommy Fuss Center for Neuropsychiatric Disease Research, Department of Psychiatry, Boston Children's Hospital, Boston, MA, United States of America\",\n      \"reasoning\": \"This is the fourteenth affiliation listed in the paper, identified by the number '14'.\",\n      \"quote\": \"14 Tommy Fuss Center for Neuropsychiatric Disease Research, Department of Psychiatry, Boston Children's Hospital, Boston, MA, United States of America\"\n    },\n    {\n      \"value\": \"Department of Psychiatry, Harvard Medical School, Boston, MA, United States of America\",\n      \"reasoning\": \"This is the fifteenth affiliation listed in the paper, identified by the number '15'.\",\n      \"quote\": \"15 Department of Psychiatry, Harvard Medical School, Boston, MA, United States of America\"\n    },\n    {\n      \"value\": \"School of Computer Science, McGill University, Montreal, Canada\",\n      \"reasoning\": \"This is the sixteenth affiliation listed in the paper, identified by the number '16'.\",\n      \"quote\": \"16 School of Computer Science, McGill University, Montreal, Canada\"\n    },\n    {\n      \"value\": \"Mila-Quebec Artificial Intelligence Institute, Montreal, Canada\",\n      \"reasoning\": \"This is the seventeenth affiliation listed in the paper, identified by the number '17'.\",\n      \"quote\": \"17 Mila-Quebec Artificial Intelligence Institute, Montreal, Canada\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 4575,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 5573,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 5160
+      }
+    ],
+    "thoughts_token_count": 1589,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 11737,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Kimia Shafighi",
+          "reasoning": "The author's name is listed first in the author list, with a superscript '1' and an asterisk indicating the corresponding author.",
+          "quote": "Kimia Shafighi¹*"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed.",
+            "quote": "1 Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Sylvia Villeneuve",
+          "reasoning": "The author's name is listed second in the author list with superscripts '2,3,4'.",
+          "quote": "Sylvia Villeneuve²,³,⁴"
+        },
+        "affiliations": [
+          {
+            "value": "McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed.",
+            "quote": "2 McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada"
+          },
+          {
+            "value": "Department of Psychiatry, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third affiliation listed.",
+            "quote": "3 Department of Psychiatry, McGill University, Montreal, Quebec, Canada"
+          },
+          {
+            "value": "Douglas Mental Health University Institute, Studies on Prevention of Alzheimer's Disease (StoP-AD) Centre, Montreal, Quebec, Canada",
+            "reasoning": "The superscript '4' next to the author's name corresponds to the fourth affiliation listed.",
+            "quote": "4 Douglas Mental Health University Institute, Studies on Prevention of Alzheimer's Disease (StoP-AD) Centre, Montreal, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Pedro Rosa Neto",
+          "reasoning": "The author's name is listed third in the author list with superscripts '4,5,6,7'.",
+          "quote": "Pedro Rosa Neto⁴,⁵,⁶,⁷"
+        },
+        "affiliations": [
+          {
+            "value": "Douglas Mental Health University Institute, Studies on Prevention of Alzheimer's Disease (StoP-AD) Centre, Montreal, Quebec, Canada",
+            "reasoning": "The superscript '4' next to the author's name corresponds to the fourth affiliation listed.",
+            "quote": "4 Douglas Mental Health University Institute, Studies on Prevention of Alzheimer's Disease (StoP-AD) Centre, Montreal, Quebec, Canada"
+          },
+          {
+            "value": "Translational Neuroimaging Laboratory, McGill University Research Centre for Studies in Aging, Alzheimer's Disease Research Unit, Montreal, Canada",
+            "reasoning": "The superscript '5' next to the author's name corresponds to the fifth affiliation listed.",
+            "quote": "5 Translational Neuroimaging Laboratory, McGill University Research Centre for Studies in Aging, Alzheimer's Disease Research Unit, Montreal, Canada"
+          },
+          {
+            "value": "Le Centre Intégré Universitaire de Santé et de Services Sociaux (CIUSSS) de l'Ouest-de-l'Île-de-Montréal, Montréal, Canada",
+            "reasoning": "The superscript '6' next to the author's name corresponds to the sixth affiliation listed.",
+            "quote": "6 Le Centre Intégré Universitaire de Santé et de Services Sociaux (CIUSSS) de l'Ouest-de-l'Île-de-Montréal, Montréal, Canada"
+          },
+          {
+            "value": "Department of Neurology and Neurosurgery, Psychiatry and Pharmacology and Therapeutics, McGill University, Montreal, Canada",
+            "reasoning": "The superscript '7' next to the author's name corresponds to the seventh affiliation listed.",
+            "quote": "7 Department of Neurology and Neurosurgery, Psychiatry and Pharmacology and Therapeutics, McGill University, Montreal, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "AmanPreet Badhwar",
+          "reasoning": "The author's name is listed fourth in the author list with superscripts '8,9'.",
+          "quote": "AmanPreet Badhwar⁸,⁹"
+        },
+        "affiliations": [
+          {
+            "value": "Département de Pharmacologie et Physiologie & Institut de Génie Biomédical, Faculté de Médecine, Université de Montréal, Montréal, Canada",
+            "reasoning": "The superscript '8' next to the author's name corresponds to the eighth affiliation listed.",
+            "quote": "8 Département de Pharmacologie et Physiologie & Institut de Génie Biomédical, Faculté de Médecine, Université de Montréal, Montréal, Canada"
+          },
+          {
+            "value": "Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal (CRIUGM), Montréal, Canada",
+            "reasoning": "The superscript '9' next to the author's name corresponds to the ninth affiliation listed.",
+            "quote": "9 Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal (CRIUGM), Montréal, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Judes Poirier",
+          "reasoning": "The author's name is listed fifth in the author list with superscript '10'.",
+          "quote": "Judes Poirier¹⁰"
+        },
+        "affiliations": [
+          {
+            "value": "Centre for Studies in the Prevention of Alzheimer's Disease, Douglas Mental Health Institute, McGill University, Montreal, Canada",
+            "reasoning": "The superscript '10' next to the author's name corresponds to the tenth affiliation listed.",
+            "quote": "10 Centre for Studies in the Prevention of Alzheimer's Disease, Douglas Mental Health Institute, McGill University, Montreal, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Vaibhav Sharma",
+          "reasoning": "The author's name is listed sixth in the author list with superscript '1'.",
+          "quote": "Vaibhav Sharma¹"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed.",
+            "quote": "1 Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Yasser Iturria Medina",
+          "reasoning": "The author's name is listed seventh in the author list with superscripts '2,11,12'.",
+          "quote": "Yasser Iturria Medina²,¹¹,¹²"
+        },
+        "affiliations": [
+          {
+            "value": "McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed.",
+            "quote": "2 McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada"
+          },
+          {
+            "value": "Neurology and Neurosurgery Department, Montreal Neurological Institute (MNI), Faculty of Medicine, McGill University, Montreal, Canada",
+            "reasoning": "The superscript '11' next to the author's name corresponds to the eleventh affiliation listed.",
+            "quote": "11 Neurology and Neurosurgery Department, Montreal Neurological Institute (MNI), Faculty of Medicine, McGill University, Montreal, Canada"
+          },
+          {
+            "value": "Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada",
+            "reasoning": "The superscript '12' next to the author's name corresponds to the twelfth affiliation listed.",
+            "quote": "12 Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Patricia P. Silveira",
+          "reasoning": "The author's name is listed eighth in the author list with superscripts '3,12'.",
+          "quote": "Patricia P. Silveira³,¹²"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Psychiatry, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third affiliation listed.",
+            "quote": "3 Department of Psychiatry, McGill University, Montreal, Quebec, Canada"
+          },
+          {
+            "value": "Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada",
+            "reasoning": "The superscript '12' next to the author's name corresponds to the twelfth affiliation listed.",
+            "quote": "12 Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Laurette Dube",
+          "reasoning": "The author's name is listed ninth in the author list with superscript '13'.",
+          "quote": "Laurette Dube¹³"
+        },
+        "affiliations": [
+          {
+            "value": "Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada",
+            "reasoning": "The superscript '13' next to the author's name corresponds to the thirteenth affiliation listed.",
+            "quote": "13 Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "David Glahn",
+          "reasoning": "The author's name is listed tenth in the author list with superscripts '14,15'.",
+          "quote": "David Glahn¹⁴,¹⁵"
+        },
+        "affiliations": [
+          {
+            "value": "Tommy Fuss Center for Neuropsychiatric Disease Research, Department of Psychiatry, Boston Children's Hospital, Boston, MA, United States of America",
+            "reasoning": "The superscript '14' next to the author's name corresponds to the fourteenth affiliation listed.",
+            "quote": "14 Tommy Fuss Center for Neuropsychiatric Disease Research, Department of Psychiatry, Boston Children's Hospital, Boston, MA, United States of America"
+          },
+          {
+            "value": "Department of Psychiatry, Harvard Medical School, Boston, MA, United States of America",
+            "reasoning": "The superscript '15' next to the author's name corresponds to the fifteenth affiliation listed.",
+            "quote": "15 Department of Psychiatry, Harvard Medical School, Boston, MA, United States of America"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Danilo Bzdok",
+          "reasoning": "The author's name is listed eleventh in the author list with superscripts '1,2,16,17'.",
+          "quote": "Danilo Bzdok¹,²,¹⁶,¹⁷"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed.",
+            "quote": "1 Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada"
+          },
+          {
+            "value": "McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed.",
+            "quote": "2 McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada"
+          },
+          {
+            "value": "School of Computer Science, McGill University, Montreal, Canada",
+            "reasoning": "The superscript '16' next to the author's name corresponds to the sixteenth affiliation listed.",
+            "quote": "16 School of Computer Science, McGill University, Montreal, Canada"
+          },
+          {
+            "value": "Mila-Quebec Artificial Intelligence Institute, Montreal, Canada",
+            "reasoning": "The superscript '17' next to the author's name corresponds to the seventeenth affiliation listed.",
+            "quote": "17 Mila-Quebec Artificial Intelligence Institute, Montreal, Canada"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada",
+        "reasoning": "This is the first affiliation listed in the paper, identified by the number '1'.",
+        "quote": "1 Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada"
+      },
+      {
+        "value": "McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada",
+        "reasoning": "This is the second affiliation listed in the paper, identified by the number '2'.",
+        "quote": "2 McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada"
+      },
+      {
+        "value": "Department of Psychiatry, McGill University, Montreal, Quebec, Canada",
+        "reasoning": "This is the third affiliation listed in the paper, identified by the number '3'.",
+        "quote": "3 Department of Psychiatry, McGill University, Montreal, Quebec, Canada"
+      },
+      {
+        "value": "Douglas Mental Health University Institute, Studies on Prevention of Alzheimer's Disease (StoP-AD) Centre, Montreal, Quebec, Canada",
+        "reasoning": "This is the fourth affiliation listed in the paper, identified by the number '4'.",
+        "quote": "4 Douglas Mental Health University Institute, Studies on Prevention of Alzheimer's Disease (StoP-AD) Centre, Montreal, Quebec, Canada"
+      },
+      {
+        "value": "Translational Neuroimaging Laboratory, McGill University Research Centre for Studies in Aging, Alzheimer's Disease Research Unit, Montreal, Canada",
+        "reasoning": "This is the fifth affiliation listed in the paper, identified by the number '5'.",
+        "quote": "5 Translational Neuroimaging Laboratory, McGill University Research Centre for Studies in Aging, Alzheimer's Disease Research Unit, Montreal, Canada"
+      },
+      {
+        "value": "Le Centre Intégré Universitaire de Santé et de Services Sociaux (CIUSSS) de l'Ouest-de-l'Île-de-Montréal, Montréal, Canada",
+        "reasoning": "This is the sixth affiliation listed in the paper, identified by the number '6'.",
+        "quote": "6 Le Centre Intégré Universitaire de Santé et de Services Sociaux (CIUSSS) de l'Ouest-de-l'Île-de-Montréal, Montréal, Canada"
+      },
+      {
+        "value": "Department of Neurology and Neurosurgery, Psychiatry and Pharmacology and Therapeutics, McGill University, Montreal, Canada",
+        "reasoning": "This is the seventh affiliation listed in the paper, identified by the number '7'.",
+        "quote": "7 Department of Neurology and Neurosurgery, Psychiatry and Pharmacology and Therapeutics, McGill University, Montreal, Canada"
+      },
+      {
+        "value": "Département de Pharmacologie et Physiologie & Institut de Génie Biomédical, Faculté de Médecine, Université de Montréal, Montréal, Canada",
+        "reasoning": "This is the eighth affiliation listed in the paper, identified by the number '8'.",
+        "quote": "8 Département de Pharmacologie et Physiologie & Institut de Génie Biomédical, Faculté de Médecine, Université de Montréal, Montréal, Canada"
+      },
+      {
+        "value": "Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal (CRIUGM), Montréal, Canada",
+        "reasoning": "This is the ninth affiliation listed in the paper, identified by the number '9'.",
+        "quote": "9 Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal (CRIUGM), Montréal, Canada"
+      },
+      {
+        "value": "Centre for Studies in the Prevention of Alzheimer's Disease, Douglas Mental Health Institute, McGill University, Montreal, Canada",
+        "reasoning": "This is the tenth affiliation listed in the paper, identified by the number '10'.",
+        "quote": "10 Centre for Studies in the Prevention of Alzheimer's Disease, Douglas Mental Health Institute, McGill University, Montreal, Canada"
+      },
+      {
+        "value": "Neurology and Neurosurgery Department, Montreal Neurological Institute (MNI), Faculty of Medicine, McGill University, Montreal, Canada",
+        "reasoning": "This is the eleventh affiliation listed in the paper, identified by the number '11'.",
+        "quote": "11 Neurology and Neurosurgery Department, Montreal Neurological Institute (MNI), Faculty of Medicine, McGill University, Montreal, Canada"
+      },
+      {
+        "value": "Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada",
+        "reasoning": "This is the twelfth affiliation listed in the paper, identified by the number '12'.",
+        "quote": "12 Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada"
+      },
+      {
+        "value": "Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada",
+        "reasoning": "This is the thirteenth affiliation listed in the paper, identified by the number '13'.",
+        "quote": "13 Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada"
+      },
+      {
+        "value": "Tommy Fuss Center for Neuropsychiatric Disease Research, Department of Psychiatry, Boston Children's Hospital, Boston, MA, United States of America",
+        "reasoning": "This is the fourteenth affiliation listed in the paper, identified by the number '14'.",
+        "quote": "14 Tommy Fuss Center for Neuropsychiatric Disease Research, Department of Psychiatry, Boston Children's Hospital, Boston, MA, United States of America"
+      },
+      {
+        "value": "Department of Psychiatry, Harvard Medical School, Boston, MA, United States of America",
+        "reasoning": "This is the fifteenth affiliation listed in the paper, identified by the number '15'.",
+        "quote": "15 Department of Psychiatry, Harvard Medical School, Boston, MA, United States of America"
+      },
+      {
+        "value": "School of Computer Science, McGill University, Montreal, Canada",
+        "reasoning": "This is the sixteenth affiliation listed in the paper, identified by the number '16'.",
+        "quote": "16 School of Computer Science, McGill University, Montreal, Canada"
+      },
+      {
+        "value": "Mila-Quebec Artificial Intelligence Institute, Montreal, Canada",
+        "reasoning": "This is the seventeenth affiliation listed in the paper, identified by the number '17'.",
+        "quote": "17 Mila-Quebec Artificial Intelligence Institute, Montreal, Canada"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

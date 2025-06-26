@@ -1,0 +1,14 @@
+{
+  "usage_info": {
+    "pages_processed": 18,
+    "doc_size_bytes": 1278917
+  },
+  "_metadata": {
+    "model_version": "0.0.0",
+    "llm_model": "mistral-ocr-2505",
+    "query_data": {
+      "pdf": "/Users/satyaortiz-gagne/CODE/paperext/data/cache/fulltext/819f95fbbe4f13b2eea76e6e61cabb0e/fulltext.pdf"
+    },
+    "model_id": "parsepdf"
+  }
+}

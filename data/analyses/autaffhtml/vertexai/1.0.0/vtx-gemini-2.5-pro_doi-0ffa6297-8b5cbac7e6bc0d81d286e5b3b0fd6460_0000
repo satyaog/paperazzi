@@ -1,0 +1,453 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sat, 12 Jul 2025 00:10:45 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=101540",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Fatima Mostefai\",\n        \"reasoning\": \"The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.\",\n        \"quote\": \"{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Fatima Mostefai\\\",\\\"affiliation\\\":[\\\"Research Centre, Montreal Heart Institute, Canada\\\",\\\"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Canada\\\"]}\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Research Centre, Montreal Heart Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>1</sup></span>Research Centre, Montreal Heart Institute, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>2</sup></span>D&#x000E9;partement de Biochimie et M&#x000E9;decine Mol&#x000E9;culaire, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Isabel Gamache\",\n        \"reasoning\": \"The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.\",\n        \"quote\": \"{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Isabel Gamache\\\",\\\"affiliation\\\":[\\\"Research Centre, Montreal Heart Institute, Canada\\\",\\\"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Canada\\\"]}\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Research Centre, Montreal Heart Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>1</sup></span>Research Centre, Montreal Heart Institute, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>2</sup></span>D&#x000E9;partement de Biochimie et M&#x000E9;decine Mol&#x000E9;culaire, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Arnaud N'Guessan\",\n        \"reasoning\": \"The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.\",\n        \"quote\": \"{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Arnaud N'Guessan\\\",\\\"affiliation\\\":[\\\"Research Centre, Montreal Heart Institute, Canada\\\",\\\"Department of Microbiology and Immunology, McGill University, Canada\\\"]}\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Research Centre, Montreal Heart Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>1</sup></span>Research Centre, Montreal Heart Institute, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Department of Microbiology and Immunology, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>3</sup></span>Department of Microbiology and Immunology, McGill University, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Justin Pelletier\",\n        \"reasoning\": \"The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.\",\n        \"quote\": \"{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Justin Pelletier\\\",\\\"affiliation\\\":[\\\"Research Centre, Montreal Heart Institute, Canada\\\",\\\"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Canada\\\"]}\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Research Centre, Montreal Heart Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>1</sup></span>Research Centre, Montreal Heart Institute, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>2</sup></span>D&#x000E9;partement de Biochimie et M&#x000E9;decine Mol&#x000E9;culaire, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jessie Huang\",\n        \"reasoning\": \"The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.\",\n        \"quote\": \"{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Jessie Huang\\\",\\\"affiliation\\\":[\\\"Department of Computer Science, Yale University, United States\\\"]}\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Computer Science, Yale University, New Haven, CT, United States\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and state, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>4</sup></span>Department of Computer Science, Yale University, New Haven, CT, United States</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Carmen Lia Murall\",\n        \"reasoning\": \"The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.\",\n        \"quote\": \"{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Carmen Lia Murall\\\",\\\"affiliation\\\":[\\\"Department of Microbiology and Immunology, McGill University, Canada\\\"]}\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Microbiology and Immunology, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>3</sup></span>Department of Microbiology and Immunology, McGill University, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Ahmad Pesaranghader\",\n        \"reasoning\": \"The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.\",\n        \"quote\": \"{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Ahmad Pesaranghader\\\",\\\"affiliation\\\":[\\\"Mila – Quebec AI institute, Canada\\\"]}\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila – Quebec AI institute, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>5</sup></span>Mila &#x02013; Quebec AI institute, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Vanda Gaonac'h-Lovejoy\",\n        \"reasoning\": \"The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.\",\n        \"quote\": \"{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Vanda Gaonac'h-Lovejoy\\\",\\\"affiliation\\\":[\\\"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Canada\\\",\\\"Research Centre, CHU Sainte-Justine, Canada\\\"]}\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>2</sup></span>D&#x000E9;partement de Biochimie et M&#x000E9;decine Mol&#x000E9;culaire, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Research Centre, CHU Sainte-Justine, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>6</sup></span>Research Centre, CHU Sainte-Justine, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"David J. Hamelin\",\n        \"reasoning\": \"The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.\",\n        \"quote\": \"{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"David J. Hamelin\\\",\\\"affiliation\\\":[\\\"Research Centre, Montreal Heart Institute, Canada\\\",\\\"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Canada\\\",\\\"Research Centre, CHU Sainte-Justine, Canada\\\"]}\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Research Centre, Montreal Heart Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>1</sup></span>Research Centre, Montreal Heart Institute, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>2</sup></span>D&#x000E9;partement de Biochimie et M&#x000E9;decine Mol&#x000E9;culaire, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Research Centre, CHU Sainte-Justine, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>6</sup></span>Research Centre, CHU Sainte-Justine, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Raphaël Poujol\",\n        \"reasoning\": \"The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.\",\n        \"quote\": \"{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Raphaël Poujol\\\",\\\"affiliation\\\":[\\\"Research Centre, Montreal Heart Institute, Canada\\\"]}\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Research Centre, Montreal Heart Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>1</sup></span>Research Centre, Montreal Heart Institute, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jean-Christophe Grenier\",\n        \"reasoning\": \"The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.\",\n        \"quote\": \"{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Jean-Christophe Grenier\\\",\\\"affiliation\\\":[\\\"Research Centre, Montreal Heart Institute, Canada\\\"]}\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Research Centre, Montreal Heart Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>1</sup></span>Research Centre, Montreal Heart Institute, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Martin Smith\",\n        \"reasoning\": \"The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.\",\n        \"quote\": \"{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Martin Smith\\\",\\\"affiliation\\\":[\\\"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Canada\\\",\\\"Research Centre, CHU Sainte-Justine, Canada\\\"]}\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>2</sup></span>D&#x000E9;partement de Biochimie et M&#x000E9;decine Mol&#x000E9;culaire, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Research Centre, CHU Sainte-Justine, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>6</sup></span>Research Centre, CHU Sainte-Justine, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Etienne Caron\",\n        \"reasoning\": \"The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.\",\n        \"quote\": \"{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Etienne Caron\\\",\\\"affiliation\\\":[\\\"Research Centre, CHU Sainte-Justine, Canada\\\",\\\"Département de Pathologie et Biologie Cellulaire, Université de Montréal, Canada\\\"]}\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Research Centre, CHU Sainte-Justine, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>6</sup></span>Research Centre, CHU Sainte-Justine, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Département de Pathologie et Biologie Cellulaire, Université de Montréal, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>7</sup></span>D&#x000E9;partement de Pathologie et Biologie Cellulaire, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Morgan Craig\",\n        \"reasoning\": \"The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.\",\n        \"quote\": \"{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Morgan Craig\\\",\\\"affiliation\\\":[\\\"Research Centre, CHU Sainte-Justine, Canada\\\",\\\"Département de Mathématiques et Statistique, Université de Montréal, Canada\\\"]}\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Research Centre, CHU Sainte-Justine, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>6</sup></span>Research Centre, CHU Sainte-Justine, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Département de Mathématiques et Statistique, Université de Montréal, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>8</sup></span>D&#x000E9;partement de Math&#x000E9;matiques et Statistique, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Guy Wolf\",\n        \"reasoning\": \"The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.\",\n        \"quote\": \"{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Guy Wolf\\\",\\\"affiliation\\\":[\\\"Mila – Quebec AI institute, Canada\\\",\\\"Département de Mathématiques et Statistique, Université de Montréal, Canada\\\"]}\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila – Quebec AI institute, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>5</sup></span>Mila &#x02013; Quebec AI institute, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Département de Mathématiques et Statistique, Université de Montréal, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>8</sup></span>D&#x000E9;partement de Math&#x000E9;matiques et Statistique, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Smita Krishnaswamy\",\n        \"reasoning\": \"The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.\",\n        \"quote\": \"{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Smita Krishnaswamy\\\",\\\"affiliation\\\":[\\\"Department of Computer Science, Yale University, United States\\\",\\\"Department of Genetics, Yale University, United States\\\"]}\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Computer Science, Yale University, New Haven, CT, United States\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and state, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>4</sup></span>Department of Computer Science, Yale University, New Haven, CT, United States</li>\"\n        },\n        {\n          \"value\": \"Department of Genetics, Yale University, New Haven, CT, United States\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and state, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>9</sup></span>Department of Genetics, Yale University, New Haven, CT, United States</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"B. Jesse Shapiro\",\n        \"reasoning\": \"The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.\",\n        \"quote\": \"{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"B. Jesse Shapiro\\\",\\\"affiliation\\\":[\\\"Department of Microbiology and Immunology, McGill University, Canada\\\"]}\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Microbiology and Immunology, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>3</sup></span>Department of Microbiology and Immunology, McGill University, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Julie G. Hussin\",\n        \"reasoning\": \"The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.\",\n        \"quote\": \"{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Julie G. Hussin\\\",\\\"affiliation\\\":[\\\"Research Centre, Montreal Heart Institute, Canada\\\",\\\"Département de Médecine, Université de Montréal, Canada\\\"]}\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Research Centre, Montreal Heart Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>1</sup></span>Research Centre, Montreal Heart Institute, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Département de Médecine, Université de Montréal, Montreal, QC, Canada\",\n          \"reasoning\": \"The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.\",\n          \"quote\": \"<li><span><sup>10</sup></span>D&#x000E9;partement de M&#x000E9;decine, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Research Centre, Montreal Heart Institute, Montreal, QC, Canada\",\n      \"reasoning\": \"The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.\",\n      \"quote\": \"<li><span><sup>1</sup></span>Research Centre, Montreal Heart Institute, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Montreal, QC, Canada\",\n      \"reasoning\": \"The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.\",\n      \"quote\": \"<li><span><sup>2</sup></span>D&#x000E9;partement de Biochimie et M&#x000E9;decine Mol&#x000E9;culaire, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Department of Microbiology and Immunology, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.\",\n      \"quote\": \"<li><span><sup>3</sup></span>Department of Microbiology and Immunology, McGill University, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Department of Computer Science, Yale University, New Haven, CT, United States\",\n      \"reasoning\": \"The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.\",\n      \"quote\": \"<li><span><sup>4</sup></span>Department of Computer Science, Yale University, New Haven, CT, United States</li>\"\n    },\n    {\n      \"value\": \"Mila – Quebec AI institute, Montreal, QC, Canada\",\n      \"reasoning\": \"The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.\",\n      \"quote\": \"<li><span><sup>5</sup></span>Mila &#x02013; Quebec AI institute, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Research Centre, CHU Sainte-Justine, Montreal, QC, Canada\",\n      \"reasoning\": \"The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.\",\n      \"quote\": \"<li><span><sup>6</sup></span>Research Centre, CHU Sainte-Justine, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Département de Pathologie et Biologie Cellulaire, Université de Montréal, Montreal, QC, Canada\",\n      \"reasoning\": \"The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.\",\n      \"quote\": \"<li><span><sup>7</sup></span>D&#x000E9;partement de Pathologie et Biologie Cellulaire, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Département de Mathématiques et Statistique, Université de Montréal, Montreal, QC, Canada\",\n      \"reasoning\": \"The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.\",\n      \"quote\": \"<li><span><sup>8</sup></span>D&#x000E9;partement de Math&#x000E9;matiques et Statistique, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Department of Genetics, Yale University, New Haven, CT, United States\",\n      \"reasoning\": \"The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.\",\n      \"quote\": \"<li><span><sup>9</sup></span>Department of Genetics, Yale University, New Haven, CT, United States</li>\"\n    },\n    {\n      \"value\": \"Département de Médecine, Université de Montréal, Montreal, QC, Canada\",\n      \"reasoning\": \"The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.\",\n      \"quote\": \"<li><span><sup>10</sup></span>D&#x000E9;partement de M&#x000E9;decine, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 7366,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 216674,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 216674
+      }
+    ],
+    "thoughts_token_count": 4440,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 228480,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Fatima Mostefai",
+          "reasoning": "The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.",
+          "quote": "{\"@type\":\"Person\",\"name\":\"Fatima Mostefai\",\"affiliation\":[\"Research Centre, Montreal Heart Institute, Canada\",\"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Canada\"]}"
+        },
+        "affiliations": [
+          {
+            "value": "Research Centre, Montreal Heart Institute, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>1</sup></span>Research Centre, Montreal Heart Institute, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Département de Biochimie et Médecine Moléculaire, Université de Montréal, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>2</sup></span>D&#x000E9;partement de Biochimie et M&#x000E9;decine Mol&#x000E9;culaire, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Isabel Gamache",
+          "reasoning": "The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.",
+          "quote": "{\"@type\":\"Person\",\"name\":\"Isabel Gamache\",\"affiliation\":[\"Research Centre, Montreal Heart Institute, Canada\",\"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Canada\"]}"
+        },
+        "affiliations": [
+          {
+            "value": "Research Centre, Montreal Heart Institute, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>1</sup></span>Research Centre, Montreal Heart Institute, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Département de Biochimie et Médecine Moléculaire, Université de Montréal, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>2</sup></span>D&#x000E9;partement de Biochimie et M&#x000E9;decine Mol&#x000E9;culaire, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Arnaud N'Guessan",
+          "reasoning": "The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.",
+          "quote": "{\"@type\":\"Person\",\"name\":\"Arnaud N'Guessan\",\"affiliation\":[\"Research Centre, Montreal Heart Institute, Canada\",\"Department of Microbiology and Immunology, McGill University, Canada\"]}"
+        },
+        "affiliations": [
+          {
+            "value": "Research Centre, Montreal Heart Institute, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>1</sup></span>Research Centre, Montreal Heart Institute, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Department of Microbiology and Immunology, McGill University, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>3</sup></span>Department of Microbiology and Immunology, McGill University, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Justin Pelletier",
+          "reasoning": "The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.",
+          "quote": "{\"@type\":\"Person\",\"name\":\"Justin Pelletier\",\"affiliation\":[\"Research Centre, Montreal Heart Institute, Canada\",\"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Canada\"]}"
+        },
+        "affiliations": [
+          {
+            "value": "Research Centre, Montreal Heart Institute, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>1</sup></span>Research Centre, Montreal Heart Institute, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Département de Biochimie et Médecine Moléculaire, Université de Montréal, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>2</sup></span>D&#x000E9;partement de Biochimie et M&#x000E9;decine Mol&#x000E9;culaire, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jessie Huang",
+          "reasoning": "The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.",
+          "quote": "{\"@type\":\"Person\",\"name\":\"Jessie Huang\",\"affiliation\":[\"Department of Computer Science, Yale University, United States\"]}"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Computer Science, Yale University, New Haven, CT, United States",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and state, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>4</sup></span>Department of Computer Science, Yale University, New Haven, CT, United States</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Carmen Lia Murall",
+          "reasoning": "The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.",
+          "quote": "{\"@type\":\"Person\",\"name\":\"Carmen Lia Murall\",\"affiliation\":[\"Department of Microbiology and Immunology, McGill University, Canada\"]}"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Microbiology and Immunology, McGill University, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>3</sup></span>Department of Microbiology and Immunology, McGill University, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Ahmad Pesaranghader",
+          "reasoning": "The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.",
+          "quote": "{\"@type\":\"Person\",\"name\":\"Ahmad Pesaranghader\",\"affiliation\":[\"Mila – Quebec AI institute, Canada\"]}"
+        },
+        "affiliations": [
+          {
+            "value": "Mila – Quebec AI institute, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>5</sup></span>Mila &#x02013; Quebec AI institute, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Vanda Gaonac'h-Lovejoy",
+          "reasoning": "The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.",
+          "quote": "{\"@type\":\"Person\",\"name\":\"Vanda Gaonac'h-Lovejoy\",\"affiliation\":[\"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Canada\",\"Research Centre, CHU Sainte-Justine, Canada\"]}"
+        },
+        "affiliations": [
+          {
+            "value": "Département de Biochimie et Médecine Moléculaire, Université de Montréal, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>2</sup></span>D&#x000E9;partement de Biochimie et M&#x000E9;decine Mol&#x000E9;culaire, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Research Centre, CHU Sainte-Justine, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>6</sup></span>Research Centre, CHU Sainte-Justine, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "David J. Hamelin",
+          "reasoning": "The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.",
+          "quote": "{\"@type\":\"Person\",\"name\":\"David J. Hamelin\",\"affiliation\":[\"Research Centre, Montreal Heart Institute, Canada\",\"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Canada\",\"Research Centre, CHU Sainte-Justine, Canada\"]}"
+        },
+        "affiliations": [
+          {
+            "value": "Research Centre, Montreal Heart Institute, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>1</sup></span>Research Centre, Montreal Heart Institute, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Département de Biochimie et Médecine Moléculaire, Université de Montréal, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>2</sup></span>D&#x000E9;partement de Biochimie et M&#x000E9;decine Mol&#x000E9;culaire, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Research Centre, CHU Sainte-Justine, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>6</sup></span>Research Centre, CHU Sainte-Justine, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Raphaël Poujol",
+          "reasoning": "The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.",
+          "quote": "{\"@type\":\"Person\",\"name\":\"Raphaël Poujol\",\"affiliation\":[\"Research Centre, Montreal Heart Institute, Canada\"]}"
+        },
+        "affiliations": [
+          {
+            "value": "Research Centre, Montreal Heart Institute, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>1</sup></span>Research Centre, Montreal Heart Institute, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jean-Christophe Grenier",
+          "reasoning": "The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.",
+          "quote": "{\"@type\":\"Person\",\"name\":\"Jean-Christophe Grenier\",\"affiliation\":[\"Research Centre, Montreal Heart Institute, Canada\"]}"
+        },
+        "affiliations": [
+          {
+            "value": "Research Centre, Montreal Heart Institute, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>1</sup></span>Research Centre, Montreal Heart Institute, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Martin Smith",
+          "reasoning": "The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.",
+          "quote": "{\"@type\":\"Person\",\"name\":\"Martin Smith\",\"affiliation\":[\"Département de Biochimie et Médecine Moléculaire, Université de Montréal, Canada\",\"Research Centre, CHU Sainte-Justine, Canada\"]}"
+        },
+        "affiliations": [
+          {
+            "value": "Département de Biochimie et Médecine Moléculaire, Université de Montréal, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>2</sup></span>D&#x000E9;partement de Biochimie et M&#x000E9;decine Mol&#x000E9;culaire, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Research Centre, CHU Sainte-Justine, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>6</sup></span>Research Centre, CHU Sainte-Justine, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Etienne Caron",
+          "reasoning": "The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.",
+          "quote": "{\"@type\":\"Person\",\"name\":\"Etienne Caron\",\"affiliation\":[\"Research Centre, CHU Sainte-Justine, Canada\",\"Département de Pathologie et Biologie Cellulaire, Université de Montréal, Canada\"]}"
+        },
+        "affiliations": [
+          {
+            "value": "Research Centre, CHU Sainte-Justine, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>6</sup></span>Research Centre, CHU Sainte-Justine, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Département de Pathologie et Biologie Cellulaire, Université de Montréal, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>7</sup></span>D&#x000E9;partement de Pathologie et Biologie Cellulaire, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Morgan Craig",
+          "reasoning": "The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.",
+          "quote": "{\"@type\":\"Person\",\"name\":\"Morgan Craig\",\"affiliation\":[\"Research Centre, CHU Sainte-Justine, Canada\",\"Département de Mathématiques et Statistique, Université de Montréal, Canada\"]}"
+        },
+        "affiliations": [
+          {
+            "value": "Research Centre, CHU Sainte-Justine, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>6</sup></span>Research Centre, CHU Sainte-Justine, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Département de Mathématiques et Statistique, Université de Montréal, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>8</sup></span>D&#x000E9;partement de Math&#x000E9;matiques et Statistique, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Guy Wolf",
+          "reasoning": "The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.",
+          "quote": "{\"@type\":\"Person\",\"name\":\"Guy Wolf\",\"affiliation\":[\"Mila – Quebec AI institute, Canada\",\"Département de Mathématiques et Statistique, Université de Montréal, Canada\"]}"
+        },
+        "affiliations": [
+          {
+            "value": "Mila – Quebec AI institute, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>5</sup></span>Mila &#x02013; Quebec AI institute, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Département de Mathématiques et Statistique, Université de Montréal, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>8</sup></span>D&#x000E9;partement de Math&#x000E9;matiques et Statistique, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Smita Krishnaswamy",
+          "reasoning": "The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.",
+          "quote": "{\"@type\":\"Person\",\"name\":\"Smita Krishnaswamy\",\"affiliation\":[\"Department of Computer Science, Yale University, United States\",\"Department of Genetics, Yale University, United States\"]}"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Computer Science, Yale University, New Haven, CT, United States",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and state, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>4</sup></span>Department of Computer Science, Yale University, New Haven, CT, United States</li>"
+          },
+          {
+            "value": "Department of Genetics, Yale University, New Haven, CT, United States",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and state, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>9</sup></span>Department of Genetics, Yale University, New Haven, CT, United States</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "B. Jesse Shapiro",
+          "reasoning": "The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.",
+          "quote": "{\"@type\":\"Person\",\"name\":\"B. Jesse Shapiro\",\"affiliation\":[\"Department of Microbiology and Immunology, McGill University, Canada\"]}"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Microbiology and Immunology, McGill University, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>3</sup></span>Department of Microbiology and Immunology, McGill University, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Julie G. Hussin",
+          "reasoning": "The author's name is explicitly listed in a structured JSON-LD block within a script tag. This source is reliable as it is designed for machine readability.",
+          "quote": "{\"@type\":\"Person\",\"name\":\"Julie G. Hussin\",\"affiliation\":[\"Research Centre, Montreal Heart Institute, Canada\",\"Département de Médecine, Université de Montréal, Canada\"]}"
+        },
+        "affiliations": [
+          {
+            "value": "Research Centre, Montreal Heart Institute, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>1</sup></span>Research Centre, Montreal Heart Institute, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Département de Médecine, Université de Montréal, Montreal, QC, Canada",
+            "reasoning": "The affiliation is listed in the `affiliation` array for this author within the JSON-LD block. A more complete version of the affiliation string, including city and province, is found in the numbered list of affiliations in the main text, linked by a superscript.",
+            "quote": "<li><span><sup>10</sup></span>D&#x000E9;partement de M&#x000E9;decine, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Research Centre, Montreal Heart Institute, Montreal, QC, Canada",
+        "reasoning": "The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.",
+        "quote": "<li><span><sup>1</sup></span>Research Centre, Montreal Heart Institute, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Département de Biochimie et Médecine Moléculaire, Université de Montréal, Montreal, QC, Canada",
+        "reasoning": "The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.",
+        "quote": "<li><span><sup>2</sup></span>D&#x000E9;partement de Biochimie et M&#x000E9;decine Mol&#x000E9;culaire, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Department of Microbiology and Immunology, McGill University, Montreal, QC, Canada",
+        "reasoning": "The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.",
+        "quote": "<li><span><sup>3</sup></span>Department of Microbiology and Immunology, McGill University, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Department of Computer Science, Yale University, New Haven, CT, United States",
+        "reasoning": "The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.",
+        "quote": "<li><span><sup>4</sup></span>Department of Computer Science, Yale University, New Haven, CT, United States</li>"
+      },
+      {
+        "value": "Mila – Quebec AI institute, Montreal, QC, Canada",
+        "reasoning": "The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.",
+        "quote": "<li><span><sup>5</sup></span>Mila &#x02013; Quebec AI institute, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Research Centre, CHU Sainte-Justine, Montreal, QC, Canada",
+        "reasoning": "The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.",
+        "quote": "<li><span><sup>6</sup></span>Research Centre, CHU Sainte-Justine, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Département de Pathologie et Biologie Cellulaire, Université de Montréal, Montreal, QC, Canada",
+        "reasoning": "The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.",
+        "quote": "<li><span><sup>7</sup></span>D&#x000E9;partement de Pathologie et Biologie Cellulaire, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Département de Mathématiques et Statistique, Université de Montréal, Montreal, QC, Canada",
+        "reasoning": "The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.",
+        "quote": "<li><span><sup>8</sup></span>D&#x000E9;partement de Math&#x000E9;matiques et Statistique, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Department of Genetics, Yale University, New Haven, CT, United States",
+        "reasoning": "The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.",
+        "quote": "<li><span><sup>9</sup></span>Department of Genetics, Yale University, New Haven, CT, United States</li>"
+      },
+      {
+        "value": "Département de Médecine, Université de Montréal, Montreal, QC, Canada",
+        "reasoning": "The affiliation is explicitly listed in a numbered list within a `ul` tag with class `notes`. This list provides the most detailed information for each affiliation.",
+        "quote": "<li><span><sup>10</sup></span>D&#x000E9;partement de M&#x000E9;decine, Universit&#x000E9; de Montr&#x000E9;al, Montreal, QC, Canada</li>"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.3389/fmed.2022.826746"
+    }
+  }
+}

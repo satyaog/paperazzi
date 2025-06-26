@@ -1,0 +1,168 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:24:18 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=34961",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Junhyung Lyle Kim\",\n        \"reasoning\": \"The name is explicitly listed as the first author of the paper. The asterisk indicates a footnote, not part of the name itself.\",\n        \"quote\": \"Junhyung Lyle Kim*\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Rice University, Department of Computer Science\",\n          \"reasoning\": \"This affiliation is listed directly below the author's name.\",\n          \"quote\": \"Rice University, Department of Computer Science\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Gauthier Gidel\",\n        \"reasoning\": \"The name is explicitly listed as the second author of the paper.\",\n        \"quote\": \"Gauthier Gidel\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Université de Montréal, Department of Computer Science and Operations Research\",\n          \"reasoning\": \"This affiliation is the first of two listed directly below the author's name.\",\n          \"quote\": \"Université de Montréal, Department of Computer Science and Operations Research\"\n        },\n        {\n          \"value\": \"Mila Quebec AI Institute, Canada CIFAR AI Chair\",\n          \"reasoning\": \"This affiliation is the second of two listed directly below the author's name.\",\n          \"quote\": \"Mila Quebec AI Institute, Canada CIFAR AI Chair\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Anastasios Kyrillidis\",\n        \"reasoning\": \"The name is explicitly listed as the third author of the paper.\",\n        \"quote\": \"Anastasios Kyrillidis\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Rice University, Department of Computer Science\",\n          \"reasoning\": \"This affiliation is listed directly below the author's name.\",\n          \"quote\": \"Rice University, Department of Computer Science\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Fabian Pedregosa\",\n        \"reasoning\": \"The name is explicitly listed as the fourth author of the paper.\",\n        \"quote\": \"Fabian Pedregosa\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind\",\n          \"reasoning\": \"This affiliation is listed directly below the author's name.\",\n          \"quote\": \"Google DeepMind\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Rice University, Department of Computer Science\",\n      \"reasoning\": \"This affiliation is listed for authors Junhyung Lyle Kim and Anastasios Kyrillidis.\",\n      \"quote\": \"Rice University, Department of Computer Science\"\n    },\n    {\n      \"value\": \"Université de Montréal, Department of Computer Science and Operations Research\",\n      \"reasoning\": \"This affiliation is listed for author Gauthier Gidel.\",\n      \"quote\": \"Université de Montréal, Department of Computer Science and Operations Research\"\n    },\n    {\n      \"value\": \"Mila Quebec AI Institute, Canada CIFAR AI Chair\",\n      \"reasoning\": \"This affiliation is listed for author Gauthier Gidel.\",\n      \"quote\": \"Mila Quebec AI Institute, Canada CIFAR AI Chair\"\n    },\n    {\n      \"value\": \"Google DeepMind\",\n      \"reasoning\": \"This affiliation is listed for author Fabian Pedregosa.\",\n      \"quote\": \"Google DeepMind\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 816,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 8153,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 7740
+      }
+    ],
+    "thoughts_token_count": 1394,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 10363,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Junhyung Lyle Kim",
+          "reasoning": "The name is explicitly listed as the first author of the paper. The asterisk indicates a footnote, not part of the name itself.",
+          "quote": "Junhyung Lyle Kim*"
+        },
+        "affiliations": [
+          {
+            "value": "Rice University, Department of Computer Science",
+            "reasoning": "This affiliation is listed directly below the author's name.",
+            "quote": "Rice University, Department of Computer Science"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Gauthier Gidel",
+          "reasoning": "The name is explicitly listed as the second author of the paper.",
+          "quote": "Gauthier Gidel"
+        },
+        "affiliations": [
+          {
+            "value": "Université de Montréal, Department of Computer Science and Operations Research",
+            "reasoning": "This affiliation is the first of two listed directly below the author's name.",
+            "quote": "Université de Montréal, Department of Computer Science and Operations Research"
+          },
+          {
+            "value": "Mila Quebec AI Institute, Canada CIFAR AI Chair",
+            "reasoning": "This affiliation is the second of two listed directly below the author's name.",
+            "quote": "Mila Quebec AI Institute, Canada CIFAR AI Chair"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Anastasios Kyrillidis",
+          "reasoning": "The name is explicitly listed as the third author of the paper.",
+          "quote": "Anastasios Kyrillidis"
+        },
+        "affiliations": [
+          {
+            "value": "Rice University, Department of Computer Science",
+            "reasoning": "This affiliation is listed directly below the author's name.",
+            "quote": "Rice University, Department of Computer Science"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Fabian Pedregosa",
+          "reasoning": "The name is explicitly listed as the fourth author of the paper.",
+          "quote": "Fabian Pedregosa"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind",
+            "reasoning": "This affiliation is listed directly below the author's name.",
+            "quote": "Google DeepMind"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Rice University, Department of Computer Science",
+        "reasoning": "This affiliation is listed for authors Junhyung Lyle Kim and Anastasios Kyrillidis.",
+        "quote": "Rice University, Department of Computer Science"
+      },
+      {
+        "value": "Université de Montréal, Department of Computer Science and Operations Research",
+        "reasoning": "This affiliation is listed for author Gauthier Gidel.",
+        "quote": "Université de Montréal, Department of Computer Science and Operations Research"
+      },
+      {
+        "value": "Mila Quebec AI Institute, Canada CIFAR AI Chair",
+        "reasoning": "This affiliation is listed for author Gauthier Gidel.",
+        "quote": "Mila Quebec AI Institute, Canada CIFAR AI Chair"
+      },
+      {
+        "value": "Google DeepMind",
+        "reasoning": "This affiliation is listed for author Fabian Pedregosa.",
+        "quote": "Google DeepMind"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

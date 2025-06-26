@@ -1,0 +1,333 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sat, 12 Jul 2025 03:24:16 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=62113",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Maria Virginia Ruiz Cuevas\",\n        \"reasoning\": \"The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-0' container, which corresponds to the first author listed in the paper.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Maria Virginia Ruiz Cuevas </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This affiliation is listed first for the author within the 'author-tooltip-0' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Department of Biochemistry and Molecular Medicine, Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This affiliation is listed second for the author within the 'author-tooltip-0' container and is marked with a superscript '2'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Department of Biochemistry and Molecular Medicine, Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Marie-Pierre Hardy\",\n        \"reasoning\": \"The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-1' container, which corresponds to the second author listed in the paper.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Marie-Pierre Hardy </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This is the sole affiliation listed for the author within the 'author-tooltip-1' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jean-David Larouche\",\n        \"reasoning\": \"The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-2' container, which corresponds to the third author listed in the paper.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Jean-David Larouche </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This affiliation is listed first for the author within the 'author-tooltip-2' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Department of Medicine, Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This affiliation is listed second for the author within the 'author-tooltip-2' container and is marked with a superscript '3'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Department of Medicine, Université de Montréal, Montreal</span>, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Anca Apavaloaei\",\n        \"reasoning\": \"The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-3' container, which corresponds to the fourth author listed in the paper.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Anca Apavaloaei </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This affiliation is listed first for the author within the 'author-tooltip-3' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Department of Medicine, Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This affiliation is listed second for the author within the 'author-tooltip-3' container and is marked with a superscript '3'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Department of Medicine, Université de Montréal, Montreal</span>, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Eralda Kina\",\n        \"reasoning\": \"The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-4' container, which corresponds to the fifth author listed in the paper.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Eralda Kina </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This affiliation is listed first for the author within the 'author-tooltip-4' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Department of Medicine, Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This affiliation is listed second for the author within the 'author-tooltip-4' container and is marked with a superscript '3'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Department of Medicine, Université de Montréal, Montreal</span>, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Krystel Vincent\",\n        \"reasoning\": \"The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-5' container, which corresponds to the sixth author listed in the paper.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Krystel Vincent </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This is the sole affiliation listed for the author within the 'author-tooltip-5' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Patrick Gendron\",\n        \"reasoning\": \"The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-6' container, which corresponds to the seventh author listed in the paper.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Patrick Gendron </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This is the sole affiliation listed for the author within the 'author-tooltip-6' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jean-Philippe Laverdure\",\n        \"reasoning\": \"The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-7' container, which corresponds to the eighth author listed in the paper.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Jean-Philippe Laverdure </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This is the sole affiliation listed for the author within the 'author-tooltip-7' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Chantal Durette\",\n        \"reasoning\": \"The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-8' container, which corresponds to the ninth author listed in the paper.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Chantal Durette </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This is the sole affiliation listed for the author within the 'author-tooltip-8' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Pierre Thibault\",\n        \"reasoning\": \"The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-9' container, which corresponds to the tenth author listed in the paper.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Pierre Thibault </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This affiliation is listed first for the author within the 'author-tooltip-9' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Department of Chemistry, Université de Montréal, Montreal, QC H3C 3J7, Canada\",\n          \"reasoning\": \"This affiliation is listed second for the author within the 'author-tooltip-9' container and is marked with a superscript '4'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>4</span><span class='nlm-institution'>Department of Chemistry, Université de Montréal</span>, Montreal, QC H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Sébastien Lemieux\",\n        \"reasoning\": \"The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-10' container, which corresponds to the eleventh author listed in the paper.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Sébastien Lemieux </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This affiliation is listed first for the author within the 'author-tooltip-10' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Department of Biochemistry and Molecular Medicine, Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This affiliation is listed second for the author within the 'author-tooltip-10' container and is marked with a superscript '2'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Department of Biochemistry and Molecular Medicine, Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Claude Perreault\",\n        \"reasoning\": \"The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-11' container, which corresponds to the twelfth author listed in the paper.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Claude Perreault </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This affiliation is listed first for the author within the 'author-tooltip-11' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Department of Medicine, Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This affiliation is listed second for the author within the 'author-tooltip-11' container and is marked with a superscript '3'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Department of Medicine, Université de Montréal, Montreal</span>, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Grégory Ehx\",\n        \"reasoning\": \"The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-12' container, which corresponds to the thirteenth and final author listed in the paper.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Grégory Ehx </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n          \"reasoning\": \"This affiliation is listed first for the author within the 'author-tooltip-12' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Laboratory of Hematology, GIGA-I3, University of Liege and CHU of Liege, Liege, Belgium\",\n          \"reasoning\": \"This affiliation is listed second for the author within the 'author-tooltip-12' container and is marked with a superscript '5'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>5</span><span class='nlm-institution'>Laboratory of Hematology, GIGA-I3, University of Liege and CHU of Liege</span>, Liege, <span class='nlm-country'>Belgium</span></div>\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n      \"reasoning\": \"This affiliation is associated with multiple authors and is identified by the superscript '1' in the author tooltips. The full text is consistently provided across all associated authors.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n    },\n    {\n      \"value\": \"Department of Biochemistry and Molecular Medicine, Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n      \"reasoning\": \"This affiliation is associated with multiple authors and is identified by the superscript '2' in the author tooltips. The full text is consistently provided for the relevant authors.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Department of Biochemistry and Molecular Medicine, Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n    },\n    {\n      \"value\": \"Department of Medicine, Université de Montréal, Montreal, Quebec H3C 3J7, Canada\",\n      \"reasoning\": \"This affiliation is associated with multiple authors and is identified by the superscript '3' in the author tooltips. The full text is consistently provided for the relevant authors.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Department of Medicine, Université de Montréal, Montreal</span>, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n    },\n    {\n      \"value\": \"Department of Chemistry, Université de Montréal, Montreal, QC H3C 3J7, Canada\",\n      \"reasoning\": \"This affiliation is associated with author Pierre Thibault and is identified by the superscript '4' in the author tooltip.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>4</span><span class='nlm-institution'>Department of Chemistry, Université de Montréal</span>, Montreal, QC H3C 3J7, <span class='nlm-country'>Canada</span></div>\"\n    },\n    {\n      \"value\": \"Laboratory of Hematology, GIGA-I3, University of Liege and CHU of Liege, Liege, Belgium\",\n      \"reasoning\": \"This affiliation is associated with author Grégory Ehx and is identified by the superscript '5' in the author tooltip.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>5</span><span class='nlm-institution'>Laboratory of Hematology, GIGA-I3, University of Liege and CHU of Liege</span>, Liege, <span class='nlm-country'>Belgium</span></div>\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 5408,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 45093,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 45093
+      }
+    ],
+    "thoughts_token_count": 2290,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 52791,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Maria Virginia Ruiz Cuevas",
+          "reasoning": "The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-0' container, which corresponds to the first author listed in the paper.",
+          "quote": "<div class=\"author-tooltip-name\">Maria Virginia Ruiz Cuevas </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This affiliation is listed first for the author within the 'author-tooltip-0' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Department of Biochemistry and Molecular Medicine, Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This affiliation is listed second for the author within the 'author-tooltip-0' container and is marked with a superscript '2'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Department of Biochemistry and Molecular Medicine, Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Marie-Pierre Hardy",
+          "reasoning": "The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-1' container, which corresponds to the second author listed in the paper.",
+          "quote": "<div class=\"author-tooltip-name\">Marie-Pierre Hardy </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This is the sole affiliation listed for the author within the 'author-tooltip-1' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jean-David Larouche",
+          "reasoning": "The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-2' container, which corresponds to the third author listed in the paper.",
+          "quote": "<div class=\"author-tooltip-name\">Jean-David Larouche </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This affiliation is listed first for the author within the 'author-tooltip-2' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Department of Medicine, Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This affiliation is listed second for the author within the 'author-tooltip-2' container and is marked with a superscript '3'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Department of Medicine, Université de Montréal, Montreal</span>, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Anca Apavaloaei",
+          "reasoning": "The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-3' container, which corresponds to the fourth author listed in the paper.",
+          "quote": "<div class=\"author-tooltip-name\">Anca Apavaloaei </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This affiliation is listed first for the author within the 'author-tooltip-3' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Department of Medicine, Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This affiliation is listed second for the author within the 'author-tooltip-3' container and is marked with a superscript '3'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Department of Medicine, Université de Montréal, Montreal</span>, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Eralda Kina",
+          "reasoning": "The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-4' container, which corresponds to the fifth author listed in the paper.",
+          "quote": "<div class=\"author-tooltip-name\">Eralda Kina </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This affiliation is listed first for the author within the 'author-tooltip-4' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Department of Medicine, Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This affiliation is listed second for the author within the 'author-tooltip-4' container and is marked with a superscript '3'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Department of Medicine, Université de Montréal, Montreal</span>, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Krystel Vincent",
+          "reasoning": "The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-5' container, which corresponds to the sixth author listed in the paper.",
+          "quote": "<div class=\"author-tooltip-name\">Krystel Vincent </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This is the sole affiliation listed for the author within the 'author-tooltip-5' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Patrick Gendron",
+          "reasoning": "The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-6' container, which corresponds to the seventh author listed in the paper.",
+          "quote": "<div class=\"author-tooltip-name\">Patrick Gendron </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This is the sole affiliation listed for the author within the 'author-tooltip-6' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jean-Philippe Laverdure",
+          "reasoning": "The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-7' container, which corresponds to the eighth author listed in the paper.",
+          "quote": "<div class=\"author-tooltip-name\">Jean-Philippe Laverdure </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This is the sole affiliation listed for the author within the 'author-tooltip-7' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Chantal Durette",
+          "reasoning": "The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-8' container, which corresponds to the ninth author listed in the paper.",
+          "quote": "<div class=\"author-tooltip-name\">Chantal Durette </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This is the sole affiliation listed for the author within the 'author-tooltip-8' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Pierre Thibault",
+          "reasoning": "The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-9' container, which corresponds to the tenth author listed in the paper.",
+          "quote": "<div class=\"author-tooltip-name\">Pierre Thibault </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This affiliation is listed first for the author within the 'author-tooltip-9' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Department of Chemistry, Université de Montréal, Montreal, QC H3C 3J7, Canada",
+            "reasoning": "This affiliation is listed second for the author within the 'author-tooltip-9' container and is marked with a superscript '4'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>4</span><span class='nlm-institution'>Department of Chemistry, Université de Montréal</span>, Montreal, QC H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Sébastien Lemieux",
+          "reasoning": "The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-10' container, which corresponds to the eleventh author listed in the paper.",
+          "quote": "<div class=\"author-tooltip-name\">Sébastien Lemieux </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This affiliation is listed first for the author within the 'author-tooltip-10' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Department of Biochemistry and Molecular Medicine, Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This affiliation is listed second for the author within the 'author-tooltip-10' container and is marked with a superscript '2'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Department of Biochemistry and Molecular Medicine, Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Claude Perreault",
+          "reasoning": "The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-11' container, which corresponds to the twelfth author listed in the paper.",
+          "quote": "<div class=\"author-tooltip-name\">Claude Perreault </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This affiliation is listed first for the author within the 'author-tooltip-11' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Department of Medicine, Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This affiliation is listed second for the author within the 'author-tooltip-11' container and is marked with a superscript '3'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Department of Medicine, Université de Montréal, Montreal</span>, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Grégory Ehx",
+          "reasoning": "The author's full name is extracted from the 'author-tooltip-name' div within the 'author-tooltip-12' container, which corresponds to the thirteenth and final author listed in the paper.",
+          "quote": "<div class=\"author-tooltip-name\">Grégory Ehx </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+            "reasoning": "This affiliation is listed first for the author within the 'author-tooltip-12' container and is marked with a superscript '1'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Laboratory of Hematology, GIGA-I3, University of Liege and CHU of Liege, Liege, Belgium",
+            "reasoning": "This affiliation is listed second for the author within the 'author-tooltip-12' container and is marked with a superscript '5'. The full text of the affiliation is extracted from the corresponding 'author-affiliation' div.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>5</span><span class='nlm-institution'>Laboratory of Hematology, GIGA-I3, University of Liege and CHU of Liege</span>, Liege, <span class='nlm-country'>Belgium</span></div>"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Institute for Research in Immunology and Cancer (IRIC), Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+        "reasoning": "This affiliation is associated with multiple authors and is identified by the superscript '1' in the author tooltips. The full text is consistently provided across all associated authors.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Institute for Research in Immunology and Cancer (IRIC), Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+      },
+      {
+        "value": "Department of Biochemistry and Molecular Medicine, Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+        "reasoning": "This affiliation is associated with multiple authors and is identified by the superscript '2' in the author tooltips. The full text is consistently provided for the relevant authors.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Department of Biochemistry and Molecular Medicine, Université de Montréal</span>, Montreal, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+      },
+      {
+        "value": "Department of Medicine, Université de Montréal, Montreal, Quebec H3C 3J7, Canada",
+        "reasoning": "This affiliation is associated with multiple authors and is identified by the superscript '3' in the author tooltips. The full text is consistently provided for the relevant authors.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Department of Medicine, Université de Montréal, Montreal</span>, Quebec H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+      },
+      {
+        "value": "Department of Chemistry, Université de Montréal, Montreal, QC H3C 3J7, Canada",
+        "reasoning": "This affiliation is associated with author Pierre Thibault and is identified by the superscript '4' in the author tooltip.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>4</span><span class='nlm-institution'>Department of Chemistry, Université de Montréal</span>, Montreal, QC H3C 3J7, <span class='nlm-country'>Canada</span></div>"
+      },
+      {
+        "value": "Laboratory of Hematology, GIGA-I3, University of Liege and CHU of Liege, Liege, Belgium",
+        "reasoning": "This affiliation is associated with author Grégory Ehx and is identified by the superscript '5' in the author tooltip.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>5</span><span class='nlm-institution'>Laboratory of Hematology, GIGA-I3, University of Liege and CHU of Liege</span>, Liege, <span class='nlm-country'>Belgium</span></div>"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.1101/2022.10.07.510944"
+    }
+  }
+}

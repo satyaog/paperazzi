@@ -1,0 +1,263 @@
+{
+  "id": "resp_687147782ef0819e890df34ebe7847140198025c2342f407",
+  "created_at": 1752254328.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4o-2024-08-06",
+  "object": "response",
+  "output": [
+    {
+      "id": "msg_6871477feea0819e831124cb49e0daf90198025c2342f407",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"authors_affiliations\":[{\"author\":{\"value\":\"Jesia Yuki\",\"reasoning\":\"Jesia Yuki is one of the authors listed in the HTML content under the authors section. The superscript number '1' following the name corresponds to an affiliation listed with the same superscript.\",\"quote\":\"Authors: [...] Jesia Yuki<sup>1</sup>; [...]\"},\"affiliations\":[{\"value\":\"School of Information Studies, McGill University, Montreal, QC, Canada\",\"reasoning\":\"The affiliation is marked with superscript '1', corresponding to Jesia Yuki's superscript in the author list, indicating this affiliation is related to Jesia Yuki.\",\"quote\":\"Affiliations: <sup>1</sup> School of Information Studies, McGill University, Montreal, QC, Canada\"}]},{\"author\":{\"value\":\"Mohammadhossein Amouei\",\"reasoning\":\"Mohammadhossein Amouei is listed as an author in the HTML, with a superscript number '1' indicating their affiliation.\",\"quote\":\"Authors: [...] Mohammadhossein Amouei<sup>1</sup>; [...]\"},\"affiliations\":[{\"value\":\"School of Information Studies, McGill University, Montreal, QC, Canada\",\"reasoning\":\"The affiliation numbered '1' is associated with Mohammadhossein Amouei as per the superscript in the authors' list, indicating a link to this affiliation.\",\"quote\":\"Affiliations: <sup>1</sup> School of Information Studies, McGill University, Montreal, QC, Canada\"}]},{\"author\":{\"value\":\"Benjamin C. M. Fung\",\"reasoning\":\"Benjamin C. M. Fung is another author listed with a superscript '1', which indicates affiliation with the listed institution numbered '1'.\",\"quote\":\"Authors: [...] Benjamin C. M. Fung<sup>1</sup>; [...]\"},\"affiliations\":[{\"value\":\"School of Information Studies, McGill University, Montreal, QC, Canada\",\"reasoning\":\"The link between Benjamin C. M. Fung and this affiliation is established by the shared superscript '1'.\",\"quote\":\"Affiliations: <sup>1</sup> School of Information Studies, McGill University, Montreal, QC, Canada\"}]},{\"author\":{\"value\":\"Philippe Charland\",\"reasoning\":\"Philippe Charland is mentioned as another author and is associated with the superscript '2', which corresponds with an affiliation labeled '2'.\",\"quote\":\"Authors: [...] Philippe Charland<sup>2</sup> [...]\"},\"affiliations\":[{\"value\":\"Mission Critical Cyber Security Section, Defence R&D Canada, Quebec, QC, Canada\",\"reasoning\":\"The '2' superscript relates Philippe Charland to this specific affiliation, marked with '2' in the affiliations section.\",\"quote\":\"Affiliations: <sup>2</sup> Mission Critical Cyber Security Section, Defence R&D Canada, Quebec, QC, Canada\"}]},{\"author\":{\"value\":\"Andrew Walenstein\",\"reasoning\":\"Andrew Walenstein is noted in the authors list with a superscript '3', indicating their associated affiliation.\",\"quote\":\"Authors: [...] Andrew Walenstein<sup>3</sup>\"},\"affiliations\":[{\"value\":\"BlackBerry Limited, Waterloo, ON, Canada\",\"reasoning\":\"'3' is used to link Andrew Walenstein with this affiliation as indicated by matching superscripts.\",\"quote\":\"Affiliations: <sup>3</sup> BlackBerry Limited, Waterloo, ON, Canada\"}]}],\"affiliations\":[{\"value\":\"School of Information Studies, McGill University, Montreal, QC, Canada\",\"reasoning\":\"Affiliation marked with '1' in the list, linked to authors Jesia Yuki, Mohammadhossein Amouei, and Benjamin C. M. Fung by their respective superscripts.\",\"quote\":\"Affiliations: <sup>1</sup> School of Information Studies, McGill University, Montreal, QC, Canada\"},{\"value\":\"Mission Critical Cyber Security Section, Defence R&D Canada, Quebec, QC, Canada\",\"reasoning\":\"Affiliation '2' associated with Philippe Charland, as indicated by superscripts in the author and affiliation sections.\",\"quote\":\"Affiliations: <sup>2</sup> Mission Critical Cyber Security Section, Defence R&D Canada, Quebec, QC, Canada\"},{\"value\":\"BlackBerry Limited, Waterloo, ON, Canada\",\"reasoning\":\"Affiliation '3' is linked to Andrew Walenstein as noted by the matching superscript number.\",\"quote\":\"Affiliations: <sup>3</sup> BlackBerry Limited, Waterloo, ON, Canada\"}]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "authors_affiliations": [
+              {
+                "author": {
+                  "value": "Jesia Yuki",
+                  "reasoning": "Jesia Yuki is one of the authors listed in the HTML content under the authors section. The superscript number '1' following the name corresponds to an affiliation listed with the same superscript.",
+                  "quote": "Authors: [...] Jesia Yuki<sup>1</sup>; [...]"
+                },
+                "affiliations": [
+                  {
+                    "value": "School of Information Studies, McGill University, Montreal, QC, Canada",
+                    "reasoning": "The affiliation is marked with superscript '1', corresponding to Jesia Yuki's superscript in the author list, indicating this affiliation is related to Jesia Yuki.",
+                    "quote": "Affiliations: <sup>1</sup> School of Information Studies, McGill University, Montreal, QC, Canada"
+                  }
+                ]
+              },
+              {
+                "author": {
+                  "value": "Mohammadhossein Amouei",
+                  "reasoning": "Mohammadhossein Amouei is listed as an author in the HTML, with a superscript number '1' indicating their affiliation.",
+                  "quote": "Authors: [...] Mohammadhossein Amouei<sup>1</sup>; [...]"
+                },
+                "affiliations": [
+                  {
+                    "value": "School of Information Studies, McGill University, Montreal, QC, Canada",
+                    "reasoning": "The affiliation numbered '1' is associated with Mohammadhossein Amouei as per the superscript in the authors' list, indicating a link to this affiliation.",
+                    "quote": "Affiliations: <sup>1</sup> School of Information Studies, McGill University, Montreal, QC, Canada"
+                  }
+                ]
+              },
+              {
+                "author": {
+                  "value": "Benjamin C. M. Fung",
+                  "reasoning": "Benjamin C. M. Fung is another author listed with a superscript '1', which indicates affiliation with the listed institution numbered '1'.",
+                  "quote": "Authors: [...] Benjamin C. M. Fung<sup>1</sup>; [...]"
+                },
+                "affiliations": [
+                  {
+                    "value": "School of Information Studies, McGill University, Montreal, QC, Canada",
+                    "reasoning": "The link between Benjamin C. M. Fung and this affiliation is established by the shared superscript '1'.",
+                    "quote": "Affiliations: <sup>1</sup> School of Information Studies, McGill University, Montreal, QC, Canada"
+                  }
+                ]
+              },
+              {
+                "author": {
+                  "value": "Philippe Charland",
+                  "reasoning": "Philippe Charland is mentioned as another author and is associated with the superscript '2', which corresponds with an affiliation labeled '2'.",
+                  "quote": "Authors: [...] Philippe Charland<sup>2</sup> [...]"
+                },
+                "affiliations": [
+                  {
+                    "value": "Mission Critical Cyber Security Section, Defence R&D Canada, Quebec, QC, Canada",
+                    "reasoning": "The '2' superscript relates Philippe Charland to this specific affiliation, marked with '2' in the affiliations section.",
+                    "quote": "Affiliations: <sup>2</sup> Mission Critical Cyber Security Section, Defence R&D Canada, Quebec, QC, Canada"
+                  }
+                ]
+              },
+              {
+                "author": {
+                  "value": "Andrew Walenstein",
+                  "reasoning": "Andrew Walenstein is noted in the authors list with a superscript '3', indicating their associated affiliation.",
+                  "quote": "Authors: [...] Andrew Walenstein<sup>3</sup>"
+                },
+                "affiliations": [
+                  {
+                    "value": "BlackBerry Limited, Waterloo, ON, Canada",
+                    "reasoning": "'3' is used to link Andrew Walenstein with this affiliation as indicated by matching superscripts.",
+                    "quote": "Affiliations: <sup>3</sup> BlackBerry Limited, Waterloo, ON, Canada"
+                  }
+                ]
+              }
+            ],
+            "affiliations": [
+              {
+                "value": "School of Information Studies, McGill University, Montreal, QC, Canada",
+                "reasoning": "Affiliation marked with '1' in the list, linked to authors Jesia Yuki, Mohammadhossein Amouei, and Benjamin C. M. Fung by their respective superscripts.",
+                "quote": "Affiliations: <sup>1</sup> School of Information Studies, McGill University, Montreal, QC, Canada"
+              },
+              {
+                "value": "Mission Critical Cyber Security Section, Defence R&D Canada, Quebec, QC, Canada",
+                "reasoning": "Affiliation '2' associated with Philippe Charland, as indicated by superscripts in the author and affiliation sections.",
+                "quote": "Affiliations: <sup>2</sup> Mission Critical Cyber Security Section, Defence R&D Canada, Quebec, QC, Canada"
+              },
+              {
+                "value": "BlackBerry Limited, Waterloo, ON, Canada",
+                "reasoning": "Affiliation '3' is linked to Andrew Walenstein as noted by the matching superscript number.",
+                "quote": "Affiliations: <sup>3</sup> BlackBerry Limited, Waterloo, ON, Canada"
+              }
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 1.0,
+  "background": false,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "Analysis",
+      "schema_": {
+        "$defs": {
+          "AuthorAffiliations": {
+            "properties": {
+              "author": {
+                "description": "An author present in the Deep Learning scientific paper",
+                "properties": {
+                  "value": {
+                    "title": "Value",
+                    "type": "string"
+                  },
+                  "reasoning": {
+                    "description": "A detailed explanation for the choice of the value",
+                    "title": "Reasoning",
+                    "type": "string"
+                  },
+                  "quote": {
+                    "description": "The best literal quote from the paper which supports the value",
+                    "title": "Quote",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "value",
+                  "reasoning",
+                  "quote"
+                ],
+                "title": "Explained[str]",
+                "type": "object",
+                "additionalProperties": false
+              },
+              "affiliations": {
+                "description": "List of the author's affiliations present in the Deep Learning scientific paper",
+                "items": {
+                  "$ref": "#/$defs/Explained_str_"
+                },
+                "title": "Affiliations",
+                "type": "array"
+              }
+            },
+            "required": [
+              "author",
+              "affiliations"
+            ],
+            "title": "AuthorAffiliations",
+            "type": "object",
+            "additionalProperties": false
+          },
+          "Explained_str_": {
+            "properties": {
+              "value": {
+                "title": "Value",
+                "type": "string"
+              },
+              "reasoning": {
+                "description": "A detailed explanation for the choice of the value",
+                "title": "Reasoning",
+                "type": "string"
+              },
+              "quote": {
+                "description": "The best literal quote from the paper which supports the value",
+                "title": "Quote",
+                "type": "string"
+              }
+            },
+            "required": [
+              "value",
+              "reasoning",
+              "quote"
+            ],
+            "title": "Explained[str]",
+            "type": "object",
+            "additionalProperties": false
+          }
+        },
+        "properties": {
+          "authors_affiliations": {
+            "description": "List of all authors present in the Deep Learning scientific paper with theirs affiliations",
+            "items": {
+              "$ref": "#/$defs/AuthorAffiliations"
+            },
+            "title": "Authors Affiliations",
+            "type": "array"
+          },
+          "affiliations": {
+            "description": "List of all affiliations present in the Deep Learning scientific paper",
+            "items": {
+              "$ref": "#/$defs/Explained_str_"
+            },
+            "title": "Affiliations",
+            "type": "array"
+          }
+        },
+        "required": [
+          "authors_affiliations",
+          "affiliations"
+        ],
+        "title": "Analysis",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    }
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 110361,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 958,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 111319
+  },
+  "user": null,
+  "store": true,
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "gpt-4o"
+  }
+}

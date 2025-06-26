@@ -1,0 +1,291 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:56:27 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=81282",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Raquel González\",\n        \"reasoning\": \"The name 'Raquel González' is listed as the first author in the author list. A superscript 'a' next to the name links it to the corresponding affiliation.\",\n        \"quote\": \"Raquel González a, *\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Division of Pediatric Surgery, Johns Hopkins All Children's Hospital, 501 6th Avenue S, Saint Petersburg, FL, 33701, USA\",\n          \"reasoning\": \"This affiliation is marked with a superscript 'a' and is associated with the author Raquel González.\",\n          \"quote\": \"a Division of Pediatric Surgery, Johns Hopkins All Children's Hospital, 501 6th Avenue S, Saint Petersburg, FL, 33701, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Dan Poenaru\",\n        \"reasoning\": \"The name 'Dan Poenaru' is listed as an author. A superscript 'b' next to the name links it to the corresponding affiliation.\",\n        \"quote\": \"Dan Poenaru b\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"McGill University, 5252 Boul. De Maissonneuve O. rm. 3E.05, Montréal, QC, H4a 3S5, Canada\",\n          \"reasoning\": \"This affiliation is marked with a superscript 'b' and is associated with the author Dan Poenaru.\",\n          \"quote\": \"b McGill University, 5252 Boul. De Maissonneuve O. rm. 3E.05, Montréal, QC, H4a 3S5, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Russell Woo\",\n        \"reasoning\": \"The name 'Russell Woo' is listed as an author. A superscript 'c' next to the name links it to the corresponding affiliation.\",\n        \"quote\": \"Russell Woo c\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Surgery, Division of Pediatric Surgery, University of Hawai'i, John A. Burns School of Medicine, 1319 Punahou Street, Suite 600, Honolulu, HI, 96826, USA\",\n          \"reasoning\": \"This affiliation is marked with a superscript 'c' and is associated with the author Russell Woo.\",\n          \"quote\": \"c Department of Surgery, Division of Pediatric Surgery, University of Hawai'i, John A. Burns School of Medicine, 1319 Punahou Street, Suite 600, Honolulu, HI, 96826, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"A Francois Trappey III\",\n        \"reasoning\": \"The name 'A Francois Trappey III' is listed as an author. A superscript 'd' next to the name links it to the corresponding affiliation.\",\n        \"quote\": \"A Francois Trappey III d\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Pediatric General and Thoracic Surgery, Brooke Army Medical Center, 3551 Roger Brooke Dr, Fort Sam Houston, TX, 78234, USA\",\n          \"reasoning\": \"This affiliation is marked with a superscript 'd' and is associated with the author A Francois Trappey III.\",\n          \"quote\": \"d Pediatric General and Thoracic Surgery, Brooke Army Medical Center, 3551 Roger Brooke Dr, Fort Sam Houston, TX, 78234, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Stewart Carter\",\n        \"reasoning\": \"The name 'Stewart Carter' is listed as an author. A superscript 'e' next to the name links it to the corresponding affiliation.\",\n        \"quote\": \"Stewart Carter e\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Division of Pediatric Surgery, University of Louisville, Norton Children's Hospital, 315 East Broadway, Suite 565, Louisville, KY, 40202, USA\",\n          \"reasoning\": \"This affiliation is marked with a superscript 'e' and is associated with the author Stewart Carter.\",\n          \"quote\": \"e Division of Pediatric Surgery, University of Louisville, Norton Children's Hospital, 315 East Broadway, Suite 565, Louisville, KY, 40202, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"David Darcy\",\n        \"reasoning\": \"The name 'David Darcy' is listed as an author. A superscript 'f' next to the name links it to the corresponding affiliation.\",\n        \"quote\": \"David Darcy f\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Golisano Children's Hospital, University of Rochester Medical Center, 601 Elmwood Avenue, Box SURG, Rochester, NY, 14642, USA\",\n          \"reasoning\": \"This affiliation is marked with a superscript 'f' and is associated with the author David Darcy.\",\n          \"quote\": \"f Golisano Children's Hospital, University of Rochester Medical Center, 601 Elmwood Avenue, Box SURG, Rochester, NY, 14642, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Ellen Encisco\",\n        \"reasoning\": \"The name 'Ellen Encisco' is listed as an author. A superscript 'g' next to the name links it to the corresponding affiliation.\",\n        \"quote\": \"Ellen Encisco g\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Division of Pediatric General and Thoracic Surgery, Cincinnati Children's Hospital, 3333 Burnet Ave, Cincinnati, OH, 45229, USA\",\n          \"reasoning\": \"This affiliation is marked with a superscript 'g' and is associated with the author Ellen Encisco.\",\n          \"quote\": \"g Division of Pediatric General and Thoracic Surgery, Cincinnati Children's Hospital, 3333 Burnet Ave, Cincinnati, OH, 45229, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Brian Gulack\",\n        \"reasoning\": \"The name 'Brian Gulack' is listed as an author. A superscript 'h' next to the name links it to the corresponding affiliation.\",\n        \"quote\": \"Brian Gulack h\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Rush University Medical Center, 1653 W Congress Parkway, Kellogg, Chicago, IL, 60612, USA\",\n          \"reasoning\": \"This affiliation is marked with a superscript 'h' and is associated with the author Brian Gulack.\",\n          \"quote\": \"h Rush University Medical Center, 1653 W Congress Parkway, Kellogg, Chicago, IL, 60612, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Doug Miniati\",\n        \"reasoning\": \"The name 'Doug Miniati' is listed as an author. A superscript 'i' next to the name links it to the corresponding affiliation.\",\n        \"quote\": \"Doug Miniati i\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Pediatric Surgery, Kaiser Permanente Roseville, 1600 Eureka Road, Building C, Suite C35, Roseville, CA, 95661, USA\",\n          \"reasoning\": \"This affiliation is marked with a superscript 'i' and is associated with the author Doug Miniati.\",\n          \"quote\": \"i Department of Pediatric Surgery, Kaiser Permanente Roseville, 1600 Eureka Road, Building C, Suite C35, Roseville, CA, 95661, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Edzhem Tombash\",\n        \"reasoning\": \"The name 'Edzhem Tombash' is listed as an author. A superscript 'j' next to the name links it to the corresponding affiliation.\",\n        \"quote\": \"Edzhem Tombash j\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Division of Pediatric General and Thoracic Surgery, Cincinnati Children's Hospital, 3333 Burnet Ave, Cincinnati, OH, 45229, USA\",\n          \"reasoning\": \"This affiliation is marked with a superscript 'j' and is associated with the author Edzhem Tombash.\",\n          \"quote\": \"j Division of Pediatric General and Thoracic Surgery, Cincinnati Children's Hospital, 3333 Burnet Ave, Cincinnati, OH, 45229, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Eunice Y. Huang\",\n        \"reasoning\": \"The name 'Eunice Y. Huang' is listed as an author. A superscript 'k' next to the name links it to the corresponding affiliation.\",\n        \"quote\": \"Eunice Y. Huang k\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Vanderbilt University Medical Center, Monroe Carell Jr. Children's Hospital, 2200 Children's Way, Suite 7100, Nashville, TN, 37232, USA\",\n          \"reasoning\": \"This affiliation is marked with a superscript 'k' and is associated with the author Eunice Y. Huang.\",\n          \"quote\": \"k Vanderbilt University Medical Center, Monroe Carell Jr. Children's Hospital, 2200 Children's Way, Suite 7100, Nashville, TN, 37232, USA\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Division of Pediatric Surgery, Johns Hopkins All Children's Hospital, 501 6th Avenue S, Saint Petersburg, FL, 33701, USA\",\n      \"reasoning\": \"This affiliation is listed in the paper, identified by the superscript 'a' and linked to the author Raquel González.\",\n      \"quote\": \"a Division of Pediatric Surgery, Johns Hopkins All Children's Hospital, 501 6th Avenue S, Saint Petersburg, FL, 33701, USA\"\n    },\n    {\n      \"value\": \"McGill University, 5252 Boul. De Maissonneuve O. rm. 3E.05, Montréal, QC, H4a 3S5, Canada\",\n      \"reasoning\": \"This affiliation is listed in the paper, identified by the superscript 'b' and linked to the author Dan Poenaru.\",\n      \"quote\": \"b McGill University, 5252 Boul. De Maissonneuve O. rm. 3E.05, Montréal, QC, H4a 3S5, Canada\"\n    },\n    {\n      \"value\": \"Department of Surgery, Division of Pediatric Surgery, University of Hawai'i, John A. Burns School of Medicine, 1319 Punahou Street, Suite 600, Honolulu, HI, 96826, USA\",\n      \"reasoning\": \"This affiliation is listed in the paper, identified by the superscript 'c' and linked to the author Russell Woo.\",\n      \"quote\": \"c Department of Surgery, Division of Pediatric Surgery, University of Hawai'i, John A. Burns School of Medicine, 1319 Punahou Street, Suite 600, Honolulu, HI, 96826, USA\"\n    },\n    {\n      \"value\": \"Pediatric General and Thoracic Surgery, Brooke Army Medical Center, 3551 Roger Brooke Dr, Fort Sam Houston, TX, 78234, USA\",\n      \"reasoning\": \"This affiliation is listed in the paper, identified by the superscript 'd' and linked to the author A Francois Trappey III.\",\n      \"quote\": \"d Pediatric General and Thoracic Surgery, Brooke Army Medical Center, 3551 Roger Brooke Dr, Fort Sam Houston, TX, 78234, USA\"\n    },\n    {\n      \"value\": \"Division of Pediatric Surgery, University of Louisville, Norton Children's Hospital, 315 East Broadway, Suite 565, Louisville, KY, 40202, USA\",\n      \"reasoning\": \"This affiliation is listed in the paper, identified by the superscript 'e' and linked to the author Stewart Carter.\",\n      \"quote\": \"e Division of Pediatric Surgery, University of Louisville, Norton Children's Hospital, 315 East Broadway, Suite 565, Louisville, KY, 40202, USA\"\n    },\n    {\n      \"value\": \"Golisano Children's Hospital, University of Rochester Medical Center, 601 Elmwood Avenue, Box SURG, Rochester, NY, 14642, USA\",\n      \"reasoning\": \"This affiliation is listed in the paper, identified by the superscript 'f' and linked to the author David Darcy.\",\n      \"quote\": \"f Golisano Children's Hospital, University of Rochester Medical Center, 601 Elmwood Avenue, Box SURG, Rochester, NY, 14642, USA\"\n    },\n    {\n      \"value\": \"Division of Pediatric General and Thoracic Surgery, Cincinnati Children's Hospital, 3333 Burnet Ave, Cincinnati, OH, 45229, USA\",\n      \"reasoning\": \"This affiliation is listed in the paper, identified by the superscripts 'g' and 'j', and linked to authors Ellen Encisco and Edzhem Tombash respectively.\",\n      \"quote\": \"g Division of Pediatric General and Thoracic Surgery, Cincinnati Children's Hospital, 3333 Burnet Ave, Cincinnati, OH, 45229, USA\"\n    },\n    {\n      \"value\": \"Rush University Medical Center, 1653 W Congress Parkway, Kellogg, Chicago, IL, 60612, USA\",\n      \"reasoning\": \"This affiliation is listed in the paper, identified by the superscript 'h' and linked to the author Brian Gulack.\",\n      \"quote\": \"h Rush University Medical Center, 1653 W Congress Parkway, Kellogg, Chicago, IL, 60612, USA\"\n    },\n    {\n      \"value\": \"Department of Pediatric Surgery, Kaiser Permanente Roseville, 1600 Eureka Road, Building C, Suite C35, Roseville, CA, 95661, USA\",\n      \"reasoning\": \"This affiliation is listed in the paper, identified by the superscript 'i' and linked to the author Doug Miniati.\",\n      \"quote\": \"i Department of Pediatric Surgery, Kaiser Permanente Roseville, 1600 Eureka Road, Building C, Suite C35, Roseville, CA, 95661, USA\"\n    },\n    {\n      \"value\": \"Vanderbilt University Medical Center, Monroe Carell Jr. Children's Hospital, 2200 Children's Way, Suite 7100, Nashville, TN, 37232, USA\",\n      \"reasoning\": \"This affiliation is listed in the paper, identified by the superscript 'k' and linked to the author Eunice Y. Huang.\",\n      \"quote\": \"k Vanderbilt University Medical Center, Monroe Carell Jr. Children's Hospital, 2200 Children's Way, Suite 7100, Nashville, TN, 37232, USA\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 3640,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 671,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 258
+      }
+    ],
+    "thoughts_token_count": 6225,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 10536,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Raquel González",
+          "reasoning": "The name 'Raquel González' is listed as the first author in the author list. A superscript 'a' next to the name links it to the corresponding affiliation.",
+          "quote": "Raquel González a, *"
+        },
+        "affiliations": [
+          {
+            "value": "Division of Pediatric Surgery, Johns Hopkins All Children's Hospital, 501 6th Avenue S, Saint Petersburg, FL, 33701, USA",
+            "reasoning": "This affiliation is marked with a superscript 'a' and is associated with the author Raquel González.",
+            "quote": "a Division of Pediatric Surgery, Johns Hopkins All Children's Hospital, 501 6th Avenue S, Saint Petersburg, FL, 33701, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Dan Poenaru",
+          "reasoning": "The name 'Dan Poenaru' is listed as an author. A superscript 'b' next to the name links it to the corresponding affiliation.",
+          "quote": "Dan Poenaru b"
+        },
+        "affiliations": [
+          {
+            "value": "McGill University, 5252 Boul. De Maissonneuve O. rm. 3E.05, Montréal, QC, H4a 3S5, Canada",
+            "reasoning": "This affiliation is marked with a superscript 'b' and is associated with the author Dan Poenaru.",
+            "quote": "b McGill University, 5252 Boul. De Maissonneuve O. rm. 3E.05, Montréal, QC, H4a 3S5, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Russell Woo",
+          "reasoning": "The name 'Russell Woo' is listed as an author. A superscript 'c' next to the name links it to the corresponding affiliation.",
+          "quote": "Russell Woo c"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Surgery, Division of Pediatric Surgery, University of Hawai'i, John A. Burns School of Medicine, 1319 Punahou Street, Suite 600, Honolulu, HI, 96826, USA",
+            "reasoning": "This affiliation is marked with a superscript 'c' and is associated with the author Russell Woo.",
+            "quote": "c Department of Surgery, Division of Pediatric Surgery, University of Hawai'i, John A. Burns School of Medicine, 1319 Punahou Street, Suite 600, Honolulu, HI, 96826, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "A Francois Trappey III",
+          "reasoning": "The name 'A Francois Trappey III' is listed as an author. A superscript 'd' next to the name links it to the corresponding affiliation.",
+          "quote": "A Francois Trappey III d"
+        },
+        "affiliations": [
+          {
+            "value": "Pediatric General and Thoracic Surgery, Brooke Army Medical Center, 3551 Roger Brooke Dr, Fort Sam Houston, TX, 78234, USA",
+            "reasoning": "This affiliation is marked with a superscript 'd' and is associated with the author A Francois Trappey III.",
+            "quote": "d Pediatric General and Thoracic Surgery, Brooke Army Medical Center, 3551 Roger Brooke Dr, Fort Sam Houston, TX, 78234, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Stewart Carter",
+          "reasoning": "The name 'Stewart Carter' is listed as an author. A superscript 'e' next to the name links it to the corresponding affiliation.",
+          "quote": "Stewart Carter e"
+        },
+        "affiliations": [
+          {
+            "value": "Division of Pediatric Surgery, University of Louisville, Norton Children's Hospital, 315 East Broadway, Suite 565, Louisville, KY, 40202, USA",
+            "reasoning": "This affiliation is marked with a superscript 'e' and is associated with the author Stewart Carter.",
+            "quote": "e Division of Pediatric Surgery, University of Louisville, Norton Children's Hospital, 315 East Broadway, Suite 565, Louisville, KY, 40202, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "David Darcy",
+          "reasoning": "The name 'David Darcy' is listed as an author. A superscript 'f' next to the name links it to the corresponding affiliation.",
+          "quote": "David Darcy f"
+        },
+        "affiliations": [
+          {
+            "value": "Golisano Children's Hospital, University of Rochester Medical Center, 601 Elmwood Avenue, Box SURG, Rochester, NY, 14642, USA",
+            "reasoning": "This affiliation is marked with a superscript 'f' and is associated with the author David Darcy.",
+            "quote": "f Golisano Children's Hospital, University of Rochester Medical Center, 601 Elmwood Avenue, Box SURG, Rochester, NY, 14642, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Ellen Encisco",
+          "reasoning": "The name 'Ellen Encisco' is listed as an author. A superscript 'g' next to the name links it to the corresponding affiliation.",
+          "quote": "Ellen Encisco g"
+        },
+        "affiliations": [
+          {
+            "value": "Division of Pediatric General and Thoracic Surgery, Cincinnati Children's Hospital, 3333 Burnet Ave, Cincinnati, OH, 45229, USA",
+            "reasoning": "This affiliation is marked with a superscript 'g' and is associated with the author Ellen Encisco.",
+            "quote": "g Division of Pediatric General and Thoracic Surgery, Cincinnati Children's Hospital, 3333 Burnet Ave, Cincinnati, OH, 45229, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Brian Gulack",
+          "reasoning": "The name 'Brian Gulack' is listed as an author. A superscript 'h' next to the name links it to the corresponding affiliation.",
+          "quote": "Brian Gulack h"
+        },
+        "affiliations": [
+          {
+            "value": "Rush University Medical Center, 1653 W Congress Parkway, Kellogg, Chicago, IL, 60612, USA",
+            "reasoning": "This affiliation is marked with a superscript 'h' and is associated with the author Brian Gulack.",
+            "quote": "h Rush University Medical Center, 1653 W Congress Parkway, Kellogg, Chicago, IL, 60612, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Doug Miniati",
+          "reasoning": "The name 'Doug Miniati' is listed as an author. A superscript 'i' next to the name links it to the corresponding affiliation.",
+          "quote": "Doug Miniati i"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Pediatric Surgery, Kaiser Permanente Roseville, 1600 Eureka Road, Building C, Suite C35, Roseville, CA, 95661, USA",
+            "reasoning": "This affiliation is marked with a superscript 'i' and is associated with the author Doug Miniati.",
+            "quote": "i Department of Pediatric Surgery, Kaiser Permanente Roseville, 1600 Eureka Road, Building C, Suite C35, Roseville, CA, 95661, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Edzhem Tombash",
+          "reasoning": "The name 'Edzhem Tombash' is listed as an author. A superscript 'j' next to the name links it to the corresponding affiliation.",
+          "quote": "Edzhem Tombash j"
+        },
+        "affiliations": [
+          {
+            "value": "Division of Pediatric General and Thoracic Surgery, Cincinnati Children's Hospital, 3333 Burnet Ave, Cincinnati, OH, 45229, USA",
+            "reasoning": "This affiliation is marked with a superscript 'j' and is associated with the author Edzhem Tombash.",
+            "quote": "j Division of Pediatric General and Thoracic Surgery, Cincinnati Children's Hospital, 3333 Burnet Ave, Cincinnati, OH, 45229, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Eunice Y. Huang",
+          "reasoning": "The name 'Eunice Y. Huang' is listed as an author. A superscript 'k' next to the name links it to the corresponding affiliation.",
+          "quote": "Eunice Y. Huang k"
+        },
+        "affiliations": [
+          {
+            "value": "Vanderbilt University Medical Center, Monroe Carell Jr. Children's Hospital, 2200 Children's Way, Suite 7100, Nashville, TN, 37232, USA",
+            "reasoning": "This affiliation is marked with a superscript 'k' and is associated with the author Eunice Y. Huang.",
+            "quote": "k Vanderbilt University Medical Center, Monroe Carell Jr. Children's Hospital, 2200 Children's Way, Suite 7100, Nashville, TN, 37232, USA"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Division of Pediatric Surgery, Johns Hopkins All Children's Hospital, 501 6th Avenue S, Saint Petersburg, FL, 33701, USA",
+        "reasoning": "This affiliation is listed in the paper, identified by the superscript 'a' and linked to the author Raquel González.",
+        "quote": "a Division of Pediatric Surgery, Johns Hopkins All Children's Hospital, 501 6th Avenue S, Saint Petersburg, FL, 33701, USA"
+      },
+      {
+        "value": "McGill University, 5252 Boul. De Maissonneuve O. rm. 3E.05, Montréal, QC, H4a 3S5, Canada",
+        "reasoning": "This affiliation is listed in the paper, identified by the superscript 'b' and linked to the author Dan Poenaru.",
+        "quote": "b McGill University, 5252 Boul. De Maissonneuve O. rm. 3E.05, Montréal, QC, H4a 3S5, Canada"
+      },
+      {
+        "value": "Department of Surgery, Division of Pediatric Surgery, University of Hawai'i, John A. Burns School of Medicine, 1319 Punahou Street, Suite 600, Honolulu, HI, 96826, USA",
+        "reasoning": "This affiliation is listed in the paper, identified by the superscript 'c' and linked to the author Russell Woo.",
+        "quote": "c Department of Surgery, Division of Pediatric Surgery, University of Hawai'i, John A. Burns School of Medicine, 1319 Punahou Street, Suite 600, Honolulu, HI, 96826, USA"
+      },
+      {
+        "value": "Pediatric General and Thoracic Surgery, Brooke Army Medical Center, 3551 Roger Brooke Dr, Fort Sam Houston, TX, 78234, USA",
+        "reasoning": "This affiliation is listed in the paper, identified by the superscript 'd' and linked to the author A Francois Trappey III.",
+        "quote": "d Pediatric General and Thoracic Surgery, Brooke Army Medical Center, 3551 Roger Brooke Dr, Fort Sam Houston, TX, 78234, USA"
+      },
+      {
+        "value": "Division of Pediatric Surgery, University of Louisville, Norton Children's Hospital, 315 East Broadway, Suite 565, Louisville, KY, 40202, USA",
+        "reasoning": "This affiliation is listed in the paper, identified by the superscript 'e' and linked to the author Stewart Carter.",
+        "quote": "e Division of Pediatric Surgery, University of Louisville, Norton Children's Hospital, 315 East Broadway, Suite 565, Louisville, KY, 40202, USA"
+      },
+      {
+        "value": "Golisano Children's Hospital, University of Rochester Medical Center, 601 Elmwood Avenue, Box SURG, Rochester, NY, 14642, USA",
+        "reasoning": "This affiliation is listed in the paper, identified by the superscript 'f' and linked to the author David Darcy.",
+        "quote": "f Golisano Children's Hospital, University of Rochester Medical Center, 601 Elmwood Avenue, Box SURG, Rochester, NY, 14642, USA"
+      },
+      {
+        "value": "Division of Pediatric General and Thoracic Surgery, Cincinnati Children's Hospital, 3333 Burnet Ave, Cincinnati, OH, 45229, USA",
+        "reasoning": "This affiliation is listed in the paper, identified by the superscripts 'g' and 'j', and linked to authors Ellen Encisco and Edzhem Tombash respectively.",
+        "quote": "g Division of Pediatric General and Thoracic Surgery, Cincinnati Children's Hospital, 3333 Burnet Ave, Cincinnati, OH, 45229, USA"
+      },
+      {
+        "value": "Rush University Medical Center, 1653 W Congress Parkway, Kellogg, Chicago, IL, 60612, USA",
+        "reasoning": "This affiliation is listed in the paper, identified by the superscript 'h' and linked to the author Brian Gulack.",
+        "quote": "h Rush University Medical Center, 1653 W Congress Parkway, Kellogg, Chicago, IL, 60612, USA"
+      },
+      {
+        "value": "Department of Pediatric Surgery, Kaiser Permanente Roseville, 1600 Eureka Road, Building C, Suite C35, Roseville, CA, 95661, USA",
+        "reasoning": "This affiliation is listed in the paper, identified by the superscript 'i' and linked to the author Doug Miniati.",
+        "quote": "i Department of Pediatric Surgery, Kaiser Permanente Roseville, 1600 Eureka Road, Building C, Suite C35, Roseville, CA, 95661, USA"
+      },
+      {
+        "value": "Vanderbilt University Medical Center, Monroe Carell Jr. Children's Hospital, 2200 Children's Way, Suite 7100, Nashville, TN, 37232, USA",
+        "reasoning": "This affiliation is listed in the paper, identified by the superscript 'k' and linked to the author Eunice Y. Huang.",
+        "quote": "k Vanderbilt University Medical Center, Monroe Carell Jr. Children's Hospital, 2200 Children's Way, Suite 7100, Nashville, TN, 37232, USA"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

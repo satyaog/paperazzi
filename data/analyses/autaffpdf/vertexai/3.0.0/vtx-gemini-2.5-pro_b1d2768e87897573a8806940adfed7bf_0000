@@ -1,0 +1,518 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:43:09 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=77416",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Laurette Dubé\",\n        \"reasoning\": \"The author's name is listed first in the author list, followed by a superscript '1' and an asterisk indicating correspondence.\",\n        \"quote\": \"Laurette Dubé ¹*\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '1', which corresponds to the number next to Laurette Dubé's name.\",\n          \"quote\": \"¹ Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Patricia P. Silveira\",\n        \"reasoning\": \"The author's name is listed in the author list, followed by superscripts '2' and '3'.\",\n        \"quote\": \"Patricia P. Silveira ²,³\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '2', which corresponds to one of the numbers next to Patricia P. Silveira's name.\",\n          \"quote\": \"² Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada\"\n        },\n        {\n          \"value\": \"Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '3', which corresponds to one of the numbers next to Patricia P. Silveira's name.\",\n          \"quote\": \"³ Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Daiva E. Nielsen\",\n        \"reasoning\": \"The author's name is listed in the author list, followed by superscript '4'.\",\n        \"quote\": \"Daiva E. Nielsen⁴\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Faculty of Agricultural and Environmental Sciences, School of Human Nutrition, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '4', which corresponds to the number next to Daiva E. Nielsen's name.\",\n          \"quote\": \"⁴ Faculty of Agricultural and Environmental Sciences, School of Human Nutrition, McGill University, Montreal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Spencer Moore\",\n        \"reasoning\": \"The author's name is listed in the author list, followed by superscript '5'.\",\n        \"quote\": \"Spencer Moore⁵\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Health Promotion, Education, and Behavior, Arnold School of Public Health, University of South Carolina, Columbia, SC, United States\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '5', which corresponds to the number next to Spencer Moore's name.\",\n          \"quote\": \"⁵ Health Promotion, Education, and Behavior, Arnold School of Public Health, University of South Carolina, Columbia, SC, United States\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Catherine Paquet\",\n        \"reasoning\": \"The author's name is listed in the author list, followed by superscript '6'.\",\n        \"quote\": \"Catherine Paquet⁶\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Faculté des Sciences de l'Administration, Université Laval, Quebec City, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '6', which corresponds to the number next to Catherine Paquet's name.\",\n          \"quote\": \"⁶ Faculté des Sciences de l'Administration, Université Laval, Quebec City, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"J. Miguel Cisneros-Franco\",\n        \"reasoning\": \"The author's name is listed in the author list, followed by superscript '1'.\",\n        \"quote\": \"J. Miguel Cisneros-Franco¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '1', which corresponds to the number next to J. Miguel Cisneros-Franco's name.\",\n          \"quote\": \"¹ Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Gina Kemp\",\n        \"reasoning\": \"The author's name is listed in the author list, followed by superscripts '1' and '7'.\",\n        \"quote\": \"Gina Kemp ¹,⁷\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '1', which corresponds to one of the numbers next to Gina Kemp's name.\",\n          \"quote\": \"¹ Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\"\n        },\n        {\n          \"value\": \"Centre for Research in Neuroscience, The Research Institute of McGill University Health Center, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '7', which corresponds to one of the numbers next to Gina Kemp's name.\",\n          \"quote\": \"⁷ Centre for Research in Neuroscience, The Research Institute of McGill University Health Center, Montreal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Bärbel Knauper\",\n        \"reasoning\": \"The author's name is listed in the author list, followed by superscript '8'.\",\n        \"quote\": \"Bärbel Knauper⁸\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Psychology, Faculty of Arts, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '8', which corresponds to the number next to Bärbel Knauper's name.\",\n          \"quote\": \"⁸ Department of Psychology, Faculty of Arts, McGill University, Montreal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Yu Ma\",\n        \"reasoning\": \"The author's name is listed in the author list, followed by superscript '1'.\",\n        \"quote\": \"Yu Ma¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '1', which corresponds to the number next to Yu Ma's name.\",\n          \"quote\": \"¹ Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Mehmood Khan\",\n        \"reasoning\": \"The author's name is listed in the author list, followed by superscripts '9' and '10'.\",\n        \"quote\": \"Mehmood Khan ⁹,¹⁰\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Life Biosciences Chief Executive Officer (CEO), Boston, MA, United States\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '9', which corresponds to one of the numbers next to Mehmood Khan's name.\",\n          \"quote\": \"⁹ Life Biosciences Chief Executive Officer (CEO), Boston, MA, United States\"\n        },\n        {\n          \"value\": \"Council on Competitiveness (Chairman of the Board), Washington, DC, United States\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '10', which corresponds to one of the numbers next to Mehmood Khan's name.\",\n          \"quote\": \"¹⁰ Council on Competitiveness (Chairman of the Board), Washington, DC, United States\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Gillian Bartlett-Esquilant\",\n        \"reasoning\": \"The author's name is listed in the author list, followed by superscript '11'.\",\n        \"quote\": \"Gillian Bartlett-Esquilant¹¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Family Medicine, Faculty of Medicine, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '11', which corresponds to the number next to Gillian Bartlett-Esquilant's name.\",\n          \"quote\": \"¹¹ Department of Family Medicine, Faculty of Medicine, McGill University, Montreal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Alan C. Evans\",\n        \"reasoning\": \"The author's name is listed in the author list, followed by superscripts '2', '3', and '12'.\",\n        \"quote\": \"Alan C. Evans ²,³,¹²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '2', which corresponds to one of the numbers next to Alan C. Evans's name.\",\n          \"quote\": \"² Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada\"\n        },\n        {\n          \"value\": \"Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '3', which corresponds to one of the numbers next to Alan C. Evans's name.\",\n          \"quote\": \"³ Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada\"\n        },\n        {\n          \"value\": \"Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '12', which corresponds to one of the numbers next to Alan C. Evans's name.\",\n          \"quote\": \"¹² Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Lesley K. Fellows\",\n        \"reasoning\": \"The author's name is listed in the author list, followed by superscripts '12' and '13'.\",\n        \"quote\": \"Lesley K. Fellows ¹²,¹³\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '12', which corresponds to one of the numbers next to Lesley K. Fellows's name.\",\n          \"quote\": \"¹² Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada\"\n        },\n        {\n          \"value\": \"Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '13', which corresponds to one of the numbers next to Lesley K. Fellows's name.\",\n          \"quote\": \"¹³ Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jorge L. Armony\",\n        \"reasoning\": \"The author's name is listed in the author list, followed by superscripts '3' and '14'.\",\n        \"quote\": \"Jorge L. Armony³,¹⁴\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '3', which corresponds to one of the numbers next to Jorge L. Armony's name.\",\n          \"quote\": \"³ Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada\"\n        },\n        {\n          \"value\": \"Douglas Mental Health University Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '14', which corresponds to one of the numbers next to Jorge L. Armony's name.\",\n          \"quote\": \"¹⁴ Douglas Mental Health University Institute, Montreal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"R. Nathan Spreng\",\n        \"reasoning\": \"The author's name is listed in the author list, followed by superscripts '12', '14', '15', and '16'.\",\n        \"quote\": \"R. Nathan Spreng ¹²,¹⁴,¹⁵,¹⁶\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '12', which corresponds to one of the numbers next to R. Nathan Spreng's name.\",\n          \"quote\": \"¹² Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada\"\n        },\n        {\n          \"value\": \"Douglas Mental Health University Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '14', which corresponds to one of the numbers next to R. Nathan Spreng's name.\",\n          \"quote\": \"¹⁴ Douglas Mental Health University Institute, Montreal, QC, Canada\"\n        },\n        {\n          \"value\": \"Departments of Psychiatry and Psychology, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '15', which corresponds to one of the numbers next to R. Nathan Spreng's name.\",\n          \"quote\": \"¹⁵ Departments of Psychiatry and Psychology, McGill University, Montreal, QC, Canada\"\n        },\n        {\n          \"value\": \"McConnell Brain Imaging Centre, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '16', which corresponds to one of the numbers next to R. Nathan Spreng's name.\",\n          \"quote\": \"¹⁶ McConnell Brain Imaging Centre, McGill University, Montreal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jian-Yun Nie\",\n        \"reasoning\": \"The author's name is listed in the author list, followed by superscript '17'.\",\n        \"quote\": \"Jian-Yun Nie ¹⁷\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Computer Science and Operations Research, University of Montreal, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '17', which corresponds to the number next to Jian-Yun Nie's name.\",\n          \"quote\": \"¹⁷ Department of Computer Science and Operations Research, University of Montreal, Montreal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Shawn T. Brown\",\n        \"reasoning\": \"The author's name is listed in the author list, followed by superscript '18'.\",\n        \"quote\": \"Shawn T. Brown ¹⁸\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Pittsburgh Supercomputing Center, Carnegie Mellon University, Pittsburgh, PA, United States\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '18', which corresponds to the number next to Shawn T. Brown's name.\",\n          \"quote\": \"¹⁸ Pittsburgh Supercomputing Center, Carnegie Mellon University, Pittsburgh, PA, United States\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Georg Northoff\",\n        \"reasoning\": \"The author's name is listed in the author list, followed by superscripts '13' and '19'.\",\n        \"quote\": \"Georg Northoff¹³,¹⁹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '13', which corresponds to one of the numbers next to Georg Northoff's name.\",\n          \"quote\": \"¹³ Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada\"\n        },\n        {\n          \"value\": \"Faculty of Medicine, Brain and Mind Research Institute, University of Ottawa, Ottawa, ON, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '19', which corresponds to one of the numbers next to Georg Northoff's name.\",\n          \"quote\": \"¹⁹ Faculty of Medicine, Brain and Mind Research Institute, University of Ottawa, Ottawa, ON, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Danilo Bzdok\",\n        \"reasoning\": \"The author's name is listed last in the author list, followed by superscripts '20' and '21'.\",\n        \"quote\": \"Danilo Bzdok ²⁰,²¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Biomedical Engineering, Faculty of Medicine, McConnell Brain Imaging Centre (BIC), Montreal Neurological Institute (MNI), McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '20', which corresponds to one of the numbers next to Danilo Bzdok's name.\",\n          \"quote\": \"²⁰ Department of Biomedical Engineering, Faculty of Medicine, McConnell Brain Imaging Centre (BIC), Montreal Neurological Institute (MNI), McGill University, Montreal, QC, Canada\"\n        },\n        {\n          \"value\": \"Mila-Quebec Artificial Intelligence Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is labeled with the superscript '21', which corresponds to one of the numbers next to Danilo Bzdok's name.\",\n          \"quote\": \"²¹ Mila-Quebec Artificial Intelligence Institute, Montreal, QC, Canada\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '1' in the affiliations section of the paper.\",\n      \"quote\": \"¹ Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\"\n    },\n    {\n      \"value\": \"Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '2' in the affiliations section of the paper.\",\n      \"quote\": \"² Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada\"\n    },\n    {\n      \"value\": \"Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '3' in the affiliations section of the paper.\",\n      \"quote\": \"³ Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada\"\n    },\n    {\n      \"value\": \"Faculty of Agricultural and Environmental Sciences, School of Human Nutrition, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '4' in the affiliations section of the paper.\",\n      \"quote\": \"⁴ Faculty of Agricultural and Environmental Sciences, School of Human Nutrition, McGill University, Montreal, QC, Canada\"\n    },\n    {\n      \"value\": \"Health Promotion, Education, and Behavior, Arnold School of Public Health, University of South Carolina, Columbia, SC, United States\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '5' in the affiliations section of the paper.\",\n      \"quote\": \"⁵ Health Promotion, Education, and Behavior, Arnold School of Public Health, University of South Carolina, Columbia, SC, United States\"\n    },\n    {\n      \"value\": \"Faculté des Sciences de l'Administration, Université Laval, Quebec City, QC, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '6' in the affiliations section of the paper.\",\n      \"quote\": \"⁶ Faculté des Sciences de l'Administration, Université Laval, Quebec City, QC, Canada\"\n    },\n    {\n      \"value\": \"Centre for Research in Neuroscience, The Research Institute of McGill University Health Center, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '7' in the affiliations section of the paper.\",\n      \"quote\": \"⁷ Centre for Research in Neuroscience, The Research Institute of McGill University Health Center, Montreal, QC, Canada\"\n    },\n    {\n      \"value\": \"Department of Psychology, Faculty of Arts, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '8' in the affiliations section of the paper.\",\n      \"quote\": \"⁸ Department of Psychology, Faculty of Arts, McGill University, Montreal, QC, Canada\"\n    },\n    {\n      \"value\": \"Life Biosciences Chief Executive Officer (CEO), Boston, MA, United States\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '9' in the affiliations section of the paper.\",\n      \"quote\": \"⁹ Life Biosciences Chief Executive Officer (CEO), Boston, MA, United States\"\n    },\n    {\n      \"value\": \"Council on Competitiveness (Chairman of the Board), Washington, DC, United States\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '10' in the affiliations section of the paper.\",\n      \"quote\": \"¹⁰ Council on Competitiveness (Chairman of the Board), Washington, DC, United States\"\n    },\n    {\n      \"value\": \"Department of Family Medicine, Faculty of Medicine, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '11' in the affiliations section of the paper.\",\n      \"quote\": \"¹¹ Department of Family Medicine, Faculty of Medicine, McGill University, Montreal, QC, Canada\"\n    },\n    {\n      \"value\": \"Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '12' in the affiliations section of the paper.\",\n      \"quote\": \"¹² Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada\"\n    },\n    {\n      \"value\": \"Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '13' in the affiliations section of the paper.\",\n      \"quote\": \"¹³ Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada\"\n    },\n    {\n      \"value\": \"Douglas Mental Health University Institute, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '14' in the affiliations section of the paper.\",\n      \"quote\": \"¹⁴ Douglas Mental Health University Institute, Montreal, QC, Canada\"\n    },\n    {\n      \"value\": \"Departments of Psychiatry and Psychology, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '15' in the affiliations section of the paper.\",\n      \"quote\": \"¹⁵ Departments of Psychiatry and Psychology, McGill University, Montreal, QC, Canada\"\n    },\n    {\n      \"value\": \"McConnell Brain Imaging Centre, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '16' in the affiliations section of the paper.\",\n      \"quote\": \"¹⁶ McConnell Brain Imaging Centre, McGill University, Montreal, QC, Canada\"\n    },\n    {\n      \"value\": \"Department of Computer Science and Operations Research, University of Montreal, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '17' in the affiliations section of the paper.\",\n      \"quote\": \"¹⁷ Department of Computer Science and Operations Research, University of Montreal, Montreal, QC, Canada\"\n    },\n    {\n      \"value\": \"Pittsburgh Supercomputing Center, Carnegie Mellon University, Pittsburgh, PA, United States\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '18' in the affiliations section of the paper.\",\n      \"quote\": \"¹⁸ Pittsburgh Supercomputing Center, Carnegie Mellon University, Pittsburgh, PA, United States\"\n    },\n    {\n      \"value\": \"Faculty of Medicine, Brain and Mind Research Institute, University of Ottawa, Ottawa, ON, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '19' in the affiliations section of the paper.\",\n      \"quote\": \"¹⁹ Faculty of Medicine, Brain and Mind Research Institute, University of Ottawa, Ottawa, ON, Canada\"\n    },\n    {\n      \"value\": \"Department of Biomedical Engineering, Faculty of Medicine, McConnell Brain Imaging Centre (BIC), Montreal Neurological Institute (MNI), McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '20' in the affiliations section of the paper.\",\n      \"quote\": \"²⁰ Department of Biomedical Engineering, Faculty of Medicine, McConnell Brain Imaging Centre (BIC), Montreal Neurological Institute (MNI), McGill University, Montreal, QC, Canada\"\n    },\n    {\n      \"value\": \"Mila-Quebec Artificial Intelligence Institute, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed and numbered as '21' in the affiliations section of the paper.\",\n      \"quote\": \"²¹ Mila-Quebec Artificial Intelligence Institute, Montreal, QC, Canada\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 6272,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 1703,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 1290
+      }
+    ],
+    "thoughts_token_count": 2953,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 10928,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Laurette Dubé",
+          "reasoning": "The author's name is listed first in the author list, followed by a superscript '1' and an asterisk indicating correspondence.",
+          "quote": "Laurette Dubé ¹*"
+        },
+        "affiliations": [
+          {
+            "value": "Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '1', which corresponds to the number next to Laurette Dubé's name.",
+            "quote": "¹ Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Patricia P. Silveira",
+          "reasoning": "The author's name is listed in the author list, followed by superscripts '2' and '3'.",
+          "quote": "Patricia P. Silveira ²,³"
+        },
+        "affiliations": [
+          {
+            "value": "Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '2', which corresponds to one of the numbers next to Patricia P. Silveira's name.",
+            "quote": "² Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada"
+          },
+          {
+            "value": "Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '3', which corresponds to one of the numbers next to Patricia P. Silveira's name.",
+            "quote": "³ Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Daiva E. Nielsen",
+          "reasoning": "The author's name is listed in the author list, followed by superscript '4'.",
+          "quote": "Daiva E. Nielsen⁴"
+        },
+        "affiliations": [
+          {
+            "value": "Faculty of Agricultural and Environmental Sciences, School of Human Nutrition, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '4', which corresponds to the number next to Daiva E. Nielsen's name.",
+            "quote": "⁴ Faculty of Agricultural and Environmental Sciences, School of Human Nutrition, McGill University, Montreal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Spencer Moore",
+          "reasoning": "The author's name is listed in the author list, followed by superscript '5'.",
+          "quote": "Spencer Moore⁵"
+        },
+        "affiliations": [
+          {
+            "value": "Health Promotion, Education, and Behavior, Arnold School of Public Health, University of South Carolina, Columbia, SC, United States",
+            "reasoning": "This affiliation is labeled with the superscript '5', which corresponds to the number next to Spencer Moore's name.",
+            "quote": "⁵ Health Promotion, Education, and Behavior, Arnold School of Public Health, University of South Carolina, Columbia, SC, United States"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Catherine Paquet",
+          "reasoning": "The author's name is listed in the author list, followed by superscript '6'.",
+          "quote": "Catherine Paquet⁶"
+        },
+        "affiliations": [
+          {
+            "value": "Faculté des Sciences de l'Administration, Université Laval, Quebec City, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '6', which corresponds to the number next to Catherine Paquet's name.",
+            "quote": "⁶ Faculté des Sciences de l'Administration, Université Laval, Quebec City, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "J. Miguel Cisneros-Franco",
+          "reasoning": "The author's name is listed in the author list, followed by superscript '1'.",
+          "quote": "J. Miguel Cisneros-Franco¹"
+        },
+        "affiliations": [
+          {
+            "value": "Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '1', which corresponds to the number next to J. Miguel Cisneros-Franco's name.",
+            "quote": "¹ Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Gina Kemp",
+          "reasoning": "The author's name is listed in the author list, followed by superscripts '1' and '7'.",
+          "quote": "Gina Kemp ¹,⁷"
+        },
+        "affiliations": [
+          {
+            "value": "Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '1', which corresponds to one of the numbers next to Gina Kemp's name.",
+            "quote": "¹ Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada"
+          },
+          {
+            "value": "Centre for Research in Neuroscience, The Research Institute of McGill University Health Center, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '7', which corresponds to one of the numbers next to Gina Kemp's name.",
+            "quote": "⁷ Centre for Research in Neuroscience, The Research Institute of McGill University Health Center, Montreal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Bärbel Knauper",
+          "reasoning": "The author's name is listed in the author list, followed by superscript '8'.",
+          "quote": "Bärbel Knauper⁸"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Psychology, Faculty of Arts, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '8', which corresponds to the number next to Bärbel Knauper's name.",
+            "quote": "⁸ Department of Psychology, Faculty of Arts, McGill University, Montreal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Yu Ma",
+          "reasoning": "The author's name is listed in the author list, followed by superscript '1'.",
+          "quote": "Yu Ma¹"
+        },
+        "affiliations": [
+          {
+            "value": "Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '1', which corresponds to the number next to Yu Ma's name.",
+            "quote": "¹ Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Mehmood Khan",
+          "reasoning": "The author's name is listed in the author list, followed by superscripts '9' and '10'.",
+          "quote": "Mehmood Khan ⁹,¹⁰"
+        },
+        "affiliations": [
+          {
+            "value": "Life Biosciences Chief Executive Officer (CEO), Boston, MA, United States",
+            "reasoning": "This affiliation is labeled with the superscript '9', which corresponds to one of the numbers next to Mehmood Khan's name.",
+            "quote": "⁹ Life Biosciences Chief Executive Officer (CEO), Boston, MA, United States"
+          },
+          {
+            "value": "Council on Competitiveness (Chairman of the Board), Washington, DC, United States",
+            "reasoning": "This affiliation is labeled with the superscript '10', which corresponds to one of the numbers next to Mehmood Khan's name.",
+            "quote": "¹⁰ Council on Competitiveness (Chairman of the Board), Washington, DC, United States"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Gillian Bartlett-Esquilant",
+          "reasoning": "The author's name is listed in the author list, followed by superscript '11'.",
+          "quote": "Gillian Bartlett-Esquilant¹¹"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Family Medicine, Faculty of Medicine, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '11', which corresponds to the number next to Gillian Bartlett-Esquilant's name.",
+            "quote": "¹¹ Department of Family Medicine, Faculty of Medicine, McGill University, Montreal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Alan C. Evans",
+          "reasoning": "The author's name is listed in the author list, followed by superscripts '2', '3', and '12'.",
+          "quote": "Alan C. Evans ²,³,¹²"
+        },
+        "affiliations": [
+          {
+            "value": "Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '2', which corresponds to one of the numbers next to Alan C. Evans's name.",
+            "quote": "² Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada"
+          },
+          {
+            "value": "Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '3', which corresponds to one of the numbers next to Alan C. Evans's name.",
+            "quote": "³ Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada"
+          },
+          {
+            "value": "Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '12', which corresponds to one of the numbers next to Alan C. Evans's name.",
+            "quote": "¹² Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Lesley K. Fellows",
+          "reasoning": "The author's name is listed in the author list, followed by superscripts '12' and '13'.",
+          "quote": "Lesley K. Fellows ¹²,¹³"
+        },
+        "affiliations": [
+          {
+            "value": "Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '12', which corresponds to one of the numbers next to Lesley K. Fellows's name.",
+            "quote": "¹² Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada"
+          },
+          {
+            "value": "Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '13', which corresponds to one of the numbers next to Lesley K. Fellows's name.",
+            "quote": "¹³ Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jorge L. Armony",
+          "reasoning": "The author's name is listed in the author list, followed by superscripts '3' and '14'.",
+          "quote": "Jorge L. Armony³,¹⁴"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '3', which corresponds to one of the numbers next to Jorge L. Armony's name.",
+            "quote": "³ Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada"
+          },
+          {
+            "value": "Douglas Mental Health University Institute, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '14', which corresponds to one of the numbers next to Jorge L. Armony's name.",
+            "quote": "¹⁴ Douglas Mental Health University Institute, Montreal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "R. Nathan Spreng",
+          "reasoning": "The author's name is listed in the author list, followed by superscripts '12', '14', '15', and '16'.",
+          "quote": "R. Nathan Spreng ¹²,¹⁴,¹⁵,¹⁶"
+        },
+        "affiliations": [
+          {
+            "value": "Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '12', which corresponds to one of the numbers next to R. Nathan Spreng's name.",
+            "quote": "¹² Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada"
+          },
+          {
+            "value": "Douglas Mental Health University Institute, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '14', which corresponds to one of the numbers next to R. Nathan Spreng's name.",
+            "quote": "¹⁴ Douglas Mental Health University Institute, Montreal, QC, Canada"
+          },
+          {
+            "value": "Departments of Psychiatry and Psychology, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '15', which corresponds to one of the numbers next to R. Nathan Spreng's name.",
+            "quote": "¹⁵ Departments of Psychiatry and Psychology, McGill University, Montreal, QC, Canada"
+          },
+          {
+            "value": "McConnell Brain Imaging Centre, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '16', which corresponds to one of the numbers next to R. Nathan Spreng's name.",
+            "quote": "¹⁶ McConnell Brain Imaging Centre, McGill University, Montreal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jian-Yun Nie",
+          "reasoning": "The author's name is listed in the author list, followed by superscript '17'.",
+          "quote": "Jian-Yun Nie ¹⁷"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Computer Science and Operations Research, University of Montreal, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '17', which corresponds to the number next to Jian-Yun Nie's name.",
+            "quote": "¹⁷ Department of Computer Science and Operations Research, University of Montreal, Montreal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Shawn T. Brown",
+          "reasoning": "The author's name is listed in the author list, followed by superscript '18'.",
+          "quote": "Shawn T. Brown ¹⁸"
+        },
+        "affiliations": [
+          {
+            "value": "Pittsburgh Supercomputing Center, Carnegie Mellon University, Pittsburgh, PA, United States",
+            "reasoning": "This affiliation is labeled with the superscript '18', which corresponds to the number next to Shawn T. Brown's name.",
+            "quote": "¹⁸ Pittsburgh Supercomputing Center, Carnegie Mellon University, Pittsburgh, PA, United States"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Georg Northoff",
+          "reasoning": "The author's name is listed in the author list, followed by superscripts '13' and '19'.",
+          "quote": "Georg Northoff¹³,¹⁹"
+        },
+        "affiliations": [
+          {
+            "value": "Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '13', which corresponds to one of the numbers next to Georg Northoff's name.",
+            "quote": "¹³ Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada"
+          },
+          {
+            "value": "Faculty of Medicine, Brain and Mind Research Institute, University of Ottawa, Ottawa, ON, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '19', which corresponds to one of the numbers next to Georg Northoff's name.",
+            "quote": "¹⁹ Faculty of Medicine, Brain and Mind Research Institute, University of Ottawa, Ottawa, ON, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Danilo Bzdok",
+          "reasoning": "The author's name is listed last in the author list, followed by superscripts '20' and '21'.",
+          "quote": "Danilo Bzdok ²⁰,²¹"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Biomedical Engineering, Faculty of Medicine, McConnell Brain Imaging Centre (BIC), Montreal Neurological Institute (MNI), McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '20', which corresponds to one of the numbers next to Danilo Bzdok's name.",
+            "quote": "²⁰ Department of Biomedical Engineering, Faculty of Medicine, McConnell Brain Imaging Centre (BIC), Montreal Neurological Institute (MNI), McGill University, Montreal, QC, Canada"
+          },
+          {
+            "value": "Mila-Quebec Artificial Intelligence Institute, Montreal, QC, Canada",
+            "reasoning": "This affiliation is labeled with the superscript '21', which corresponds to one of the numbers next to Danilo Bzdok's name.",
+            "quote": "²¹ Mila-Quebec Artificial Intelligence Institute, Montreal, QC, Canada"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is explicitly listed and numbered as '1' in the affiliations section of the paper.",
+        "quote": "¹ Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada"
+      },
+      {
+        "value": "Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is explicitly listed and numbered as '2' in the affiliations section of the paper.",
+        "quote": "² Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada"
+      },
+      {
+        "value": "Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is explicitly listed and numbered as '3' in the affiliations section of the paper.",
+        "quote": "³ Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada"
+      },
+      {
+        "value": "Faculty of Agricultural and Environmental Sciences, School of Human Nutrition, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is explicitly listed and numbered as '4' in the affiliations section of the paper.",
+        "quote": "⁴ Faculty of Agricultural and Environmental Sciences, School of Human Nutrition, McGill University, Montreal, QC, Canada"
+      },
+      {
+        "value": "Health Promotion, Education, and Behavior, Arnold School of Public Health, University of South Carolina, Columbia, SC, United States",
+        "reasoning": "This affiliation is explicitly listed and numbered as '5' in the affiliations section of the paper.",
+        "quote": "⁵ Health Promotion, Education, and Behavior, Arnold School of Public Health, University of South Carolina, Columbia, SC, United States"
+      },
+      {
+        "value": "Faculté des Sciences de l'Administration, Université Laval, Quebec City, QC, Canada",
+        "reasoning": "This affiliation is explicitly listed and numbered as '6' in the affiliations section of the paper.",
+        "quote": "⁶ Faculté des Sciences de l'Administration, Université Laval, Quebec City, QC, Canada"
+      },
+      {
+        "value": "Centre for Research in Neuroscience, The Research Institute of McGill University Health Center, Montreal, QC, Canada",
+        "reasoning": "This affiliation is explicitly listed and numbered as '7' in the affiliations section of the paper.",
+        "quote": "⁷ Centre for Research in Neuroscience, The Research Institute of McGill University Health Center, Montreal, QC, Canada"
+      },
+      {
+        "value": "Department of Psychology, Faculty of Arts, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is explicitly listed and numbered as '8' in the affiliations section of the paper.",
+        "quote": "⁸ Department of Psychology, Faculty of Arts, McGill University, Montreal, QC, Canada"
+      },
+      {
+        "value": "Life Biosciences Chief Executive Officer (CEO), Boston, MA, United States",
+        "reasoning": "This affiliation is explicitly listed and numbered as '9' in the affiliations section of the paper.",
+        "quote": "⁹ Life Biosciences Chief Executive Officer (CEO), Boston, MA, United States"
+      },
+      {
+        "value": "Council on Competitiveness (Chairman of the Board), Washington, DC, United States",
+        "reasoning": "This affiliation is explicitly listed and numbered as '10' in the affiliations section of the paper.",
+        "quote": "¹⁰ Council on Competitiveness (Chairman of the Board), Washington, DC, United States"
+      },
+      {
+        "value": "Department of Family Medicine, Faculty of Medicine, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is explicitly listed and numbered as '11' in the affiliations section of the paper.",
+        "quote": "¹¹ Department of Family Medicine, Faculty of Medicine, McGill University, Montreal, QC, Canada"
+      },
+      {
+        "value": "Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is explicitly listed and numbered as '12' in the affiliations section of the paper.",
+        "quote": "¹² Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada"
+      },
+      {
+        "value": "Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada",
+        "reasoning": "This affiliation is explicitly listed and numbered as '13' in the affiliations section of the paper.",
+        "quote": "¹³ Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada"
+      },
+      {
+        "value": "Douglas Mental Health University Institute, Montreal, QC, Canada",
+        "reasoning": "This affiliation is explicitly listed and numbered as '14' in the affiliations section of the paper.",
+        "quote": "¹⁴ Douglas Mental Health University Institute, Montreal, QC, Canada"
+      },
+      {
+        "value": "Departments of Psychiatry and Psychology, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is explicitly listed and numbered as '15' in the affiliations section of the paper.",
+        "quote": "¹⁵ Departments of Psychiatry and Psychology, McGill University, Montreal, QC, Canada"
+      },
+      {
+        "value": "McConnell Brain Imaging Centre, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is explicitly listed and numbered as '16' in the affiliations section of the paper.",
+        "quote": "¹⁶ McConnell Brain Imaging Centre, McGill University, Montreal, QC, Canada"
+      },
+      {
+        "value": "Department of Computer Science and Operations Research, University of Montreal, Montreal, QC, Canada",
+        "reasoning": "This affiliation is explicitly listed and numbered as '17' in the affiliations section of the paper.",
+        "quote": "¹⁷ Department of Computer Science and Operations Research, University of Montreal, Montreal, QC, Canada"
+      },
+      {
+        "value": "Pittsburgh Supercomputing Center, Carnegie Mellon University, Pittsburgh, PA, United States",
+        "reasoning": "This affiliation is explicitly listed and numbered as '18' in the affiliations section of the paper.",
+        "quote": "¹⁸ Pittsburgh Supercomputing Center, Carnegie Mellon University, Pittsburgh, PA, United States"
+      },
+      {
+        "value": "Faculty of Medicine, Brain and Mind Research Institute, University of Ottawa, Ottawa, ON, Canada",
+        "reasoning": "This affiliation is explicitly listed and numbered as '19' in the affiliations section of the paper.",
+        "quote": "¹⁹ Faculty of Medicine, Brain and Mind Research Institute, University of Ottawa, Ottawa, ON, Canada"
+      },
+      {
+        "value": "Department of Biomedical Engineering, Faculty of Medicine, McConnell Brain Imaging Centre (BIC), Montreal Neurological Institute (MNI), McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is explicitly listed and numbered as '20' in the affiliations section of the paper.",
+        "quote": "²⁰ Department of Biomedical Engineering, Faculty of Medicine, McConnell Brain Imaging Centre (BIC), Montreal Neurological Institute (MNI), McGill University, Montreal, QC, Canada"
+      },
+      {
+        "value": "Mila-Quebec Artificial Intelligence Institute, Montreal, QC, Canada",
+        "reasoning": "This affiliation is explicitly listed and numbered as '21' in the affiliations section of the paper.",
+        "quote": "²¹ Mila-Quebec Artificial Intelligence Institute, Montreal, QC, Canada"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:21:19 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=49925",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Vincent Andrearczyk\",\n        \"reasoning\": \"The author's name 'Vincent Andrearczyk' is explicitly listed as the first author in the paper. A superscript 'a' next to the name links to the corresponding affiliation.\",\n        \"quote\": \"Vincent Andrearczyk a,*,1\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute of Informatics, University of Applied Sciences Western Switzerland (HES-SO), Sierre, Switzerland\",\n          \"reasoning\": \"The superscript 'a' next to the author's name corresponds to the affiliation listed with 'a' at the bottom of the author list.\",\n          \"quote\": \"a Institute of Informatics, University of Applied Sciences Western Switzerland (HES-SO), Sierre, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Valentin Oreiller\",\n        \"reasoning\": \"The author's name 'Valentin Oreiller' is explicitly listed in the author section of the paper. Superscripts 'a,b,c' next to the name link to the corresponding affiliations.\",\n        \"quote\": \"Valentin Oreiller a,b,c,1\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute of Informatics, University of Applied Sciences Western Switzerland (HES-SO), Sierre, Switzerland\",\n          \"reasoning\": \"The superscript 'a' next to the author's name corresponds to the affiliation listed with 'a' at the bottom of the author list.\",\n          \"quote\": \"a Institute of Informatics, University of Applied Sciences Western Switzerland (HES-SO), Sierre, Switzerland\"\n        },\n        {\n          \"value\": \"Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland\",\n          \"reasoning\": \"The superscript 'b' next to the author's name corresponds to the affiliation listed with 'b' at the bottom of the author list.\",\n          \"quote\": \"b Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland\"\n        },\n        {\n          \"value\": \"Faculty of Biology and Medicine, University of Lausanne, Lausanne, Switzerland\",\n          \"reasoning\": \"The superscript 'c' next to the author's name corresponds to the affiliation listed with 'c' at the bottom of the author list.\",\n          \"quote\": \"c Faculty of Biology and Medicine, University of Lausanne, Lausanne, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Sarah Boughdad\",\n        \"reasoning\": \"The author's name 'Sarah Boughdad' is explicitly listed in the author section of the paper. A superscript 'b' next to the name links to the corresponding affiliation.\",\n        \"quote\": \"Sarah Boughdad b\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland\",\n          \"reasoning\": \"The superscript 'b' next to the author's name corresponds to the affiliation listed with 'b' at the bottom of the author list.\",\n          \"quote\": \"b Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Catherine Cheze Le Rest\",\n        \"reasoning\": \"The author's name 'Catherine Cheze Le Rest' is explicitly listed in the author section of the paper. Superscripts 'd,e' next to the name link to the corresponding affiliations.\",\n        \"quote\": \"Catherine Cheze Le Rest d,e\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"LaTIM, INSERM, UMR 1101, University Brest, Brest, France\",\n          \"reasoning\": \"The superscript 'd' next to the author's name corresponds to the affiliation listed with 'd' at the bottom of the author list.\",\n          \"quote\": \"d LaTIM, INSERM, UMR 1101, University Brest, Brest, France\"\n        },\n        {\n          \"value\": \"Poitiers University Hospital, nuclear medicine, Poitiers, France\",\n          \"reasoning\": \"The superscript 'e' next to the author's name corresponds to the affiliation listed with 'e' at the bottom of the author list.\",\n          \"quote\": \"e Poitiers University Hospital, nuclear medicine, Poitiers, France\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Olena Tankyevych\",\n        \"reasoning\": \"The author's name 'Olena Tankyevych' is explicitly listed in the author section of the paper. Superscripts 'd,e' next to the name link to the corresponding affiliations.\",\n        \"quote\": \"Olena Tankyevych d,e\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"LaTIM, INSERM, UMR 1101, University Brest, Brest, France\",\n          \"reasoning\": \"The superscript 'd' next to the author's name corresponds to the affiliation listed with 'd' at the bottom of the author list.\",\n          \"quote\": \"d LaTIM, INSERM, UMR 1101, University Brest, Brest, France\"\n        },\n        {\n          \"value\": \"Poitiers University Hospital, nuclear medicine, Poitiers, France\",\n          \"reasoning\": \"The superscript 'e' next to the author's name corresponds to the affiliation listed with 'e' at the bottom of the author list.\",\n          \"quote\": \"e Poitiers University Hospital, nuclear medicine, Poitiers, France\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Hesham Elhalawani\",\n        \"reasoning\": \"The author's name 'Hesham Elhalawani' is explicitly listed in the author section of the paper. A superscript 'f' next to the name links to the corresponding affiliation.\",\n        \"quote\": \"Hesham Elhalawani f\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Cleveland Clinic Foundation, Department of Radiation Oncology, Cleveland, OH, United States of America\",\n          \"reasoning\": \"The superscript 'f' next to the author's name corresponds to the affiliation listed with 'f' at the bottom of the author list.\",\n          \"quote\": \"f Cleveland Clinic Foundation, Department of Radiation Oncology, Cleveland, OH, United States of America\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Mario Jreige\",\n        \"reasoning\": \"The author's name 'Mario Jreige' is explicitly listed in the author section of the paper. A superscript 'b' next to the name links to the corresponding affiliation.\",\n        \"quote\": \"Mario Jreige b\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland\",\n          \"reasoning\": \"The superscript 'b' next to the author's name corresponds to the affiliation listed with 'b' at the bottom of the author list.\",\n          \"quote\": \"b Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"John O. Prior\",\n        \"reasoning\": \"The author's name 'John O. Prior' is explicitly listed in the author section of the paper. Superscripts 'b,c' next to the name link to the corresponding affiliations.\",\n        \"quote\": \"John O. Prior b,c\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland\",\n          \"reasoning\": \"The superscript 'b' next to the author's name corresponds to the affiliation listed with 'b' at the bottom of the author list.\",\n          \"quote\": \"b Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland\"\n        },\n        {\n          \"value\": \"Faculty of Biology and Medicine, University of Lausanne, Lausanne, Switzerland\",\n          \"reasoning\": \"The superscript 'c' next to the author's name corresponds to the affiliation listed with 'c' at the bottom of the author list.\",\n          \"quote\": \"c Faculty of Biology and Medicine, University of Lausanne, Lausanne, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Martin Vallières\",\n        \"reasoning\": \"The author's name 'Martin Vallières' is explicitly listed in the author section of the paper. A superscript 'g' next to the name links to the corresponding affiliation.\",\n        \"quote\": \"Martin Vallières g\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Computer Science, Université de Sherbrooke, Sherbrooke, Québec, Canada\",\n          \"reasoning\": \"The superscript 'g' next to the author's name corresponds to the affiliation listed with 'g' at the bottom of the author list.\",\n          \"quote\": \"g Department of Computer Science, Université de Sherbrooke, Sherbrooke, Québec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Dimitris Visvikis\",\n        \"reasoning\": \"The author's name 'Dimitris Visvikis' is explicitly listed in the author section of the paper. A superscript 'd' next to the name links to the corresponding affiliation.\",\n        \"quote\": \"Dimitris Visvikis d\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"LaTIM, INSERM, UMR 1101, University Brest, Brest, France\",\n          \"reasoning\": \"The superscript 'd' next to the author's name corresponds to the affiliation listed with 'd' at the bottom of the author list.\",\n          \"quote\": \"d LaTIM, INSERM, UMR 1101, University Brest, Brest, France\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Mathieu Hatt\",\n        \"reasoning\": \"The author's name 'Mathieu Hatt' is explicitly listed in the author section of the paper. A superscript 'd' next to the name links to the corresponding affiliation.\",\n        \"quote\": \"Mathieu Hatt d,1\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"LaTIM, INSERM, UMR 1101, University Brest, Brest, France\",\n          \"reasoning\": \"The superscript 'd' next to the author's name corresponds to the affiliation listed with 'd' at the bottom of the author list.\",\n          \"quote\": \"d LaTIM, INSERM, UMR 1101, University Brest, Brest, France\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Adrien Depeursinge\",\n        \"reasoning\": \"The author's name 'Adrien Depeursinge' is explicitly listed in the author section of the paper. Superscripts 'a,b' next to the name link to the corresponding affiliations.\",\n        \"quote\": \"Adrien Depeursinge a,b,1\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute of Informatics, University of Applied Sciences Western Switzerland (HES-SO), Sierre, Switzerland\",\n          \"reasoning\": \"The superscript 'a' next to the author's name corresponds to the affiliation listed with 'a' at the bottom of the author list.\",\n          \"quote\": \"a Institute of Informatics, University of Applied Sciences Western Switzerland (HES-SO), Sierre, Switzerland\"\n        },\n        {\n          \"value\": \"Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland\",\n          \"reasoning\": \"The superscript 'b' next to the author's name corresponds to the affiliation listed with 'b' at the bottom of the author list.\",\n          \"quote\": \"b Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Institute of Informatics, University of Applied Sciences Western Switzerland (HES-SO), Sierre, Switzerland\",\n      \"reasoning\": \"This affiliation is explicitly listed in the paper and is associated with authors via the superscript 'a'.\",\n      \"quote\": \"a Institute of Informatics, University of Applied Sciences Western Switzerland (HES-SO), Sierre, Switzerland\"\n    },\n    {\n      \"value\": \"Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland\",\n      \"reasoning\": \"This affiliation is explicitly listed in the paper and is associated with authors via the superscript 'b'.\",\n      \"quote\": \"b Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland\"\n    },\n    {\n      \"value\": \"Faculty of Biology and Medicine, University of Lausanne, Lausanne, Switzerland\",\n      \"reasoning\": \"This affiliation is explicitly listed in the paper and is associated with authors via the superscript 'c'.\",\n      \"quote\": \"c Faculty of Biology and Medicine, University of Lausanne, Lausanne, Switzerland\"\n    },\n    {\n      \"value\": \"LaTIM, INSERM, UMR 1101, University Brest, Brest, France\",\n      \"reasoning\": \"This affiliation is explicitly listed in the paper and is associated with authors via the superscript 'd'.\",\n      \"quote\": \"d LaTIM, INSERM, UMR 1101, University Brest, Brest, France\"\n    },\n    {\n      \"value\": \"Poitiers University Hospital, nuclear medicine, Poitiers, France\",\n      \"reasoning\": \"This affiliation is explicitly listed in the paper and is associated with authors via the superscript 'e'.\",\n      \"quote\": \"e Poitiers University Hospital, nuclear medicine, Poitiers, France\"\n    },\n    {\n      \"value\": \"Cleveland Clinic Foundation, Department of Radiation Oncology, Cleveland, OH, United States of America\",\n      \"reasoning\": \"This affiliation is explicitly listed in the paper and is associated with an author via the superscript 'f'.\",\n      \"quote\": \"f Cleveland Clinic Foundation, Department of Radiation Oncology, Cleveland, OH, United States of America\"\n    },\n    {\n      \"value\": \"Department of Computer Science, Université de Sherbrooke, Sherbrooke, Québec, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed in the paper and is associated with an author via the superscript 'g'.\",\n      \"quote\": \"g Department of Computer Science, Université de Sherbrooke, Sherbrooke, Québec, Canada\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 3475,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 5315,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 4902
+      }
+    ],
+    "thoughts_token_count": 1451,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 10241,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Vincent Andrearczyk",
+          "reasoning": "The author's name 'Vincent Andrearczyk' is explicitly listed as the first author in the paper. A superscript 'a' next to the name links to the corresponding affiliation.",
+          "quote": "Vincent Andrearczyk a,*,1"
+        },
+        "affiliations": [
+          {
+            "value": "Institute of Informatics, University of Applied Sciences Western Switzerland (HES-SO), Sierre, Switzerland",
+            "reasoning": "The superscript 'a' next to the author's name corresponds to the affiliation listed with 'a' at the bottom of the author list.",
+            "quote": "a Institute of Informatics, University of Applied Sciences Western Switzerland (HES-SO), Sierre, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Valentin Oreiller",
+          "reasoning": "The author's name 'Valentin Oreiller' is explicitly listed in the author section of the paper. Superscripts 'a,b,c' next to the name link to the corresponding affiliations.",
+          "quote": "Valentin Oreiller a,b,c,1"
+        },
+        "affiliations": [
+          {
+            "value": "Institute of Informatics, University of Applied Sciences Western Switzerland (HES-SO), Sierre, Switzerland",
+            "reasoning": "The superscript 'a' next to the author's name corresponds to the affiliation listed with 'a' at the bottom of the author list.",
+            "quote": "a Institute of Informatics, University of Applied Sciences Western Switzerland (HES-SO), Sierre, Switzerland"
+          },
+          {
+            "value": "Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+            "reasoning": "The superscript 'b' next to the author's name corresponds to the affiliation listed with 'b' at the bottom of the author list.",
+            "quote": "b Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland"
+          },
+          {
+            "value": "Faculty of Biology and Medicine, University of Lausanne, Lausanne, Switzerland",
+            "reasoning": "The superscript 'c' next to the author's name corresponds to the affiliation listed with 'c' at the bottom of the author list.",
+            "quote": "c Faculty of Biology and Medicine, University of Lausanne, Lausanne, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Sarah Boughdad",
+          "reasoning": "The author's name 'Sarah Boughdad' is explicitly listed in the author section of the paper. A superscript 'b' next to the name links to the corresponding affiliation.",
+          "quote": "Sarah Boughdad b"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+            "reasoning": "The superscript 'b' next to the author's name corresponds to the affiliation listed with 'b' at the bottom of the author list.",
+            "quote": "b Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Catherine Cheze Le Rest",
+          "reasoning": "The author's name 'Catherine Cheze Le Rest' is explicitly listed in the author section of the paper. Superscripts 'd,e' next to the name link to the corresponding affiliations.",
+          "quote": "Catherine Cheze Le Rest d,e"
+        },
+        "affiliations": [
+          {
+            "value": "LaTIM, INSERM, UMR 1101, University Brest, Brest, France",
+            "reasoning": "The superscript 'd' next to the author's name corresponds to the affiliation listed with 'd' at the bottom of the author list.",
+            "quote": "d LaTIM, INSERM, UMR 1101, University Brest, Brest, France"
+          },
+          {
+            "value": "Poitiers University Hospital, nuclear medicine, Poitiers, France",
+            "reasoning": "The superscript 'e' next to the author's name corresponds to the affiliation listed with 'e' at the bottom of the author list.",
+            "quote": "e Poitiers University Hospital, nuclear medicine, Poitiers, France"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Olena Tankyevych",
+          "reasoning": "The author's name 'Olena Tankyevych' is explicitly listed in the author section of the paper. Superscripts 'd,e' next to the name link to the corresponding affiliations.",
+          "quote": "Olena Tankyevych d,e"
+        },
+        "affiliations": [
+          {
+            "value": "LaTIM, INSERM, UMR 1101, University Brest, Brest, France",
+            "reasoning": "The superscript 'd' next to the author's name corresponds to the affiliation listed with 'd' at the bottom of the author list.",
+            "quote": "d LaTIM, INSERM, UMR 1101, University Brest, Brest, France"
+          },
+          {
+            "value": "Poitiers University Hospital, nuclear medicine, Poitiers, France",
+            "reasoning": "The superscript 'e' next to the author's name corresponds to the affiliation listed with 'e' at the bottom of the author list.",
+            "quote": "e Poitiers University Hospital, nuclear medicine, Poitiers, France"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Hesham Elhalawani",
+          "reasoning": "The author's name 'Hesham Elhalawani' is explicitly listed in the author section of the paper. A superscript 'f' next to the name links to the corresponding affiliation.",
+          "quote": "Hesham Elhalawani f"
+        },
+        "affiliations": [
+          {
+            "value": "Cleveland Clinic Foundation, Department of Radiation Oncology, Cleveland, OH, United States of America",
+            "reasoning": "The superscript 'f' next to the author's name corresponds to the affiliation listed with 'f' at the bottom of the author list.",
+            "quote": "f Cleveland Clinic Foundation, Department of Radiation Oncology, Cleveland, OH, United States of America"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Mario Jreige",
+          "reasoning": "The author's name 'Mario Jreige' is explicitly listed in the author section of the paper. A superscript 'b' next to the name links to the corresponding affiliation.",
+          "quote": "Mario Jreige b"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+            "reasoning": "The superscript 'b' next to the author's name corresponds to the affiliation listed with 'b' at the bottom of the author list.",
+            "quote": "b Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "John O. Prior",
+          "reasoning": "The author's name 'John O. Prior' is explicitly listed in the author section of the paper. Superscripts 'b,c' next to the name link to the corresponding affiliations.",
+          "quote": "John O. Prior b,c"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+            "reasoning": "The superscript 'b' next to the author's name corresponds to the affiliation listed with 'b' at the bottom of the author list.",
+            "quote": "b Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland"
+          },
+          {
+            "value": "Faculty of Biology and Medicine, University of Lausanne, Lausanne, Switzerland",
+            "reasoning": "The superscript 'c' next to the author's name corresponds to the affiliation listed with 'c' at the bottom of the author list.",
+            "quote": "c Faculty of Biology and Medicine, University of Lausanne, Lausanne, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Martin Vallières",
+          "reasoning": "The author's name 'Martin Vallières' is explicitly listed in the author section of the paper. A superscript 'g' next to the name links to the corresponding affiliation.",
+          "quote": "Martin Vallières g"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Computer Science, Université de Sherbrooke, Sherbrooke, Québec, Canada",
+            "reasoning": "The superscript 'g' next to the author's name corresponds to the affiliation listed with 'g' at the bottom of the author list.",
+            "quote": "g Department of Computer Science, Université de Sherbrooke, Sherbrooke, Québec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Dimitris Visvikis",
+          "reasoning": "The author's name 'Dimitris Visvikis' is explicitly listed in the author section of the paper. A superscript 'd' next to the name links to the corresponding affiliation.",
+          "quote": "Dimitris Visvikis d"
+        },
+        "affiliations": [
+          {
+            "value": "LaTIM, INSERM, UMR 1101, University Brest, Brest, France",
+            "reasoning": "The superscript 'd' next to the author's name corresponds to the affiliation listed with 'd' at the bottom of the author list.",
+            "quote": "d LaTIM, INSERM, UMR 1101, University Brest, Brest, France"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Mathieu Hatt",
+          "reasoning": "The author's name 'Mathieu Hatt' is explicitly listed in the author section of the paper. A superscript 'd' next to the name links to the corresponding affiliation.",
+          "quote": "Mathieu Hatt d,1"
+        },
+        "affiliations": [
+          {
+            "value": "LaTIM, INSERM, UMR 1101, University Brest, Brest, France",
+            "reasoning": "The superscript 'd' next to the author's name corresponds to the affiliation listed with 'd' at the bottom of the author list.",
+            "quote": "d LaTIM, INSERM, UMR 1101, University Brest, Brest, France"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Adrien Depeursinge",
+          "reasoning": "The author's name 'Adrien Depeursinge' is explicitly listed in the author section of the paper. Superscripts 'a,b' next to the name link to the corresponding affiliations.",
+          "quote": "Adrien Depeursinge a,b,1"
+        },
+        "affiliations": [
+          {
+            "value": "Institute of Informatics, University of Applied Sciences Western Switzerland (HES-SO), Sierre, Switzerland",
+            "reasoning": "The superscript 'a' next to the author's name corresponds to the affiliation listed with 'a' at the bottom of the author list.",
+            "quote": "a Institute of Informatics, University of Applied Sciences Western Switzerland (HES-SO), Sierre, Switzerland"
+          },
+          {
+            "value": "Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+            "reasoning": "The superscript 'b' next to the author's name corresponds to the affiliation listed with 'b' at the bottom of the author list.",
+            "quote": "b Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Institute of Informatics, University of Applied Sciences Western Switzerland (HES-SO), Sierre, Switzerland",
+        "reasoning": "This affiliation is explicitly listed in the paper and is associated with authors via the superscript 'a'.",
+        "quote": "a Institute of Informatics, University of Applied Sciences Western Switzerland (HES-SO), Sierre, Switzerland"
+      },
+      {
+        "value": "Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+        "reasoning": "This affiliation is explicitly listed in the paper and is associated with authors via the superscript 'b'.",
+        "quote": "b Department of Nuclear Medicine and Molecular Imaging, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland"
+      },
+      {
+        "value": "Faculty of Biology and Medicine, University of Lausanne, Lausanne, Switzerland",
+        "reasoning": "This affiliation is explicitly listed in the paper and is associated with authors via the superscript 'c'.",
+        "quote": "c Faculty of Biology and Medicine, University of Lausanne, Lausanne, Switzerland"
+      },
+      {
+        "value": "LaTIM, INSERM, UMR 1101, University Brest, Brest, France",
+        "reasoning": "This affiliation is explicitly listed in the paper and is associated with authors via the superscript 'd'.",
+        "quote": "d LaTIM, INSERM, UMR 1101, University Brest, Brest, France"
+      },
+      {
+        "value": "Poitiers University Hospital, nuclear medicine, Poitiers, France",
+        "reasoning": "This affiliation is explicitly listed in the paper and is associated with authors via the superscript 'e'.",
+        "quote": "e Poitiers University Hospital, nuclear medicine, Poitiers, France"
+      },
+      {
+        "value": "Cleveland Clinic Foundation, Department of Radiation Oncology, Cleveland, OH, United States of America",
+        "reasoning": "This affiliation is explicitly listed in the paper and is associated with an author via the superscript 'f'.",
+        "quote": "f Cleveland Clinic Foundation, Department of Radiation Oncology, Cleveland, OH, United States of America"
+      },
+      {
+        "value": "Department of Computer Science, Université de Sherbrooke, Sherbrooke, Québec, Canada",
+        "reasoning": "This affiliation is explicitly listed in the paper and is associated with an author via the superscript 'g'.",
+        "quote": "g Department of Computer Science, Université de Sherbrooke, Sherbrooke, Québec, Canada"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

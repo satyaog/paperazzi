@@ -1,0 +1,120 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:40:01 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=16052",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Abhilash Reddy Chenreddy\",\n        \"reasoning\": \"The name is listed as the first author at the beginning of the paper, associated with the superscript '1'.\",\n        \"quote\": \"Abhilash Reddy Chenreddy¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"GERAD and Department of Decision Sciences, HEC Montréal, Canada\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to this affiliation, which is listed below the author names.\",\n          \"quote\": \"¹GERAD and Department of Decision Sciences, HEC Montréal, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Erick Delage\",\n        \"reasoning\": \"The name is listed as the second author at the beginning of the paper, associated with the superscript '1'.\",\n        \"quote\": \"Erick Delage¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"GERAD and Department of Decision Sciences, HEC Montréal, Canada\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to this affiliation, which is listed below the author names.\",\n          \"quote\": \"¹GERAD and Department of Decision Sciences, HEC Montréal, Canada\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"GERAD and Department of Decision Sciences, HEC Montréal, Canada\",\n      \"reasoning\": \"This is the single affiliation provided in the paper, associated with both authors via the superscript '1'.\",\n      \"quote\": \"¹GERAD and Department of Decision Sciences, HEC Montréal, Canada\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 420,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 3767,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 3354
+      }
+    ],
+    "thoughts_token_count": 823,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 5010,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Abhilash Reddy Chenreddy",
+          "reasoning": "The name is listed as the first author at the beginning of the paper, associated with the superscript '1'.",
+          "quote": "Abhilash Reddy Chenreddy¹"
+        },
+        "affiliations": [
+          {
+            "value": "GERAD and Department of Decision Sciences, HEC Montréal, Canada",
+            "reasoning": "The superscript '1' next to the author's name corresponds to this affiliation, which is listed below the author names.",
+            "quote": "¹GERAD and Department of Decision Sciences, HEC Montréal, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Erick Delage",
+          "reasoning": "The name is listed as the second author at the beginning of the paper, associated with the superscript '1'.",
+          "quote": "Erick Delage¹"
+        },
+        "affiliations": [
+          {
+            "value": "GERAD and Department of Decision Sciences, HEC Montréal, Canada",
+            "reasoning": "The superscript '1' next to the author's name corresponds to this affiliation, which is listed below the author names.",
+            "quote": "¹GERAD and Department of Decision Sciences, HEC Montréal, Canada"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "GERAD and Department of Decision Sciences, HEC Montréal, Canada",
+        "reasoning": "This is the single affiliation provided in the paper, associated with both authors via the superscript '1'.",
+        "quote": "¹GERAD and Department of Decision Sciences, HEC Montréal, Canada"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

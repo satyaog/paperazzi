@@ -1,0 +1,432 @@
+{
+  "id": "resp_6871472fd68881a1ab1127c4363ebd62091f79da8b211e88",
+  "created_at": 1752254256.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4o-2024-08-06",
+  "object": "response",
+  "output": [
+    {
+      "id": "msg_687147354e2081a1bbed993f6b11b0d0091f79da8b211e88",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"authors_affiliations\":[{\"author\":{\"value\":\"Kimia Shafighi\",\"reasoning\":\"The author's name is clearly listed with their affiliation following in the same meta tag.\",\"quote\":\"<meta name=\\\"citation_author\\\" content=\\\"Kimia Shafighi\\\"/>\"},\"affiliations\":[{\"value\":\"Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\",\"reasoning\":\"The affiliation is directly associated with Kimia Shafighi in the meta tags.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\\\"/>\"}]},{\"author\":{\"value\":\"Sylvia Villeneuve\",\"reasoning\":\"The author's name appears in the meta tags, followed by their multiple affiliations.\",\"quote\":\"<meta name=\\\"citation_author\\\" content=\\\"Sylvia Villeneuve\\\"/>\"},\"affiliations\":[{\"value\":\"McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\",\"reasoning\":\"This is among the listed affiliations for Sylvia Villeneuve in the meta tags.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\\\"/>\"},{\"value\":\"Department of Psychiatry, McGill University, Montreal, Quebec, Canada\",\"reasoning\":\"This is another listed affiliation for Sylvia Villeneuve in the meta tags.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Department of Psychiatry, McGill University, Montreal, Quebec, Canada\\\"/>\"},{\"value\":\"Douglas Mental Health University Institute, Studies on Prevention of Alzheimer’s Disease (StoP-AD) Centre, Montreal, Quebec, Canada\",\"reasoning\":\"This completes the listed affiliations for Sylvia Villeneuve in the meta tags.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Douglas Mental Health University Institute, Studies on Prevention of Alzheimer’s Disease (StoP-AD) Centre, Montreal, Quebec, Canada\\\"/>\"}]},{\"author\":{\"value\":\"Pedro Rosa Neto\",\"reasoning\":\"The author's name is listed in the meta tags, with several affiliations following it.\",\"quote\":\"<meta name=\\\"citation_author\\\" content=\\\"Pedro Rosa Neto\\\"/>\"},\"affiliations\":[{\"value\":\"Douglas Mental Health University Institute, Studies on Prevention of Alzheimer’s Disease (StoP-AD) Centre, Montreal, Quebec, Canada\",\"reasoning\":\"This is one of the affiliations listed for Pedro Rosa Neto.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Douglas Mental Health University Institute, Studies on Prevention of Alzheimer’s Disease (StoP-AD) Centre, Montreal, Quebec, Canada\\\"/>\"},{\"value\":\"Translational Neuroimaging Laboratory, McGill University Research Centre for Studies in Aging, Alzheimer’s Disease Research Unit, Montreal, Canada\",\"reasoning\":\"Another affiliation for Pedro Rosa Neto.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Translational Neuroimaging Laboratory, McGill University Research Centre for Studies in Aging, Alzheimer’s Disease Research Unit, Montreal, Canada\\\"/>\"},{\"value\":\"Le Centre Intégré Universitaire de Santé et de Services Sociaux (CIUSSS) de l’Ouest-de-l’Île-de-Montréal, Montréal, Canada\",\"reasoning\":\"Further affiliation listed for Pedro Rosa Neto.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Le Centre Intégré Universitaire de Santé et de Services Sociaux (CIUSSS) de l’Ouest-de-l’Île-de-Montréal, Montréal, Canada\\\"/>\"},{\"value\":\"Department of Neurology and Neurosurgery, Psychiatry and Pharmacology and Therapeutics, McGill University, Montreal, Canada\",\"reasoning\":\"This completes the affiliations for Pedro Rosa Neto.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Department of Neurology and Neurosurgery, Psychiatry and Pharmacology and Therapeutics, McGill University, Montreal, Canada\\\"/>\"}]},{\"author\":{\"value\":\"AmanPreet Badhwar\",\"reasoning\":\"The author's name is listed with two affiliations following in the meta tags.\",\"quote\":\"<meta name=\\\"citation_author\\\" content=\\\"AmanPreet Badhwar\\\"/>\"},\"affiliations\":[{\"value\":\"Département de Pharmacologie et Physiologie & Institut de Génie Biomédical, Faculté de Médecine, Université de Montréal, Montréal, Canada\",\"reasoning\":\"One of the affiliations for AmanPreet Badhwar in the meta tags.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Département de Pharmacologie et Physiologie & Institut de Génie Biomédical, Faculté de Médecine, Université de Montréal, Montréal, Canada\\\"/>\"},{\"value\":\"Centre de Recherche de l’Institut Universitaire de Gériatrie de Montréal (CRIUGM), Montréal, Canada\",\"reasoning\":\"Second affiliation listed for AmanPreet Badhwar.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Centre de Recherche de l’Institut Universitaire de Gériatrie de Montréal (CRIUGM), Montréal, Canada\\\"/>\"}]},{\"author\":{\"value\":\"Judes Poirier\",\"reasoning\":\"The author's name with one listed affiliation is found in the meta tags.\",\"quote\":\"<meta name=\\\"citation_author\\\" content=\\\"Judes Poirier\\\"/>\"},\"affiliations\":[{\"value\":\"Centre for Studies in the Prevention of Alzheimer’s Disease, Douglas Mental Health Institute, McGill University, Montreal, Canada\",\"reasoning\":\"Affiliation for Judes Poirier from the meta tags.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Centre for Studies in the Prevention of Alzheimer’s Disease, Douglas Mental Health Institute, McGill University, Montreal, Canada\\\"/>\"}]},{\"author\":{\"value\":\"Vaibhav Sharma\",\"reasoning\":\"The author is listed with their affiliation following in the meta tags.\",\"quote\":\"<meta name=\\\"citation_author\\\" content=\\\"Vaibhav Sharma\\\"/>\"},\"affiliations\":[{\"value\":\"Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\",\"reasoning\":\"Single listed affiliation for Vaibhav Sharma.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\\\"/>\"}]},{\"author\":{\"value\":\"Yasser Iturria Medina\",\"reasoning\":\"Listed in the meta tags with corresponding affiliations noted.\",\"quote\":\"<meta name=\\\"citation_author\\\" content=\\\"Yasser Iturria Medina\\\"/>\"},\"affiliations\":[{\"value\":\"McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\",\"reasoning\":\"Listed affiliation for Yasser Iturria Medina.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\\\"/>\"},{\"value\":\"Neurology and Neurosurgery Department, Montreal Neurological Institute (MNI), Faculty of Medicine, McGill University, Montreal, Canada\",\"reasoning\":\"Second affiliation for Yasser Iturria Medina.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Neurology and Neurosurgery Department, Montreal Neurological Institute (MNI), Faculty of Medicine, McGill University, Montreal, Canada\\\"/>\"},{\"value\":\"Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada\",\"reasoning\":\"Additional affiliation for Yasser Iturria Medina.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada\\\"/>\"}]},{\"author\":{\"value\":\"Patricia P. Silveira\",\"reasoning\":\"The author's name and affiliations are listed in the meta tags.\",\"quote\":\"<meta name=\\\"citation_author\\\" content=\\\"Patricia P. Silveira\\\"/>\"},\"affiliations\":[{\"value\":\"Department of Psychiatry, McGill University, Montreal, Quebec, Canada\",\"reasoning\":\"One of the affiliations for Patricia P. Silveira.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Department of Psychiatry, McGill University, Montreal, Quebec, Canada\\\"/>\"},{\"value\":\"Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada\",\"reasoning\":\"Additional affiliation for Patricia P. Silveira.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada\\\"/>\"}]},{\"author\":{\"value\":\"Laurette Dube\",\"reasoning\":\"Author name is in meta tags with one affiliation following.\",\"quote\":\"<meta name=\\\"citation_author\\\" content=\\\"Laurette Dube\\\"/>\"},\"affiliations\":[{\"value\":\"Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\",\"reasoning\":\"Single affiliation linked to Laurette Dube in the meta tags.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\\\"/>\"}]},{\"author\":{\"value\":\"David Glahn\",\"reasoning\":\"The author and corresponding affiliations appear in meta tags.\",\"quote\":\"<meta name=\\\"citation_author\\\" content=\\\"David Glahn\\\"/>\"},\"affiliations\":[{\"value\":\"Tommy Fuss Center for Neuropsychiatric Disease Research, Department of Psychiatry, Boston Children’s Hospital, Boston, MA, United States of America\",\"reasoning\":\"Affiliation for David Glahn listed first.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Tommy Fuss Center for Neuropsychiatric Disease Research, Department of Psychiatry, Boston Children’s Hospital, Boston, MA, United States of America\\\"/>\"},{\"value\":\"Department of Psychiatry, Harvard Medical School, Boston, MA, United States of America\",\"reasoning\":\"Additional affiliation for David Glahn.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Department of Psychiatry, Harvard Medical School, Boston, MA, United States of America\\\"/>\"}]},{\"author\":{\"value\":\"Danilo Bzdok\",\"reasoning\":\"The author's name and a set of multiple affiliations are found in the meta tags.\",\"quote\":\"<meta name=\\\"citation_author\\\" content=\\\"Danilo Bzdok\\\"/>\"},\"affiliations\":[{\"value\":\"Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\",\"reasoning\":\"One of the affiliations noted in the meta tags for Danilo Bzdok.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\\\"/>\"},{\"value\":\"McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\",\"reasoning\":\"Another affiliation for Danilo Bzdok listed in the meta tags.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\\\"/>\"},{\"value\":\"School of Computer Science, McGill University, Montreal, Canada\",\"reasoning\":\"Further affiliation for Danilo Bzdok found in the meta tags.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"School of Computer Science, McGill University, Montreal, Canada\\\"/>\"},{\"value\":\"Mila—Quebec Artificial Intelligence Institute, Montreal, Canada\",\"reasoning\":\"Final affiliation for Danilo Bzdok as per the meta tags.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Mila—Quebec Artificial Intelligence Institute, Montreal, Canada\\\"/>\"}]}],\"affiliations\":[{\"value\":\"Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\",\"reasoning\":\"Frequently appears as a common institution among authors, displaying its prominence.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\\\"/>\"},{\"value\":\"McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\",\"reasoning\":\"Another frequently mentioned affiliation, indicating multiple author associations.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\\\"/>\"},{\"value\":\"Douglas Mental Health University Institute, Studies on Prevention of Alzheimer’s Disease (StoP-AD) Centre, Montreal, Quebec, Canada\",\"reasoning\":\"Repeatedly noted, showcasing its relevance to several authors and focus areas in the paper.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Douglas Mental Health University Institute, Studies on Prevention of Alzheimer’s Disease (StoP-AD) Centre, Montreal, Quebec, Canada\\\"/>\"},{\"value\":\"Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada\",\"reasoning\":\"Highlighted multiple times, indicating its centrality in the research.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada\\\"/>\"},{\"value\":\"Department of Psychiatry, McGill University, Montreal, Quebec, Canada\",\"reasoning\":\"Shows up in meta tags for numerous authors, emphasizing its involvement in the study.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Department of Psychiatry, McGill University, Montreal, Quebec, Canada\\\"/>\"},{\"value\":\"Tommy Fuss Center for Neuropsychiatric Disease Research, Department of Psychiatry, Boston Children’s Hospital, Boston, MA, United States of America\",\"reasoning\":\"Present in the affiliations because at least one author works there, contributing to the research scope.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Tommy Fuss Center for Neuropsychiatric Disease Research, Department of Psychiatry, Boston Children’s Hospital, Boston, MA, United States of America\\\"/>\"},{\"value\":\"Department of Psychiatry, Harvard Medical School, Boston, MA, United States of America\",\"reasoning\":\"Listed due to author association, influencing research perspectives.\",\"quote\":\"<meta name=\\\"citation_author_institution\\\" content=\\\"Department of Psychiatry, Harvard Medical School, Boston, MA, United States of America\\\"/>\"}]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "authors_affiliations": [
+              {
+                "author": {
+                  "value": "Kimia Shafighi",
+                  "reasoning": "The author's name is clearly listed with their affiliation following in the same meta tag.",
+                  "quote": "<meta name=\"citation_author\" content=\"Kimia Shafighi\"/>"
+                },
+                "affiliations": [
+                  {
+                    "value": "Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada",
+                    "reasoning": "The affiliation is directly associated with Kimia Shafighi in the meta tags.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\"/>"
+                  }
+                ]
+              },
+              {
+                "author": {
+                  "value": "Sylvia Villeneuve",
+                  "reasoning": "The author's name appears in the meta tags, followed by their multiple affiliations.",
+                  "quote": "<meta name=\"citation_author\" content=\"Sylvia Villeneuve\"/>"
+                },
+                "affiliations": [
+                  {
+                    "value": "McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada",
+                    "reasoning": "This is among the listed affiliations for Sylvia Villeneuve in the meta tags.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\"/>"
+                  },
+                  {
+                    "value": "Department of Psychiatry, McGill University, Montreal, Quebec, Canada",
+                    "reasoning": "This is another listed affiliation for Sylvia Villeneuve in the meta tags.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Department of Psychiatry, McGill University, Montreal, Quebec, Canada\"/>"
+                  },
+                  {
+                    "value": "Douglas Mental Health University Institute, Studies on Prevention of Alzheimer’s Disease (StoP-AD) Centre, Montreal, Quebec, Canada",
+                    "reasoning": "This completes the listed affiliations for Sylvia Villeneuve in the meta tags.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Douglas Mental Health University Institute, Studies on Prevention of Alzheimer’s Disease (StoP-AD) Centre, Montreal, Quebec, Canada\"/>"
+                  }
+                ]
+              },
+              {
+                "author": {
+                  "value": "Pedro Rosa Neto",
+                  "reasoning": "The author's name is listed in the meta tags, with several affiliations following it.",
+                  "quote": "<meta name=\"citation_author\" content=\"Pedro Rosa Neto\"/>"
+                },
+                "affiliations": [
+                  {
+                    "value": "Douglas Mental Health University Institute, Studies on Prevention of Alzheimer’s Disease (StoP-AD) Centre, Montreal, Quebec, Canada",
+                    "reasoning": "This is one of the affiliations listed for Pedro Rosa Neto.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Douglas Mental Health University Institute, Studies on Prevention of Alzheimer’s Disease (StoP-AD) Centre, Montreal, Quebec, Canada\"/>"
+                  },
+                  {
+                    "value": "Translational Neuroimaging Laboratory, McGill University Research Centre for Studies in Aging, Alzheimer’s Disease Research Unit, Montreal, Canada",
+                    "reasoning": "Another affiliation for Pedro Rosa Neto.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Translational Neuroimaging Laboratory, McGill University Research Centre for Studies in Aging, Alzheimer’s Disease Research Unit, Montreal, Canada\"/>"
+                  },
+                  {
+                    "value": "Le Centre Intégré Universitaire de Santé et de Services Sociaux (CIUSSS) de l’Ouest-de-l’Île-de-Montréal, Montréal, Canada",
+                    "reasoning": "Further affiliation listed for Pedro Rosa Neto.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Le Centre Intégré Universitaire de Santé et de Services Sociaux (CIUSSS) de l’Ouest-de-l’Île-de-Montréal, Montréal, Canada\"/>"
+                  },
+                  {
+                    "value": "Department of Neurology and Neurosurgery, Psychiatry and Pharmacology and Therapeutics, McGill University, Montreal, Canada",
+                    "reasoning": "This completes the affiliations for Pedro Rosa Neto.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Department of Neurology and Neurosurgery, Psychiatry and Pharmacology and Therapeutics, McGill University, Montreal, Canada\"/>"
+                  }
+                ]
+              },
+              {
+                "author": {
+                  "value": "AmanPreet Badhwar",
+                  "reasoning": "The author's name is listed with two affiliations following in the meta tags.",
+                  "quote": "<meta name=\"citation_author\" content=\"AmanPreet Badhwar\"/>"
+                },
+                "affiliations": [
+                  {
+                    "value": "Département de Pharmacologie et Physiologie & Institut de Génie Biomédical, Faculté de Médecine, Université de Montréal, Montréal, Canada",
+                    "reasoning": "One of the affiliations for AmanPreet Badhwar in the meta tags.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Département de Pharmacologie et Physiologie & Institut de Génie Biomédical, Faculté de Médecine, Université de Montréal, Montréal, Canada\"/>"
+                  },
+                  {
+                    "value": "Centre de Recherche de l’Institut Universitaire de Gériatrie de Montréal (CRIUGM), Montréal, Canada",
+                    "reasoning": "Second affiliation listed for AmanPreet Badhwar.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Centre de Recherche de l’Institut Universitaire de Gériatrie de Montréal (CRIUGM), Montréal, Canada\"/>"
+                  }
+                ]
+              },
+              {
+                "author": {
+                  "value": "Judes Poirier",
+                  "reasoning": "The author's name with one listed affiliation is found in the meta tags.",
+                  "quote": "<meta name=\"citation_author\" content=\"Judes Poirier\"/>"
+                },
+                "affiliations": [
+                  {
+                    "value": "Centre for Studies in the Prevention of Alzheimer’s Disease, Douglas Mental Health Institute, McGill University, Montreal, Canada",
+                    "reasoning": "Affiliation for Judes Poirier from the meta tags.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Centre for Studies in the Prevention of Alzheimer’s Disease, Douglas Mental Health Institute, McGill University, Montreal, Canada\"/>"
+                  }
+                ]
+              },
+              {
+                "author": {
+                  "value": "Vaibhav Sharma",
+                  "reasoning": "The author is listed with their affiliation following in the meta tags.",
+                  "quote": "<meta name=\"citation_author\" content=\"Vaibhav Sharma\"/>"
+                },
+                "affiliations": [
+                  {
+                    "value": "Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada",
+                    "reasoning": "Single listed affiliation for Vaibhav Sharma.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\"/>"
+                  }
+                ]
+              },
+              {
+                "author": {
+                  "value": "Yasser Iturria Medina",
+                  "reasoning": "Listed in the meta tags with corresponding affiliations noted.",
+                  "quote": "<meta name=\"citation_author\" content=\"Yasser Iturria Medina\"/>"
+                },
+                "affiliations": [
+                  {
+                    "value": "McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada",
+                    "reasoning": "Listed affiliation for Yasser Iturria Medina.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\"/>"
+                  },
+                  {
+                    "value": "Neurology and Neurosurgery Department, Montreal Neurological Institute (MNI), Faculty of Medicine, McGill University, Montreal, Canada",
+                    "reasoning": "Second affiliation for Yasser Iturria Medina.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Neurology and Neurosurgery Department, Montreal Neurological Institute (MNI), Faculty of Medicine, McGill University, Montreal, Canada\"/>"
+                  },
+                  {
+                    "value": "Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada",
+                    "reasoning": "Additional affiliation for Yasser Iturria Medina.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada\"/>"
+                  }
+                ]
+              },
+              {
+                "author": {
+                  "value": "Patricia P. Silveira",
+                  "reasoning": "The author's name and affiliations are listed in the meta tags.",
+                  "quote": "<meta name=\"citation_author\" content=\"Patricia P. Silveira\"/>"
+                },
+                "affiliations": [
+                  {
+                    "value": "Department of Psychiatry, McGill University, Montreal, Quebec, Canada",
+                    "reasoning": "One of the affiliations for Patricia P. Silveira.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Department of Psychiatry, McGill University, Montreal, Quebec, Canada\"/>"
+                  },
+                  {
+                    "value": "Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada",
+                    "reasoning": "Additional affiliation for Patricia P. Silveira.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada\"/>"
+                  }
+                ]
+              },
+              {
+                "author": {
+                  "value": "Laurette Dube",
+                  "reasoning": "Author name is in meta tags with one affiliation following.",
+                  "quote": "<meta name=\"citation_author\" content=\"Laurette Dube\"/>"
+                },
+                "affiliations": [
+                  {
+                    "value": "Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada",
+                    "reasoning": "Single affiliation linked to Laurette Dube in the meta tags.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\"/>"
+                  }
+                ]
+              },
+              {
+                "author": {
+                  "value": "David Glahn",
+                  "reasoning": "The author and corresponding affiliations appear in meta tags.",
+                  "quote": "<meta name=\"citation_author\" content=\"David Glahn\"/>"
+                },
+                "affiliations": [
+                  {
+                    "value": "Tommy Fuss Center for Neuropsychiatric Disease Research, Department of Psychiatry, Boston Children’s Hospital, Boston, MA, United States of America",
+                    "reasoning": "Affiliation for David Glahn listed first.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Tommy Fuss Center for Neuropsychiatric Disease Research, Department of Psychiatry, Boston Children’s Hospital, Boston, MA, United States of America\"/>"
+                  },
+                  {
+                    "value": "Department of Psychiatry, Harvard Medical School, Boston, MA, United States of America",
+                    "reasoning": "Additional affiliation for David Glahn.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Department of Psychiatry, Harvard Medical School, Boston, MA, United States of America\"/>"
+                  }
+                ]
+              },
+              {
+                "author": {
+                  "value": "Danilo Bzdok",
+                  "reasoning": "The author's name and a set of multiple affiliations are found in the meta tags.",
+                  "quote": "<meta name=\"citation_author\" content=\"Danilo Bzdok\"/>"
+                },
+                "affiliations": [
+                  {
+                    "value": "Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada",
+                    "reasoning": "One of the affiliations noted in the meta tags for Danilo Bzdok.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\"/>"
+                  },
+                  {
+                    "value": "McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada",
+                    "reasoning": "Another affiliation for Danilo Bzdok listed in the meta tags.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\"/>"
+                  },
+                  {
+                    "value": "School of Computer Science, McGill University, Montreal, Canada",
+                    "reasoning": "Further affiliation for Danilo Bzdok found in the meta tags.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"School of Computer Science, McGill University, Montreal, Canada\"/>"
+                  },
+                  {
+                    "value": "Mila—Quebec Artificial Intelligence Institute, Montreal, Canada",
+                    "reasoning": "Final affiliation for Danilo Bzdok as per the meta tags.",
+                    "quote": "<meta name=\"citation_author_institution\" content=\"Mila—Quebec Artificial Intelligence Institute, Montreal, Canada\"/>"
+                  }
+                ]
+              }
+            ],
+            "affiliations": [
+              {
+                "value": "Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada",
+                "reasoning": "Frequently appears as a common institution among authors, displaying its prominence.",
+                "quote": "<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Faculty of Medicine, McGill University, Montreal, Canada\"/>"
+              },
+              {
+                "value": "McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada",
+                "reasoning": "Another frequently mentioned affiliation, indicating multiple author associations.",
+                "quote": "<meta name=\"citation_author_institution\" content=\"McConnell Brain Imaging Centre (BIC), MNI, Faculty of Medicine, McGill University, Montreal, Canada\"/>"
+              },
+              {
+                "value": "Douglas Mental Health University Institute, Studies on Prevention of Alzheimer’s Disease (StoP-AD) Centre, Montreal, Quebec, Canada",
+                "reasoning": "Repeatedly noted, showcasing its relevance to several authors and focus areas in the paper.",
+                "quote": "<meta name=\"citation_author_institution\" content=\"Douglas Mental Health University Institute, Studies on Prevention of Alzheimer’s Disease (StoP-AD) Centre, Montreal, Quebec, Canada\"/>"
+              },
+              {
+                "value": "Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada",
+                "reasoning": "Highlighted multiple times, indicating its centrality in the research.",
+                "quote": "<meta name=\"citation_author_institution\" content=\"Ludmer Centre for Neuroinformatics and Mental Health, McGill University, Montreal, Canada\"/>"
+              },
+              {
+                "value": "Department of Psychiatry, McGill University, Montreal, Quebec, Canada",
+                "reasoning": "Shows up in meta tags for numerous authors, emphasizing its involvement in the study.",
+                "quote": "<meta name=\"citation_author_institution\" content=\"Department of Psychiatry, McGill University, Montreal, Quebec, Canada\"/>"
+              },
+              {
+                "value": "Tommy Fuss Center for Neuropsychiatric Disease Research, Department of Psychiatry, Boston Children’s Hospital, Boston, MA, United States of America",
+                "reasoning": "Present in the affiliations because at least one author works there, contributing to the research scope.",
+                "quote": "<meta name=\"citation_author_institution\" content=\"Tommy Fuss Center for Neuropsychiatric Disease Research, Department of Psychiatry, Boston Children’s Hospital, Boston, MA, United States of America\"/>"
+              },
+              {
+                "value": "Department of Psychiatry, Harvard Medical School, Boston, MA, United States of America",
+                "reasoning": "Listed due to author association, influencing research perspectives.",
+                "quote": "<meta name=\"citation_author_institution\" content=\"Department of Psychiatry, Harvard Medical School, Boston, MA, United States of America\"/>"
+              }
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 1.0,
+  "background": false,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "Analysis",
+      "schema_": {
+        "$defs": {
+          "AuthorAffiliations": {
+            "properties": {
+              "author": {
+                "description": "An author present in the Deep Learning scientific paper",
+                "properties": {
+                  "value": {
+                    "title": "Value",
+                    "type": "string"
+                  },
+                  "reasoning": {
+                    "description": "A detailed explanation for the choice of the value",
+                    "title": "Reasoning",
+                    "type": "string"
+                  },
+                  "quote": {
+                    "description": "The best literal quote from the paper which supports the value",
+                    "title": "Quote",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "value",
+                  "reasoning",
+                  "quote"
+                ],
+                "title": "Explained[str]",
+                "type": "object",
+                "additionalProperties": false
+              },
+              "affiliations": {
+                "description": "List of the author's affiliations present in the Deep Learning scientific paper",
+                "items": {
+                  "$ref": "#/$defs/Explained_str_"
+                },
+                "title": "Affiliations",
+                "type": "array"
+              }
+            },
+            "required": [
+              "author",
+              "affiliations"
+            ],
+            "title": "AuthorAffiliations",
+            "type": "object",
+            "additionalProperties": false
+          },
+          "Explained_str_": {
+            "properties": {
+              "value": {
+                "title": "Value",
+                "type": "string"
+              },
+              "reasoning": {
+                "description": "A detailed explanation for the choice of the value",
+                "title": "Reasoning",
+                "type": "string"
+              },
+              "quote": {
+                "description": "The best literal quote from the paper which supports the value",
+                "title": "Quote",
+                "type": "string"
+              }
+            },
+            "required": [
+              "value",
+              "reasoning",
+              "quote"
+            ],
+            "title": "Explained[str]",
+            "type": "object",
+            "additionalProperties": false
+          }
+        },
+        "properties": {
+          "authors_affiliations": {
+            "description": "List of all authors present in the Deep Learning scientific paper with theirs affiliations",
+            "items": {
+              "$ref": "#/$defs/AuthorAffiliations"
+            },
+            "title": "Authors Affiliations",
+            "type": "array"
+          },
+          "affiliations": {
+            "description": "List of all affiliations present in the Deep Learning scientific paper",
+            "items": {
+              "$ref": "#/$defs/Explained_str_"
+            },
+            "title": "Affiliations",
+            "type": "array"
+          }
+        },
+        "required": [
+          "authors_affiliations",
+          "affiliations"
+        ],
+        "title": "Analysis",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    }
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 76501,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 2980,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 79481
+  },
+  "user": null,
+  "store": true,
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "gpt-4o"
+  }
+}

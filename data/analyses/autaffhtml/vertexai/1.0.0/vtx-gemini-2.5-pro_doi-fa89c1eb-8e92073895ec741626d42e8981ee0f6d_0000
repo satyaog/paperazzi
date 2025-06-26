@@ -1,0 +1,270 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sat, 12 Jul 2025 00:12:04 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=39082",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Joseph Paul Cohen\",\n        \"reasoning\": \"The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'.\",\n        \"quote\": \"<h6>Joseph Paul Cohen</h6>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Computer Science, University of Montreal, Montreal, CAN\",\n          \"reasoning\": \"The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.\",\n          \"quote\": \"<div class=\\\"aff-name\\\"> Department of Computer Science, University of Montreal, Montreal, CAN </div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Lan Dao\",\n        \"reasoning\": \"The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'.\",\n        \"quote\": \"<h6>Lan Dao</h6>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Medicine, University of Montreal, Montreal, CAN\",\n          \"reasoning\": \"The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.\",\n          \"quote\": \"<div class=\\\"aff-name\\\"> Medicine, University of Montreal, Montreal, CAN </div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Karsten Roth\",\n        \"reasoning\": \"The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'.\",\n        \"quote\": \"<h6>Karsten Roth</h6>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Computer Science, Heidelberg University, Heidelberg, DEU\",\n          \"reasoning\": \"The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.\",\n          \"quote\": \"<div class=\\\"aff-name\\\"> Department of Computer Science, Heidelberg University, Heidelberg, DEU </div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Paul Morrison\",\n        \"reasoning\": \"The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'.\",\n        \"quote\": \"<h6>Paul Morrison</h6>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Mathematics and Computer Science, Fontbonne University, Saint Louis, USA\",\n          \"reasoning\": \"The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.\",\n          \"quote\": \"<div class=\\\"aff-name\\\"> Department of Mathematics and Computer Science, Fontbonne University, Saint Louis, USA </div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Yoshua Bengio\",\n        \"reasoning\": \"The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'.\",\n        \"quote\": \"<h6>Yoshua Bengio</h6>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Computer Science, University of Montreal, Montreal, CAN\",\n          \"reasoning\": \"The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.\",\n          \"quote\": \"<div class=\\\"aff-name\\\"> Department of Computer Science, University of Montreal, Montreal, CAN </div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Almas F. Abbasi\",\n        \"reasoning\": \"The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'. This includes the middle initial.\",\n        \"quote\": \"<h6>Almas F. Abbasi</h6>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Radiology, Stony Brook Medicine, Stony Brook, USA\",\n          \"reasoning\": \"The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.\",\n          \"quote\": \"<div class=\\\"aff-name\\\"> Department of Radiology, Stony Brook Medicine, Stony Brook, USA </div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Beiyi Shen\",\n        \"reasoning\": \"The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'.\",\n        \"quote\": \"<h6>Beiyi Shen</h6>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Radiology, Stony Brook Medicine, Stony Brook, USA\",\n          \"reasoning\": \"The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.\",\n          \"quote\": \"<div class=\\\"aff-name\\\"> Department of Radiology, Stony Brook Medicine, Stony Brook, USA </div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Hoshmand Kochi Mahsa\",\n        \"reasoning\": \"The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'.\",\n        \"quote\": \"<h6>Hoshmand Kochi Mahsa</h6>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Radiology, Stony Brook Medicine, Stony Brook, USA\",\n          \"reasoning\": \"The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.\",\n          \"quote\": \"<div class=\\\"aff-name\\\"> Department of Radiology, Stony Brook Medicine, Stony Brook, USA </div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Marzyeh Ghassemi\",\n        \"reasoning\": \"The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'.\",\n        \"quote\": \"<h6>Marzyeh Ghassemi</h6>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Computer Science, University of Toronto, Toronto, CAN\",\n          \"reasoning\": \"The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.\",\n          \"quote\": \"<div class=\\\"aff-name\\\"> Department of Computer Science, University of Toronto, Toronto, CAN </div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Haifang Li\",\n        \"reasoning\": \"The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'.\",\n        \"quote\": \"<h6>Haifang Li</h6>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Radiology, Stony Brook Medicine, Stony Brook, USA\",\n          \"reasoning\": \"The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.\",\n          \"quote\": \"<div class=\\\"aff-name\\\"> Department of Radiology, Stony Brook Medicine, Stony Brook, USA </div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Tim Q. Duong\",\n        \"reasoning\": \"The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'. This includes the middle initial.\",\n        \"quote\": \"<h6>Tim Q. Duong</h6>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Radiology, Stony Brook Medicine, Stony Brook, USA\",\n          \"reasoning\": \"The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.\",\n          \"quote\": \"<div class=\\\"aff-name\\\"> Department of Radiology, Stony Brook Medicine, Stony Brook, USA </div>\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Department of Computer Science, University of Montreal, Montreal, CAN\",\n      \"reasoning\": \"This affiliation is listed for multiple authors (Joseph Paul Cohen, Yoshua Bengio) and is extracted from the 'aff-name' div associated with them.\",\n      \"quote\": \"<div class=\\\"aff-name\\\"> Department of Computer Science, University of Montreal, Montreal, CAN </div>\"\n    },\n    {\n      \"value\": \"Medicine, University of Montreal, Montreal, CAN\",\n      \"reasoning\": \"This affiliation is listed for author Lan Dao and is extracted from the 'aff-name' div associated with her.\",\n      \"quote\": \"<div class=\\\"aff-name\\\"> Medicine, University of Montreal, Montreal, CAN </div>\"\n    },\n    {\n      \"value\": \"Department of Computer Science, Heidelberg University, Heidelberg, DEU\",\n      \"reasoning\": \"This affiliation is listed for author Karsten Roth and is extracted from the 'aff-name' div associated with him.\",\n      \"quote\": \"<div class=\\\"aff-name\\\"> Department of Computer Science, Heidelberg University, Heidelberg, DEU </div>\"\n    },\n    {\n      \"value\": \"Department of Mathematics and Computer Science, Fontbonne University, Saint Louis, USA\",\n      \"reasoning\": \"This affiliation is listed for author Paul Morrison and is extracted from the 'aff-name' div associated with him.\",\n      \"quote\": \"<div class=\\\"aff-name\\\"> Department of Mathematics and Computer Science, Fontbonne University, Saint Louis, USA </div>\"\n    },\n    {\n      \"value\": \"Department of Radiology, Stony Brook Medicine, Stony Brook, USA\",\n      \"reasoning\": \"This affiliation is listed for multiple authors (Almas F. Abbasi, Beiyi Shen, Hoshmand Kochi Mahsa, Haifang Li, Tim Q. Duong) and is extracted from the 'aff-name' div associated with them.\",\n      \"quote\": \"<div class=\\\"aff-name\\\"> Department of Radiology, Stony Brook Medicine, Stony Brook, USA </div>\"\n    },\n    {\n      \"value\": \"Department of Computer Science, University of Toronto, Toronto, CAN\",\n      \"reasoning\": \"This affiliation is listed for author Marzyeh Ghassemi and is extracted from the 'aff-name' div associated with her.\",\n      \"quote\": \"<div class=\\\"aff-name\\\"> Department of Computer Science, University of Toronto, Toronto, CAN </div>\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 2567,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 99165,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 99165
+      }
+    ],
+    "thoughts_token_count": 1848,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 103580,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Joseph Paul Cohen",
+          "reasoning": "The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'.",
+          "quote": "<h6>Joseph Paul Cohen</h6>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Computer Science, University of Montreal, Montreal, CAN",
+            "reasoning": "The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.",
+            "quote": "<div class=\"aff-name\"> Department of Computer Science, University of Montreal, Montreal, CAN </div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Lan Dao",
+          "reasoning": "The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'.",
+          "quote": "<h6>Lan Dao</h6>"
+        },
+        "affiliations": [
+          {
+            "value": "Medicine, University of Montreal, Montreal, CAN",
+            "reasoning": "The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.",
+            "quote": "<div class=\"aff-name\"> Medicine, University of Montreal, Montreal, CAN </div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Karsten Roth",
+          "reasoning": "The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'.",
+          "quote": "<h6>Karsten Roth</h6>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Computer Science, Heidelberg University, Heidelberg, DEU",
+            "reasoning": "The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.",
+            "quote": "<div class=\"aff-name\"> Department of Computer Science, Heidelberg University, Heidelberg, DEU </div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Paul Morrison",
+          "reasoning": "The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'.",
+          "quote": "<h6>Paul Morrison</h6>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Mathematics and Computer Science, Fontbonne University, Saint Louis, USA",
+            "reasoning": "The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.",
+            "quote": "<div class=\"aff-name\"> Department of Mathematics and Computer Science, Fontbonne University, Saint Louis, USA </div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Yoshua Bengio",
+          "reasoning": "The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'.",
+          "quote": "<h6>Yoshua Bengio</h6>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Computer Science, University of Montreal, Montreal, CAN",
+            "reasoning": "The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.",
+            "quote": "<div class=\"aff-name\"> Department of Computer Science, University of Montreal, Montreal, CAN </div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Almas F. Abbasi",
+          "reasoning": "The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'. This includes the middle initial.",
+          "quote": "<h6>Almas F. Abbasi</h6>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Radiology, Stony Brook Medicine, Stony Brook, USA",
+            "reasoning": "The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.",
+            "quote": "<div class=\"aff-name\"> Department of Radiology, Stony Brook Medicine, Stony Brook, USA </div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Beiyi Shen",
+          "reasoning": "The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'.",
+          "quote": "<h6>Beiyi Shen</h6>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Radiology, Stony Brook Medicine, Stony Brook, USA",
+            "reasoning": "The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.",
+            "quote": "<div class=\"aff-name\"> Department of Radiology, Stony Brook Medicine, Stony Brook, USA </div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Hoshmand Kochi Mahsa",
+          "reasoning": "The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'.",
+          "quote": "<h6>Hoshmand Kochi Mahsa</h6>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Radiology, Stony Brook Medicine, Stony Brook, USA",
+            "reasoning": "The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.",
+            "quote": "<div class=\"aff-name\"> Department of Radiology, Stony Brook Medicine, Stony Brook, USA </div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Marzyeh Ghassemi",
+          "reasoning": "The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'.",
+          "quote": "<h6>Marzyeh Ghassemi</h6>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Computer Science, University of Toronto, Toronto, CAN",
+            "reasoning": "The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.",
+            "quote": "<div class=\"aff-name\"> Department of Computer Science, University of Toronto, Toronto, CAN </div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Haifang Li",
+          "reasoning": "The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'.",
+          "quote": "<h6>Haifang Li</h6>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Radiology, Stony Brook Medicine, Stony Brook, USA",
+            "reasoning": "The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.",
+            "quote": "<div class=\"aff-name\"> Department of Radiology, Stony Brook Medicine, Stony Brook, USA </div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Tim Q. Duong",
+          "reasoning": "The author's name is clearly listed in an `<h6>` tag within a `div` element with the class 'author-row'. This includes the middle initial.",
+          "quote": "<h6>Tim Q. Duong</h6>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Radiology, Stony Brook Medicine, Stony Brook, USA",
+            "reasoning": "The affiliation is located in a `div` with the class 'aff-name' directly following the author's name within the same 'author-row' `div`.",
+            "quote": "<div class=\"aff-name\"> Department of Radiology, Stony Brook Medicine, Stony Brook, USA </div>"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Department of Computer Science, University of Montreal, Montreal, CAN",
+        "reasoning": "This affiliation is listed for multiple authors (Joseph Paul Cohen, Yoshua Bengio) and is extracted from the 'aff-name' div associated with them.",
+        "quote": "<div class=\"aff-name\"> Department of Computer Science, University of Montreal, Montreal, CAN </div>"
+      },
+      {
+        "value": "Medicine, University of Montreal, Montreal, CAN",
+        "reasoning": "This affiliation is listed for author Lan Dao and is extracted from the 'aff-name' div associated with her.",
+        "quote": "<div class=\"aff-name\"> Medicine, University of Montreal, Montreal, CAN </div>"
+      },
+      {
+        "value": "Department of Computer Science, Heidelberg University, Heidelberg, DEU",
+        "reasoning": "This affiliation is listed for author Karsten Roth and is extracted from the 'aff-name' div associated with him.",
+        "quote": "<div class=\"aff-name\"> Department of Computer Science, Heidelberg University, Heidelberg, DEU </div>"
+      },
+      {
+        "value": "Department of Mathematics and Computer Science, Fontbonne University, Saint Louis, USA",
+        "reasoning": "This affiliation is listed for author Paul Morrison and is extracted from the 'aff-name' div associated with him.",
+        "quote": "<div class=\"aff-name\"> Department of Mathematics and Computer Science, Fontbonne University, Saint Louis, USA </div>"
+      },
+      {
+        "value": "Department of Radiology, Stony Brook Medicine, Stony Brook, USA",
+        "reasoning": "This affiliation is listed for multiple authors (Almas F. Abbasi, Beiyi Shen, Hoshmand Kochi Mahsa, Haifang Li, Tim Q. Duong) and is extracted from the 'aff-name' div associated with them.",
+        "quote": "<div class=\"aff-name\"> Department of Radiology, Stony Brook Medicine, Stony Brook, USA </div>"
+      },
+      {
+        "value": "Department of Computer Science, University of Toronto, Toronto, CAN",
+        "reasoning": "This affiliation is listed for author Marzyeh Ghassemi and is extracted from the 'aff-name' div associated with her.",
+        "quote": "<div class=\"aff-name\"> Department of Computer Science, University of Toronto, Toronto, CAN </div>"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.7759/cureus.9448"
+    }
+  }
+}

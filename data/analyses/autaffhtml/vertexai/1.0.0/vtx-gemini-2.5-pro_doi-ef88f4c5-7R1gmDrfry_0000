@@ -1,0 +1,189 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sat, 12 Jul 2025 03:29:50 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=27596",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Dianbo Liu\",\n        \"reasoning\": \"The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Liu,+D\\\" rel=\\\"nofollow\\\">Dianbo Liu</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Moksh Jain\",\n        \"reasoning\": \"The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Jain,+M\\\" rel=\\\"nofollow\\\">Moksh Jain</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Bonaventure Dossou\",\n        \"reasoning\": \"The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Dossou,+B\\\" rel=\\\"nofollow\\\">Bonaventure Dossou</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Qianli Shen\",\n        \"reasoning\": \"The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Shen,+Q\\\" rel=\\\"nofollow\\\">Qianli Shen</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Salem Lahlou\",\n        \"reasoning\": \"The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Lahlou,+S\\\" rel=\\\"nofollow\\\">Salem Lahlou</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Anirudh Goyal\",\n        \"reasoning\": \"The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Goyal,+A\\\" rel=\\\"nofollow\\\">Anirudh Goyal</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Nikolay Malkin\",\n        \"reasoning\": \"The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Malkin,+N\\\" rel=\\\"nofollow\\\">Nikolay Malkin</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Chris Emezue\",\n        \"reasoning\": \"The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Emezue,+C\\\" rel=\\\"nofollow\\\">Chris Emezue</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Dinghuai Zhang\",\n        \"reasoning\": \"The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Zhang,+D\\\" rel=\\\"nofollow\\\">Dinghuai Zhang</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Nadhir Hassen\",\n        \"reasoning\": \"The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hassen,+N\\\" rel=\\\"nofollow\\\">Nadhir Hassen</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Xu Ji\",\n        \"reasoning\": \"The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Ji,+X\\\" rel=\\\"nofollow\\\">Xu Ji</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Kenji Kawaguchi\",\n        \"reasoning\": \"The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Kawaguchi,+K\\\" rel=\\\"nofollow\\\">Kenji Kawaguchi</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Yoshua Bengio\",\n        \"reasoning\": \"The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Bengio,+Y\\\" rel=\\\"nofollow\\\">Yoshua Bengio</a>\"\n      },\n      \"affiliations\": []\n    }\n  ],\n  \"affiliations\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 1457,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 19335,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 19335
+      }
+    ],
+    "thoughts_token_count": 1590,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 22382,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Dianbo Liu",
+          "reasoning": "The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Liu,+D\" rel=\"nofollow\">Dianbo Liu</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Moksh Jain",
+          "reasoning": "The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Jain,+M\" rel=\"nofollow\">Moksh Jain</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Bonaventure Dossou",
+          "reasoning": "The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Dossou,+B\" rel=\"nofollow\">Bonaventure Dossou</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Qianli Shen",
+          "reasoning": "The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Shen,+Q\" rel=\"nofollow\">Qianli Shen</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Salem Lahlou",
+          "reasoning": "The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Lahlou,+S\" rel=\"nofollow\">Salem Lahlou</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Anirudh Goyal",
+          "reasoning": "The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Goyal,+A\" rel=\"nofollow\">Anirudh Goyal</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Nikolay Malkin",
+          "reasoning": "The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Malkin,+N\" rel=\"nofollow\">Nikolay Malkin</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Chris Emezue",
+          "reasoning": "The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Emezue,+C\" rel=\"nofollow\">Chris Emezue</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Dinghuai Zhang",
+          "reasoning": "The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Zhang,+D\" rel=\"nofollow\">Dinghuai Zhang</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Nadhir Hassen",
+          "reasoning": "The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hassen,+N\" rel=\"nofollow\">Nadhir Hassen</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Xu Ji",
+          "reasoning": "The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Ji,+X\" rel=\"nofollow\">Xu Ji</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Kenji Kawaguchi",
+          "reasoning": "The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Kawaguchi,+K\" rel=\"nofollow\">Kenji Kawaguchi</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Yoshua Bengio",
+          "reasoning": "The author's name is extracted from the 'authors' div section, where each author is listed inside an '<a>' tag.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Bengio,+Y\" rel=\"nofollow\">Yoshua Bengio</a>"
+        },
+        "affiliations": []
+      }
+    ],
+    "affiliations": []
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.48550/arXiv.2210.12928"
+    }
+  }
+}

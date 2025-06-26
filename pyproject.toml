@@ -1,0 +1,144 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "paperazzi"
+dynamic = ["version"]
+description = 'LLM-Based Paper Query System with Evaluation Framework'
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Satya Ortiz-Gagne", email = "satya.ortiz-gagne@mila.quebec" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "fake-useragent",
+  "Levenshtein",
+  "openai",
+  "packaging",
+  "pandas",
+  "pydantic",
+  "pyyaml",
+  "requests-cache",
+  "rich",
+]
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "pytest-regressions",
+]
+instructor = [
+  "instructor",
+]
+mistralai = [
+  "mistralai",
+]
+openai = []
+vertexai = [
+  "google-genai",
+]
+
+[project.urls]
+Documentation = "https://github.com/Satya Ortiz-Gagne/paperazzi#readme"
+Issues = "https://github.com/Satya Ortiz-Gagne/paperazzi/issues"
+Source = "https://github.com/Satya Ortiz-Gagne/paperazzi"
+
+[tool.hatch.version]
+path = "src/paperazzi/__about__.py"
+
+[tool.hatch.envs.default]
+python = "3.10"
+installer = "uv"
+features = [
+  "dev",
+]
+
+[tool.hatch.envs.default.scripts]
+env_name = '[ "$HATCH_ENV_ACTIVE" == "default" ] && echo "dev" || echo "$HATCH_ENV_ACTIVE"'
+sync = "uv sync --active --extra $(hatch run {env_name}:env_name) {args}"
+
+[tool.hatch.envs.default.env-vars]
+PAPERAZZI_CFG = "{env:PAPERAZZI_CFG:{root:real}/config.ini}"
+# # linux seams to require the following to avoid
+# # ImportError: cannot import name '_message' from 'google.protobuf.pyext'
+# PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION = "upb"
+
+[tool.hatch.envs.openai]
+features = [
+  "openai",
+]
+
+[tool.hatch.envs.mistralai]
+features = [
+  "mistralai",
+]
+
+[tool.hatch.envs.vertexai]
+features = [
+  "vertexai",
+]
+
+[tool.hatch.envs.hatch-test]
+features = [
+  "dev",
+  "instructor",
+  "mistralai",
+  "openai",
+  "vertexai",
+]
+
+[tool.hatch.envs.hatch-test.extra-scripts]
+sync = "uv sync --active --inexact --all-extras {args}"
+
+[[tool.hatch.envs.hatch-test.matrix]]
+python = ["3.10", "3.11", "3.12", "3.13"]
+
+[tool.hatch.envs.lint]
+detached = true
+dependencies = [
+  "black",
+  "isort",
+]
+[tool.hatch.envs.lint.scripts]
+lint = [
+  "python3 -m black {args} .",
+  "python3 -m isort --profile black {args} .",
+]
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/paperazzi tests}"
+
+[tool.coverage.run]
+source_pkgs = ["paperazzi", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/paperazzi/__about__.py",
+]
+
+[tool.coverage.paths]
+paperazzi = ["src/paperazzi", "*/paperazzi/src/paperazzi"]
+tests = ["tests", "*/paperazzi/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]

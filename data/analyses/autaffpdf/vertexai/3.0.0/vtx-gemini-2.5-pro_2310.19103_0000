@@ -1,0 +1,173 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 19:57:54 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=37577",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Damien Ferbach\",\n        \"reasoning\": \"The name 'Damien Ferbach' is listed as the first author in the paper, associated with superscripts '1' and '3'.\",\n        \"quote\": \"Damien Ferbach ¹,³\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila, Université de Montréal\",\n          \"reasoning\": \"The superscript '1' next to Damien Ferbach's name corresponds to the affiliation 'Mila, Université de Montréal¹' listed below the authors' names.\",\n          \"quote\": \"Mila, Université de Montréal¹\"\n        },\n        {\n          \"value\": \"ENS Paris, PSL\",\n          \"reasoning\": \"The superscript '3' next to Damien Ferbach's name corresponds to the affiliation 'ENS Paris, PSL³' listed below the authors' names.\",\n          \"quote\": \"ENS Paris, PSL³\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Baptiste Goujaud\",\n        \"reasoning\": \"The name 'Baptiste Goujaud' is listed as the second author, associated with superscript '2'.\",\n        \"quote\": \"Baptiste Goujaud²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"CMAP, Ecole Polytechnique, IPP\",\n          \"reasoning\": \"The superscript '2' next to Baptiste Goujaud's name corresponds to the affiliation 'CMAP, Ecole Polytechnique, IPP²' listed below the authors' names.\",\n          \"quote\": \"CMAP, Ecole Polytechnique, IPP²\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Gauthier Gidel\",\n        \"reasoning\": \"The name 'Gauthier Gidel' is listed as the third author, associated with superscripts '1' and '†'.\",\n        \"quote\": \"Gauthier Gidel ¹,†\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila, Université de Montréal\",\n          \"reasoning\": \"The superscript '1' next to Gauthier Gidel's name corresponds to the affiliation 'Mila, Université de Montréal¹' listed below the authors' names.\",\n          \"quote\": \"Mila, Université de Montréal¹\"\n        },\n        {\n          \"value\": \"Canada CIFAR AI Chair\",\n          \"reasoning\": \"The symbol '†' next to Gauthier Gidel's name corresponds to the footnote '† Canada CIFAR AI Chair'.\",\n          \"quote\": \"† Canada CIFAR AI Chair\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Aymeric Dieuleveut\",\n        \"reasoning\": \"The name 'Aymeric Dieuleveut' is listed as the fourth author, associated with superscript '2'.\",\n        \"quote\": \"Aymeric Dieuleveut²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"CMAP, Ecole Polytechnique, IPP\",\n          \"reasoning\": \"The superscript '2' next to Aymeric Dieuleveut's name corresponds to the affiliation 'CMAP, Ecole Polytechnique, IPP²' listed below the authors' names.\",\n          \"quote\": \"CMAP, Ecole Polytechnique, IPP²\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Mila, Université de Montréal\",\n      \"reasoning\": \"This affiliation is explicitly listed in the paper and is associated with authors via superscript '1'.\",\n      \"quote\": \"Mila, Université de Montréal¹\"\n    },\n    {\n      \"value\": \"CMAP, Ecole Polytechnique, IPP\",\n      \"reasoning\": \"This affiliation is explicitly listed in the paper and is associated with authors via superscript '2'.\",\n      \"quote\": \"CMAP, Ecole Polytechnique, IPP²\"\n    },\n    {\n      \"value\": \"ENS Paris, PSL\",\n      \"reasoning\": \"This affiliation is explicitly listed in the paper and is associated with an author via superscript '3'.\",\n      \"quote\": \"ENS Paris, PSL³\"\n    },\n    {\n      \"value\": \"Canada CIFAR AI Chair\",\n      \"reasoning\": \"This affiliation is explicitly listed in the paper as a footnote and is associated with an author via the '†' symbol.\",\n      \"quote\": \"† Canada CIFAR AI Chair\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 1038,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 10733,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 10320
+      }
+    ],
+    "thoughts_token_count": 2304,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 14075,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Damien Ferbach",
+          "reasoning": "The name 'Damien Ferbach' is listed as the first author in the paper, associated with superscripts '1' and '3'.",
+          "quote": "Damien Ferbach ¹,³"
+        },
+        "affiliations": [
+          {
+            "value": "Mila, Université de Montréal",
+            "reasoning": "The superscript '1' next to Damien Ferbach's name corresponds to the affiliation 'Mila, Université de Montréal¹' listed below the authors' names.",
+            "quote": "Mila, Université de Montréal¹"
+          },
+          {
+            "value": "ENS Paris, PSL",
+            "reasoning": "The superscript '3' next to Damien Ferbach's name corresponds to the affiliation 'ENS Paris, PSL³' listed below the authors' names.",
+            "quote": "ENS Paris, PSL³"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Baptiste Goujaud",
+          "reasoning": "The name 'Baptiste Goujaud' is listed as the second author, associated with superscript '2'.",
+          "quote": "Baptiste Goujaud²"
+        },
+        "affiliations": [
+          {
+            "value": "CMAP, Ecole Polytechnique, IPP",
+            "reasoning": "The superscript '2' next to Baptiste Goujaud's name corresponds to the affiliation 'CMAP, Ecole Polytechnique, IPP²' listed below the authors' names.",
+            "quote": "CMAP, Ecole Polytechnique, IPP²"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Gauthier Gidel",
+          "reasoning": "The name 'Gauthier Gidel' is listed as the third author, associated with superscripts '1' and '†'.",
+          "quote": "Gauthier Gidel ¹,†"
+        },
+        "affiliations": [
+          {
+            "value": "Mila, Université de Montréal",
+            "reasoning": "The superscript '1' next to Gauthier Gidel's name corresponds to the affiliation 'Mila, Université de Montréal¹' listed below the authors' names.",
+            "quote": "Mila, Université de Montréal¹"
+          },
+          {
+            "value": "Canada CIFAR AI Chair",
+            "reasoning": "The symbol '†' next to Gauthier Gidel's name corresponds to the footnote '† Canada CIFAR AI Chair'.",
+            "quote": "† Canada CIFAR AI Chair"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Aymeric Dieuleveut",
+          "reasoning": "The name 'Aymeric Dieuleveut' is listed as the fourth author, associated with superscript '2'.",
+          "quote": "Aymeric Dieuleveut²"
+        },
+        "affiliations": [
+          {
+            "value": "CMAP, Ecole Polytechnique, IPP",
+            "reasoning": "The superscript '2' next to Aymeric Dieuleveut's name corresponds to the affiliation 'CMAP, Ecole Polytechnique, IPP²' listed below the authors' names.",
+            "quote": "CMAP, Ecole Polytechnique, IPP²"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Mila, Université de Montréal",
+        "reasoning": "This affiliation is explicitly listed in the paper and is associated with authors via superscript '1'.",
+        "quote": "Mila, Université de Montréal¹"
+      },
+      {
+        "value": "CMAP, Ecole Polytechnique, IPP",
+        "reasoning": "This affiliation is explicitly listed in the paper and is associated with authors via superscript '2'.",
+        "quote": "CMAP, Ecole Polytechnique, IPP²"
+      },
+      {
+        "value": "ENS Paris, PSL",
+        "reasoning": "This affiliation is explicitly listed in the paper and is associated with an author via superscript '3'.",
+        "quote": "ENS Paris, PSL³"
+      },
+      {
+        "value": "Canada CIFAR AI Chair",
+        "reasoning": "This affiliation is explicitly listed in the paper as a footnote and is associated with an author via the '†' symbol.",
+        "quote": "† Canada CIFAR AI Chair"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sat, 12 Jul 2025 03:31:56 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=70030",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"James Urquhart Allingham\",\n        \"reasoning\": \"The author's name is extracted from the text content of an `<a>` tag within the `<div class=\\\"authors\\\">` element.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\\\" rel=\\\"nofollow\\\">James Urquhart Allingham</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Affiliation not provided in the HTML\",\n          \"reasoning\": \"The provided HTML source code does not contain any information about author affiliations. The `div.authors` element lists author names without any corresponding markers (like superscripts or numbers) that would link to an affiliation. No separate list of affiliations is present in the document.\",\n          \"quote\": \"<div class=\\\"authors\\\"><span class=\\\"descriptor\\\">Authors:</span><a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\\\" rel=\\\"nofollow\\\">James Urquhart Allingham</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\\\" rel=\\\"nofollow\\\">Bruno Kacper Mlodozeniec</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\\\" rel=\\\"nofollow\\\">Shreyas Padhy</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\\\" rel=\\\"nofollow\\\">Javier Antorán</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\\\" rel=\\\"nofollow\\\">David Krueger</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\\\" rel=\\\"nofollow\\\">Richard E. Turner</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\\\" rel=\\\"nofollow\\\">Eric Nalisnick</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\\\" rel=\\\"nofollow\\\">José Miguel Hernández-Lobato</a></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Bruno Kacper Mlodozeniec\",\n        \"reasoning\": \"The author's name is extracted from the text content of an `<a>` tag within the `<div class=\\\"authors\\\">` element.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\\\" rel=\\\"nofollow\\\">Bruno Kacper Mlodozeniec</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Affiliation not provided in the HTML\",\n          \"reasoning\": \"The provided HTML source code does not contain any information about author affiliations. The `div.authors` element lists author names without any corresponding markers (like superscripts or numbers) that would link to an affiliation. No separate list of affiliations is present in the document.\",\n          \"quote\": \"<div class=\\\"authors\\\"><span class=\\\"descriptor\\\">Authors:</span><a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\\\" rel=\\\"nofollow\\\">James Urquhart Allingham</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\\\" rel=\\\"nofollow\\\">Bruno Kacper Mlodozeniec</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\\\" rel=\\\"nofollow\\\">Shreyas Padhy</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\\\" rel=\\\"nofollow\\\">Javier Antorán</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\\\" rel=\\\"nofollow\\\">David Krueger</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\\\" rel=\\\"nofollow\\\">Richard E. Turner</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\\\" rel=\\\"nofollow\\\">Eric Nalisnick</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\\\" rel=\\\"nofollow\\\">José Miguel Hernández-Lobato</a></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Shreyas Padhy\",\n        \"reasoning\": \"The author's name is extracted from the text content of an `<a>` tag within the `<div class=\\\"authors\\\">` element.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\\\" rel=\\\"nofollow\\\">Shreyas Padhy</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Affiliation not provided in the HTML\",\n          \"reasoning\": \"The provided HTML source code does not contain any information about author affiliations. The `div.authors` element lists author names without any corresponding markers (like superscripts or numbers) that would link to an affiliation. No separate list of affiliations is present in the document.\",\n          \"quote\": \"<div class=\\\"authors\\\"><span class=\\\"descriptor\\\">Authors:</span><a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\\\" rel=\\\"nofollow\\\">James Urquhart Allingham</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\\\" rel=\\\"nofollow\\\">Bruno Kacper Mlodozeniec</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\\\" rel=\\\"nofollow\\\">Shreyas Padhy</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\\\" rel=\\\"nofollow\\\">Javier Antorán</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\\\" rel=\\\"nofollow\\\">David Krueger</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\\\" rel=\\\"nofollow\\\">Richard E. Turner</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\\\" rel=\\\"nofollow\\\">Eric Nalisnick</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\\\" rel=\\\"nofollow\\\">José Miguel Hernández-Lobato</a></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Javier Antorán\",\n        \"reasoning\": \"The author's name is extracted from the text content of an `<a>` tag within the `<div class=\\\"authors\\\">` element.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\\\" rel=\\\"nofollow\\\">Javier Antorán</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Affiliation not provided in the HTML\",\n          \"reasoning\": \"The provided HTML source code does not contain any information about author affiliations. The `div.authors` element lists author names without any corresponding markers (like superscripts or numbers) that would link to an affiliation. No separate list of affiliations is present in the document.\",\n          \"quote\": \"<div class=\\\"authors\\\"><span class=\\\"descriptor\\\">Authors:</span><a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\\\" rel=\\\"nofollow\\\">James Urquhart Allingham</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\\\" rel=\\\"nofollow\\\">Bruno Kacper Mlodozeniec</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\\\" rel=\\\"nofollow\\\">Shreyas Padhy</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\\\" rel=\\\"nofollow\\\">Javier Antorán</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\\\" rel=\\\"nofollow\\\">David Krueger</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\\\" rel=\\\"nofollow\\\">Richard E. Turner</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\\\" rel=\\\"nofollow\\\">Eric Nalisnick</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\\\" rel=\\\"nofollow\\\">José Miguel Hernández-Lobato</a></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"David Krueger\",\n        \"reasoning\": \"The author's name is extracted from the text content of an `<a>` tag within the `<div class=\\\"authors\\\">` element.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\\\" rel=\\\"nofollow\\\">David Krueger</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Affiliation not provided in the HTML\",\n          \"reasoning\": \"The provided HTML source code does not contain any information about author affiliations. The `div.authors` element lists author names without any corresponding markers (like superscripts or numbers) that would link to an affiliation. No separate list of affiliations is present in the document.\",\n          \"quote\": \"<div class=\\\"authors\\\"><span class=\\\"descriptor\\\">Authors:</span><a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\\\" rel=\\\"nofollow\\\">James Urquhart Allingham</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\\\" rel=\\\"nofollow\\\">Bruno Kacper Mlodozeniec</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\\\" rel=\\\"nofollow\\\">Shreyas Padhy</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\\\" rel=\\\"nofollow\\\">Javier Antorán</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\\\" rel=\\\"nofollow\\\">David Krueger</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\\\" rel=\\\"nofollow\\\">Richard E. Turner</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\\\" rel=\\\"nofollow\\\">Eric Nalisnick</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\\\" rel=\\\"nofollow\\\">José Miguel Hernández-Lobato</a></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Richard E. Turner\",\n        \"reasoning\": \"The author's name is extracted from the text content of an `<a>` tag within the `<div class=\\\"authors\\\">` element.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\\\" rel=\\\"nofollow\\\">Richard E. Turner</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Affiliation not provided in the HTML\",\n          \"reasoning\": \"The provided HTML source code does not contain any information about author affiliations. The `div.authors` element lists author names without any corresponding markers (like superscripts or numbers) that would link to an affiliation. No separate list of affiliations is present in the document.\",\n          \"quote\": \"<div class=\\\"authors\\\"><span class=\\\"descriptor\\\">Authors:</span><a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\\\" rel=\\\"nofollow\\\">James Urquhart Allingham</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\\\" rel=\\\"nofollow\\\">Bruno Kacper Mlodozeniec</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\\\" rel=\\\"nofollow\\\">Shreyas Padhy</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\\\" rel=\\\"nofollow\\\">Javier Antorán</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\\\" rel=\\\"nofollow\\\">David Krueger</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\\\" rel=\\\"nofollow\\\">Richard E. Turner</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\\\" rel=\\\"nofollow\\\">Eric Nalisnick</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\\\" rel=\\\"nofollow\\\">José Miguel Hernández-Lobato</a></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Eric Nalisnick\",\n        \"reasoning\": \"The author's name is extracted from the text content of an `<a>` tag within the `<div class=\\\"authors\\\">` element.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\\\" rel=\\\"nofollow\\\">Eric Nalisnick</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Affiliation not provided in the HTML\",\n          \"reasoning\": \"The provided HTML source code does not contain any information about author affiliations. The `div.authors` element lists author names without any corresponding markers (like superscripts or numbers) that would link to an affiliation. No separate list of affiliations is present in the document.\",\n          \"quote\": \"<div class=\\\"authors\\\"><span class=\\\"descriptor\\\">Authors:</span><a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\\\" rel=\\\"nofollow\\\">James Urquhart Allingham</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\\\" rel=\\\"nofollow\\\">Bruno Kacper Mlodozeniec</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\\\" rel=\\\"nofollow\\\">Shreyas Padhy</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\\\" rel=\\\"nofollow\\\">Javier Antorán</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\\\" rel=\\\"nofollow\\\">David Krueger</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\\\" rel=\\\"nofollow\\\">Richard E. Turner</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\\\" rel=\\\"nofollow\\\">Eric Nalisnick</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\\\" rel=\\\"nofollow\\\">José Miguel Hernández-Lobato</a></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"José Miguel Hernández-Lobato\",\n        \"reasoning\": \"The author's name is extracted from the text content of an `<a>` tag within the `<div class=\\\"authors\\\">` element.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\\\" rel=\\\"nofollow\\\">José Miguel Hernández-Lobato</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Affiliation not provided in the HTML\",\n          \"reasoning\": \"The provided HTML source code does not contain any information about author affiliations. The `div.authors` element lists author names without any corresponding markers (like superscripts or numbers) that would link to an affiliation. No separate list of affiliations is present in the document.\",\n          \"quote\": \"<div class=\\\"authors\\\"><span class=\\\"descriptor\\\">Authors:</span><a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\\\" rel=\\\"nofollow\\\">James Urquhart Allingham</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\\\" rel=\\\"nofollow\\\">Bruno Kacper Mlodozeniec</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\\\" rel=\\\"nofollow\\\">Shreyas Padhy</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\\\" rel=\\\"nofollow\\\">Javier Antorán</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\\\" rel=\\\"nofollow\\\">David Krueger</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\\\" rel=\\\"nofollow\\\">Richard E. Turner</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\\\" rel=\\\"nofollow\\\">Eric Nalisnick</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\\\" rel=\\\"nofollow\\\">José Miguel Hernández-Lobato</a></div>\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Affiliation not provided in the HTML\",\n      \"reasoning\": \"The provided HTML source does not list any affiliations for the authors. This value is a placeholder to indicate the absence of this information, as no affiliations could be extracted from the document.\",\n      \"quote\": \"<div class=\\\"authors\\\"><span class=\\\"descriptor\\\">Authors:</span><a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\\\" rel=\\\"nofollow\\\">James Urquhart Allingham</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\\\" rel=\\\"nofollow\\\">Bruno Kacper Mlodozeniec</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\\\" rel=\\\"nofollow\\\">Shreyas Padhy</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\\\" rel=\\\"nofollow\\\">Javier Antorán</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\\\" rel=\\\"nofollow\\\">David Krueger</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\\\" rel=\\\"nofollow\\\">Richard E. Turner</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\\\" rel=\\\"nofollow\\\">Eric Nalisnick</a>, <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\\\" rel=\\\"nofollow\\\">José Miguel Hernández-Lobato</a></div>\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 4912,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 18865,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 18865
+      }
+    ],
+    "thoughts_token_count": 3250,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 27027,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "James Urquhart Allingham",
+          "reasoning": "The author's name is extracted from the text content of an `<a>` tag within the `<div class=\"authors\">` element.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\" rel=\"nofollow\">James Urquhart Allingham</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Affiliation not provided in the HTML",
+            "reasoning": "The provided HTML source code does not contain any information about author affiliations. The `div.authors` element lists author names without any corresponding markers (like superscripts or numbers) that would link to an affiliation. No separate list of affiliations is present in the document.",
+            "quote": "<div class=\"authors\"><span class=\"descriptor\">Authors:</span><a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\" rel=\"nofollow\">James Urquhart Allingham</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\" rel=\"nofollow\">Bruno Kacper Mlodozeniec</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\" rel=\"nofollow\">Shreyas Padhy</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\" rel=\"nofollow\">Javier Antorán</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\" rel=\"nofollow\">David Krueger</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\" rel=\"nofollow\">Richard E. Turner</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\" rel=\"nofollow\">Eric Nalisnick</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\" rel=\"nofollow\">José Miguel Hernández-Lobato</a></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Bruno Kacper Mlodozeniec",
+          "reasoning": "The author's name is extracted from the text content of an `<a>` tag within the `<div class=\"authors\">` element.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\" rel=\"nofollow\">Bruno Kacper Mlodozeniec</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Affiliation not provided in the HTML",
+            "reasoning": "The provided HTML source code does not contain any information about author affiliations. The `div.authors` element lists author names without any corresponding markers (like superscripts or numbers) that would link to an affiliation. No separate list of affiliations is present in the document.",
+            "quote": "<div class=\"authors\"><span class=\"descriptor\">Authors:</span><a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\" rel=\"nofollow\">James Urquhart Allingham</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\" rel=\"nofollow\">Bruno Kacper Mlodozeniec</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\" rel=\"nofollow\">Shreyas Padhy</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\" rel=\"nofollow\">Javier Antorán</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\" rel=\"nofollow\">David Krueger</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\" rel=\"nofollow\">Richard E. Turner</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\" rel=\"nofollow\">Eric Nalisnick</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\" rel=\"nofollow\">José Miguel Hernández-Lobato</a></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Shreyas Padhy",
+          "reasoning": "The author's name is extracted from the text content of an `<a>` tag within the `<div class=\"authors\">` element.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\" rel=\"nofollow\">Shreyas Padhy</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Affiliation not provided in the HTML",
+            "reasoning": "The provided HTML source code does not contain any information about author affiliations. The `div.authors` element lists author names without any corresponding markers (like superscripts or numbers) that would link to an affiliation. No separate list of affiliations is present in the document.",
+            "quote": "<div class=\"authors\"><span class=\"descriptor\">Authors:</span><a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\" rel=\"nofollow\">James Urquhart Allingham</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\" rel=\"nofollow\">Bruno Kacper Mlodozeniec</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\" rel=\"nofollow\">Shreyas Padhy</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\" rel=\"nofollow\">Javier Antorán</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\" rel=\"nofollow\">David Krueger</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\" rel=\"nofollow\">Richard E. Turner</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\" rel=\"nofollow\">Eric Nalisnick</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\" rel=\"nofollow\">José Miguel Hernández-Lobato</a></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Javier Antorán",
+          "reasoning": "The author's name is extracted from the text content of an `<a>` tag within the `<div class=\"authors\">` element.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\" rel=\"nofollow\">Javier Antorán</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Affiliation not provided in the HTML",
+            "reasoning": "The provided HTML source code does not contain any information about author affiliations. The `div.authors` element lists author names without any corresponding markers (like superscripts or numbers) that would link to an affiliation. No separate list of affiliations is present in the document.",
+            "quote": "<div class=\"authors\"><span class=\"descriptor\">Authors:</span><a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\" rel=\"nofollow\">James Urquhart Allingham</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\" rel=\"nofollow\">Bruno Kacper Mlodozeniec</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\" rel=\"nofollow\">Shreyas Padhy</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\" rel=\"nofollow\">Javier Antorán</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\" rel=\"nofollow\">David Krueger</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\" rel=\"nofollow\">Richard E. Turner</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\" rel=\"nofollow\">Eric Nalisnick</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\" rel=\"nofollow\">José Miguel Hernández-Lobato</a></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "David Krueger",
+          "reasoning": "The author's name is extracted from the text content of an `<a>` tag within the `<div class=\"authors\">` element.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\" rel=\"nofollow\">David Krueger</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Affiliation not provided in the HTML",
+            "reasoning": "The provided HTML source code does not contain any information about author affiliations. The `div.authors` element lists author names without any corresponding markers (like superscripts or numbers) that would link to an affiliation. No separate list of affiliations is present in the document.",
+            "quote": "<div class=\"authors\"><span class=\"descriptor\">Authors:</span><a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\" rel=\"nofollow\">James Urquhart Allingham</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\" rel=\"nofollow\">Bruno Kacper Mlodozeniec</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\" rel=\"nofollow\">Shreyas Padhy</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\" rel=\"nofollow\">Javier Antorán</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\" rel=\"nofollow\">David Krueger</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\" rel=\"nofollow\">Richard E. Turner</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\" rel=\"nofollow\">Eric Nalisnick</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\" rel=\"nofollow\">José Miguel Hernández-Lobato</a></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Richard E. Turner",
+          "reasoning": "The author's name is extracted from the text content of an `<a>` tag within the `<div class=\"authors\">` element.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\" rel=\"nofollow\">Richard E. Turner</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Affiliation not provided in the HTML",
+            "reasoning": "The provided HTML source code does not contain any information about author affiliations. The `div.authors` element lists author names without any corresponding markers (like superscripts or numbers) that would link to an affiliation. No separate list of affiliations is present in the document.",
+            "quote": "<div class=\"authors\"><span class=\"descriptor\">Authors:</span><a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\" rel=\"nofollow\">James Urquhart Allingham</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\" rel=\"nofollow\">Bruno Kacper Mlodozeniec</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\" rel=\"nofollow\">Shreyas Padhy</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\" rel=\"nofollow\">Javier Antorán</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\" rel=\"nofollow\">David Krueger</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\" rel=\"nofollow\">Richard E. Turner</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\" rel=\"nofollow\">Eric Nalisnick</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\" rel=\"nofollow\">José Miguel Hernández-Lobato</a></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Eric Nalisnick",
+          "reasoning": "The author's name is extracted from the text content of an `<a>` tag within the `<div class=\"authors\">` element.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\" rel=\"nofollow\">Eric Nalisnick</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Affiliation not provided in the HTML",
+            "reasoning": "The provided HTML source code does not contain any information about author affiliations. The `div.authors` element lists author names without any corresponding markers (like superscripts or numbers) that would link to an affiliation. No separate list of affiliations is present in the document.",
+            "quote": "<div class=\"authors\"><span class=\"descriptor\">Authors:</span><a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\" rel=\"nofollow\">James Urquhart Allingham</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\" rel=\"nofollow\">Bruno Kacper Mlodozeniec</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\" rel=\"nofollow\">Shreyas Padhy</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\" rel=\"nofollow\">Javier Antorán</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\" rel=\"nofollow\">David Krueger</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\" rel=\"nofollow\">Richard E. Turner</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\" rel=\"nofollow\">Eric Nalisnick</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\" rel=\"nofollow\">José Miguel Hernández-Lobato</a></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "José Miguel Hernández-Lobato",
+          "reasoning": "The author's name is extracted from the text content of an `<a>` tag within the `<div class=\"authors\">` element.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\" rel=\"nofollow\">José Miguel Hernández-Lobato</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Affiliation not provided in the HTML",
+            "reasoning": "The provided HTML source code does not contain any information about author affiliations. The `div.authors` element lists author names without any corresponding markers (like superscripts or numbers) that would link to an affiliation. No separate list of affiliations is present in the document.",
+            "quote": "<div class=\"authors\"><span class=\"descriptor\">Authors:</span><a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\" rel=\"nofollow\">James Urquhart Allingham</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\" rel=\"nofollow\">Bruno Kacper Mlodozeniec</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\" rel=\"nofollow\">Shreyas Padhy</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\" rel=\"nofollow\">Javier Antorán</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\" rel=\"nofollow\">David Krueger</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\" rel=\"nofollow\">Richard E. Turner</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\" rel=\"nofollow\">Eric Nalisnick</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\" rel=\"nofollow\">José Miguel Hernández-Lobato</a></div>"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Affiliation not provided in the HTML",
+        "reasoning": "The provided HTML source does not list any affiliations for the authors. This value is a placeholder to indicate the absence of this information, as no affiliations could be extracted from the document.",
+        "quote": "<div class=\"authors\"><span class=\"descriptor\">Authors:</span><a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Allingham,+J+U\" rel=\"nofollow\">James Urquhart Allingham</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Mlodozeniec,+B+K\" rel=\"nofollow\">Bruno Kacper Mlodozeniec</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Padhy,+S\" rel=\"nofollow\">Shreyas Padhy</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Antor%C3%A1n,+J\" rel=\"nofollow\">Javier Antorán</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Krueger,+D\" rel=\"nofollow\">David Krueger</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Turner,+R+E\" rel=\"nofollow\">Richard E. Turner</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Nalisnick,+E\" rel=\"nofollow\">Eric Nalisnick</a>, <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Hern%C3%A1ndez-Lobato,+J+M\" rel=\"nofollow\">José Miguel Hernández-Lobato</a></div>"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.48550/arXiv.2403.01946"
+    }
+  }
+}

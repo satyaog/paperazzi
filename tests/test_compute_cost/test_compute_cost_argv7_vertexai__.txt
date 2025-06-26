@@ -1,0 +1,9 @@
+Total (1)                           0.095 $
+5057 input token(s) @2.50$/1M       0.013 $
+8223 output token(s) @10.00$/1M     0.082 $
+Average (1)                         0.095 $
+Average w/o retries (1)             0.095 $
+5057.00 input token(s) @2.50$/1M    0.013 $
+8223.00 output token(s) @10.00$/1M  0.082 $
+Projection (10)                     0.949 $
+Projection w/ retry (10.00)         0.949 $
