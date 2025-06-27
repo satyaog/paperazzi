@@ -96,7 +96,7 @@ class TestDiskStore:
                 file.touch()
 
             # Test iteration
-            found_files = sorted(store.iter_files((), {}))
+            found_files = list(store.iter_files((), {}))
 
             # Should find the first 4 files but not the "other_file"
             assert sorted(set(test_files) & set(found_files)) == test_files[:-1]
