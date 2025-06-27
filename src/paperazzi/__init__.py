@@ -5,5 +5,4 @@ from paperazzi.config import CFG, Config
 
 Config.get_global_config()
 
-LOG_DIR = CFG.dir.log
-LOG_DIR.mkdir(exist_ok=True)
+CFG.dir.log.mkdir(exist_ok=True)

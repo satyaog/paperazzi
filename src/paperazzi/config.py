@@ -163,7 +163,9 @@ class Config:
         try:
             main_logger.setLevel(config._config["logging"]["level"])
         except KeyError:
-            pass
+            logger.warning(
+                f"No logging level configured in config, using logger level {main_logger.level}"
+            )
 
         for varenv, val in config._config["env"].items():
             os.environ[varenv.upper()] = val
