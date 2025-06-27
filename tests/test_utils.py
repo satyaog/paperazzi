@@ -347,6 +347,7 @@ class TestDiskStoreDecorator:
 
         # Test default parameters
         @disk_store
+        @disk_cache
         def _():
             return None
 
@@ -368,6 +369,7 @@ class TestDiskStoreDecorator:
         )
 
         @disk_store(store=custom_store)
+        @disk_cache
         def _():
             pass
 
@@ -385,9 +387,32 @@ class TestDiskStoreDecorator:
             make_key=custom_make_key,
             store=custom_store,
         )
+        @disk_cache
         def _():
             pass
 
+        assert _.info.cache_dir == (Path(tempfile.gettempdir()) / "1234").resolve()
+        assert _.info.serializer == json
+        assert _.info.make_key is custom_make_key
+        assert (
+            _.info.store.cache_dir == (Path(tempfile.gettempdir()) / "1234").resolve()
+        )
+        assert _.info.store.make_key is custom_make_key
+
+    def test_disk_store_decorator_on_top_of_disk_cache(self):
+        def custom_make_key(args, kwargs):
+            return "custom_key"
+
+        @disk_store
+        @disk_cache(
+            cache_dir=Path(tempfile.gettempdir()) / "1234",
+            serializer=json,
+            make_key=custom_make_key,
+        )
+        def _():
+            pass
+
+        # Check that custom parameters of disk_cache are retained
         assert _.info.cache_dir == (Path(tempfile.gettempdir()) / "1234").resolve()
         assert _.info.serializer == json
         assert _.info.make_key is custom_make_key

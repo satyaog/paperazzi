@@ -1,11 +1,10 @@
-import functools
-import json
+import hashlib
 import pickle
 import tempfile
 from dataclasses import dataclass
 from multiprocessing import Lock
 from pathlib import Path
-from typing import Any, BinaryIO, Callable
+from typing import Callable
 
 from packaging.version import Version
 
@@ -19,7 +18,8 @@ class CacheSerializer:
 
 
 def _make_key(args, kwargs):
-    return hash(functools._make_key(args, kwargs, typed=False))
+    key = pickle.dumps((args, kwargs))
+    return hashlib.sha256(key).hexdigest()
 
 
 @dataclass
@@ -63,8 +63,7 @@ class DiskStore:
         if cache_file.exists():
             yield cache_file
 
-        for file in cache_file.parent.glob(f"{cache_file.name}_*"):
-            yield file
+        yield from cache_file.parent.glob(f"{cache_file.name}_*")
 
     def move_to(
         self,
@@ -133,16 +132,18 @@ class DiskCachedFunc:
         cache_exists, cache_file = self.exists(*args, **kwargs)
 
         if cache_exists:
-            with self._lock, cache_file.open("rb") as _file:
-                return self._serializer.load(_file)
+            with self._lock, cache_file.open("rb") as f:
+                return self._serializer.load(f)
 
         result = self._func(*args, **kwargs)
 
         with self._lock:
             cache_file.parent.mkdir(parents=True, exist_ok=True)
-            with cache_file.open("wb") as _file:
-                self._serializer.dump(result, _file)
-        assert self._serializer.load(cache_file.open("rb"))
+            with cache_file.open("wb") as f:
+                self._serializer.dump(result, f)
+
+        with cache_file.open("rb") as f:
+            assert self._serializer.load(f)
 
         return result
 
@@ -243,6 +244,19 @@ def disk_cache(
         cache_dir: Directory to cache the result
         serializer: Serializer to use. Must have a load and dump method
         make_key: Function to generate cache keys
+
+    Returns:
+        DiskCachedFunc: A wrapped function that caches its results
+
+    Example:
+        @disk_cache
+        def expensive_function(x):
+            return x ** 2
+
+        # Or with parameters
+        @disk_cache(cache_dir=Path('/tmp/cache'))
+        def expensive_function(x):
+            return x ** 2
     """
 
     def decorator(f) -> DiskCachedFunc:
@@ -282,15 +296,13 @@ def disk_store(
     if make_key is not None:
         store.make_key = make_key
 
-    if cache_dir is None:
-        cache_dir = DiskCachedFunc._DEFAULTS.cache_dir
-    if serializer is None:
-        serializer = DiskCachedFunc._DEFAULTS.serializer
-    if make_key is None:
-        make_key = DiskCachedFunc._DEFAULTS.make_key
-
-    def decorator(f) -> DiskStoreFunc:
-        disk_cached_func = DiskCachedFunc(f, cache_dir, serializer, make_key)
+    def decorator(f: DiskCachedFunc) -> DiskStoreFunc:
+        disk_cached_func = DiskCachedFunc(
+            f,
+            f.info.cache_dir if cache_dir is None else cache_dir,
+            f.info.serializer if serializer is None else serializer,
+            f.info.make_key if make_key is None else make_key,
+        )
         return DiskStoreFunc(disk_cached_func, store)
 
     if func is None:
