@@ -1,0 +1,9 @@
+Total (0)                        0.0 $
+0 input token(s) @2.50$/1M       0.0 $
+0 output token(s) @10.00$/1M     0.0 $
+Average (0)                      0.0 $
+Average w/o retries (0)          0.0 $
+0.00 input token(s) @2.50$/1M    0.0 $
+0.00 output token(s) @10.00$/1M  0.0 $
+Projection (1)                   0.0 $
+Projection w/ retry (0.00)       0.0 $
