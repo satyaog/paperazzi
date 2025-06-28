@@ -7,7 +7,7 @@ from google.genai import types
 from pydantic import BaseModel
 
 import paperazzi
-from paperazzi.platform.openai.utils import Message
+from paperazzi.platforms.openai.utils import Message
 from paperazzi.structured_output.utils import Metadata
 
 

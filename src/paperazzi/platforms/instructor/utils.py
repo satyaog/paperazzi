@@ -7,7 +7,7 @@ from openai.types.responses.response import Response
 from pydantic import BaseModel
 
 import paperazzi
-from paperazzi.platform.openai.utils import Message, ResponseSerializer
+from paperazzi.platforms.openai.utils import Message, ResponseSerializer
 from paperazzi.structured_output.utils import Metadata
 
 
@@ -27,6 +27,14 @@ class ResponseSerializer(ResponseSerializer):
         data = json.load(file_obj)
         raw_response = data.pop("_raw_response")
         loaded_model = self.content_type.model_validate(data)
+
+        # Fix legacy / incomplete _raw_response
+        raw_response["id"] = raw_response.pop("id", "")
+        raw_response["choices"] = raw_response.pop("choices", [])
+        raw_response["created"] = raw_response.pop("created", 0)
+        raw_response["model"] = raw_response.pop("model", "")
+        raw_response["object"] = raw_response.pop("object", "chat.completion")
+
         loaded_model._raw_response = ChatCompletion.model_validate(raw_response)
         return loaded_model
 

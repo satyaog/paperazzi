@@ -7,7 +7,7 @@ from packaging.version import Version
 from pydantic import BaseModel, ConfigDict, field_serializer, model_validator
 
 from paperazzi import CFG
-from paperazzi.platform.utils import get_platform
+from paperazzi.platforms.utils import get_platform
 from paperazzi.utils import DiskStore, _make_key
 
 
