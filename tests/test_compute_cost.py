@@ -16,6 +16,10 @@ class EmptyModel(BaseModel):
     pass
 
 
+class ValErrModel(BaseModel):
+    ghost_field: str
+
+
 @pytest.fixture(scope="function")
 def mock_get_structured_output():
     with patch(
@@ -23,7 +27,7 @@ def mock_get_structured_output():
     ) as m_get_structured_output:
         m_structured_output = Mock()
         m_structured_output.METADATA = Metadata(model_id="model", model_version="0.0.0")
-        m_structured_output.Analysis = EmptyModel()
+        m_structured_output.Analysis = EmptyModel
         m_get_structured_output.return_value = m_structured_output
         yield m_get_structured_output
 
@@ -44,8 +48,8 @@ class TestComputeCost:
         argv,
         platform,
         instructor,
-        file_regression,
         capsys,
+        file_regression,
         mock_get_structured_output,
     ):
         """Test basic argument parsing."""
@@ -57,3 +61,25 @@ class TestComputeCost:
 
             out, err = capsys.readouterr()
             file_regression.check("\n".join(out.splitlines() + err.splitlines()))
+
+    def test_compute_cost_validation_error(
+        self, caplog, capsys, file_regression, mock_get_structured_output
+    ):
+        """Test that validation errors are handled gracefully and logged."""
+        mock_get_structured_output.return_value.Analysis = ValErrModel
+
+        with Config.push() as cfg:
+            cfg.platform.select = "openai"
+            cfg.platform.instructor = True
+
+            # Run main function - should handle validation errors gracefully
+            main(["2.5", "10"])
+
+        out, err = capsys.readouterr()
+        assert len(caplog.records) == 2
+
+        assert all(
+            "validation error for ValErrModel" in record.message
+            for record in caplog.records
+        )
+        file_regression.check("\n".join(out.splitlines() + err.splitlines()))

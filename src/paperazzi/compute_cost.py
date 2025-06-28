@@ -5,8 +5,12 @@ import pandas as pd
 import pydantic_core
 from pydantic import BaseModel
 
+from paperazzi.log import logger
 from paperazzi.platforms.utils import get_platform
 from paperazzi.structured_output.utils import get_structured_output, make_disk_store
+
+PLATFORM_INSTRUCTOR = "_raw_response"
+PLATFORM_VERTEXAI = "usage_metadata"
 
 
 def main(argv: list = None):
@@ -46,11 +50,10 @@ def main(argv: list = None):
     for response in disk_store.iter_files(key="*"):
         try:
             *_, index = response.stem.split("_")
-            retries.append(response)
 
             json_data = json.loads(response.read_text())
 
-            if "_raw_response" in json_data:
+            if PLATFORM_INSTRUCTOR in json_data:
                 # Parse instructor response
                 with response.open("rb") as f:
                     response = (
@@ -60,7 +63,7 @@ def main(argv: list = None):
                     )
                 usage: BaseModel = response._raw_response.usage
                 usage = usage.model_dump()
-            elif "usage_metadata" in json_data:
+            elif PLATFORM_VERTEXAI in json_data:
                 # Parse vertexai response
                 with response.open("rb") as f:
                     response = (
@@ -87,10 +90,14 @@ def main(argv: list = None):
                     usage["candidates_token_count"] + usage["thoughts_token_count"],
                 )
             )
-            if int(index) == 0:
-                retries.pop()
-        except pydantic_core._pydantic_core.ValidationError:
-            retries.pop()
+
+            if int(index) > 0:
+                retries.append(response)
+
+        except pydantic_core.ValidationError as e:
+            logger.warning(
+                f"Validation error for response {response}: {e}", exc_info=True
+            )
             continue
 
     sum_input = sum(in_tokens) * cost_input
