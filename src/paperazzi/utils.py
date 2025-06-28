@@ -1,14 +1,19 @@
+import functools
 import hashlib
 import pickle
+import re
 import tempfile
+import unicodedata
 from dataclasses import dataclass
 from multiprocessing import Lock
 from pathlib import Path
-from typing import Callable
+from typing import Callable, Generator
 
 from packaging.version import Version
 
 import paperazzi
+from paperazzi import CFG
+from paperazzi.log import logger
 
 
 @dataclass
@@ -54,7 +59,9 @@ class DiskStore:
 
         return cache_file
 
-    def iter_files(self, args: tuple = None, kwargs: dict = None, *, key: str = None):
+    def iter_files(
+        self, args: tuple = None, kwargs: dict = None, *, key: str = None
+    ) -> Generator[Path, None, None]:
         no_index_kwargs = vars(self).copy()
         no_index_kwargs.pop("index")
 
@@ -63,7 +70,10 @@ class DiskStore:
         if cache_file.exists():
             yield cache_file
 
-        yield from cache_file.parent.glob(f"{cache_file.name}_*")
+        yield from sorted(
+            cache_file.parent.glob(f"{cache_file.name}_*"),
+            key=lambda x: int(x.stem.split("_")[-1]),
+        )
 
     def move_to(
         self,
@@ -141,9 +151,8 @@ class DiskCachedFunc:
             cache_file.parent.mkdir(parents=True, exist_ok=True)
             with cache_file.open("wb") as f:
                 self._serializer.dump(result, f)
-
-        with cache_file.open("rb") as f:
-            assert self._serializer.load(f)
+            with cache_file.open("rb") as f:
+                assert self._serializer.load(f)
 
         return result
 
@@ -311,3 +320,181 @@ def disk_store(
     else:
         # Called as @disk_store
         return decorator(func)
+
+
+@functools.lru_cache(maxsize=64)
+def _glob(path: str, *args, **kwargs):
+    return sorted(Path(path).glob(*args, **kwargs))
+
+
+class PaperBase:
+    # Original form of the converted pdf to txt. eg data/cache/*/ARXIV_ID.txt
+    LINK_ID_TEMPLATE = "*/{link_id}.txt"
+    # Extended form of the converted pdf to txt. eg data/cache/*/PAPER_ID.txt
+    PAPER_ID_TEMPLATE = LINK_ID_TEMPLATE.format(link_id="{paper_id}")
+    # The the up-to-date form of the converted pdf (by paperoni)
+    # eg data/cache/fulltext/PAPER_ID/fulltext.txt
+    PAPER_ID_FULLTEXT_TEMPLATE = "fulltext/{paper_id}/fulltext.txt"
+
+    def __init__(self, paper_info: dict, disk_store: DiskStore) -> None:
+        self.paper_info = paper_info
+
+        self._selected_id = None
+        self._analyses = []
+        self._pdfs = []
+        self._pdf_txts = []
+        link_ids = [self._paper_id]
+        pdf_txts = []
+
+        for l in paper_info["links"]:
+            link_id = l.get("link", None)
+            if link_id and link_id not in link_ids:
+                link_ids.append(link_id)
+
+                pdf_txts += _glob(
+                    str(CFG.dir.cache), self.LINK_ID_TEMPLATE.format(link_id=link_id)
+                )
+
+        # Find existing analyses and infer the paper id from them
+        _ids = []
+        for link_id in link_ids:
+            analyses = list(disk_store.iter_files(key=link_id))
+            self._analyses.extend(analyses)
+            if analyses:
+                _ids.append(link_id)
+
+        if _ids:
+            if len(set(_ids)) > 1:
+                logger.warning(
+                    f"Multiple paper queries found for {paper_info['title']}:\n  "
+                    + "\n  ".join(map(str, sorted(set(self._analyses))))
+                )
+            self._selected_id = _ids[0]
+
+        # Try to find the downloaded/converted pdf using the original form of
+        # the converted pdf to txt
+        if not self._selected_id and pdf_txts:
+            # Favor the first pdf found, it's usually the most relevent and
+            # easiest to download / access
+            self._selected_id = pdf_txts[0].stem
+
+        if not self._selected_id and self.pdf_txt:
+            self._selected_id = self._paper_id
+
+        self._pdf_txts = (
+            _glob(str(CFG.dir.cache), self.LINK_ID_TEMPLATE.format(link_id=self.id))
+            + _glob(
+                str(CFG.dir.cache),
+                self.PAPER_ID_TEMPLATE.format(paper_id=self._paper_id),
+            )
+            + _glob(
+                str(CFG.dir.cache),
+                self.PAPER_ID_FULLTEXT_TEMPLATE.format(paper_id=self._paper_id),
+            )
+        )
+        self._pdfs = (
+            [
+                p.with_suffix(".pdf")
+                for p in self.pdf_txts
+                if p.with_suffix(".pdf").exists()
+            ]
+            + _glob(
+                str(CFG.dir.cache),
+                self.LINK_ID_TEMPLATE.replace(".txt", ".pdf").format(link_id=self.id),
+            )
+            + _glob(
+                str(CFG.dir.cache),
+                self.PAPER_ID_TEMPLATE.replace(".txt", ".pdf").format(
+                    paper_id=self._paper_id
+                ),
+            )
+            + _glob(
+                str(CFG.dir.cache),
+                self.PAPER_ID_FULLTEXT_TEMPLATE.replace(".txt", ".pdf").format(
+                    paper_id=self._paper_id
+                ),
+            )
+        )
+
+    @property
+    def id(self):
+        return self._selected_id or self._paper_id
+
+    @property
+    def queries(self):
+        return self._analyses
+
+    @property
+    def pdf_txts(self):
+        return self._pdf_txts
+
+    @property
+    def pdf_txt(self):
+        return next(
+            iter(self.pdf_txts),
+            None,
+        )
+
+    @property
+    def pdfs(self):
+        return self._pdfs
+
+    @property
+    def _paper_id(self):
+        return self.paper_info["paper_id"]
+
+    def get_link_id_pdf_txt(self):
+        """Return a hardlink, with selected id as name, to the pdf. Currently,
+        the pdf file name is used as an id to check if the query should be done
+        or not. As the pdf file name changed with the up-to-date paperoni cache
+        structure, a hardlink might be created and returned to avoid redoing the
+        query
+        """
+        link_id_pdf = None
+
+        if self.pdf_txt:
+            link_id_pdf = self.pdf_txt.with_stem(self.id)
+
+        if link_id_pdf and not link_id_pdf.exists():
+            link_id_pdf.hardlink_to(self.pdf_txt)
+
+        return link_id_pdf
+
+
+class PaperMD(PaperBase):
+    # Original form of the converted pdf to txt. eg data/cache/*/ARXIV_ID.txt
+    LINK_ID_TEMPLATE = "*/{link_id}.md"
+    # Extended form of the converted pdf to txt. eg data/cache/*/PAPER_ID.txt
+    PAPER_ID_TEMPLATE = LINK_ID_TEMPLATE.format(link_id="{paper_id}")
+    # The the up-to-date form of the converted pdf (by paperoni)
+    # eg data/cache/fulltext/PAPER_ID/fulltext.txt
+    PAPER_ID_FULLTEXT_TEMPLATE = "fulltext/{paper_id}/fulltext.md"
+
+
+class PaperTxt(PaperBase):
+    # Original form of the converted pdf to txt. eg data/cache/*/ARXIV_ID.txt
+    LINK_ID_TEMPLATE = "*/{link_id}.txt"
+    # Extended form of the converted pdf to txt. eg data/cache/*/PAPER_ID.txt
+    PAPER_ID_TEMPLATE = LINK_ID_TEMPLATE.format(link_id="{paper_id}")
+    # The the up-to-date form of the converted pdf (by paperoni)
+    # eg data/cache/fulltext/PAPER_ID/fulltext.txt
+    PAPER_ID_FULLTEXT_TEMPLATE = "fulltext/{paper_id}/fulltext.txt"
+
+
+def str_normalize(string):
+    # Normalize to NFD (decomposed form) and filter out combining characters
+    # This converts accented characters to their base form (é -> e, ñ -> n, etc.)
+    string = unicodedata.normalize("NFD", string)
+    string = "".join(c for c in string if not unicodedata.combining(c))
+    string = string.lower()
+    string = [_s.split("}}") for _s in string.split("{{")]
+    string = sum(string, [])
+    exclude = string[1:2]
+    string = list(
+        map(
+            lambda _s: re.sub(pattern=r"[^a-z0-9]", string=_s, repl=""),
+            string[:1] + string[2:],
+        )
+    )
+    string = "".join(string[:1] + exclude + string[1:])
+    return string

@@ -22,7 +22,14 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = []
+dependencies = [
+  "openai",
+]
+[project.optional-dependencies]
+openai = []
+vertexai = [
+  "google-genai",
+]
 
 [project.urls]
 Documentation = "https://github.com/Satya Ortiz-Gagne/paperazzi#readme"
@@ -36,10 +43,46 @@ path = "src/paperazzi/__about__.py"
 python = "3.10"
 installer = "uv"
 
+[tool.hatch.envs.default.scripts]
+sync = "uv sync --active"
+
+[tool.hatch.envs.default.env-vars]
+PAPERAZZI_CFG = "{env:PAPERAZZI_CFG:{root:real}/config.ini}"
+# # linux seams to require the following to avoid
+# # ImportError: cannot import name '_message' from 'google.protobuf.pyext'
+# PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION = "upb"
+
 [tool.hatch.envs.tests]
 extra-dependencies = [
+  "paperazzi[openai]",
+  "paperazzi[vertexai]",
   "pytest",
   "pytest-regressions",
+]
+[tool.hatch.envs.tests.scripts]
+tests = "pytest tests {args}"
+tests-cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=paperazzi tests {args}"
+
+[tool.hatch.envs.openai]
+extra-dependencies = [
+  "paperazzi[openai]",
+]
+
+[tool.hatch.envs.vertexai]
+extra-dependencies = [
+  "paperazzi[vertexai]",
+]
+
+[tool.hatch.envs.lint]
+detached = true
+dependencies = [
+  "black",
+  "isort",
+]
+[tool.hatch.envs.lint.scripts]
+lint = [
+  "python3 -m black {args} .",
+  "python3 -m isort --profile black {args} .",
 ]
 
 [tool.hatch.envs.types]
