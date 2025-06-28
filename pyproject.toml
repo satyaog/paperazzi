@@ -24,6 +24,7 @@ classifiers = [
 ]
 dependencies = [
   "openai",
+  "pandas",
 ]
 [project.optional-dependencies]
 openai = []

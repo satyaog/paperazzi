@@ -16,11 +16,15 @@ def _platforms():
             )
         except ImportError:
             logger.warning(
-                f"{platform.parent.name} optional dependencies are not installed.",
+                f"{platform.parent.name} optional dependency is not installed.",
                 exc_info=True,
             )
             continue
     return platforms
+
+
+def iter_platforms():
+    return _platforms().keys()
 
 
 def get_platform(platform: str = None):
