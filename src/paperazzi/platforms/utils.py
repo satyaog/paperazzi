@@ -2,7 +2,6 @@ import functools
 import importlib
 from pathlib import Path
 
-import paperazzi
 from paperazzi.config import CFG
 from paperazzi.log import logger
 
@@ -13,7 +12,7 @@ def _platforms():
     for platform in sorted(Path(__file__).parent.glob("*/__init__.py")):
         try:
             platforms[platform.parent.name] = importlib.import_module(
-                f"paperazzi.platform.{platform.parent.name}"
+                f"paperazzi.platforms.{platform.parent.name}"
             )
         except ImportError:
             logger.warning(
@@ -31,7 +30,7 @@ def get_platform(platform: str = None):
 
     if platform == "openai":
         # Only used for typehints
-        import paperazzi.platform.openai as _openai
+        import paperazzi.platforms.openai as _openai
 
         return _openai.utils
 
