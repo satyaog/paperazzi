@@ -19,6 +19,7 @@ classifiers = [
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
@@ -27,6 +28,10 @@ dependencies = [
   "pandas",
 ]
 [project.optional-dependencies]
+dev = [
+  "pytest",
+  "pytest-regressions",
+]
 openai = []
 vertexai = [
   "google-genai",
@@ -43,9 +48,13 @@ path = "src/paperazzi/__about__.py"
 [tool.hatch.envs.default]
 python = "3.10"
 installer = "uv"
+features = [
+  "dev",
+]
 
 [tool.hatch.envs.default.scripts]
-sync = "uv sync --active"
+env_name = '[ "$HATCH_ENV_ACTIVE" == "default" ] && echo "dev" || echo "$HATCH_ENV_ACTIVE"'
+sync = "uv sync --active --extra $(hatch run {env_name}:env_name) {args}"
 
 [tool.hatch.envs.default.env-vars]
 PAPERAZZI_CFG = "{env:PAPERAZZI_CFG:{root:real}/config.ini}"
@@ -53,26 +62,28 @@ PAPERAZZI_CFG = "{env:PAPERAZZI_CFG:{root:real}/config.ini}"
 # # ImportError: cannot import name '_message' from 'google.protobuf.pyext'
 # PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION = "upb"
 
-[tool.hatch.envs.tests]
-extra-dependencies = [
-  "paperazzi[openai]",
-  "paperazzi[vertexai]",
-  "pytest",
-  "pytest-regressions",
-]
-[tool.hatch.envs.tests.scripts]
-tests = "pytest tests {args}"
-tests-cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=paperazzi tests {args}"
-
 [tool.hatch.envs.openai]
-extra-dependencies = [
-  "paperazzi[openai]",
+features = [
+  "openai",
 ]
 
 [tool.hatch.envs.vertexai]
-extra-dependencies = [
-  "paperazzi[vertexai]",
+features = [
+  "vertexai",
 ]
+
+[tool.hatch.envs.hatch-test]
+features = [
+  "dev",
+  "openai",
+  "vertexai",
+]
+
+[tool.hatch.envs.hatch-test.extra-scripts]
+sync = "uv sync --active --inexact --all-extras {args}"
+
+[[tool.hatch.envs.hatch-test.matrix]]
+python = ["3.10", "3.11", "3.12", "3.13"]
 
 [tool.hatch.envs.lint]
 detached = true
