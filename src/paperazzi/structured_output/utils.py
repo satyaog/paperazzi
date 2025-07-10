@@ -41,10 +41,13 @@ def make_disk_store(
 ) -> DiskStore:
     cache_dir = CFG.dir.analyses / metadata.model_id / CFG.platform.select
 
-    # TODO: fix this code, the prefix arg is not really a prefix if used only
-    # through the get_platform util
+    # TODO: fix the prefix variable name. The prefix arg is not really a prefix
+    # if used only through the get_platform utils. platform seems to be a better
+    # choice.
     prefix = get_platform(prefix).CODE.lower()
     if metadata.llm_model:
+        # Remove underscores from the LLM model name to ease parsing of the
+        # filename (prefix_id_index)
         prefix = "-".join([prefix, metadata.llm_model.replace("_", "")])
 
     return DiskStore(

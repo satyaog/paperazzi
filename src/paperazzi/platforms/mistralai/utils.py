@@ -78,14 +78,18 @@ def ocr(
 
         assert len(contents) == 1
 
-        uploaded_pdf = client.files.upload(file=contents[0], purpose="ocr")
-        signed_url = client.files.get_signed_url(file_id=uploaded_pdf.id)
-        response: OCRResponse = client.ocr.process(
-            model=model,
-            document={
-                "type": "document_url",
-                "document_url": signed_url.url,
-            },
-        )
+        try:
+            uploaded_pdf = client.files.upload(file=contents[0], purpose="ocr")
+            signed_url = client.files.get_signed_url(file_id=uploaded_pdf.id)
+            response: OCRResponse = client.ocr.process(
+                model=model,
+                document={
+                    "type": "document_url",
+                    "document_url": signed_url.url,
+                },
+            )
+        finally:
+            if uploaded_pdf:
+                client.files.delete(file_id=uploaded_pdf.id)
 
     return response
