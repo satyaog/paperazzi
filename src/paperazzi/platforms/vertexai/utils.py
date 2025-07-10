@@ -10,6 +10,8 @@ import paperazzi
 from paperazzi.platforms.openai.utils import Message
 from paperazzi.structured_output.utils import Metadata
 
+CODE = "VTX"
+
 
 @dataclass
 class ResponseSerializer:

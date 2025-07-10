@@ -191,6 +191,9 @@ class DiskStoreFunc(DiskCachedFunc):
             store.make_key = func.info.make_key
 
         super().__init__(func.info.func, None, func.info.serializer, None)
+        # Disable DiskCachedFunc cache_dir and make_key to use the store ones
+        self._cache_dir = None
+        self._make_key = None
 
         self._store = store
 

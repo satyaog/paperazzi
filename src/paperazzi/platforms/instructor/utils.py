@@ -2,13 +2,18 @@ import json
 from dataclasses import dataclass
 from typing import Any, BinaryIO, Callable
 
+import instructor
+from openai import OpenAI
 from openai.types.chat.chat_completion import ChatCompletion
 from openai.types.responses.response import Response
 from pydantic import BaseModel
 
 import paperazzi
+from paperazzi.config import CFG
 from paperazzi.platforms.openai.utils import Message, ResponseSerializer
 from paperazzi.structured_output.utils import Metadata
+
+CODE = "INS"
 
 
 @dataclass
@@ -39,8 +44,23 @@ class ResponseSerializer(ResponseSerializer):
         return loaded_model
 
 
+@dataclass
+class ParsedResponseSerializer(ResponseSerializer):
+    pass
+
+
+def client(*args, **kwargs) -> instructor.Instructor:
+    match CFG.platform.select:
+        case "openai":
+            return instructor.from_openai(
+                OpenAI(*args, **kwargs), mode=instructor.Mode.TOOLS_STRICT
+            )
+        case _:
+            raise ValueError(f"Unsupported Instructor platform: {CFG.platform.select}")
+
+
 def prompt(
-    client: "instructor.Instructor",
+    client: instructor.Instructor,
     messages: list[Message],
     model: str,
     structured_model: BaseModel = None,
