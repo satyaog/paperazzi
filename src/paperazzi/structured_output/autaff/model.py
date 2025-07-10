@@ -47,7 +47,7 @@ T = TypeVar("T")
 class Explained(BaseModel, Generic[T]):
     value: T
     reasoning: str = Field(
-        description="A detailed explanation for the choice of the value.",
+        description="A detailed explanation for the choice of the value",
     )
     quote: str = Field(
         description="The best literal quote from the paper which supports the value",

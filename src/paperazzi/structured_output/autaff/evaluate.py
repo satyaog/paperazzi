@@ -23,7 +23,11 @@ from paperazzi.config import Config
 from paperazzi.log import logger
 from paperazzi.platforms.utils import get_platform
 from paperazzi.structured_output.autaff.model import Analysis
-from paperazzi.structured_output.utils import get_structured_output, make_disk_store
+from paperazzi.structured_output.utils import (
+    Metadata,
+    get_structured_output,
+    make_disk_store,
+)
 from paperazzi.utils import PaperTxt, str_normalize
 
 # import pandas as pd
@@ -170,18 +174,22 @@ class MissingAuthorDiff(CompareDiff):
 
 
 def paper_md(paper: PaperTxt) -> Path:
+    document_metadata = Metadata(
+        model_id="parsepdf", model_version="0.0.0", llm_model="mistral-ocr-2505"
+    )
     with Config.push():
         CFG.platform.select = "mistralai"
-        CFG.platform.struct = "parse_doc"
-        CFG.dir.queries = CFG.dir.data / CFG.platform.struct / "queries"
+        document_disk_store = make_disk_store(
+            document_metadata, prefix=CFG.platform.select
+        )
+        with next(document_disk_store.iter_files(key=paper.id)).open("rb") as f:
+            document = get_platform(CFG.platform.select).OCRResponseSerializer.load(f)
 
-        paper_md = ParsedDocResponse.model_validate_json(
-            Paper(paper._paper).queries[-1].read_text()
-        ).analysis
+    document = [page.markdown for page in document.pages]
 
     # write md to temporary file
     with tempfile.NamedTemporaryFile(mode="wt", delete=False, suffix=".md") as f:
-        f.write("\n---\n".join(paper_md.pages_md))
+        f.write("\n---\n".join(document))
 
     return Path(f.name)
 
@@ -601,7 +609,7 @@ def evaluate_response(
             llm_file=str(llm_file),
             val_file=str(val_file),
             pdf_file=str(paper.pdfs[0]),
-            pdf_txt_file="",
+            pdf_txt_file=str(paper_md(paper)),
         )
 
     authors_order, authors_order_diff, authors_order_warnings = compare_authors_order(
@@ -644,7 +652,7 @@ def evaluate_response(
         llm_file=str(llm_file),
         val_file=str(val_file),
         pdf_file=str(paper.pdfs[0]) if paper.pdfs else "",
-        pdf_txt_file="",
+        pdf_txt_file=str(paper_md(paper)),
     )
 
     if not authors_order:
