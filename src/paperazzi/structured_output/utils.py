@@ -46,9 +46,17 @@ def make_disk_store(
     # choice.
     prefix = get_platform(prefix).CODE.lower()
     if metadata.llm_model:
-        # Remove underscores from the LLM model name to ease parsing of the
+        # Remove underscores from the LLM model name to simplify parsing of the
         # filename (prefix_id_index)
-        prefix = "-".join([prefix, metadata.llm_model.replace("_", "")])
+        prefix = "-".join(
+            [
+                prefix,
+                metadata.llm_model.replace("models", "")
+                .replace("model", "")
+                .replace("_", "")
+                .replace("/", ""),
+            ]
+        )
 
     return DiskStore(
         cache_dir=cache_dir,

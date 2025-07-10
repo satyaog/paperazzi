@@ -72,7 +72,8 @@ class DiskStore:
 
         yield from sorted(
             cache_file.parent.glob(f"{cache_file.name}_*"),
-            key=lambda x: int(x.stem.split("_")[-1]),
+            # extract the index from the filename (*_{index}.ext)
+            key=lambda x: int(Path(x.name.split("_")[-1]).stem),
         )
 
     def move_to(
@@ -343,7 +344,7 @@ class PaperBase:
         self.paper_info = paper_info
 
         self._selected_id = None
-        self._analyses = []
+        self._queries = []
         self._pdfs = []
         self._pdf_txts = []
         link_ids = [self._paper_id]
@@ -361,8 +362,10 @@ class PaperBase:
         # Find existing analyses and infer the paper id from them
         _ids = []
         for link_id in link_ids:
-            analyses = list(disk_store.iter_files(key=link_id))
-            self._analyses.extend(analyses)
+            analyses = list(disk_store.iter_files(key=link_id)) + list(
+                disk_store.iter_files(key=f"*-{link_id}")
+            )
+            self._queries.extend(analyses)
             if analyses:
                 _ids.append(link_id)
 
@@ -370,7 +373,7 @@ class PaperBase:
             if len(set(_ids)) > 1:
                 logger.warning(
                     f"Multiple paper queries found for {paper_info['title']}:\n  "
-                    + "\n  ".join(map(str, sorted(set(self._analyses))))
+                    + "\n  ".join(map(str, sorted(set(self._queries))))
                 )
             self._selected_id = _ids[0]
 
@@ -425,7 +428,7 @@ class PaperBase:
 
     @property
     def queries(self):
-        return self._analyses
+        return self._queries
 
     @property
     def pdf_txts(self):
