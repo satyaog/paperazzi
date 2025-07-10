@@ -11,6 +11,8 @@ from pydantic import BaseModel
 import paperazzi
 from paperazzi.structured_output.utils import Metadata
 
+CODE = "OPN"
+
 
 @dataclass
 class ResponseSerializer:

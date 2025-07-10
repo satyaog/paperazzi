@@ -32,6 +32,12 @@ dev = [
   "pytest",
   "pytest-regressions",
 ]
+instructor = [
+  "instructor",
+]
+mistralai = [
+  "mistralai",
+]
 openai = []
 vertexai = [
   "google-genai",
@@ -67,6 +73,11 @@ features = [
   "openai",
 ]
 
+[tool.hatch.envs.mistralai]
+features = [
+  "mistralai",
+]
+
 [tool.hatch.envs.vertexai]
 features = [
   "vertexai",
@@ -75,6 +86,8 @@ features = [
 [tool.hatch.envs.hatch-test]
 features = [
   "dev",
+  "instructor",
+  "mistralai",
   "openai",
   "vertexai",
 ]

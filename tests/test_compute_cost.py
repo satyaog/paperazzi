@@ -39,8 +39,9 @@ class TestComputeCost:
         ["argv", "platform", "instructor"],
         product(
             [["2.5", "10"], ["2.5", "10", "--projection", "10"]],
-            filter(lambda x: x != "instructor", iter_platforms()),
-            [True, False],
+            # TODO: Add mistralai OCR usage parsing to compute cost
+            filter(lambda x: x not in ["instructor", "mistralai"], iter_platforms()),
+            ["1", ""],
         ),
     )
     def test_compute_cost(
