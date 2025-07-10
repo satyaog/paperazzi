@@ -24,8 +24,13 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dependencies = [
+  "Levenshtein",
   "openai",
+  "packaging",
   "pandas",
+  "pydantic",
+  "pyyaml",
+  "rich",
 ]
 [project.optional-dependencies]
 dev = [
