@@ -1,0 +1,473 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 21:10:46 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=78669",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Benjamin F. Combes\",\n        \"reasoning\": \"The author's name is listed first in the author list on page 1 of the paper, with a superscript '1' indicating their affiliation.\",\n        \"quote\": \"Benjamin F. Combes¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed on page 17.\",\n          \"quote\": \"1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Sandeep Kumar Kalva\",\n        \"reasoning\": \"The author's name is listed second in the author list on page 1 of the paper, with superscripts '2,3' indicating their affiliations.\",\n        \"quote\": \"Sandeep Kumar Kalva2,3\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed on page 17.\",\n          \"quote\": \"2 Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland\"\n        },\n        {\n          \"value\": \"Institute of Pharmacology and Toxicology, University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '3' next to the author's name corresponds to the third affiliation listed on page 17.\",\n          \"quote\": \"3 Institute of Pharmacology and Toxicology, University of Zurich, Zurich, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Pierre-Louis Benveniste\",\n        \"reasoning\": \"The author's name is listed third in the author list on page 1 of the paper, with superscripts '4,5' indicating their affiliations.\",\n        \"quote\": \"Pierre-Louis Benveniste 4,5\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, QC, Canada\",\n          \"reasoning\": \"The superscript '4' next to the author's name corresponds to the fourth affiliation listed on page 17.\",\n          \"quote\": \"4 NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, QC, Canada\"\n        },\n        {\n          \"value\": \"Mila - Quebec AI Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"The superscript '5' next to the author's name corresponds to the fifth affiliation listed on page 17.\",\n          \"quote\": \"5 Mila - Quebec AI Institute, Montreal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Agathe Tournant\",\n        \"reasoning\": \"The author's name is listed fourth in the author list on page 1 of the paper, with a superscript '2' indicating their affiliation.\",\n        \"quote\": \"Agathe Tournant²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed on page 17.\",\n          \"quote\": \"2 Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Man Hoi Law\",\n        \"reasoning\": \"The author's name is listed fifth in the author list on page 1 of the paper, with a superscript '1' indicating their affiliation.\",\n        \"quote\": \"Man Hoi Law¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed on page 17.\",\n          \"quote\": \"1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Joshua Newton\",\n        \"reasoning\": \"The author's name is listed sixth in the author list on page 1 of the paper, with a superscript '1' indicating their affiliation.\",\n        \"quote\": \"Joshua Newton¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed on page 17.\",\n          \"quote\": \"1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Maik Krüger\",\n        \"reasoning\": \"The author's name is listed seventh in the author list on page 1 of the paper, with a superscript '1' indicating their affiliation.\",\n        \"quote\": \"Maik Krüger¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed on page 17.\",\n          \"quote\": \"1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Rebecca Z. Weber\",\n        \"reasoning\": \"The author's name is listed eighth in the author list on page 1 of the paper, with a superscript '1' indicating their affiliation.\",\n        \"quote\": \"Rebecca Z. Weber¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed on page 17.\",\n          \"quote\": \"1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Inês Dias\",\n        \"reasoning\": \"The author's name is listed ninth in the author list on page 1 of the paper, with a superscript '9' indicating their affiliation.\",\n        \"quote\": \"Inês Dias⁹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Neurobiology, Care Sciences and Society, Karolinska Institute, Stockholm, Sweden\",\n          \"reasoning\": \"The superscript '9' next to the author's name corresponds to the ninth affiliation listed on page 17.\",\n          \"quote\": \"9 Department of Neurobiology, Care Sciences and Society, Karolinska Institute, Stockholm, Sweden\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Daniela Noain\",\n        \"reasoning\": \"The author's name is listed tenth in the author list on page 1 of the paper, with superscripts '6,7,8' indicating their affiliations.\",\n        \"quote\": \"Daniela Noain 6,7,8\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Neurology, University Hospital Zurich, University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '6' next to the author's name corresponds to the sixth affiliation listed on page 17.\",\n          \"quote\": \"6 Department of Neurology, University Hospital Zurich, University of Zurich, Zurich, Switzerland\"\n        },\n        {\n          \"value\": \"Neuroscience Center Zurich (ZNZ), University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '7' next to the author's name corresponds to the seventh affiliation listed on page 17.\",\n          \"quote\": \"7 Neuroscience Center Zurich (ZNZ), University of Zurich, Zurich, Switzerland\"\n        },\n        {\n          \"value\": \"Center of Competence Sleep and Health Zurich, University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '8' next to the author's name corresponds to the eighth affiliation listed on page 17.\",\n          \"quote\": \"8 Center of Competence Sleep and Health Zurich, University of Zurich, Zurich, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Xose Luis Dean-Ben\",\n        \"reasoning\": \"The author's name is listed eleventh in the author list on page 1 of the paper, with superscripts '2,3' indicating their affiliations.\",\n        \"quote\": \"Xose Luis Dean-Ben 2,3\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed on page 17.\",\n          \"quote\": \"2 Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland\"\n        },\n        {\n          \"value\": \"Institute of Pharmacology and Toxicology, University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '3' next to the author's name corresponds to the third affiliation listed on page 17.\",\n          \"quote\": \"3 Institute of Pharmacology and Toxicology, University of Zurich, Zurich, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Uwe Konietzko\",\n        \"reasoning\": \"The author's name is listed twelfth in the author list on page 1 of the paper, with a superscript '1' indicating their affiliation.\",\n        \"quote\": \"Uwe Konietzko¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed on page 17.\",\n          \"quote\": \"1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Christian R. Baumann\",\n        \"reasoning\": \"The author's name is listed thirteenth in the author list on page 1 of the paper, with superscripts '6,7,8' indicating their affiliations.\",\n        \"quote\": \"Christian R. Baumann6,7,8\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Neurology, University Hospital Zurich, University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '6' next to the author's name corresponds to the sixth affiliation listed on page 17.\",\n          \"quote\": \"6 Department of Neurology, University Hospital Zurich, University of Zurich, Zurich, Switzerland\"\n        },\n        {\n          \"value\": \"Neuroscience Center Zurich (ZNZ), University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '7' next to the author's name corresponds to the seventh affiliation listed on page 17.\",\n          \"quote\": \"7 Neuroscience Center Zurich (ZNZ), University of Zurich, Zurich, Switzerland\"\n        },\n        {\n          \"value\": \"Center of Competence Sleep and Health Zurich, University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '8' next to the author's name corresponds to the eighth affiliation listed on page 17.\",\n          \"quote\": \"8 Center of Competence Sleep and Health Zurich, University of Zurich, Zurich, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Per-Göran Gillberg\",\n        \"reasoning\": \"The author's name is listed fourteenth in the author list on page 1 of the paper, with a superscript '9' indicating their affiliation.\",\n        \"quote\": \"Per-Göran Gillberg⁹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Neurobiology, Care Sciences and Society, Karolinska Institute, Stockholm, Sweden\",\n          \"reasoning\": \"The superscript '9' next to the author's name corresponds to the ninth affiliation listed on page 17.\",\n          \"quote\": \"9 Department of Neurobiology, Care Sciences and Society, Karolinska Institute, Stockholm, Sweden\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Christoph Hock\",\n        \"reasoning\": \"The author's name is listed fifteenth in the author list on page 1 of the paper, with superscripts '1,10' indicating their affiliations.\",\n        \"quote\": \"Christoph Hock1,10\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed on page 17.\",\n          \"quote\": \"1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\"\n        },\n        {\n          \"value\": \"Neurimmune, Schlieren, Switzerland\",\n          \"reasoning\": \"The superscript '10' next to the author's name corresponds to the tenth affiliation listed on page 17.\",\n          \"quote\": \"10 Neurimmune, Schlieren, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Roger M. Nitsch\",\n        \"reasoning\": \"The author's name is listed sixteenth in the author list on page 1 of the paper, with superscripts '1,10' indicating their affiliations.\",\n        \"quote\": \"Roger M. Nitsch1,10\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed on page 17.\",\n          \"quote\": \"1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\"\n        },\n        {\n          \"value\": \"Neurimmune, Schlieren, Switzerland\",\n          \"reasoning\": \"The superscript '10' next to the author's name corresponds to the tenth affiliation listed on page 17.\",\n          \"quote\": \"10 Neurimmune, Schlieren, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Julien Cohen-Adad\",\n        \"reasoning\": \"The author's name is listed seventeenth in the author list on page 1 of the paper, with superscripts '4,5' indicating their affiliations.\",\n        \"quote\": \"Julien Cohen-Adad4,5\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, QC, Canada\",\n          \"reasoning\": \"The superscript '4' next to the author's name corresponds to the fourth affiliation listed on page 17.\",\n          \"quote\": \"4 NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, QC, Canada\"\n        },\n        {\n          \"value\": \"Mila - Quebec AI Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"The superscript '5' next to the author's name corresponds to the fifth affiliation listed on page 17.\",\n          \"quote\": \"5 Mila - Quebec AI Institute, Montreal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Daniel Razansky\",\n        \"reasoning\": \"The author's name is listed eighteenth in the author list on page 1 of the paper, with superscripts '2,3' indicating their affiliations.\",\n        \"quote\": \"Daniel Razansky2,3\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed on page 17.\",\n          \"quote\": \"2 Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland\"\n        },\n        {\n          \"value\": \"Institute of Pharmacology and Toxicology, University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '3' next to the author's name corresponds to the third affiliation listed on page 17.\",\n          \"quote\": \"3 Institute of Pharmacology and Toxicology, University of Zurich, Zurich, Switzerland\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Ruiqing Ni\",\n        \"reasoning\": \"The author's name is listed last in the author list on page 1 of the paper, with superscripts '1,2,11' indicating their affiliations.\",\n        \"quote\": \"Ruiqing Ni1,2,11\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed on page 17.\",\n          \"quote\": \"1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\"\n        },\n        {\n          \"value\": \"Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed on page 17.\",\n          \"quote\": \"2 Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland\"\n        },\n        {\n          \"value\": \"Department of Nuclear Medicine, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland\",\n          \"reasoning\": \"The superscript '11' next to the author's name corresponds to the eleventh affiliation listed on page 17.\",\n          \"quote\": \"11 Department of Nuclear Medicine, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\",\n      \"reasoning\": \"This is the first affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '1'.\",\n      \"quote\": \"1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland\"\n    },\n    {\n      \"value\": \"Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland\",\n      \"reasoning\": \"This is the second affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '2'.\",\n      \"quote\": \"2 Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland\"\n    },\n    {\n      \"value\": \"Institute of Pharmacology and Toxicology, University of Zurich, Zurich, Switzerland\",\n      \"reasoning\": \"This is the third affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '3'.\",\n      \"quote\": \"3 Institute of Pharmacology and Toxicology, University of Zurich, Zurich, Switzerland\"\n    },\n    {\n      \"value\": \"NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, QC, Canada\",\n      \"reasoning\": \"This is the fourth affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '4'.\",\n      \"quote\": \"4 NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, QC, Canada\"\n    },\n    {\n      \"value\": \"Mila - Quebec AI Institute, Montreal, QC, Canada\",\n      \"reasoning\": \"This is the fifth affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '5'.\",\n      \"quote\": \"5 Mila - Quebec AI Institute, Montreal, QC, Canada\"\n    },\n    {\n      \"value\": \"Department of Neurology, University Hospital Zurich, University of Zurich, Zurich, Switzerland\",\n      \"reasoning\": \"This is the sixth affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '6'.\",\n      \"quote\": \"6 Department of Neurology, University Hospital Zurich, University of Zurich, Zurich, Switzerland\"\n    },\n    {\n      \"value\": \"Neuroscience Center Zurich (ZNZ), University of Zurich, Zurich, Switzerland\",\n      \"reasoning\": \"This is the seventh affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '7'.\",\n      \"quote\": \"7 Neuroscience Center Zurich (ZNZ), University of Zurich, Zurich, Switzerland\"\n    },\n    {\n      \"value\": \"Center of Competence Sleep and Health Zurich, University of Zurich, Zurich, Switzerland\",\n      \"reasoning\": \"This is the eighth affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '8'.\",\n      \"quote\": \"8 Center of Competence Sleep and Health Zurich, University of Zurich, Zurich, Switzerland\"\n    },\n    {\n      \"value\": \"Department of Neurobiology, Care Sciences and Society, Karolinska Institute, Stockholm, Sweden\",\n      \"reasoning\": \"This is the ninth affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '9'.\",\n      \"quote\": \"9 Department of Neurobiology, Care Sciences and Society, Karolinska Institute, Stockholm, Sweden\"\n    },\n    {\n      \"value\": \"Neurimmune, Schlieren, Switzerland\",\n      \"reasoning\": \"This is the tenth affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '10'.\",\n      \"quote\": \"10 Neurimmune, Schlieren, Switzerland\"\n    },\n    {\n      \"value\": \"Department of Nuclear Medicine, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland\",\n      \"reasoning\": \"This is the eleventh affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '11'.\",\n      \"quote\": \"11 Department of Nuclear Medicine, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 5232,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 4799,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 4386
+      }
+    ],
+    "thoughts_token_count": 1842,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 11873,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Benjamin F. Combes",
+          "reasoning": "The author's name is listed first in the author list on page 1 of the paper, with a superscript '1' indicating their affiliation.",
+          "quote": "Benjamin F. Combes¹"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed on page 17.",
+            "quote": "1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Sandeep Kumar Kalva",
+          "reasoning": "The author's name is listed second in the author list on page 1 of the paper, with superscripts '2,3' indicating their affiliations.",
+          "quote": "Sandeep Kumar Kalva2,3"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed on page 17.",
+            "quote": "2 Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland"
+          },
+          {
+            "value": "Institute of Pharmacology and Toxicology, University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third affiliation listed on page 17.",
+            "quote": "3 Institute of Pharmacology and Toxicology, University of Zurich, Zurich, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Pierre-Louis Benveniste",
+          "reasoning": "The author's name is listed third in the author list on page 1 of the paper, with superscripts '4,5' indicating their affiliations.",
+          "quote": "Pierre-Louis Benveniste 4,5"
+        },
+        "affiliations": [
+          {
+            "value": "NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, QC, Canada",
+            "reasoning": "The superscript '4' next to the author's name corresponds to the fourth affiliation listed on page 17.",
+            "quote": "4 NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, QC, Canada"
+          },
+          {
+            "value": "Mila - Quebec AI Institute, Montreal, QC, Canada",
+            "reasoning": "The superscript '5' next to the author's name corresponds to the fifth affiliation listed on page 17.",
+            "quote": "5 Mila - Quebec AI Institute, Montreal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Agathe Tournant",
+          "reasoning": "The author's name is listed fourth in the author list on page 1 of the paper, with a superscript '2' indicating their affiliation.",
+          "quote": "Agathe Tournant²"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed on page 17.",
+            "quote": "2 Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Man Hoi Law",
+          "reasoning": "The author's name is listed fifth in the author list on page 1 of the paper, with a superscript '1' indicating their affiliation.",
+          "quote": "Man Hoi Law¹"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed on page 17.",
+            "quote": "1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Joshua Newton",
+          "reasoning": "The author's name is listed sixth in the author list on page 1 of the paper, with a superscript '1' indicating their affiliation.",
+          "quote": "Joshua Newton¹"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed on page 17.",
+            "quote": "1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Maik Krüger",
+          "reasoning": "The author's name is listed seventh in the author list on page 1 of the paper, with a superscript '1' indicating their affiliation.",
+          "quote": "Maik Krüger¹"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed on page 17.",
+            "quote": "1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Rebecca Z. Weber",
+          "reasoning": "The author's name is listed eighth in the author list on page 1 of the paper, with a superscript '1' indicating their affiliation.",
+          "quote": "Rebecca Z. Weber¹"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed on page 17.",
+            "quote": "1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Inês Dias",
+          "reasoning": "The author's name is listed ninth in the author list on page 1 of the paper, with a superscript '9' indicating their affiliation.",
+          "quote": "Inês Dias⁹"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Neurobiology, Care Sciences and Society, Karolinska Institute, Stockholm, Sweden",
+            "reasoning": "The superscript '9' next to the author's name corresponds to the ninth affiliation listed on page 17.",
+            "quote": "9 Department of Neurobiology, Care Sciences and Society, Karolinska Institute, Stockholm, Sweden"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Daniela Noain",
+          "reasoning": "The author's name is listed tenth in the author list on page 1 of the paper, with superscripts '6,7,8' indicating their affiliations.",
+          "quote": "Daniela Noain 6,7,8"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Neurology, University Hospital Zurich, University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '6' next to the author's name corresponds to the sixth affiliation listed on page 17.",
+            "quote": "6 Department of Neurology, University Hospital Zurich, University of Zurich, Zurich, Switzerland"
+          },
+          {
+            "value": "Neuroscience Center Zurich (ZNZ), University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '7' next to the author's name corresponds to the seventh affiliation listed on page 17.",
+            "quote": "7 Neuroscience Center Zurich (ZNZ), University of Zurich, Zurich, Switzerland"
+          },
+          {
+            "value": "Center of Competence Sleep and Health Zurich, University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '8' next to the author's name corresponds to the eighth affiliation listed on page 17.",
+            "quote": "8 Center of Competence Sleep and Health Zurich, University of Zurich, Zurich, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Xose Luis Dean-Ben",
+          "reasoning": "The author's name is listed eleventh in the author list on page 1 of the paper, with superscripts '2,3' indicating their affiliations.",
+          "quote": "Xose Luis Dean-Ben 2,3"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed on page 17.",
+            "quote": "2 Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland"
+          },
+          {
+            "value": "Institute of Pharmacology and Toxicology, University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third affiliation listed on page 17.",
+            "quote": "3 Institute of Pharmacology and Toxicology, University of Zurich, Zurich, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Uwe Konietzko",
+          "reasoning": "The author's name is listed twelfth in the author list on page 1 of the paper, with a superscript '1' indicating their affiliation.",
+          "quote": "Uwe Konietzko¹"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed on page 17.",
+            "quote": "1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Christian R. Baumann",
+          "reasoning": "The author's name is listed thirteenth in the author list on page 1 of the paper, with superscripts '6,7,8' indicating their affiliations.",
+          "quote": "Christian R. Baumann6,7,8"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Neurology, University Hospital Zurich, University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '6' next to the author's name corresponds to the sixth affiliation listed on page 17.",
+            "quote": "6 Department of Neurology, University Hospital Zurich, University of Zurich, Zurich, Switzerland"
+          },
+          {
+            "value": "Neuroscience Center Zurich (ZNZ), University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '7' next to the author's name corresponds to the seventh affiliation listed on page 17.",
+            "quote": "7 Neuroscience Center Zurich (ZNZ), University of Zurich, Zurich, Switzerland"
+          },
+          {
+            "value": "Center of Competence Sleep and Health Zurich, University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '8' next to the author's name corresponds to the eighth affiliation listed on page 17.",
+            "quote": "8 Center of Competence Sleep and Health Zurich, University of Zurich, Zurich, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Per-Göran Gillberg",
+          "reasoning": "The author's name is listed fourteenth in the author list on page 1 of the paper, with a superscript '9' indicating their affiliation.",
+          "quote": "Per-Göran Gillberg⁹"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Neurobiology, Care Sciences and Society, Karolinska Institute, Stockholm, Sweden",
+            "reasoning": "The superscript '9' next to the author's name corresponds to the ninth affiliation listed on page 17.",
+            "quote": "9 Department of Neurobiology, Care Sciences and Society, Karolinska Institute, Stockholm, Sweden"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Christoph Hock",
+          "reasoning": "The author's name is listed fifteenth in the author list on page 1 of the paper, with superscripts '1,10' indicating their affiliations.",
+          "quote": "Christoph Hock1,10"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed on page 17.",
+            "quote": "1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland"
+          },
+          {
+            "value": "Neurimmune, Schlieren, Switzerland",
+            "reasoning": "The superscript '10' next to the author's name corresponds to the tenth affiliation listed on page 17.",
+            "quote": "10 Neurimmune, Schlieren, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Roger M. Nitsch",
+          "reasoning": "The author's name is listed sixteenth in the author list on page 1 of the paper, with superscripts '1,10' indicating their affiliations.",
+          "quote": "Roger M. Nitsch1,10"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed on page 17.",
+            "quote": "1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland"
+          },
+          {
+            "value": "Neurimmune, Schlieren, Switzerland",
+            "reasoning": "The superscript '10' next to the author's name corresponds to the tenth affiliation listed on page 17.",
+            "quote": "10 Neurimmune, Schlieren, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Julien Cohen-Adad",
+          "reasoning": "The author's name is listed seventeenth in the author list on page 1 of the paper, with superscripts '4,5' indicating their affiliations.",
+          "quote": "Julien Cohen-Adad4,5"
+        },
+        "affiliations": [
+          {
+            "value": "NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, QC, Canada",
+            "reasoning": "The superscript '4' next to the author's name corresponds to the fourth affiliation listed on page 17.",
+            "quote": "4 NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, QC, Canada"
+          },
+          {
+            "value": "Mila - Quebec AI Institute, Montreal, QC, Canada",
+            "reasoning": "The superscript '5' next to the author's name corresponds to the fifth affiliation listed on page 17.",
+            "quote": "5 Mila - Quebec AI Institute, Montreal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Daniel Razansky",
+          "reasoning": "The author's name is listed eighteenth in the author list on page 1 of the paper, with superscripts '2,3' indicating their affiliations.",
+          "quote": "Daniel Razansky2,3"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed on page 17.",
+            "quote": "2 Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland"
+          },
+          {
+            "value": "Institute of Pharmacology and Toxicology, University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third affiliation listed on page 17.",
+            "quote": "3 Institute of Pharmacology and Toxicology, University of Zurich, Zurich, Switzerland"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Ruiqing Ni",
+          "reasoning": "The author's name is listed last in the author list on page 1 of the paper, with superscripts '1,2,11' indicating their affiliations.",
+          "quote": "Ruiqing Ni1,2,11"
+        },
+        "affiliations": [
+          {
+            "value": "Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed on page 17.",
+            "quote": "1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland"
+          },
+          {
+            "value": "Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed on page 17.",
+            "quote": "2 Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland"
+          },
+          {
+            "value": "Department of Nuclear Medicine, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland",
+            "reasoning": "The superscript '11' next to the author's name corresponds to the eleventh affiliation listed on page 17.",
+            "quote": "11 Department of Nuclear Medicine, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland",
+        "reasoning": "This is the first affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '1'.",
+        "quote": "1 Institute for Regenerative Medicine, University of Zurich, Zurich, Switzerland"
+      },
+      {
+        "value": "Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland",
+        "reasoning": "This is the second affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '2'.",
+        "quote": "2 Institute for Biomedical Engineering, University of Zurich & ETH Zurich, Zurich, Switzerland"
+      },
+      {
+        "value": "Institute of Pharmacology and Toxicology, University of Zurich, Zurich, Switzerland",
+        "reasoning": "This is the third affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '3'.",
+        "quote": "3 Institute of Pharmacology and Toxicology, University of Zurich, Zurich, Switzerland"
+      },
+      {
+        "value": "NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, QC, Canada",
+        "reasoning": "This is the fourth affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '4'.",
+        "quote": "4 NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, QC, Canada"
+      },
+      {
+        "value": "Mila - Quebec AI Institute, Montreal, QC, Canada",
+        "reasoning": "This is the fifth affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '5'.",
+        "quote": "5 Mila - Quebec AI Institute, Montreal, QC, Canada"
+      },
+      {
+        "value": "Department of Neurology, University Hospital Zurich, University of Zurich, Zurich, Switzerland",
+        "reasoning": "This is the sixth affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '6'.",
+        "quote": "6 Department of Neurology, University Hospital Zurich, University of Zurich, Zurich, Switzerland"
+      },
+      {
+        "value": "Neuroscience Center Zurich (ZNZ), University of Zurich, Zurich, Switzerland",
+        "reasoning": "This is the seventh affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '7'.",
+        "quote": "7 Neuroscience Center Zurich (ZNZ), University of Zurich, Zurich, Switzerland"
+      },
+      {
+        "value": "Center of Competence Sleep and Health Zurich, University of Zurich, Zurich, Switzerland",
+        "reasoning": "This is the eighth affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '8'.",
+        "quote": "8 Center of Competence Sleep and Health Zurich, University of Zurich, Zurich, Switzerland"
+      },
+      {
+        "value": "Department of Neurobiology, Care Sciences and Society, Karolinska Institute, Stockholm, Sweden",
+        "reasoning": "This is the ninth affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '9'.",
+        "quote": "9 Department of Neurobiology, Care Sciences and Society, Karolinska Institute, Stockholm, Sweden"
+      },
+      {
+        "value": "Neurimmune, Schlieren, Switzerland",
+        "reasoning": "This is the tenth affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '10'.",
+        "quote": "10 Neurimmune, Schlieren, Switzerland"
+      },
+      {
+        "value": "Department of Nuclear Medicine, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland",
+        "reasoning": "This is the eleventh affiliation listed in the 'Authors and Affiliations' section on page 17, identified by the number '11'.",
+        "quote": "11 Department of Nuclear Medicine, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

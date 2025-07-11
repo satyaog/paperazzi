@@ -1,0 +1,168 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:55:06 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=44541",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Xiuhui Yang\",\n        \"reasoning\": \"The name is listed first in the author list on the first page of the paper, indicated by the superscript '1'.\",\n        \"quote\": \"Xiuhui Yang¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"School of Software, Shandong University, 1500 Shunhua, Jinan, 250101, Shandong, China.\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first listed affiliation.\",\n          \"quote\": \"¹School of Software, Shandong University, 1500 Shunhua, Jinan, 250101, Shandong, China.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Koren K. Mann\",\n        \"reasoning\": \"The name is listed second in the author list on the first page of the paper, indicated by the superscript '2'.\",\n        \"quote\": \"Koren K. Mann²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Pharmacology and Therapeutics, McGill University, Montreal, H3G 1Y6, QC, Canada.\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second listed affiliation.\",\n          \"quote\": \"²Department of Pharmacology and Therapeutics, McGill University, Montreal, H3G 1Y6, QC, Canada.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Hao Wu\",\n        \"reasoning\": \"The name is listed third in the author list on the first page of the paper, indicated by the superscript '1' and an asterisk.\",\n        \"quote\": \"Hao Wu¹*\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"School of Software, Shandong University, 1500 Shunhua, Jinan, 250101, Shandong, China.\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first listed affiliation.\",\n          \"quote\": \"¹School of Software, Shandong University, 1500 Shunhua, Jinan, 250101, Shandong, China.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jun Ding\",\n        \"reasoning\": \"The name is listed fourth in the author list on the first page of the paper, indicated by the superscripts '3' and '4' and an asterisk.\",\n        \"quote\": \"Jun Ding³,⁴*\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Meakins-Christie Laboratories, Department of Medicine, McGill University Health Centre, Montreal, H4A 3J1, QC, Canada.\",\n          \"reasoning\": \"The superscript '3' next to the author's name corresponds to the third listed affiliation.\",\n          \"quote\": \"³Meakins-Christie Laboratories, Department of Medicine, McGill University Health Centre, Montreal, H4A 3J1, QC, Canada.\"\n        },\n        {\n          \"value\": \"Mila-Quebec AI Institute, Montreal, H2S 3H1, QC, Canada.\",\n          \"reasoning\": \"The superscript '4' next to the author's name corresponds to the fourth listed affiliation.\",\n          \"quote\": \"⁴Mila-Quebec AI Institute, Montreal, H2S 3H1, QC, Canada.\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"School of Software, Shandong University, 1500 Shunhua, Jinan, 250101, Shandong, China.\",\n      \"reasoning\": \"This is the first affiliation listed in the paper, associated with authors through the superscript '1'.\",\n      \"quote\": \"¹School of Software, Shandong University, 1500 Shunhua, Jinan, 250101, Shandong, China.\"\n    },\n    {\n      \"value\": \"Department of Pharmacology and Therapeutics, McGill University, Montreal, H3G 1Y6, QC, Canada.\",\n      \"reasoning\": \"This is the second affiliation listed in the paper, associated with an author through the superscript '2'.\",\n      \"quote\": \"²Department of Pharmacology and Therapeutics, McGill University, Montreal, H3G 1Y6, QC, Canada.\"\n    },\n    {\n      \"value\": \"Meakins-Christie Laboratories, Department of Medicine, McGill University Health Centre, Montreal, H4A 3J1, QC, Canada.\",\n      \"reasoning\": \"This is the third affiliation listed in the paper, associated with an author through the superscript '3'.\",\n      \"quote\": \"³Meakins-Christie Laboratories, Department of Medicine, McGill University Health Centre, Montreal, H4A 3J1, QC, Canada.\"\n    },\n    {\n      \"value\": \"Mila-Quebec AI Institute, Montreal, H2S 3H1, QC, Canada.\",\n      \"reasoning\": \"This is the fourth affiliation listed in the paper, associated with an author through the superscript '4'.\",\n      \"quote\": \"⁴Mila-Quebec AI Institute, Montreal, H2S 3H1, QC, Canada.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 1249,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 10475,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 10062
+      }
+    ],
+    "thoughts_token_count": 1870,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 13594,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Xiuhui Yang",
+          "reasoning": "The name is listed first in the author list on the first page of the paper, indicated by the superscript '1'.",
+          "quote": "Xiuhui Yang¹"
+        },
+        "affiliations": [
+          {
+            "value": "School of Software, Shandong University, 1500 Shunhua, Jinan, 250101, Shandong, China.",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first listed affiliation.",
+            "quote": "¹School of Software, Shandong University, 1500 Shunhua, Jinan, 250101, Shandong, China."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Koren K. Mann",
+          "reasoning": "The name is listed second in the author list on the first page of the paper, indicated by the superscript '2'.",
+          "quote": "Koren K. Mann²"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Pharmacology and Therapeutics, McGill University, Montreal, H3G 1Y6, QC, Canada.",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second listed affiliation.",
+            "quote": "²Department of Pharmacology and Therapeutics, McGill University, Montreal, H3G 1Y6, QC, Canada."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Hao Wu",
+          "reasoning": "The name is listed third in the author list on the first page of the paper, indicated by the superscript '1' and an asterisk.",
+          "quote": "Hao Wu¹*"
+        },
+        "affiliations": [
+          {
+            "value": "School of Software, Shandong University, 1500 Shunhua, Jinan, 250101, Shandong, China.",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first listed affiliation.",
+            "quote": "¹School of Software, Shandong University, 1500 Shunhua, Jinan, 250101, Shandong, China."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jun Ding",
+          "reasoning": "The name is listed fourth in the author list on the first page of the paper, indicated by the superscripts '3' and '4' and an asterisk.",
+          "quote": "Jun Ding³,⁴*"
+        },
+        "affiliations": [
+          {
+            "value": "Meakins-Christie Laboratories, Department of Medicine, McGill University Health Centre, Montreal, H4A 3J1, QC, Canada.",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third listed affiliation.",
+            "quote": "³Meakins-Christie Laboratories, Department of Medicine, McGill University Health Centre, Montreal, H4A 3J1, QC, Canada."
+          },
+          {
+            "value": "Mila-Quebec AI Institute, Montreal, H2S 3H1, QC, Canada.",
+            "reasoning": "The superscript '4' next to the author's name corresponds to the fourth listed affiliation.",
+            "quote": "⁴Mila-Quebec AI Institute, Montreal, H2S 3H1, QC, Canada."
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "School of Software, Shandong University, 1500 Shunhua, Jinan, 250101, Shandong, China.",
+        "reasoning": "This is the first affiliation listed in the paper, associated with authors through the superscript '1'.",
+        "quote": "¹School of Software, Shandong University, 1500 Shunhua, Jinan, 250101, Shandong, China."
+      },
+      {
+        "value": "Department of Pharmacology and Therapeutics, McGill University, Montreal, H3G 1Y6, QC, Canada.",
+        "reasoning": "This is the second affiliation listed in the paper, associated with an author through the superscript '2'.",
+        "quote": "²Department of Pharmacology and Therapeutics, McGill University, Montreal, H3G 1Y6, QC, Canada."
+      },
+      {
+        "value": "Meakins-Christie Laboratories, Department of Medicine, McGill University Health Centre, Montreal, H4A 3J1, QC, Canada.",
+        "reasoning": "This is the third affiliation listed in the paper, associated with an author through the superscript '3'.",
+        "quote": "³Meakins-Christie Laboratories, Department of Medicine, McGill University Health Centre, Montreal, H4A 3J1, QC, Canada."
+      },
+      {
+        "value": "Mila-Quebec AI Institute, Montreal, H2S 3H1, QC, Canada.",
+        "reasoning": "This is the fourth affiliation listed in the paper, associated with an author through the superscript '4'.",
+        "quote": "⁴Mila-Quebec AI Institute, Montreal, H2S 3H1, QC, Canada."
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

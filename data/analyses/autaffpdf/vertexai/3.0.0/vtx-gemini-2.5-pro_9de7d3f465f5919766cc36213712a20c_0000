@@ -1,0 +1,417 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:28:35 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=67923",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Cantin Baron\",\n        \"reasoning\": \"The author's name is listed first in the author list on page 2, with superscript numbers indicating affiliations.\",\n        \"quote\": \"Cantin Baron,1,2\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed at the bottom of page 2.\",\n          \"quote\": \"1Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada\"\n        },\n        {\n          \"value\": \"Montreal Heart Institute, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.\",\n          \"quote\": \"2Montreal Heart Institute, Montréal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Sarah Cherkaoui\",\n        \"reasoning\": \"The author's name is listed in the author list on page 2, with superscript numbers indicating affiliations.\",\n        \"quote\": \"Sarah Cherkaoui,2,3,4\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Montreal Heart Institute, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.\",\n          \"quote\": \"2Montreal Heart Institute, Montréal, QC, Canada\"\n        },\n        {\n          \"value\": \"Division of Oncology and Children's Research Center, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland\",\n          \"reasoning\": \"The superscript '3' next to the author's name corresponds to the third affiliation listed at the bottom of page 2.\",\n          \"quote\": \"3Division of Oncology and Children's Research Center, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland\"\n        },\n        {\n          \"value\": \"Department of Pediatric and Adolescent Oncology, Gustave Roussy Cancer Center, Université Paris-Saclay, Villejuif, France\",\n          \"reasoning\": \"The superscript '4' next to the author's name corresponds to the fourth affiliation listed at the bottom of page 2.\",\n          \"quote\": \"4Department of Pediatric and Adolescent Oncology, Gustave Roussy Cancer Center, Université Paris-Saclay, Villejuif, France\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Sandra Therrien-Laperriere\",\n        \"reasoning\": \"The author's name is listed in the author list on page 2, with a superscript number indicating affiliation.\",\n        \"quote\": \"Sandra Therrien-Laperriere,2\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Montreal Heart Institute, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.\",\n          \"quote\": \"2Montreal Heart Institute, Montréal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Yann Ilboudo\",\n        \"reasoning\": \"The author's name is listed in the author list on page 2, with superscript numbers indicating affiliations.\",\n        \"quote\": \"Yann Ilboudo,1,2\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed at the bottom of page 2.\",\n          \"quote\": \"1Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada\"\n        },\n        {\n          \"value\": \"Montreal Heart Institute, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.\",\n          \"quote\": \"2Montreal Heart Institute, Montréal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Raphaël Poujol\",\n        \"reasoning\": \"The author's name is listed in the author list on page 2, with a superscript number indicating affiliation.\",\n        \"quote\": \"Raphaël Poujol,2\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Montreal Heart Institute, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.\",\n          \"quote\": \"2Montreal Heart Institute, Montréal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Pamela Mehanna\",\n        \"reasoning\": \"The author's name is listed in the author list on page 2, with a superscript number indicating affiliation.\",\n        \"quote\": \"Pamela Mehanna,2\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Montreal Heart Institute, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.\",\n          \"quote\": \"2Montreal Heart Institute, Montréal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Melanie E. Garrett\",\n        \"reasoning\": \"The author's name is listed in the author list on page 2, with a superscript number indicating affiliation.\",\n        \"quote\": \"Melanie E. Garrett,5\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Duke Molecular Physiology Institute, Duke University Medical Center, Durham, NC, USA\",\n          \"reasoning\": \"The superscript '5' next to the author's name corresponds to the fifth affiliation listed at the bottom of page 2.\",\n          \"quote\": \"5Duke Molecular Physiology Institute, Duke University Medical Center, Durham, NC, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Marilyn J. Telen\",\n        \"reasoning\": \"The author's name is listed in the author list on page 2, with a superscript number indicating affiliation.\",\n        \"quote\": \"Marilyn J. Telen,6\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Division of Hematology, Department of Medicine, Duke University Medical Center, Durham, NC, USA\",\n          \"reasoning\": \"The superscript '6' next to the author's name corresponds to the sixth affiliation listed at the bottom of page 2.\",\n          \"quote\": \"6Division of Hematology, Department of Medicine, Duke University Medical Center, Durham, NC, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Allison E. Ashley-Koch\",\n        \"reasoning\": \"The author's name is listed in the author list on page 2, with a superscript number indicating affiliation.\",\n        \"quote\": \"Allison E. Ashley-Koch,6\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Division of Hematology, Department of Medicine, Duke University Medical Center, Durham, NC, USA\",\n          \"reasoning\": \"The superscript '6' next to the author's name corresponds to the sixth affiliation listed at the bottom of page 2.\",\n          \"quote\": \"6Division of Hematology, Department of Medicine, Duke University Medical Center, Durham, NC, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Pablo Bartolucci\",\n        \"reasoning\": \"The author's name is listed in the author list on page 2, with superscript numbers indicating affiliations.\",\n        \"quote\": \"Pablo Bartolucci,7,8\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Université Paris Est Créteil, Hôpitaux Universitaires Henri Mondor, APHP, Sickle cell referral center - UMGGR, Créteil, France\",\n          \"reasoning\": \"The superscript '7' next to the author's name corresponds to the seventh affiliation listed at the bottom of page 2.\",\n          \"quote\": \"7Université Paris Est Créteil, Hôpitaux Universitaires Henri Mondor, APHP, Sickle cell referral center - UMGGR, Créteil, France\"\n        },\n        {\n          \"value\": \"Université Paris Est Créteil, IMRB, Laboratory of excellence LABEX, Créteil, France\",\n          \"reasoning\": \"The superscript '8' next to the author's name corresponds to the eighth affiliation listed at the bottom of page 2.\",\n          \"quote\": \"8Université Paris Est Créteil, IMRB, Laboratory of excellence LABEX, Créteil, France\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"John D. Rioux\",\n        \"reasoning\": \"The author's name is listed in the author list on page 2, with superscript numbers indicating affiliations.\",\n        \"quote\": \"John D. Rioux,1,2,9\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed at the bottom of page 2.\",\n          \"quote\": \"1Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada\"\n        },\n        {\n          \"value\": \"Montreal Heart Institute, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.\",\n          \"quote\": \"2Montreal Heart Institute, Montréal, QC, Canada\"\n        },\n        {\n          \"value\": \"Département de Médecine, Université de Montréal, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '9' next to the author's name corresponds to the ninth affiliation listed at the bottom of page 2.\",\n          \"quote\": \"9Département de Médecine, Université de Montréal, Montréal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Guillaume Lettre\",\n        \"reasoning\": \"The author's name is listed in the author list on page 2, with superscript numbers indicating affiliations.\",\n        \"quote\": \"Guillaume Lettre,2,9\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Montreal Heart Institute, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.\",\n          \"quote\": \"2Montreal Heart Institute, Montréal, QC, Canada\"\n        },\n        {\n          \"value\": \"Département de Médecine, Université de Montréal, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '9' next to the author's name corresponds to the ninth affiliation listed at the bottom of page 2.\",\n          \"quote\": \"9Département de Médecine, Université de Montréal, Montréal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Christine Des Rosiers\",\n        \"reasoning\": \"The author's name is listed in the author list on page 2, with superscript numbers indicating affiliations.\",\n        \"quote\": \"Christine Des Rosiers,1,2,10\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed at the bottom of page 2.\",\n          \"quote\": \"1Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada\"\n        },\n        {\n          \"value\": \"Montreal Heart Institute, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.\",\n          \"quote\": \"2Montreal Heart Institute, Montréal, QC, Canada\"\n        },\n        {\n          \"value\": \"Département de Nutrition, Université de Montréal, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '10' next to the author's name corresponds to the tenth affiliation listed at the bottom of page 2.\",\n          \"quote\": \"10Département de Nutrition, Université de Montréal, Montréal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Matthieu Ruiz\",\n        \"reasoning\": \"The author's name is listed in the author list on page 2, with superscript numbers indicating affiliations.\",\n        \"quote\": \"Matthieu Ruiz,2,10\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Montreal Heart Institute, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.\",\n          \"quote\": \"2Montreal Heart Institute, Montréal, QC, Canada\"\n        },\n        {\n          \"value\": \"Département de Nutrition, Université de Montréal, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '10' next to the author's name corresponds to the tenth affiliation listed at the bottom of page 2.\",\n          \"quote\": \"10Département de Nutrition, Université de Montréal, Montréal, QC, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Julie G. Hussin\",\n        \"reasoning\": \"The author's name is listed last in the author list on page 2, with superscript numbers and an asterisk indicating affiliations and corresponding author status.\",\n        \"quote\": \"Julie G. Hussin2,9,11,*\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Montreal Heart Institute, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.\",\n          \"quote\": \"2Montreal Heart Institute, Montréal, QC, Canada\"\n        },\n        {\n          \"value\": \"Département de Médecine, Université de Montréal, Montréal, QC, Canada\",\n          \"reasoning\": \"The superscript '9' next to the author's name corresponds to the ninth affiliation listed at the bottom of page 2.\",\n          \"quote\": \"9Département de Médecine, Université de Montréal, Montréal, QC, Canada\"\n        },\n        {\n          \"value\": \"Lead contact\",\n          \"reasoning\": \"The superscript '11' next to the author's name corresponds to the eleventh item in the affiliation list, which identifies this author as the lead contact.\",\n          \"quote\": \"11 Lead contact\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada\",\n      \"reasoning\": \"This is the first affiliation listed at the bottom of page 2, identified by the superscript '1'.\",\n      \"quote\": \"1Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada\"\n    },\n    {\n      \"value\": \"Montreal Heart Institute, Montréal, QC, Canada\",\n      \"reasoning\": \"This is the second affiliation listed at the bottom of page 2, identified by the superscript '2'.\",\n      \"quote\": \"2Montreal Heart Institute, Montréal, QC, Canada\"\n    },\n    {\n      \"value\": \"Division of Oncology and Children's Research Center, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland\",\n      \"reasoning\": \"This is the third affiliation listed at the bottom of page 2, identified by the superscript '3'.\",\n      \"quote\": \"3Division of Oncology and Children's Research Center, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland\"\n    },\n    {\n      \"value\": \"Department of Pediatric and Adolescent Oncology, Gustave Roussy Cancer Center, Université Paris-Saclay, Villejuif, France\",\n      \"reasoning\": \"This is the fourth affiliation listed at the bottom of page 2, identified by the superscript '4'.\",\n      \"quote\": \"4Department of Pediatric and Adolescent Oncology, Gustave Roussy Cancer Center, Université Paris-Saclay, Villejuif, France\"\n    },\n    {\n      \"value\": \"Duke Molecular Physiology Institute, Duke University Medical Center, Durham, NC, USA\",\n      \"reasoning\": \"This is the fifth affiliation listed at the bottom of page 2, identified by the superscript '5'.\",\n      \"quote\": \"5Duke Molecular Physiology Institute, Duke University Medical Center, Durham, NC, USA\"\n    },\n    {\n      \"value\": \"Division of Hematology, Department of Medicine, Duke University Medical Center, Durham, NC, USA\",\n      \"reasoning\": \"This is the sixth affiliation listed at the bottom of page 2, identified by the superscript '6'.\",\n      \"quote\": \"6Division of Hematology, Department of Medicine, Duke University Medical Center, Durham, NC, USA\"\n    },\n    {\n      \"value\": \"Université Paris Est Créteil, Hôpitaux Universitaires Henri Mondor, APHP, Sickle cell referral center - UMGGR, Créteil, France\",\n      \"reasoning\": \"This is the seventh affiliation listed at the bottom of page 2, identified by the superscript '7'.\",\n      \"quote\": \"7Université Paris Est Créteil, Hôpitaux Universitaires Henri Mondor, APHP, Sickle cell referral center - UMGGR, Créteil, France\"\n    },\n    {\n      \"value\": \"Université Paris Est Créteil, IMRB, Laboratory of excellence LABEX, Créteil, France\",\n      \"reasoning\": \"This is the eighth affiliation listed at the bottom of page 2, identified by the superscript '8'.\",\n      \"quote\": \"8Université Paris Est Créteil, IMRB, Laboratory of excellence LABEX, Créteil, France\"\n    },\n    {\n      \"value\": \"Département de Médecine, Université de Montréal, Montréal, QC, Canada\",\n      \"reasoning\": \"This is the ninth affiliation listed at the bottom of page 2, identified by the superscript '9'.\",\n      \"quote\": \"9Département de Médecine, Université de Montréal, Montréal, QC, Canada\"\n    },\n    {\n      \"value\": \"Département de Nutrition, Université de Montréal, Montréal, QC, Canada\",\n      \"reasoning\": \"This is the tenth affiliation listed at the bottom of page 2, identified by the superscript '10'.\",\n      \"quote\": \"10Département de Nutrition, Université de Montréal, Montréal, QC, Canada\"\n    },\n    {\n      \"value\": \"Lead contact\",\n      \"reasoning\": \"This is the eleventh item listed at the bottom of page 2, identified by the superscript '11'. It denotes a role rather than a traditional affiliation.\",\n      \"quote\": \"11 Lead contact\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 4599,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 4799,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 4386
+      }
+    ],
+    "thoughts_token_count": 2382,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 11780,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Cantin Baron",
+          "reasoning": "The author's name is listed first in the author list on page 2, with superscript numbers indicating affiliations.",
+          "quote": "Cantin Baron,1,2"
+        },
+        "affiliations": [
+          {
+            "value": "Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed at the bottom of page 2.",
+            "quote": "1Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada"
+          },
+          {
+            "value": "Montreal Heart Institute, Montréal, QC, Canada",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.",
+            "quote": "2Montreal Heart Institute, Montréal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Sarah Cherkaoui",
+          "reasoning": "The author's name is listed in the author list on page 2, with superscript numbers indicating affiliations.",
+          "quote": "Sarah Cherkaoui,2,3,4"
+        },
+        "affiliations": [
+          {
+            "value": "Montreal Heart Institute, Montréal, QC, Canada",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.",
+            "quote": "2Montreal Heart Institute, Montréal, QC, Canada"
+          },
+          {
+            "value": "Division of Oncology and Children's Research Center, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third affiliation listed at the bottom of page 2.",
+            "quote": "3Division of Oncology and Children's Research Center, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland"
+          },
+          {
+            "value": "Department of Pediatric and Adolescent Oncology, Gustave Roussy Cancer Center, Université Paris-Saclay, Villejuif, France",
+            "reasoning": "The superscript '4' next to the author's name corresponds to the fourth affiliation listed at the bottom of page 2.",
+            "quote": "4Department of Pediatric and Adolescent Oncology, Gustave Roussy Cancer Center, Université Paris-Saclay, Villejuif, France"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Sandra Therrien-Laperriere",
+          "reasoning": "The author's name is listed in the author list on page 2, with a superscript number indicating affiliation.",
+          "quote": "Sandra Therrien-Laperriere,2"
+        },
+        "affiliations": [
+          {
+            "value": "Montreal Heart Institute, Montréal, QC, Canada",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.",
+            "quote": "2Montreal Heart Institute, Montréal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Yann Ilboudo",
+          "reasoning": "The author's name is listed in the author list on page 2, with superscript numbers indicating affiliations.",
+          "quote": "Yann Ilboudo,1,2"
+        },
+        "affiliations": [
+          {
+            "value": "Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed at the bottom of page 2.",
+            "quote": "1Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada"
+          },
+          {
+            "value": "Montreal Heart Institute, Montréal, QC, Canada",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.",
+            "quote": "2Montreal Heart Institute, Montréal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Raphaël Poujol",
+          "reasoning": "The author's name is listed in the author list on page 2, with a superscript number indicating affiliation.",
+          "quote": "Raphaël Poujol,2"
+        },
+        "affiliations": [
+          {
+            "value": "Montreal Heart Institute, Montréal, QC, Canada",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.",
+            "quote": "2Montreal Heart Institute, Montréal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Pamela Mehanna",
+          "reasoning": "The author's name is listed in the author list on page 2, with a superscript number indicating affiliation.",
+          "quote": "Pamela Mehanna,2"
+        },
+        "affiliations": [
+          {
+            "value": "Montreal Heart Institute, Montréal, QC, Canada",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.",
+            "quote": "2Montreal Heart Institute, Montréal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Melanie E. Garrett",
+          "reasoning": "The author's name is listed in the author list on page 2, with a superscript number indicating affiliation.",
+          "quote": "Melanie E. Garrett,5"
+        },
+        "affiliations": [
+          {
+            "value": "Duke Molecular Physiology Institute, Duke University Medical Center, Durham, NC, USA",
+            "reasoning": "The superscript '5' next to the author's name corresponds to the fifth affiliation listed at the bottom of page 2.",
+            "quote": "5Duke Molecular Physiology Institute, Duke University Medical Center, Durham, NC, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Marilyn J. Telen",
+          "reasoning": "The author's name is listed in the author list on page 2, with a superscript number indicating affiliation.",
+          "quote": "Marilyn J. Telen,6"
+        },
+        "affiliations": [
+          {
+            "value": "Division of Hematology, Department of Medicine, Duke University Medical Center, Durham, NC, USA",
+            "reasoning": "The superscript '6' next to the author's name corresponds to the sixth affiliation listed at the bottom of page 2.",
+            "quote": "6Division of Hematology, Department of Medicine, Duke University Medical Center, Durham, NC, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Allison E. Ashley-Koch",
+          "reasoning": "The author's name is listed in the author list on page 2, with a superscript number indicating affiliation.",
+          "quote": "Allison E. Ashley-Koch,6"
+        },
+        "affiliations": [
+          {
+            "value": "Division of Hematology, Department of Medicine, Duke University Medical Center, Durham, NC, USA",
+            "reasoning": "The superscript '6' next to the author's name corresponds to the sixth affiliation listed at the bottom of page 2.",
+            "quote": "6Division of Hematology, Department of Medicine, Duke University Medical Center, Durham, NC, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Pablo Bartolucci",
+          "reasoning": "The author's name is listed in the author list on page 2, with superscript numbers indicating affiliations.",
+          "quote": "Pablo Bartolucci,7,8"
+        },
+        "affiliations": [
+          {
+            "value": "Université Paris Est Créteil, Hôpitaux Universitaires Henri Mondor, APHP, Sickle cell referral center - UMGGR, Créteil, France",
+            "reasoning": "The superscript '7' next to the author's name corresponds to the seventh affiliation listed at the bottom of page 2.",
+            "quote": "7Université Paris Est Créteil, Hôpitaux Universitaires Henri Mondor, APHP, Sickle cell referral center - UMGGR, Créteil, France"
+          },
+          {
+            "value": "Université Paris Est Créteil, IMRB, Laboratory of excellence LABEX, Créteil, France",
+            "reasoning": "The superscript '8' next to the author's name corresponds to the eighth affiliation listed at the bottom of page 2.",
+            "quote": "8Université Paris Est Créteil, IMRB, Laboratory of excellence LABEX, Créteil, France"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "John D. Rioux",
+          "reasoning": "The author's name is listed in the author list on page 2, with superscript numbers indicating affiliations.",
+          "quote": "John D. Rioux,1,2,9"
+        },
+        "affiliations": [
+          {
+            "value": "Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed at the bottom of page 2.",
+            "quote": "1Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada"
+          },
+          {
+            "value": "Montreal Heart Institute, Montréal, QC, Canada",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.",
+            "quote": "2Montreal Heart Institute, Montréal, QC, Canada"
+          },
+          {
+            "value": "Département de Médecine, Université de Montréal, Montréal, QC, Canada",
+            "reasoning": "The superscript '9' next to the author's name corresponds to the ninth affiliation listed at the bottom of page 2.",
+            "quote": "9Département de Médecine, Université de Montréal, Montréal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Guillaume Lettre",
+          "reasoning": "The author's name is listed in the author list on page 2, with superscript numbers indicating affiliations.",
+          "quote": "Guillaume Lettre,2,9"
+        },
+        "affiliations": [
+          {
+            "value": "Montreal Heart Institute, Montréal, QC, Canada",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.",
+            "quote": "2Montreal Heart Institute, Montréal, QC, Canada"
+          },
+          {
+            "value": "Département de Médecine, Université de Montréal, Montréal, QC, Canada",
+            "reasoning": "The superscript '9' next to the author's name corresponds to the ninth affiliation listed at the bottom of page 2.",
+            "quote": "9Département de Médecine, Université de Montréal, Montréal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Christine Des Rosiers",
+          "reasoning": "The author's name is listed in the author list on page 2, with superscript numbers indicating affiliations.",
+          "quote": "Christine Des Rosiers,1,2,10"
+        },
+        "affiliations": [
+          {
+            "value": "Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed at the bottom of page 2.",
+            "quote": "1Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada"
+          },
+          {
+            "value": "Montreal Heart Institute, Montréal, QC, Canada",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.",
+            "quote": "2Montreal Heart Institute, Montréal, QC, Canada"
+          },
+          {
+            "value": "Département de Nutrition, Université de Montréal, Montréal, QC, Canada",
+            "reasoning": "The superscript '10' next to the author's name corresponds to the tenth affiliation listed at the bottom of page 2.",
+            "quote": "10Département de Nutrition, Université de Montréal, Montréal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Matthieu Ruiz",
+          "reasoning": "The author's name is listed in the author list on page 2, with superscript numbers indicating affiliations.",
+          "quote": "Matthieu Ruiz,2,10"
+        },
+        "affiliations": [
+          {
+            "value": "Montreal Heart Institute, Montréal, QC, Canada",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.",
+            "quote": "2Montreal Heart Institute, Montréal, QC, Canada"
+          },
+          {
+            "value": "Département de Nutrition, Université de Montréal, Montréal, QC, Canada",
+            "reasoning": "The superscript '10' next to the author's name corresponds to the tenth affiliation listed at the bottom of page 2.",
+            "quote": "10Département de Nutrition, Université de Montréal, Montréal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Julie G. Hussin",
+          "reasoning": "The author's name is listed last in the author list on page 2, with superscript numbers and an asterisk indicating affiliations and corresponding author status.",
+          "quote": "Julie G. Hussin2,9,11,*"
+        },
+        "affiliations": [
+          {
+            "value": "Montreal Heart Institute, Montréal, QC, Canada",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed at the bottom of page 2.",
+            "quote": "2Montreal Heart Institute, Montréal, QC, Canada"
+          },
+          {
+            "value": "Département de Médecine, Université de Montréal, Montréal, QC, Canada",
+            "reasoning": "The superscript '9' next to the author's name corresponds to the ninth affiliation listed at the bottom of page 2.",
+            "quote": "9Département de Médecine, Université de Montréal, Montréal, QC, Canada"
+          },
+          {
+            "value": "Lead contact",
+            "reasoning": "The superscript '11' next to the author's name corresponds to the eleventh item in the affiliation list, which identifies this author as the lead contact.",
+            "quote": "11 Lead contact"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada",
+        "reasoning": "This is the first affiliation listed at the bottom of page 2, identified by the superscript '1'.",
+        "quote": "1Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Montréal, QC, Canada"
+      },
+      {
+        "value": "Montreal Heart Institute, Montréal, QC, Canada",
+        "reasoning": "This is the second affiliation listed at the bottom of page 2, identified by the superscript '2'.",
+        "quote": "2Montreal Heart Institute, Montréal, QC, Canada"
+      },
+      {
+        "value": "Division of Oncology and Children's Research Center, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland",
+        "reasoning": "This is the third affiliation listed at the bottom of page 2, identified by the superscript '3'.",
+        "quote": "3Division of Oncology and Children's Research Center, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland"
+      },
+      {
+        "value": "Department of Pediatric and Adolescent Oncology, Gustave Roussy Cancer Center, Université Paris-Saclay, Villejuif, France",
+        "reasoning": "This is the fourth affiliation listed at the bottom of page 2, identified by the superscript '4'.",
+        "quote": "4Department of Pediatric and Adolescent Oncology, Gustave Roussy Cancer Center, Université Paris-Saclay, Villejuif, France"
+      },
+      {
+        "value": "Duke Molecular Physiology Institute, Duke University Medical Center, Durham, NC, USA",
+        "reasoning": "This is the fifth affiliation listed at the bottom of page 2, identified by the superscript '5'.",
+        "quote": "5Duke Molecular Physiology Institute, Duke University Medical Center, Durham, NC, USA"
+      },
+      {
+        "value": "Division of Hematology, Department of Medicine, Duke University Medical Center, Durham, NC, USA",
+        "reasoning": "This is the sixth affiliation listed at the bottom of page 2, identified by the superscript '6'.",
+        "quote": "6Division of Hematology, Department of Medicine, Duke University Medical Center, Durham, NC, USA"
+      },
+      {
+        "value": "Université Paris Est Créteil, Hôpitaux Universitaires Henri Mondor, APHP, Sickle cell referral center - UMGGR, Créteil, France",
+        "reasoning": "This is the seventh affiliation listed at the bottom of page 2, identified by the superscript '7'.",
+        "quote": "7Université Paris Est Créteil, Hôpitaux Universitaires Henri Mondor, APHP, Sickle cell referral center - UMGGR, Créteil, France"
+      },
+      {
+        "value": "Université Paris Est Créteil, IMRB, Laboratory of excellence LABEX, Créteil, France",
+        "reasoning": "This is the eighth affiliation listed at the bottom of page 2, identified by the superscript '8'.",
+        "quote": "8Université Paris Est Créteil, IMRB, Laboratory of excellence LABEX, Créteil, France"
+      },
+      {
+        "value": "Département de Médecine, Université de Montréal, Montréal, QC, Canada",
+        "reasoning": "This is the ninth affiliation listed at the bottom of page 2, identified by the superscript '9'.",
+        "quote": "9Département de Médecine, Université de Montréal, Montréal, QC, Canada"
+      },
+      {
+        "value": "Département de Nutrition, Université de Montréal, Montréal, QC, Canada",
+        "reasoning": "This is the tenth affiliation listed at the bottom of page 2, identified by the superscript '10'.",
+        "quote": "10Département de Nutrition, Université de Montréal, Montréal, QC, Canada"
+      },
+      {
+        "value": "Lead contact",
+        "reasoning": "This is the eleventh item listed at the bottom of page 2, identified by the superscript '11'. It denotes a role rather than a traditional affiliation.",
+        "quote": "11 Lead contact"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

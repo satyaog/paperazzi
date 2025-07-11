@@ -1,0 +1,311 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:16:57 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=39503",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Joseph Paul Cohen\",\n        \"reasoning\": \"The author's name is listed first in the author list on the first page of the paper, associated with superscripts 1 and 2.\",\n        \"quote\": \"Joseph Paul Cohen 1 2\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila, Quebec Artificial Intelligence Institute\",\n          \"reasoning\": \"The author's name is followed by superscript '1', which corresponds to 'Mila, Quebec Artificial Intelligence Institute' in the affiliations list at the bottom of the first page.\",\n          \"quote\": \"¹Mila, Quebec Artificial Intelligence Institute\"\n        },\n        {\n          \"value\": \"University of Montreal\",\n          \"reasoning\": \"The author's name is followed by superscript '2', which corresponds to 'University of Montreal' in the affiliations list at the bottom of the first page.\",\n          \"quote\": \"²University of Montreal\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Lan Dao\",\n        \"reasoning\": \"The author's name is listed in the author list on the first page of the paper, associated with superscripts 1 and 3.\",\n        \"quote\": \"Lan Dao 1 3\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila, Quebec Artificial Intelligence Institute\",\n          \"reasoning\": \"The author's name is followed by superscript '1', which corresponds to 'Mila, Quebec Artificial Intelligence Institute' in the affiliations list at the bottom of the first page.\",\n          \"quote\": \"¹Mila, Quebec Artificial Intelligence Institute\"\n        },\n        {\n          \"value\": \"Faculty of Medicine, University of Montreal\",\n          \"reasoning\": \"The author's name is followed by superscript '3', which corresponds to 'Faculty of Medicine, University of Montreal' in the affiliations list at the bottom of the first page.\",\n          \"quote\": \"³Faculty of Medicine, University of Montreal\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Paul Morrison\",\n        \"reasoning\": \"The author's name is listed in the author list on the first page of the paper, associated with superscripts 1 and 4.\",\n        \"quote\": \"Paul Morrison 1 4\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila, Quebec Artificial Intelligence Institute\",\n          \"reasoning\": \"The author's name is followed by superscript '1', which corresponds to 'Mila, Quebec Artificial Intelligence Institute' in the affiliations list at the bottom of the first page.\",\n          \"quote\": \"¹Mila, Quebec Artificial Intelligence Institute\"\n        },\n        {\n          \"value\": \"Fontbonne University\",\n          \"reasoning\": \"The author's name is followed by superscript '4', which corresponds to 'Fontbonne University' in the affiliations list at the bottom of the first page.\",\n          \"quote\": \"⁴Fontbonne University\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Karsten Roth\",\n        \"reasoning\": \"The author's name is listed in the author list on the first page of the paper, associated with superscripts 1 and 5.\",\n        \"quote\": \"Karsten Roth 1 5\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila, Quebec Artificial Intelligence Institute\",\n          \"reasoning\": \"The author's name is followed by superscript '1', which corresponds to 'Mila, Quebec Artificial Intelligence Institute' in the affiliations list at the bottom of the first page.\",\n          \"quote\": \"¹Mila, Quebec Artificial Intelligence Institute\"\n        },\n        {\n          \"value\": \"Heidelberg University\",\n          \"reasoning\": \"The author's name is followed by superscript '5', which corresponds to 'Heidelberg University' in the affiliations list at the bottom of the first page.\",\n          \"quote\": \"⁵Heidelberg University\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Yoshua Bengio\",\n        \"reasoning\": \"The author's name is listed in the author list on the first page of the paper, associated with superscripts 1 and 2.\",\n        \"quote\": \"Yoshua Bengio 1 2\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila, Quebec Artificial Intelligence Institute\",\n          \"reasoning\": \"The author's name is followed by superscript '1', which corresponds to 'Mila, Quebec Artificial Intelligence Institute' in the affiliations list at the bottom of the first page.\",\n          \"quote\": \"¹Mila, Quebec Artificial Intelligence Institute\"\n        },\n        {\n          \"value\": \"University of Montreal\",\n          \"reasoning\": \"The author's name is followed by superscript '2', which corresponds to 'University of Montreal' in the affiliations list at the bottom of the first page.\",\n          \"quote\": \"²University of Montreal\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Beiyi Shen, MD\",\n        \"reasoning\": \"The author's name is listed in the author list on the first page of the paper, associated with superscript 6.\",\n        \"quote\": \"Beiyi Shen, MD 6\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Stony Brook Medicine\",\n          \"reasoning\": \"The author's name is followed by superscript '6', which corresponds to 'Stony Brook Medicine' in the affiliations list at the bottom of the first page.\",\n          \"quote\": \"⁶Stony Brook Medicine\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Almas Abbasi, MD\",\n        \"reasoning\": \"The author's name is listed in the author list on the first page of the paper, associated with superscript 6.\",\n        \"quote\": \"Almas Abbasi, MD 6\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Stony Brook Medicine\",\n          \"reasoning\": \"The author's name is followed by superscript '6', which corresponds to 'Stony Brook Medicine' in the affiliations list at the bottom of the first page.\",\n          \"quote\": \"⁶Stony Brook Medicine\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Mahsa Hoshmand-Kochi, MD\",\n        \"reasoning\": \"The author's name is listed in the author list on the first page of the paper, associated with superscript 6.\",\n        \"quote\": \"Mahsa Hoshmand-Kochi, MD 6\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Stony Brook Medicine\",\n          \"reasoning\": \"The author's name is followed by superscript '6', which corresponds to 'Stony Brook Medicine' in the affiliations list at the bottom of the first page.\",\n          \"quote\": \"⁶Stony Brook Medicine\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Marzyeh Ghassemi\",\n        \"reasoning\": \"The author's name is listed in the author list on the first page of the paper, associated with superscripts 7 and 8.\",\n        \"quote\": \"Marzyeh Ghassemi 7 8\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Vector Institute\",\n          \"reasoning\": \"The author's name is followed by superscript '7', which corresponds to 'Vector Institute' in the affiliations list at the bottom of the first page.\",\n          \"quote\": \"⁷Vector Institute\"\n        },\n        {\n          \"value\": \"University of Toronto\",\n          \"reasoning\": \"The author's name is followed by superscript '8', which corresponds to 'University of Toronto' in the affiliations list at the bottom of the first page.\",\n          \"quote\": \"⁸University of Toronto\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Haifang Li\",\n        \"reasoning\": \"The author's name is listed in the author list on the first page of the paper, associated with superscript 6.\",\n        \"quote\": \"Haifang Li 6\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Stony Brook Medicine\",\n          \"reasoning\": \"The author's name is followed by superscript '6', which corresponds to 'Stony Brook Medicine' in the affiliations list at the bottom of the first page.\",\n          \"quote\": \"⁶Stony Brook Medicine\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Tim Q Duong\",\n        \"reasoning\": \"The author's name is listed last in the author list on the first page of the paper, associated with superscript 6.\",\n        \"quote\": \"Tim Q Duong 6\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Stony Brook Medicine\",\n          \"reasoning\": \"The author's name is followed by superscript '6', which corresponds to 'Stony Brook Medicine' in the affiliations list at the bottom of the first page.\",\n          \"quote\": \"⁶Stony Brook Medicine\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Mila, Quebec Artificial Intelligence Institute\",\n      \"reasoning\": \"This affiliation is listed with superscript '1' at the bottom of the first page.\",\n      \"quote\": \"¹Mila, Quebec Artificial Intelligence Institute\"\n    },\n    {\n      \"value\": \"University of Montreal\",\n      \"reasoning\": \"This affiliation is listed with superscript '2' at the bottom of the first page.\",\n      \"quote\": \"²University of Montreal\"\n    },\n    {\n      \"value\": \"Faculty of Medicine, University of Montreal\",\n      \"reasoning\": \"This affiliation is listed with superscript '3' at the bottom of the first page.\",\n      \"quote\": \"³Faculty of Medicine, University of Montreal\"\n    },\n    {\n      \"value\": \"Fontbonne University\",\n      \"reasoning\": \"This affiliation is listed with superscript '4' at the bottom of the first page.\",\n      \"quote\": \"⁴Fontbonne University\"\n    },\n    {\n      \"value\": \"Heidelberg University\",\n      \"reasoning\": \"This affiliation is listed with superscript '5' at the bottom of the first page.\",\n      \"quote\": \"⁵Heidelberg University\"\n    },\n    {\n      \"value\": \"Stony Brook Medicine\",\n      \"reasoning\": \"This affiliation is listed with superscript '6' at the bottom of the first page.\",\n      \"quote\": \"⁶Stony Brook Medicine\"\n    },\n    {\n      \"value\": \"Vector Institute\",\n      \"reasoning\": \"This affiliation is listed with superscript '7' at the bottom of the first page.\",\n      \"quote\": \"⁷Vector Institute\"\n    },\n    {\n      \"value\": \"University of Toronto\",\n      \"reasoning\": \"This affiliation is listed with superscript '8' at the bottom of the first page.\",\n      \"quote\": \"⁸University of Toronto\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 2594,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 2477,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 2064
+      }
+    ],
+    "thoughts_token_count": 1586,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 6657,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Joseph Paul Cohen",
+          "reasoning": "The author's name is listed first in the author list on the first page of the paper, associated with superscripts 1 and 2.",
+          "quote": "Joseph Paul Cohen 1 2"
+        },
+        "affiliations": [
+          {
+            "value": "Mila, Quebec Artificial Intelligence Institute",
+            "reasoning": "The author's name is followed by superscript '1', which corresponds to 'Mila, Quebec Artificial Intelligence Institute' in the affiliations list at the bottom of the first page.",
+            "quote": "¹Mila, Quebec Artificial Intelligence Institute"
+          },
+          {
+            "value": "University of Montreal",
+            "reasoning": "The author's name is followed by superscript '2', which corresponds to 'University of Montreal' in the affiliations list at the bottom of the first page.",
+            "quote": "²University of Montreal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Lan Dao",
+          "reasoning": "The author's name is listed in the author list on the first page of the paper, associated with superscripts 1 and 3.",
+          "quote": "Lan Dao 1 3"
+        },
+        "affiliations": [
+          {
+            "value": "Mila, Quebec Artificial Intelligence Institute",
+            "reasoning": "The author's name is followed by superscript '1', which corresponds to 'Mila, Quebec Artificial Intelligence Institute' in the affiliations list at the bottom of the first page.",
+            "quote": "¹Mila, Quebec Artificial Intelligence Institute"
+          },
+          {
+            "value": "Faculty of Medicine, University of Montreal",
+            "reasoning": "The author's name is followed by superscript '3', which corresponds to 'Faculty of Medicine, University of Montreal' in the affiliations list at the bottom of the first page.",
+            "quote": "³Faculty of Medicine, University of Montreal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Paul Morrison",
+          "reasoning": "The author's name is listed in the author list on the first page of the paper, associated with superscripts 1 and 4.",
+          "quote": "Paul Morrison 1 4"
+        },
+        "affiliations": [
+          {
+            "value": "Mila, Quebec Artificial Intelligence Institute",
+            "reasoning": "The author's name is followed by superscript '1', which corresponds to 'Mila, Quebec Artificial Intelligence Institute' in the affiliations list at the bottom of the first page.",
+            "quote": "¹Mila, Quebec Artificial Intelligence Institute"
+          },
+          {
+            "value": "Fontbonne University",
+            "reasoning": "The author's name is followed by superscript '4', which corresponds to 'Fontbonne University' in the affiliations list at the bottom of the first page.",
+            "quote": "⁴Fontbonne University"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Karsten Roth",
+          "reasoning": "The author's name is listed in the author list on the first page of the paper, associated with superscripts 1 and 5.",
+          "quote": "Karsten Roth 1 5"
+        },
+        "affiliations": [
+          {
+            "value": "Mila, Quebec Artificial Intelligence Institute",
+            "reasoning": "The author's name is followed by superscript '1', which corresponds to 'Mila, Quebec Artificial Intelligence Institute' in the affiliations list at the bottom of the first page.",
+            "quote": "¹Mila, Quebec Artificial Intelligence Institute"
+          },
+          {
+            "value": "Heidelberg University",
+            "reasoning": "The author's name is followed by superscript '5', which corresponds to 'Heidelberg University' in the affiliations list at the bottom of the first page.",
+            "quote": "⁵Heidelberg University"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Yoshua Bengio",
+          "reasoning": "The author's name is listed in the author list on the first page of the paper, associated with superscripts 1 and 2.",
+          "quote": "Yoshua Bengio 1 2"
+        },
+        "affiliations": [
+          {
+            "value": "Mila, Quebec Artificial Intelligence Institute",
+            "reasoning": "The author's name is followed by superscript '1', which corresponds to 'Mila, Quebec Artificial Intelligence Institute' in the affiliations list at the bottom of the first page.",
+            "quote": "¹Mila, Quebec Artificial Intelligence Institute"
+          },
+          {
+            "value": "University of Montreal",
+            "reasoning": "The author's name is followed by superscript '2', which corresponds to 'University of Montreal' in the affiliations list at the bottom of the first page.",
+            "quote": "²University of Montreal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Beiyi Shen, MD",
+          "reasoning": "The author's name is listed in the author list on the first page of the paper, associated with superscript 6.",
+          "quote": "Beiyi Shen, MD 6"
+        },
+        "affiliations": [
+          {
+            "value": "Stony Brook Medicine",
+            "reasoning": "The author's name is followed by superscript '6', which corresponds to 'Stony Brook Medicine' in the affiliations list at the bottom of the first page.",
+            "quote": "⁶Stony Brook Medicine"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Almas Abbasi, MD",
+          "reasoning": "The author's name is listed in the author list on the first page of the paper, associated with superscript 6.",
+          "quote": "Almas Abbasi, MD 6"
+        },
+        "affiliations": [
+          {
+            "value": "Stony Brook Medicine",
+            "reasoning": "The author's name is followed by superscript '6', which corresponds to 'Stony Brook Medicine' in the affiliations list at the bottom of the first page.",
+            "quote": "⁶Stony Brook Medicine"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Mahsa Hoshmand-Kochi, MD",
+          "reasoning": "The author's name is listed in the author list on the first page of the paper, associated with superscript 6.",
+          "quote": "Mahsa Hoshmand-Kochi, MD 6"
+        },
+        "affiliations": [
+          {
+            "value": "Stony Brook Medicine",
+            "reasoning": "The author's name is followed by superscript '6', which corresponds to 'Stony Brook Medicine' in the affiliations list at the bottom of the first page.",
+            "quote": "⁶Stony Brook Medicine"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Marzyeh Ghassemi",
+          "reasoning": "The author's name is listed in the author list on the first page of the paper, associated with superscripts 7 and 8.",
+          "quote": "Marzyeh Ghassemi 7 8"
+        },
+        "affiliations": [
+          {
+            "value": "Vector Institute",
+            "reasoning": "The author's name is followed by superscript '7', which corresponds to 'Vector Institute' in the affiliations list at the bottom of the first page.",
+            "quote": "⁷Vector Institute"
+          },
+          {
+            "value": "University of Toronto",
+            "reasoning": "The author's name is followed by superscript '8', which corresponds to 'University of Toronto' in the affiliations list at the bottom of the first page.",
+            "quote": "⁸University of Toronto"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Haifang Li",
+          "reasoning": "The author's name is listed in the author list on the first page of the paper, associated with superscript 6.",
+          "quote": "Haifang Li 6"
+        },
+        "affiliations": [
+          {
+            "value": "Stony Brook Medicine",
+            "reasoning": "The author's name is followed by superscript '6', which corresponds to 'Stony Brook Medicine' in the affiliations list at the bottom of the first page.",
+            "quote": "⁶Stony Brook Medicine"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Tim Q Duong",
+          "reasoning": "The author's name is listed last in the author list on the first page of the paper, associated with superscript 6.",
+          "quote": "Tim Q Duong 6"
+        },
+        "affiliations": [
+          {
+            "value": "Stony Brook Medicine",
+            "reasoning": "The author's name is followed by superscript '6', which corresponds to 'Stony Brook Medicine' in the affiliations list at the bottom of the first page.",
+            "quote": "⁶Stony Brook Medicine"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Mila, Quebec Artificial Intelligence Institute",
+        "reasoning": "This affiliation is listed with superscript '1' at the bottom of the first page.",
+        "quote": "¹Mila, Quebec Artificial Intelligence Institute"
+      },
+      {
+        "value": "University of Montreal",
+        "reasoning": "This affiliation is listed with superscript '2' at the bottom of the first page.",
+        "quote": "²University of Montreal"
+      },
+      {
+        "value": "Faculty of Medicine, University of Montreal",
+        "reasoning": "This affiliation is listed with superscript '3' at the bottom of the first page.",
+        "quote": "³Faculty of Medicine, University of Montreal"
+      },
+      {
+        "value": "Fontbonne University",
+        "reasoning": "This affiliation is listed with superscript '4' at the bottom of the first page.",
+        "quote": "⁴Fontbonne University"
+      },
+      {
+        "value": "Heidelberg University",
+        "reasoning": "This affiliation is listed with superscript '5' at the bottom of the first page.",
+        "quote": "⁵Heidelberg University"
+      },
+      {
+        "value": "Stony Brook Medicine",
+        "reasoning": "This affiliation is listed with superscript '6' at the bottom of the first page.",
+        "quote": "⁶Stony Brook Medicine"
+      },
+      {
+        "value": "Vector Institute",
+        "reasoning": "This affiliation is listed with superscript '7' at the bottom of the first page.",
+        "quote": "⁷Vector Institute"
+      },
+      {
+        "value": "University of Toronto",
+        "reasoning": "This affiliation is listed with superscript '8' at the bottom of the first page.",
+        "quote": "⁸University of Toronto"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

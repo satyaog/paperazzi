@@ -1,0 +1,309 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:00:14 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=92208",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Luke Y. Prince\",\n        \"reasoning\": \"The author's full name is extracted from the author list on the first page of the paper.\",\n        \"quote\": \"Luke Y. Prince¹,²,*,†,‡\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"School of Computer Science, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The author's name is followed by superscript '1', which corresponds to this affiliation in the list provided on the first page.\",\n          \"quote\": \"¹School of Computer Science, McGill University, Montreal, Canada\"\n        },\n        {\n          \"value\": \"Mila, Montreal, Canada\",\n          \"reasoning\": \"The author's name is followed by superscript '2', which corresponds to this affiliation in the list provided on the first page.\",\n          \"quote\": \"²Mila, Montreal, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Roy Henha Eyono\",\n        \"reasoning\": \"The author's full name is extracted from the author list on the first page of the paper.\",\n        \"quote\": \"Roy Henha Eyono¹,²,‡\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"School of Computer Science, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The author's name is followed by superscript '1', which corresponds to this affiliation in the list provided on the first page.\",\n          \"quote\": \"¹School of Computer Science, McGill University, Montreal, Canada\"\n        },\n        {\n          \"value\": \"Mila, Montreal, Canada\",\n          \"reasoning\": \"The author's name is followed by superscript '2', which corresponds to this affiliation in the list provided on the first page.\",\n          \"quote\": \"²Mila, Montreal, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Ellen Boven\",\n        \"reasoning\": \"The author's full name is extracted from the author list on the first page of the paper.\",\n        \"quote\": \"Ellen Boven³,‡\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Bristol Computational Neuroscience Unit, University of Bristol, United Kingdom\",\n          \"reasoning\": \"The author's name is followed by superscript '3', which corresponds to this affiliation in the list provided on the first page.\",\n          \"quote\": \"³Bristol Computational Neuroscience Unit, University of Bristol, United Kingdom\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Arna Ghosh\",\n        \"reasoning\": \"The author's full name is extracted from the author list on the first page of the paper.\",\n        \"quote\": \"Arna Ghosh¹,²,‡\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"School of Computer Science, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The author's name is followed by superscript '1', which corresponds to this affiliation in the list provided on the first page.\",\n          \"quote\": \"¹School of Computer Science, McGill University, Montreal, Canada\"\n        },\n        {\n          \"value\": \"Mila, Montreal, Canada\",\n          \"reasoning\": \"The author's name is followed by superscript '2', which corresponds to this affiliation in the list provided on the first page.\",\n          \"quote\": \"²Mila, Montreal, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Joe Pemberton\",\n        \"reasoning\": \"The author's full name is extracted from the author list on the first page of the paper.\",\n        \"quote\": \"Joe Pemberton³,‡\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Bristol Computational Neuroscience Unit, University of Bristol, United Kingdom\",\n          \"reasoning\": \"The author's name is followed by superscript '3', which corresponds to this affiliation in the list provided on the first page.\",\n          \"quote\": \"³Bristol Computational Neuroscience Unit, University of Bristol, United Kingdom\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Franz Scherr\",\n        \"reasoning\": \"The author's full name is extracted from the author list on the first page of the paper.\",\n        \"quote\": \"Franz Scherr⁴,†\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute of Theoretical Computer Science, Graz University of Technology, Graz, Austria\",\n          \"reasoning\": \"The author's name is followed by superscript '4', which corresponds to this affiliation in the list provided on the first page.\",\n          \"quote\": \"⁴Institute of Theoretical Computer Science, Graz University of Technology, Graz, Austria\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Claudia Clopath\",\n        \"reasoning\": \"The author's full name is extracted from the author list on the first page of the paper.\",\n        \"quote\": \"Claudia Clopath⁵\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Bioengineering Department, Imperial College London, London, United Kingdom\",\n          \"reasoning\": \"The author's name is followed by superscript '5', which corresponds to this affiliation in the list provided on the first page.\",\n          \"quote\": \"⁵Bioengineering Department, Imperial College London, London, United Kingdom\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Rui Ponte Costa\",\n        \"reasoning\": \"The author's full name is extracted from the author list on the first page of the paper.\",\n        \"quote\": \"Rui Ponte Costa³,§\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Bristol Computational Neuroscience Unit, University of Bristol, United Kingdom\",\n          \"reasoning\": \"The author's name is followed by superscript '3', which corresponds to this affiliation in the list provided on the first page.\",\n          \"quote\": \"³Bristol Computational Neuroscience Unit, University of Bristol, United Kingdom\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Wolfgang Maass\",\n        \"reasoning\": \"The author's full name is extracted from the author list on the first page of the paper.\",\n        \"quote\": \"Wolfgang Maass⁴,⁸\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institute of Theoretical Computer Science, Graz University of Technology, Graz, Austria\",\n          \"reasoning\": \"The author's name is followed by superscript '4'. The corresponding affiliation is found in the list on page 1. The author also has a superscript '8', but no corresponding affiliation is listed in the document.\",\n          \"quote\": \"⁴Institute of Theoretical Computer Science, Graz University of Technology, Graz, Austria\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Blake A. Richards\",\n        \"reasoning\": \"The author's full name is extracted from the author list on the first page of the paper.\",\n        \"quote\": \"Blake A. Richards¹,²,⁶,§\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"School of Computer Science, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The author's name is followed by superscript '1', which corresponds to this affiliation in the list provided on the first page.\",\n          \"quote\": \"¹School of Computer Science, McGill University, Montreal, Canada\"\n        },\n        {\n          \"value\": \"Mila, Montreal, Canada\",\n          \"reasoning\": \"The author's name is followed by superscript '2', which corresponds to this affiliation in the list provided on the first page.\",\n          \"quote\": \"²Mila, Montreal, Canada\"\n        },\n        {\n          \"value\": \"Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The author's name is followed by superscript '6', which corresponds to this affiliation in the list provided on the first page.\",\n          \"quote\": \"⁶Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Cristina Savin\",\n        \"reasoning\": \"The author's full name is extracted from the author list on the first page of the paper.\",\n        \"quote\": \"Cristina Savin⁷,§\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Center for Neural Science, New York University, New York, USA\",\n          \"reasoning\": \"The author's name is followed by superscript '7', which corresponds to this affiliation in the list provided on the first page.\",\n          \"quote\": \"⁷Center for Neural Science, New York University, New York, USA\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Katharina Anna Wilmes\",\n        \"reasoning\": \"The author's full name is extracted from the author list on the first page of the paper. The name is followed by superscript '8', however, no corresponding affiliation is listed in the provided document, so the affiliations list is empty.\",\n        \"quote\": \"Katharina Anna Wilmes⁸,§\"\n      },\n      \"affiliations\": []\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"School of Computer Science, McGill University, Montreal, Canada\",\n      \"reasoning\": \"This affiliation is listed as number '1' in the affiliations list on the first page of the paper.\",\n      \"quote\": \"¹School of Computer Science, McGill University, Montreal, Canada\"\n    },\n    {\n      \"value\": \"Mila, Montreal, Canada\",\n      \"reasoning\": \"This affiliation is listed as number '2' in the affiliations list on the first page of the paper.\",\n      \"quote\": \"²Mila, Montreal, Canada\"\n    },\n    {\n      \"value\": \"Bristol Computational Neuroscience Unit, University of Bristol, United Kingdom\",\n      \"reasoning\": \"This affiliation is listed as number '3' in the affiliations list on the first page of the paper.\",\n      \"quote\": \"³Bristol Computational Neuroscience Unit, University of Bristol, United Kingdom\"\n    },\n    {\n      \"value\": \"Institute of Theoretical Computer Science, Graz University of Technology, Graz, Austria\",\n      \"reasoning\": \"This affiliation is listed as number '4' in the affiliations list on the first page of the paper.\",\n      \"quote\": \"⁴Institute of Theoretical Computer Science, Graz University of Technology, Graz, Austria\"\n    },\n    {\n      \"value\": \"Bioengineering Department, Imperial College London, London, United Kingdom\",\n      \"reasoning\": \"This affiliation is listed as number '5' in the affiliations list on the first page of the paper.\",\n      \"quote\": \"⁵Bioengineering Department, Imperial College London, London, United Kingdom\"\n    },\n    {\n      \"value\": \"Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, Canada\",\n      \"reasoning\": \"This affiliation is listed as number '6' in the affiliations list on the first page of the paper.\",\n      \"quote\": \"⁶Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, Canada\"\n    },\n    {\n      \"value\": \"Center for Neural Science, New York University, New York, USA\",\n      \"reasoning\": \"This affiliation is listed as number '7' in the affiliations list on the first page of the paper.\",\n      \"quote\": \"⁷Center for Neural Science, New York University, New York, USA\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 2707,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 2993,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 2580
+      }
+    ],
+    "thoughts_token_count": 6734,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 12434,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Luke Y. Prince",
+          "reasoning": "The author's full name is extracted from the author list on the first page of the paper.",
+          "quote": "Luke Y. Prince¹,²,*,†,‡"
+        },
+        "affiliations": [
+          {
+            "value": "School of Computer Science, McGill University, Montreal, Canada",
+            "reasoning": "The author's name is followed by superscript '1', which corresponds to this affiliation in the list provided on the first page.",
+            "quote": "¹School of Computer Science, McGill University, Montreal, Canada"
+          },
+          {
+            "value": "Mila, Montreal, Canada",
+            "reasoning": "The author's name is followed by superscript '2', which corresponds to this affiliation in the list provided on the first page.",
+            "quote": "²Mila, Montreal, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Roy Henha Eyono",
+          "reasoning": "The author's full name is extracted from the author list on the first page of the paper.",
+          "quote": "Roy Henha Eyono¹,²,‡"
+        },
+        "affiliations": [
+          {
+            "value": "School of Computer Science, McGill University, Montreal, Canada",
+            "reasoning": "The author's name is followed by superscript '1', which corresponds to this affiliation in the list provided on the first page.",
+            "quote": "¹School of Computer Science, McGill University, Montreal, Canada"
+          },
+          {
+            "value": "Mila, Montreal, Canada",
+            "reasoning": "The author's name is followed by superscript '2', which corresponds to this affiliation in the list provided on the first page.",
+            "quote": "²Mila, Montreal, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Ellen Boven",
+          "reasoning": "The author's full name is extracted from the author list on the first page of the paper.",
+          "quote": "Ellen Boven³,‡"
+        },
+        "affiliations": [
+          {
+            "value": "Bristol Computational Neuroscience Unit, University of Bristol, United Kingdom",
+            "reasoning": "The author's name is followed by superscript '3', which corresponds to this affiliation in the list provided on the first page.",
+            "quote": "³Bristol Computational Neuroscience Unit, University of Bristol, United Kingdom"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Arna Ghosh",
+          "reasoning": "The author's full name is extracted from the author list on the first page of the paper.",
+          "quote": "Arna Ghosh¹,²,‡"
+        },
+        "affiliations": [
+          {
+            "value": "School of Computer Science, McGill University, Montreal, Canada",
+            "reasoning": "The author's name is followed by superscript '1', which corresponds to this affiliation in the list provided on the first page.",
+            "quote": "¹School of Computer Science, McGill University, Montreal, Canada"
+          },
+          {
+            "value": "Mila, Montreal, Canada",
+            "reasoning": "The author's name is followed by superscript '2', which corresponds to this affiliation in the list provided on the first page.",
+            "quote": "²Mila, Montreal, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Joe Pemberton",
+          "reasoning": "The author's full name is extracted from the author list on the first page of the paper.",
+          "quote": "Joe Pemberton³,‡"
+        },
+        "affiliations": [
+          {
+            "value": "Bristol Computational Neuroscience Unit, University of Bristol, United Kingdom",
+            "reasoning": "The author's name is followed by superscript '3', which corresponds to this affiliation in the list provided on the first page.",
+            "quote": "³Bristol Computational Neuroscience Unit, University of Bristol, United Kingdom"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Franz Scherr",
+          "reasoning": "The author's full name is extracted from the author list on the first page of the paper.",
+          "quote": "Franz Scherr⁴,†"
+        },
+        "affiliations": [
+          {
+            "value": "Institute of Theoretical Computer Science, Graz University of Technology, Graz, Austria",
+            "reasoning": "The author's name is followed by superscript '4', which corresponds to this affiliation in the list provided on the first page.",
+            "quote": "⁴Institute of Theoretical Computer Science, Graz University of Technology, Graz, Austria"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Claudia Clopath",
+          "reasoning": "The author's full name is extracted from the author list on the first page of the paper.",
+          "quote": "Claudia Clopath⁵"
+        },
+        "affiliations": [
+          {
+            "value": "Bioengineering Department, Imperial College London, London, United Kingdom",
+            "reasoning": "The author's name is followed by superscript '5', which corresponds to this affiliation in the list provided on the first page.",
+            "quote": "⁵Bioengineering Department, Imperial College London, London, United Kingdom"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Rui Ponte Costa",
+          "reasoning": "The author's full name is extracted from the author list on the first page of the paper.",
+          "quote": "Rui Ponte Costa³,§"
+        },
+        "affiliations": [
+          {
+            "value": "Bristol Computational Neuroscience Unit, University of Bristol, United Kingdom",
+            "reasoning": "The author's name is followed by superscript '3', which corresponds to this affiliation in the list provided on the first page.",
+            "quote": "³Bristol Computational Neuroscience Unit, University of Bristol, United Kingdom"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Wolfgang Maass",
+          "reasoning": "The author's full name is extracted from the author list on the first page of the paper.",
+          "quote": "Wolfgang Maass⁴,⁸"
+        },
+        "affiliations": [
+          {
+            "value": "Institute of Theoretical Computer Science, Graz University of Technology, Graz, Austria",
+            "reasoning": "The author's name is followed by superscript '4'. The corresponding affiliation is found in the list on page 1. The author also has a superscript '8', but no corresponding affiliation is listed in the document.",
+            "quote": "⁴Institute of Theoretical Computer Science, Graz University of Technology, Graz, Austria"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Blake A. Richards",
+          "reasoning": "The author's full name is extracted from the author list on the first page of the paper.",
+          "quote": "Blake A. Richards¹,²,⁶,§"
+        },
+        "affiliations": [
+          {
+            "value": "School of Computer Science, McGill University, Montreal, Canada",
+            "reasoning": "The author's name is followed by superscript '1', which corresponds to this affiliation in the list provided on the first page.",
+            "quote": "¹School of Computer Science, McGill University, Montreal, Canada"
+          },
+          {
+            "value": "Mila, Montreal, Canada",
+            "reasoning": "The author's name is followed by superscript '2', which corresponds to this affiliation in the list provided on the first page.",
+            "quote": "²Mila, Montreal, Canada"
+          },
+          {
+            "value": "Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, Canada",
+            "reasoning": "The author's name is followed by superscript '6', which corresponds to this affiliation in the list provided on the first page.",
+            "quote": "⁶Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Cristina Savin",
+          "reasoning": "The author's full name is extracted from the author list on the first page of the paper.",
+          "quote": "Cristina Savin⁷,§"
+        },
+        "affiliations": [
+          {
+            "value": "Center for Neural Science, New York University, New York, USA",
+            "reasoning": "The author's name is followed by superscript '7', which corresponds to this affiliation in the list provided on the first page.",
+            "quote": "⁷Center for Neural Science, New York University, New York, USA"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Katharina Anna Wilmes",
+          "reasoning": "The author's full name is extracted from the author list on the first page of the paper. The name is followed by superscript '8', however, no corresponding affiliation is listed in the provided document, so the affiliations list is empty.",
+          "quote": "Katharina Anna Wilmes⁸,§"
+        },
+        "affiliations": []
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "School of Computer Science, McGill University, Montreal, Canada",
+        "reasoning": "This affiliation is listed as number '1' in the affiliations list on the first page of the paper.",
+        "quote": "¹School of Computer Science, McGill University, Montreal, Canada"
+      },
+      {
+        "value": "Mila, Montreal, Canada",
+        "reasoning": "This affiliation is listed as number '2' in the affiliations list on the first page of the paper.",
+        "quote": "²Mila, Montreal, Canada"
+      },
+      {
+        "value": "Bristol Computational Neuroscience Unit, University of Bristol, United Kingdom",
+        "reasoning": "This affiliation is listed as number '3' in the affiliations list on the first page of the paper.",
+        "quote": "³Bristol Computational Neuroscience Unit, University of Bristol, United Kingdom"
+      },
+      {
+        "value": "Institute of Theoretical Computer Science, Graz University of Technology, Graz, Austria",
+        "reasoning": "This affiliation is listed as number '4' in the affiliations list on the first page of the paper.",
+        "quote": "⁴Institute of Theoretical Computer Science, Graz University of Technology, Graz, Austria"
+      },
+      {
+        "value": "Bioengineering Department, Imperial College London, London, United Kingdom",
+        "reasoning": "This affiliation is listed as number '5' in the affiliations list on the first page of the paper.",
+        "quote": "⁵Bioengineering Department, Imperial College London, London, United Kingdom"
+      },
+      {
+        "value": "Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, Canada",
+        "reasoning": "This affiliation is listed as number '6' in the affiliations list on the first page of the paper.",
+        "quote": "⁶Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, Canada"
+      },
+      {
+        "value": "Center for Neural Science, New York University, New York, USA",
+        "reasoning": "This affiliation is listed as number '7' in the affiliations list on the first page of the paper.",
+        "quote": "⁷Center for Neural Science, New York University, New York, USA"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

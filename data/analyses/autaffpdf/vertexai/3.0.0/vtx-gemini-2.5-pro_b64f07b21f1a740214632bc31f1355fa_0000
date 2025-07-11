@@ -1,0 +1,295 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:46:22 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=40705",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"JianLi Wang\",\n        \"reasoning\": \"The author's name is listed first in the author list on page 1 of the paper, associated with superscript '1'.\",\n        \"quote\": \"JianLi Wang,¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Community Health and Epidemiology, Dalhousie University, Halifax, Nova Scotia, Canada\",\n          \"reasoning\": \"This affiliation is linked to the superscript '1' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to JianLi Wang's name.\",\n          \"quote\": \"¹Department of Community Health and Epidemiology, Dalhousie University, Halifax, Nova Scotia, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Fatemeh Gholi Zadeh Kharrat\",\n        \"reasoning\": \"The author's name is listed second in the author list on page 1 of the paper, associated with superscript '2'.\",\n        \"quote\": \"Fatemeh Gholi Zadeh Kharrat,²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Electrical Engineering and Computer Engineering, Laval University, Quebec, Quebec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the superscript '2' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Fatemeh Gholi Zadeh Kharrat's name.\",\n          \"quote\": \"²Department of Electrical Engineering and Computer Engineering, Laval University, Quebec, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jean-François Pelletier\",\n        \"reasoning\": \"The author's name is listed third in the author list on page 1 of the paper, associated with superscript '3'.\",\n        \"quote\": \"Jean-François Pelletier,³\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Psychiatry, University of Montreal, Montreal, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the superscript '3' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Jean-François Pelletier's name.\",\n          \"quote\": \"³Department of Psychiatry, University of Montreal, Montreal, Québec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Louis Rochette\",\n        \"reasoning\": \"The author's name is listed in the author list on page 1 of the paper, associated with superscript '4'.\",\n        \"quote\": \"Louis Rochette,⁴\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the superscript '4' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Louis Rochette's name.\",\n          \"quote\": \"⁴Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Eric Pelletier\",\n        \"reasoning\": \"The author's name is listed in the author list on page 1 of the paper, associated with superscript '4'.\",\n        \"quote\": \"Eric Pelletier,⁴\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the superscript '4' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Eric Pelletier's name.\",\n          \"quote\": \"⁴Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Pascale Lévesque\",\n        \"reasoning\": \"The author's name is listed in the author list on page 1 of the paper, associated with superscript '4'.\",\n        \"quote\": \"Pascale Lévesque,⁴\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the superscript '4' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Pascale Lévesque's name.\",\n          \"quote\": \"⁴Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Victoria Massamba\",\n        \"reasoning\": \"The author's name is listed in the author list on page 1 of the paper, associated with superscript '4'.\",\n        \"quote\": \"Victoria Massamba,⁴\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the superscript '4' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Victoria Massamba's name.\",\n          \"quote\": \"⁴Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Camille Brousseau-Paradis\",\n        \"reasoning\": \"The author's name is listed in the author list on page 1 of the paper, associated with superscript '4'.\",\n        \"quote\": \"Camille Brousseau-Paradis,⁴\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the superscript '4' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Camille Brousseau-Paradis's name.\",\n          \"quote\": \"⁴Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Mada Mohammed\",\n        \"reasoning\": \"The author's name is listed in the author list on page 1 of the paper, associated with superscript '1'.\",\n        \"quote\": \"Mada Mohammed,¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Community Health and Epidemiology, Dalhousie University, Halifax, Nova Scotia, Canada\",\n          \"reasoning\": \"This affiliation is linked to the superscript '1' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Mada Mohammed's name.\",\n          \"quote\": \"¹Department of Community Health and Epidemiology, Dalhousie University, Halifax, Nova Scotia, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Geneviève Gariépy\",\n        \"reasoning\": \"The author's name is listed in the author list on page 1 of the paper, associated with superscripts '5' and '6'.\",\n        \"quote\": \"Geneviève Gariépy,⁵,⁶\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Public Health Agency of Canada, Ottawa, Ontario, Canada\",\n          \"reasoning\": \"This affiliation is linked to the superscript '5' in the 'Author affiliations' section on page 6, which corresponds to one of the superscripts next to Geneviève Gariépy's name.\",\n          \"quote\": \"⁵Public Health Agency of Canada, Ottawa, Ontario, Canada\"\n        },\n        {\n          \"value\": \"Department of Social and Preventive Medicine, University of Montreal, Montreal, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the superscript '6' in the 'Author affiliations' section on page 6, which corresponds to one of the superscripts next to Geneviève Gariépy's name.\",\n          \"quote\": \"⁶Department of Social and Preventive Medicine, University of Montreal, Montreal, Québec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Christian Gagné\",\n        \"reasoning\": \"The author's name is listed in the author list on page 1 of the paper, associated with superscript '2'.\",\n        \"quote\": \"Christian Gagné,²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Electrical Engineering and Computer Engineering, Laval University, Quebec, Quebec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the superscript '2' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Christian Gagné's name.\",\n          \"quote\": \"²Department of Electrical Engineering and Computer Engineering, Laval University, Quebec, Quebec, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Alain Lesage\",\n        \"reasoning\": \"The author's name is listed last in the author list on page 1 of the paper, associated with superscript '7'.\",\n        \"quote\": \"Alain Lesage⁷\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institut universitaire en sante mentale de Montreal, Montreal, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the superscript '7' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Alain Lesage's name.\",\n          \"quote\": \"⁷Institut universitaire en sante mentale de Montreal, Montreal, Québec, Canada\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Department of Community Health and Epidemiology, Dalhousie University, Halifax, Nova Scotia, Canada\",\n      \"reasoning\": \"This is the first affiliation listed in the 'Author affiliations' section on page 6, identified by the superscript '1'.\",\n      \"quote\": \"¹Department of Community Health and Epidemiology, Dalhousie University, Halifax, Nova Scotia, Canada\"\n    },\n    {\n      \"value\": \"Department of Electrical Engineering and Computer Engineering, Laval University, Quebec, Quebec, Canada\",\n      \"reasoning\": \"This is the second affiliation listed in the 'Author affiliations' section on page 6, identified by the superscript '2'.\",\n      \"quote\": \"²Department of Electrical Engineering and Computer Engineering, Laval University, Quebec, Quebec, Canada\"\n    },\n    {\n      \"value\": \"Department of Psychiatry, University of Montreal, Montreal, Québec, Canada\",\n      \"reasoning\": \"This is the third affiliation listed in the 'Author affiliations' section on page 6, identified by the superscript '3'.\",\n      \"quote\": \"³Department of Psychiatry, University of Montreal, Montreal, Québec, Canada\"\n    },\n    {\n      \"value\": \"Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada\",\n      \"reasoning\": \"This is the fourth affiliation listed in the 'Author affiliations' section on page 6, identified by the superscript '4'.\",\n      \"quote\": \"⁴Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada\"\n    },\n    {\n      \"value\": \"Public Health Agency of Canada, Ottawa, Ontario, Canada\",\n      \"reasoning\": \"This is the fifth affiliation listed in the 'Author affiliations' section on page 6, identified by the superscript '5'.\",\n      \"quote\": \"⁵Public Health Agency of Canada, Ottawa, Ontario, Canada\"\n    },\n    {\n      \"value\": \"Department of Social and Preventive Medicine, University of Montreal, Montreal, Québec, Canada\",\n      \"reasoning\": \"This is the sixth affiliation listed in the 'Author affiliations' section on page 6, identified by the superscript '6'.\",\n      \"quote\": \"⁶Department of Social and Preventive Medicine, University of Montreal, Montreal, Québec, Canada\"\n    },\n    {\n      \"value\": \"Institut universitaire en sante mentale de Montreal, Montreal, Québec, Canada\",\n      \"reasoning\": \"This is the seventh affiliation listed in the 'Author affiliations' section on page 6, identified by the superscript '7'.\",\n      \"quote\": \"⁷Institut universitaire en sante mentale de Montreal, Montreal, Québec, Canada\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 2912,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 2219,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 1806
+      }
+    ],
+    "thoughts_token_count": 1563,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 6694,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "JianLi Wang",
+          "reasoning": "The author's name is listed first in the author list on page 1 of the paper, associated with superscript '1'.",
+          "quote": "JianLi Wang,¹"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Community Health and Epidemiology, Dalhousie University, Halifax, Nova Scotia, Canada",
+            "reasoning": "This affiliation is linked to the superscript '1' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to JianLi Wang's name.",
+            "quote": "¹Department of Community Health and Epidemiology, Dalhousie University, Halifax, Nova Scotia, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Fatemeh Gholi Zadeh Kharrat",
+          "reasoning": "The author's name is listed second in the author list on page 1 of the paper, associated with superscript '2'.",
+          "quote": "Fatemeh Gholi Zadeh Kharrat,²"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Electrical Engineering and Computer Engineering, Laval University, Quebec, Quebec, Canada",
+            "reasoning": "This affiliation is linked to the superscript '2' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Fatemeh Gholi Zadeh Kharrat's name.",
+            "quote": "²Department of Electrical Engineering and Computer Engineering, Laval University, Quebec, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jean-François Pelletier",
+          "reasoning": "The author's name is listed third in the author list on page 1 of the paper, associated with superscript '3'.",
+          "quote": "Jean-François Pelletier,³"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Psychiatry, University of Montreal, Montreal, Québec, Canada",
+            "reasoning": "This affiliation is linked to the superscript '3' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Jean-François Pelletier's name.",
+            "quote": "³Department of Psychiatry, University of Montreal, Montreal, Québec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Louis Rochette",
+          "reasoning": "The author's name is listed in the author list on page 1 of the paper, associated with superscript '4'.",
+          "quote": "Louis Rochette,⁴"
+        },
+        "affiliations": [
+          {
+            "value": "Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada",
+            "reasoning": "This affiliation is linked to the superscript '4' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Louis Rochette's name.",
+            "quote": "⁴Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Eric Pelletier",
+          "reasoning": "The author's name is listed in the author list on page 1 of the paper, associated with superscript '4'.",
+          "quote": "Eric Pelletier,⁴"
+        },
+        "affiliations": [
+          {
+            "value": "Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada",
+            "reasoning": "This affiliation is linked to the superscript '4' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Eric Pelletier's name.",
+            "quote": "⁴Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Pascale Lévesque",
+          "reasoning": "The author's name is listed in the author list on page 1 of the paper, associated with superscript '4'.",
+          "quote": "Pascale Lévesque,⁴"
+        },
+        "affiliations": [
+          {
+            "value": "Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada",
+            "reasoning": "This affiliation is linked to the superscript '4' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Pascale Lévesque's name.",
+            "quote": "⁴Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Victoria Massamba",
+          "reasoning": "The author's name is listed in the author list on page 1 of the paper, associated with superscript '4'.",
+          "quote": "Victoria Massamba,⁴"
+        },
+        "affiliations": [
+          {
+            "value": "Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada",
+            "reasoning": "This affiliation is linked to the superscript '4' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Victoria Massamba's name.",
+            "quote": "⁴Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Camille Brousseau-Paradis",
+          "reasoning": "The author's name is listed in the author list on page 1 of the paper, associated with superscript '4'.",
+          "quote": "Camille Brousseau-Paradis,⁴"
+        },
+        "affiliations": [
+          {
+            "value": "Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada",
+            "reasoning": "This affiliation is linked to the superscript '4' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Camille Brousseau-Paradis's name.",
+            "quote": "⁴Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Mada Mohammed",
+          "reasoning": "The author's name is listed in the author list on page 1 of the paper, associated with superscript '1'.",
+          "quote": "Mada Mohammed,¹"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Community Health and Epidemiology, Dalhousie University, Halifax, Nova Scotia, Canada",
+            "reasoning": "This affiliation is linked to the superscript '1' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Mada Mohammed's name.",
+            "quote": "¹Department of Community Health and Epidemiology, Dalhousie University, Halifax, Nova Scotia, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Geneviève Gariépy",
+          "reasoning": "The author's name is listed in the author list on page 1 of the paper, associated with superscripts '5' and '6'.",
+          "quote": "Geneviève Gariépy,⁵,⁶"
+        },
+        "affiliations": [
+          {
+            "value": "Public Health Agency of Canada, Ottawa, Ontario, Canada",
+            "reasoning": "This affiliation is linked to the superscript '5' in the 'Author affiliations' section on page 6, which corresponds to one of the superscripts next to Geneviève Gariépy's name.",
+            "quote": "⁵Public Health Agency of Canada, Ottawa, Ontario, Canada"
+          },
+          {
+            "value": "Department of Social and Preventive Medicine, University of Montreal, Montreal, Québec, Canada",
+            "reasoning": "This affiliation is linked to the superscript '6' in the 'Author affiliations' section on page 6, which corresponds to one of the superscripts next to Geneviève Gariépy's name.",
+            "quote": "⁶Department of Social and Preventive Medicine, University of Montreal, Montreal, Québec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Christian Gagné",
+          "reasoning": "The author's name is listed in the author list on page 1 of the paper, associated with superscript '2'.",
+          "quote": "Christian Gagné,²"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Electrical Engineering and Computer Engineering, Laval University, Quebec, Quebec, Canada",
+            "reasoning": "This affiliation is linked to the superscript '2' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Christian Gagné's name.",
+            "quote": "²Department of Electrical Engineering and Computer Engineering, Laval University, Quebec, Quebec, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Alain Lesage",
+          "reasoning": "The author's name is listed last in the author list on page 1 of the paper, associated with superscript '7'.",
+          "quote": "Alain Lesage⁷"
+        },
+        "affiliations": [
+          {
+            "value": "Institut universitaire en sante mentale de Montreal, Montreal, Québec, Canada",
+            "reasoning": "This affiliation is linked to the superscript '7' in the 'Author affiliations' section on page 6, which corresponds to the superscript next to Alain Lesage's name.",
+            "quote": "⁷Institut universitaire en sante mentale de Montreal, Montreal, Québec, Canada"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Department of Community Health and Epidemiology, Dalhousie University, Halifax, Nova Scotia, Canada",
+        "reasoning": "This is the first affiliation listed in the 'Author affiliations' section on page 6, identified by the superscript '1'.",
+        "quote": "¹Department of Community Health and Epidemiology, Dalhousie University, Halifax, Nova Scotia, Canada"
+      },
+      {
+        "value": "Department of Electrical Engineering and Computer Engineering, Laval University, Quebec, Quebec, Canada",
+        "reasoning": "This is the second affiliation listed in the 'Author affiliations' section on page 6, identified by the superscript '2'.",
+        "quote": "²Department of Electrical Engineering and Computer Engineering, Laval University, Quebec, Quebec, Canada"
+      },
+      {
+        "value": "Department of Psychiatry, University of Montreal, Montreal, Québec, Canada",
+        "reasoning": "This is the third affiliation listed in the 'Author affiliations' section on page 6, identified by the superscript '3'.",
+        "quote": "³Department of Psychiatry, University of Montreal, Montreal, Québec, Canada"
+      },
+      {
+        "value": "Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada",
+        "reasoning": "This is the fourth affiliation listed in the 'Author affiliations' section on page 6, identified by the superscript '4'.",
+        "quote": "⁴Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada"
+      },
+      {
+        "value": "Public Health Agency of Canada, Ottawa, Ontario, Canada",
+        "reasoning": "This is the fifth affiliation listed in the 'Author affiliations' section on page 6, identified by the superscript '5'.",
+        "quote": "⁵Public Health Agency of Canada, Ottawa, Ontario, Canada"
+      },
+      {
+        "value": "Department of Social and Preventive Medicine, University of Montreal, Montreal, Québec, Canada",
+        "reasoning": "This is the sixth affiliation listed in the 'Author affiliations' section on page 6, identified by the superscript '6'.",
+        "quote": "⁶Department of Social and Preventive Medicine, University of Montreal, Montreal, Québec, Canada"
+      },
+      {
+        "value": "Institut universitaire en sante mentale de Montreal, Montreal, Québec, Canada",
+        "reasoning": "This is the seventh affiliation listed in the 'Author affiliations' section on page 6, identified by the superscript '7'.",
+        "quote": "⁷Institut universitaire en sante mentale de Montreal, Montreal, Québec, Canada"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

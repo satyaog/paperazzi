@@ -1,0 +1,192 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:17:30 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=32486",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Maxime Gasse\",\n        \"reasoning\": \"The author's name is explicitly listed at the top of the first page.\",\n        \"quote\": \"Maxime Gasse\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila\",\n          \"reasoning\": \"The institution 'Mila' is listed as the first part of the affiliation for Maxime Gasse.\",\n          \"quote\": \"Mila, Polytechnique Montréal\"\n        },\n        {\n          \"value\": \"Polytechnique Montréal\",\n          \"reasoning\": \"The institution 'Polytechnique Montréal' is listed as the second part of the affiliation for Maxime Gasse, separated by a comma.\",\n          \"quote\": \"Mila, Polytechnique Montréal\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Didier Chételat\",\n        \"reasoning\": \"The author's name is explicitly listed at the top of the first page.\",\n        \"quote\": \"Didier Chételat\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Polytechnique Montréal\",\n          \"reasoning\": \"This institution is listed directly under the author's name.\",\n          \"quote\": \"Polytechnique Montréal\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Nicola Ferroni\",\n        \"reasoning\": \"The author's name is explicitly listed at the top of the first page.\",\n        \"quote\": \"Nicola Ferroni\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"University of Bologna\",\n          \"reasoning\": \"This institution is listed directly under the author's name.\",\n          \"quote\": \"University of Bologna\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Laurent Charlin\",\n        \"reasoning\": \"The author's name is explicitly listed at the top of the first page.\",\n        \"quote\": \"Laurent Charlin\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila\",\n          \"reasoning\": \"The institution 'Mila' is listed as the first part of the affiliation for Laurent Charlin.\",\n          \"quote\": \"Mila, HEC Montréal\"\n        },\n        {\n          \"value\": \"HEC Montréal\",\n          \"reasoning\": \"The institution 'HEC Montréal' is listed as the second part of the affiliation for Laurent Charlin, separated by a comma.\",\n          \"quote\": \"Mila, HEC Montréal\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Andrea Lodi\",\n        \"reasoning\": \"The author's name is explicitly listed at the top of the first page.\",\n        \"quote\": \"Andrea Lodi\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila\",\n          \"reasoning\": \"The institution 'Mila' is listed as the first part of the affiliation for Andrea Lodi.\",\n          \"quote\": \"Mila, Polytechnique Montréal\"\n        },\n        {\n          \"value\": \"Polytechnique Montréal\",\n          \"reasoning\": \"The institution 'Polytechnique Montréal' is listed as the second part of the affiliation for Andrea Lodi, separated by a comma.\",\n          \"quote\": \"Mila, Polytechnique Montréal\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Mila\",\n      \"reasoning\": \"This institution is listed as an affiliation for authors Maxime Gasse, Laurent Charlin, and Andrea Lodi.\",\n      \"quote\": \"Mila, Polytechnique Montréal\"\n    },\n    {\n      \"value\": \"Polytechnique Montréal\",\n      \"reasoning\": \"This institution is listed as an affiliation for authors Maxime Gasse, Didier Chételat, and Andrea Lodi.\",\n      \"quote\": \"Polytechnique Montréal\"\n    },\n    {\n      \"value\": \"University of Bologna\",\n      \"reasoning\": \"This institution is listed as the affiliation for author Nicola Ferroni.\",\n      \"quote\": \"University of Bologna\"\n    },\n    {\n      \"value\": \"HEC Montréal\",\n      \"reasoning\": \"This institution is listed as an affiliation for author Laurent Charlin.\",\n      \"quote\": \"Mila, HEC Montréal\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 1023,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 5315,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 4902
+      }
+    ],
+    "thoughts_token_count": 1764,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 8102,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Maxime Gasse",
+          "reasoning": "The author's name is explicitly listed at the top of the first page.",
+          "quote": "Maxime Gasse"
+        },
+        "affiliations": [
+          {
+            "value": "Mila",
+            "reasoning": "The institution 'Mila' is listed as the first part of the affiliation for Maxime Gasse.",
+            "quote": "Mila, Polytechnique Montréal"
+          },
+          {
+            "value": "Polytechnique Montréal",
+            "reasoning": "The institution 'Polytechnique Montréal' is listed as the second part of the affiliation for Maxime Gasse, separated by a comma.",
+            "quote": "Mila, Polytechnique Montréal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Didier Chételat",
+          "reasoning": "The author's name is explicitly listed at the top of the first page.",
+          "quote": "Didier Chételat"
+        },
+        "affiliations": [
+          {
+            "value": "Polytechnique Montréal",
+            "reasoning": "This institution is listed directly under the author's name.",
+            "quote": "Polytechnique Montréal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Nicola Ferroni",
+          "reasoning": "The author's name is explicitly listed at the top of the first page.",
+          "quote": "Nicola Ferroni"
+        },
+        "affiliations": [
+          {
+            "value": "University of Bologna",
+            "reasoning": "This institution is listed directly under the author's name.",
+            "quote": "University of Bologna"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Laurent Charlin",
+          "reasoning": "The author's name is explicitly listed at the top of the first page.",
+          "quote": "Laurent Charlin"
+        },
+        "affiliations": [
+          {
+            "value": "Mila",
+            "reasoning": "The institution 'Mila' is listed as the first part of the affiliation for Laurent Charlin.",
+            "quote": "Mila, HEC Montréal"
+          },
+          {
+            "value": "HEC Montréal",
+            "reasoning": "The institution 'HEC Montréal' is listed as the second part of the affiliation for Laurent Charlin, separated by a comma.",
+            "quote": "Mila, HEC Montréal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Andrea Lodi",
+          "reasoning": "The author's name is explicitly listed at the top of the first page.",
+          "quote": "Andrea Lodi"
+        },
+        "affiliations": [
+          {
+            "value": "Mila",
+            "reasoning": "The institution 'Mila' is listed as the first part of the affiliation for Andrea Lodi.",
+            "quote": "Mila, Polytechnique Montréal"
+          },
+          {
+            "value": "Polytechnique Montréal",
+            "reasoning": "The institution 'Polytechnique Montréal' is listed as the second part of the affiliation for Andrea Lodi, separated by a comma.",
+            "quote": "Mila, Polytechnique Montréal"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Mila",
+        "reasoning": "This institution is listed as an affiliation for authors Maxime Gasse, Laurent Charlin, and Andrea Lodi.",
+        "quote": "Mila, Polytechnique Montréal"
+      },
+      {
+        "value": "Polytechnique Montréal",
+        "reasoning": "This institution is listed as an affiliation for authors Maxime Gasse, Didier Chételat, and Andrea Lodi.",
+        "quote": "Polytechnique Montréal"
+      },
+      {
+        "value": "University of Bologna",
+        "reasoning": "This institution is listed as the affiliation for author Nicola Ferroni.",
+        "quote": "University of Bologna"
+      },
+      {
+        "value": "HEC Montréal",
+        "reasoning": "This institution is listed as an affiliation for author Laurent Charlin.",
+        "quote": "Mila, HEC Montréal"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

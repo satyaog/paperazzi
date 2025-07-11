@@ -1,0 +1,149 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:23:43 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=35393",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Amin Abyaneh\",\n        \"reasoning\": \"The name is listed as the first author at the top of the paper, associated with the superscript '1'.\",\n        \"quote\": \"Amin Abyaneh¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Electrical and Computer Engineering, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The footer on the first page explicitly links the superscript '1' to this affiliation.\",\n          \"quote\": \"1 Amin Abyaneh is with the Department of Electrical and Computer Engineering, McGill University, Montreal, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Mariana Sosa Guzmán\",\n        \"reasoning\": \"The name is listed as the second author at the top of the paper, associated with the superscript '2'.\",\n        \"quote\": \"Mariana Sosa Guzmán²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Electrical and Computer Engineering, Universidad Veracruzana, Veracruz, Mexico.\",\n          \"reasoning\": \"The footer on the first page explicitly links the superscript '2' to this affiliation.\",\n          \"quote\": \"2Mariana Sosa Guzmán is with the Department of Electrical and Com-puter Engineering, Universidad Veracruzana, Veracruz, Mexico.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Hsiu-Chin Lin\",\n        \"reasoning\": \"The name is listed as the third author at the top of the paper, associated with the superscript '3'.\",\n        \"quote\": \"Hsiu-Chin Lin³\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"School of Computer Science, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The footer on the first page explicitly links the superscript '3' to this affiliation, which is one of two listed for this author.\",\n          \"quote\": \"3Hsiu-Chin Lin is with the School of Computer Science and the Depart-ment of Electrical and Computer Engineering, McGill University, Montreal, Canada\"\n        },\n        {\n          \"value\": \"Department of Electrical and Computer Engineering, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The footer on the first page explicitly links the superscript '3' to this affiliation, which is the second of two listed for this author.\",\n          \"quote\": \"3Hsiu-Chin Lin is with the School of Computer Science and the Depart-ment of Electrical and Computer Engineering, McGill University, Montreal, Canada\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Department of Electrical and Computer Engineering, McGill University, Montreal, Canada\",\n      \"reasoning\": \"This affiliation is listed for authors Amin Abyaneh and Hsiu-Chin Lin, identified by superscripts '1' and '3' respectively.\",\n      \"quote\": \"1 Amin Abyaneh is with the Department of Electrical and Computer Engineering, McGill University, Montreal, Canada\\n3Hsiu-Chin Lin is with the School of Computer Science and the Depart-ment of Electrical and Computer Engineering, McGill University, Montreal, Canada\"\n    },\n    {\n      \"value\": \"Department of Electrical and Computer Engineering, Universidad Veracruzana, Veracruz, Mexico.\",\n      \"reasoning\": \"This affiliation is listed for author Mariana Sosa Guzmán, identified by the superscript '2'.\",\n      \"quote\": \"2Mariana Sosa Guzmán is with the Department of Electrical and Com-puter Engineering, Universidad Veracruzana, Veracruz, Mexico.\"\n    },\n    {\n      \"value\": \"School of Computer Science, McGill University, Montreal, Canada\",\n      \"reasoning\": \"This affiliation is listed for author Hsiu-Chin Lin, identified by the superscript '3'.\",\n      \"quote\": \"3Hsiu-Chin Lin is with the School of Computer Science and the Depart-ment of Electrical and Computer Engineering, McGill University, Montreal, Canada\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 916,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 2735,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 2322
+      }
+    ],
+    "thoughts_token_count": 1167,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 4818,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Amin Abyaneh",
+          "reasoning": "The name is listed as the first author at the top of the paper, associated with the superscript '1'.",
+          "quote": "Amin Abyaneh¹"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Electrical and Computer Engineering, McGill University, Montreal, Canada",
+            "reasoning": "The footer on the first page explicitly links the superscript '1' to this affiliation.",
+            "quote": "1 Amin Abyaneh is with the Department of Electrical and Computer Engineering, McGill University, Montreal, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Mariana Sosa Guzmán",
+          "reasoning": "The name is listed as the second author at the top of the paper, associated with the superscript '2'.",
+          "quote": "Mariana Sosa Guzmán²"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Electrical and Computer Engineering, Universidad Veracruzana, Veracruz, Mexico.",
+            "reasoning": "The footer on the first page explicitly links the superscript '2' to this affiliation.",
+            "quote": "2Mariana Sosa Guzmán is with the Department of Electrical and Com-puter Engineering, Universidad Veracruzana, Veracruz, Mexico."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Hsiu-Chin Lin",
+          "reasoning": "The name is listed as the third author at the top of the paper, associated with the superscript '3'.",
+          "quote": "Hsiu-Chin Lin³"
+        },
+        "affiliations": [
+          {
+            "value": "School of Computer Science, McGill University, Montreal, Canada",
+            "reasoning": "The footer on the first page explicitly links the superscript '3' to this affiliation, which is one of two listed for this author.",
+            "quote": "3Hsiu-Chin Lin is with the School of Computer Science and the Depart-ment of Electrical and Computer Engineering, McGill University, Montreal, Canada"
+          },
+          {
+            "value": "Department of Electrical and Computer Engineering, McGill University, Montreal, Canada",
+            "reasoning": "The footer on the first page explicitly links the superscript '3' to this affiliation, which is the second of two listed for this author.",
+            "quote": "3Hsiu-Chin Lin is with the School of Computer Science and the Depart-ment of Electrical and Computer Engineering, McGill University, Montreal, Canada"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Department of Electrical and Computer Engineering, McGill University, Montreal, Canada",
+        "reasoning": "This affiliation is listed for authors Amin Abyaneh and Hsiu-Chin Lin, identified by superscripts '1' and '3' respectively.",
+        "quote": "1 Amin Abyaneh is with the Department of Electrical and Computer Engineering, McGill University, Montreal, Canada\n3Hsiu-Chin Lin is with the School of Computer Science and the Depart-ment of Electrical and Computer Engineering, McGill University, Montreal, Canada"
+      },
+      {
+        "value": "Department of Electrical and Computer Engineering, Universidad Veracruzana, Veracruz, Mexico.",
+        "reasoning": "This affiliation is listed for author Mariana Sosa Guzmán, identified by the superscript '2'.",
+        "quote": "2Mariana Sosa Guzmán is with the Department of Electrical and Com-puter Engineering, Universidad Veracruzana, Veracruz, Mexico."
+      },
+      {
+        "value": "School of Computer Science, McGill University, Montreal, Canada",
+        "reasoning": "This affiliation is listed for author Hsiu-Chin Lin, identified by the superscript '3'.",
+        "quote": "3Hsiu-Chin Lin is with the School of Computer Science and the Depart-ment of Electrical and Computer Engineering, McGill University, Montreal, Canada"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

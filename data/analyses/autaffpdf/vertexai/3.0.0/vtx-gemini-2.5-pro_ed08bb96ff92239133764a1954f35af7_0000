@@ -1,0 +1,167 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 21:12:13 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=87444",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Flavie Pelletier\",\n        \"reasoning\": \"The name is listed first in the author list and is identified as the corresponding author by an asterisk.\",\n        \"quote\": \"Flavie Pelletiera,*\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"McGill University, Department of Natural Resource Sciences, Sainte-Anne-de-Bellevue, Quebec H9X 3V9, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript 'a'.\",\n          \"quote\": \"a McGill University, Department of Natural Resource Sciences, Sainte-Anne-de-Bellevue, Quebec H9X 3V9, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jeffrey A. Cardille\",\n        \"reasoning\": \"The name is listed second in the author list.\",\n        \"quote\": \"Jeffrey A. Cardilleª\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"McGill University, Department of Natural Resource Sciences, Sainte-Anne-de-Bellevue, Quebec H9X 3V9, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript 'a'.\",\n          \"quote\": \"a McGill University, Department of Natural Resource Sciences, Sainte-Anne-de-Bellevue, Quebec H9X 3V9, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Michael A. Wulder\",\n        \"reasoning\": \"The name is listed third in the author list. Visual inspection of the document confirms a superscript 'b' linking this author to the second affiliation.\",\n        \"quote\": \"Michael A. Wulder\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Canadian Forest Service (Pacific Forestry Centre), Natural Resources Canada, 506 West Burnside Road, Victoria, British Columbia V8Z 1M5, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript 'b'.\",\n          \"quote\": \"b Canadian Forest Service (Pacific Forestry Centre), Natural Resources Canada, 506 West Burnside Road, Victoria, British Columbia V8Z 1M5, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Joanne C. White\",\n        \"reasoning\": \"The name is listed fourth in the author list.\",\n        \"quote\": \"Joanne C. White b\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Canadian Forest Service (Pacific Forestry Centre), Natural Resources Canada, 506 West Burnside Road, Victoria, British Columbia V8Z 1M5, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript 'b'.\",\n          \"quote\": \"b Canadian Forest Service (Pacific Forestry Centre), Natural Resources Canada, 506 West Burnside Road, Victoria, British Columbia V8Z 1M5, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Txomin Hermosilla\",\n        \"reasoning\": \"The name is listed fifth and last in the author list.\",\n        \"quote\": \"Txomin Hermosilla b\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Canadian Forest Service (Pacific Forestry Centre), Natural Resources Canada, 506 West Burnside Road, Victoria, British Columbia V8Z 1M5, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript 'b'.\",\n          \"quote\": \"b Canadian Forest Service (Pacific Forestry Centre), Natural Resources Canada, 506 West Burnside Road, Victoria, British Columbia V8Z 1M5, Canada\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"McGill University, Department of Natural Resource Sciences, Sainte-Anne-de-Bellevue, Quebec H9X 3V9, Canada\",\n      \"reasoning\": \"This is the first unique affiliation listed in the paper, identified by the superscript 'a'.\",\n      \"quote\": \"a McGill University, Department of Natural Resource Sciences, Sainte-Anne-de-Bellevue, Quebec H9X 3V9, Canada\"\n    },\n    {\n      \"value\": \"Canadian Forest Service (Pacific Forestry Centre), Natural Resources Canada, 506 West Burnside Road, Victoria, British Columbia V8Z 1M5, Canada\",\n      \"reasoning\": \"This is the second unique affiliation listed in the paper, identified by the superscript 'b'.\",\n      \"quote\": \"b Canadian Forest Service (Pacific Forestry Centre), Natural Resources Canada, 506 West Burnside Road, Victoria, British Columbia V8Z 1M5, Canada\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 1145,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 5057,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 4644
+      }
+    ],
+    "thoughts_token_count": 5285,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 11487,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Flavie Pelletier",
+          "reasoning": "The name is listed first in the author list and is identified as the corresponding author by an asterisk.",
+          "quote": "Flavie Pelletiera,*"
+        },
+        "affiliations": [
+          {
+            "value": "McGill University, Department of Natural Resource Sciences, Sainte-Anne-de-Bellevue, Quebec H9X 3V9, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript 'a'.",
+            "quote": "a McGill University, Department of Natural Resource Sciences, Sainte-Anne-de-Bellevue, Quebec H9X 3V9, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jeffrey A. Cardille",
+          "reasoning": "The name is listed second in the author list.",
+          "quote": "Jeffrey A. Cardilleª"
+        },
+        "affiliations": [
+          {
+            "value": "McGill University, Department of Natural Resource Sciences, Sainte-Anne-de-Bellevue, Quebec H9X 3V9, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript 'a'.",
+            "quote": "a McGill University, Department of Natural Resource Sciences, Sainte-Anne-de-Bellevue, Quebec H9X 3V9, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Michael A. Wulder",
+          "reasoning": "The name is listed third in the author list. Visual inspection of the document confirms a superscript 'b' linking this author to the second affiliation.",
+          "quote": "Michael A. Wulder"
+        },
+        "affiliations": [
+          {
+            "value": "Canadian Forest Service (Pacific Forestry Centre), Natural Resources Canada, 506 West Burnside Road, Victoria, British Columbia V8Z 1M5, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript 'b'.",
+            "quote": "b Canadian Forest Service (Pacific Forestry Centre), Natural Resources Canada, 506 West Burnside Road, Victoria, British Columbia V8Z 1M5, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Joanne C. White",
+          "reasoning": "The name is listed fourth in the author list.",
+          "quote": "Joanne C. White b"
+        },
+        "affiliations": [
+          {
+            "value": "Canadian Forest Service (Pacific Forestry Centre), Natural Resources Canada, 506 West Burnside Road, Victoria, British Columbia V8Z 1M5, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript 'b'.",
+            "quote": "b Canadian Forest Service (Pacific Forestry Centre), Natural Resources Canada, 506 West Burnside Road, Victoria, British Columbia V8Z 1M5, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Txomin Hermosilla",
+          "reasoning": "The name is listed fifth and last in the author list.",
+          "quote": "Txomin Hermosilla b"
+        },
+        "affiliations": [
+          {
+            "value": "Canadian Forest Service (Pacific Forestry Centre), Natural Resources Canada, 506 West Burnside Road, Victoria, British Columbia V8Z 1M5, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript 'b'.",
+            "quote": "b Canadian Forest Service (Pacific Forestry Centre), Natural Resources Canada, 506 West Burnside Road, Victoria, British Columbia V8Z 1M5, Canada"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "McGill University, Department of Natural Resource Sciences, Sainte-Anne-de-Bellevue, Quebec H9X 3V9, Canada",
+        "reasoning": "This is the first unique affiliation listed in the paper, identified by the superscript 'a'.",
+        "quote": "a McGill University, Department of Natural Resource Sciences, Sainte-Anne-de-Bellevue, Quebec H9X 3V9, Canada"
+      },
+      {
+        "value": "Canadian Forest Service (Pacific Forestry Centre), Natural Resources Canada, 506 West Burnside Road, Victoria, British Columbia V8Z 1M5, Canada",
+        "reasoning": "This is the second unique affiliation listed in the paper, identified by the superscript 'b'.",
+        "quote": "b Canadian Forest Service (Pacific Forestry Centre), Natural Resources Canada, 506 West Burnside Road, Victoria, British Columbia V8Z 1M5, Canada"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

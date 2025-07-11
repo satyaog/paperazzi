@@ -1,0 +1,336 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:32:06 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=42398",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\"authors_affiliations\":[{\"author\":{\"value\":\"Massimo Caccia\",\"reasoning\":\"The name is listed in the author block on the first page of the paper. The superscripts '123' link this author to three affiliations.\",\"quote\":\"Massimo Caccia¹²³\"},\"affiliations\":[{\"value\":\"Mila - Quebec AI Institute\",\"reasoning\":\"The superscript '1' next to the author's name corresponds to the first affiliation listed below the author block.\",\"quote\":\"¹Mila - Quebec AI Institute\"},{\"value\":\"ElementAI\",\"reasoning\":\"The superscript '2' next to the author's name corresponds to the second affiliation listed below the author block.\",\"quote\":\"²ElementAI\"},{\"value\":\"Université de Montréal\",\"reasoning\":\"The superscript '3' next to the author's name corresponds to the third affiliation listed below the author block.\",\"quote\":\"³Université de Montréal\"}]},{\"author\":{\"value\":\"Pau Rodríguez\",\"reasoning\":\"The name is listed in the author block on the first page of the paper. The superscript '2' links this author to one affiliation.\",\"quote\":\"Pau Rodríguez²\"},\"affiliations\":[{\"value\":\"ElementAI\",\"reasoning\":\"The superscript '2' next to the author's name corresponds to the second affiliation listed below the author block.\",\"quote\":\"²ElementAI\"}]},{\"author\":{\"value\":\"Oleksiy Ostapenko\",\"reasoning\":\"The name is listed in the author block on the first page of the paper. The superscripts '13' link this author to two affiliations.\",\"quote\":\"Oleksiy Ostapenko¹³\"},\"affiliations\":[{\"value\":\"Mila - Quebec AI Institute\",\"reasoning\":\"The superscript '1' next to the author's name corresponds to the first affiliation listed below the author block.\",\"quote\":\"¹Mila - Quebec AI Institute\"},{\"value\":\"Université de Montréal\",\"reasoning\":\"The superscript '3' next to the author's name corresponds to the third affiliation listed below the author block.\",\"quote\":\"³Université de Montréal\"}]},{\"author\":{\"value\":\"Fabrice Normandin\",\"reasoning\":\"The name is listed in the author block on the first page of the paper. The superscripts '13' link this author to two affiliations.\",\"quote\":\"Fabrice Normandin¹³\"},\"affiliations\":[{\"value\":\"Mila - Quebec AI Institute\",\"reasoning\":\"The superscript '1' next to the author's name corresponds to the first affiliation listed below the author block.\",\"quote\":\"¹Mila - Quebec AI Institute\"},{\"value\":\"Université de Montréal\",\"reasoning\":\"The superscript '3' next to the author's name corresponds to the third affiliation listed below the author block.\",\"quote\":\"³Université de Montréal\"}]},{\"author\":{\"value\":\"Min Lin\",\"reasoning\":\"The name is listed in the author block on the first page of the paper. The superscripts '13' link this author to two affiliations.\",\"quote\":\"Min Lin ¹³\"},\"affiliations\":[{\"value\":\"Mila - Quebec AI Institute\",\"reasoning\":\"The superscript '1' next to the author's name corresponds to the first affiliation listed below the author block.\",\"quote\":\"¹Mila - Quebec AI Institute\"},{\"value\":\"Université de Montréal\",\"reasoning\":\"The superscript '3' next to the author's name corresponds to the third affiliation listed below the author block.\",\"quote\":\"³Université de Montréal\"}]},{\"author\":{\"value\":\"Lucas Caccia\",\"reasoning\":\"The name is listed in the author block on the first page of the paper. The superscripts '145' link this author to three affiliations.\",\"quote\":\"Lucas Caccia¹⁴⁵\"},\"affiliations\":[{\"value\":\"Mila - Quebec AI Institute\",\"reasoning\":\"The superscript '1' next to the author's name corresponds to the first affiliation listed below the author block.\",\"quote\":\"¹Mila - Quebec AI Institute\"},{\"value\":\"Facebook AI Research\",\"reasoning\":\"The superscript '4' next to the author's name corresponds to the fourth affiliation listed below the author block.\",\"quote\":\"⁴Facebook AI Research\"},{\"value\":\"McGill University\",\"reasoning\":\"The superscript '5' next to the author's name corresponds to the fifth affiliation listed below the author block.\",\"quote\":\"⁵McGill University\"}]},{\"author\":{\"value\":\"Issam Laradji\",\"reasoning\":\"The name is listed in the author block on the first page of the paper. The superscript '6' links this author to one affiliation.\",\"quote\":\"Issam Laradji⁶\"},\"affiliations\":[{\"value\":\"HEC Montréal\",\"reasoning\":\"The superscript '6' next to the author's name corresponds to the sixth affiliation listed below the author block.\",\"quote\":\"⁶HEC Montréal\"}]},{\"author\":{\"value\":\"Irina Rish\",\"reasoning\":\"The name is listed in the author block on the first page of the paper. The superscripts '137' link this author to three affiliations.\",\"quote\":\"Irina Rish¹³⁷\"},\"affiliations\":[{\"value\":\"Mila - Quebec AI Institute\",\"reasoning\":\"The superscript '1' next to the author's name corresponds to the first affiliation listed below the author block.\",\"quote\":\"¹Mila - Quebec AI Institute\"},{\"value\":\"Université de Montréal\",\"reasoning\":\"The superscript '3' next to the author's name corresponds to the third affiliation listed below the author block.\",\"quote\":\"³Université de Montréal\"},{\"value\":\"Canada CIFAR AI Chair\",\"reasoning\":\"The superscript '7' next to the author's name corresponds to the seventh affiliation listed below the author block.\",\"quote\":\"⁷Canada CIFAR AI Chair\"}]},{\"author\":{\"value\":\"Alexandre Lacoste\",\"reasoning\":\"The name is listed in the author block on the first page of the paper. The superscripts '27' link this author to two affiliations.\",\"quote\":\"Alexandre Lacoste²⁷\"},\"affiliations\":[{\"value\":\"ElementAI\",\"reasoning\":\"The superscript '2' next to the author's name corresponds to the second affiliation listed below the author block.\",\"quote\":\"²ElementAI\"},{\"value\":\"Canada CIFAR AI Chair\",\"reasoning\":\"The superscript '7' next to the author's name corresponds to the seventh affiliation listed below the author block.\",\"quote\":\"⁷Canada CIFAR AI Chair\"}]},{\"author\":{\"value\":\"David Vazquez\",\"reasoning\":\"The name is listed in the author block on the first page of the paper. The superscript '2' links this author to one affiliation.\",\"quote\":\"David Vazquez²\"},\"affiliations\":[{\"value\":\"ElementAI\",\"reasoning\":\"The superscript '2' next to the author's name corresponds to the second affiliation listed below the author block.\",\"quote\":\"²ElementAI\"}]},{\"author\":{\"value\":\"Laurent Charlin\",\"reasoning\":\"The name is listed in the author block on the first page of the paper. The superscripts '167' link this author to three affiliations.\",\"quote\":\"Laurent Charlin¹⁶⁷\"},\"affiliations\":[{\"value\":\"Mila - Quebec AI Institute\",\"reasoning\":\"The superscript '1' next to the author's name corresponds to the first affiliation listed below the author block.\",\"quote\":\"¹Mila - Quebec AI Institute\"},{\"value\":\"HEC Montréal\",\"reasoning\":\"The superscript '6' next to the author's name corresponds to the sixth affiliation listed below the author block.\",\"quote\":\"⁶HEC Montréal\"},{\"value\":\"Canada CIFAR AI Chair\",\"reasoning\":\"The superscript '7' next to the author's name corresponds to the seventh affiliation listed below the author block.\",\"quote\":\"⁷Canada CIFAR AI Chair\"}]}],\"affiliations\":[{\"value\":\"Mila - Quebec AI Institute\",\"reasoning\":\"This affiliation is listed with the superscript '1' below the author list on the first page.\",\"quote\":\"¹Mila - Quebec AI Institute\"},{\"value\":\"ElementAI\",\"reasoning\":\"This affiliation is listed with the superscript '2' below the author list on the first page.\",\"quote\":\"²ElementAI\"},{\"value\":\"Université de Montréal\",\"reasoning\":\"This affiliation is listed with the superscript '3' below the author list on the first page.\",\"quote\":\"³Université de Montréal\"},{\"value\":\"Facebook AI Research\",\"reasoning\":\"This affiliation is listed with the superscript '4' below the author list on the first page.\",\"quote\":\"⁴Facebook AI Research\"},{\"value\":\"McGill University\",\"reasoning\":\"This affiliation is listed with the superscript '5' below the author list on the first page.\",\"quote\":\"⁵McGill University\"},{\"value\":\"HEC Montréal\",\"reasoning\":\"This affiliation is listed with the superscript '6' below the author list on the first page.\",\"quote\":\"⁶HEC Montréal\"},{\"value\":\"Canada CIFAR AI Chair\",\"reasoning\":\"This affiliation is listed with the superscript '7' below the author list on the first page.\",\"quote\":\"⁷Canada CIFAR AI Chair\"}]}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 1865,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 4025,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 3612
+      }
+    ],
+    "thoughts_token_count": 2475,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 8365,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Massimo Caccia",
+          "reasoning": "The name is listed in the author block on the first page of the paper. The superscripts '123' link this author to three affiliations.",
+          "quote": "Massimo Caccia¹²³"
+        },
+        "affiliations": [
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed below the author block.",
+            "quote": "¹Mila - Quebec AI Institute"
+          },
+          {
+            "value": "ElementAI",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed below the author block.",
+            "quote": "²ElementAI"
+          },
+          {
+            "value": "Université de Montréal",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third affiliation listed below the author block.",
+            "quote": "³Université de Montréal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Pau Rodríguez",
+          "reasoning": "The name is listed in the author block on the first page of the paper. The superscript '2' links this author to one affiliation.",
+          "quote": "Pau Rodríguez²"
+        },
+        "affiliations": [
+          {
+            "value": "ElementAI",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed below the author block.",
+            "quote": "²ElementAI"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Oleksiy Ostapenko",
+          "reasoning": "The name is listed in the author block on the first page of the paper. The superscripts '13' link this author to two affiliations.",
+          "quote": "Oleksiy Ostapenko¹³"
+        },
+        "affiliations": [
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed below the author block.",
+            "quote": "¹Mila - Quebec AI Institute"
+          },
+          {
+            "value": "Université de Montréal",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third affiliation listed below the author block.",
+            "quote": "³Université de Montréal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Fabrice Normandin",
+          "reasoning": "The name is listed in the author block on the first page of the paper. The superscripts '13' link this author to two affiliations.",
+          "quote": "Fabrice Normandin¹³"
+        },
+        "affiliations": [
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed below the author block.",
+            "quote": "¹Mila - Quebec AI Institute"
+          },
+          {
+            "value": "Université de Montréal",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third affiliation listed below the author block.",
+            "quote": "³Université de Montréal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Min Lin",
+          "reasoning": "The name is listed in the author block on the first page of the paper. The superscripts '13' link this author to two affiliations.",
+          "quote": "Min Lin ¹³"
+        },
+        "affiliations": [
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed below the author block.",
+            "quote": "¹Mila - Quebec AI Institute"
+          },
+          {
+            "value": "Université de Montréal",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third affiliation listed below the author block.",
+            "quote": "³Université de Montréal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Lucas Caccia",
+          "reasoning": "The name is listed in the author block on the first page of the paper. The superscripts '145' link this author to three affiliations.",
+          "quote": "Lucas Caccia¹⁴⁵"
+        },
+        "affiliations": [
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed below the author block.",
+            "quote": "¹Mila - Quebec AI Institute"
+          },
+          {
+            "value": "Facebook AI Research",
+            "reasoning": "The superscript '4' next to the author's name corresponds to the fourth affiliation listed below the author block.",
+            "quote": "⁴Facebook AI Research"
+          },
+          {
+            "value": "McGill University",
+            "reasoning": "The superscript '5' next to the author's name corresponds to the fifth affiliation listed below the author block.",
+            "quote": "⁵McGill University"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Issam Laradji",
+          "reasoning": "The name is listed in the author block on the first page of the paper. The superscript '6' links this author to one affiliation.",
+          "quote": "Issam Laradji⁶"
+        },
+        "affiliations": [
+          {
+            "value": "HEC Montréal",
+            "reasoning": "The superscript '6' next to the author's name corresponds to the sixth affiliation listed below the author block.",
+            "quote": "⁶HEC Montréal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Irina Rish",
+          "reasoning": "The name is listed in the author block on the first page of the paper. The superscripts '137' link this author to three affiliations.",
+          "quote": "Irina Rish¹³⁷"
+        },
+        "affiliations": [
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed below the author block.",
+            "quote": "¹Mila - Quebec AI Institute"
+          },
+          {
+            "value": "Université de Montréal",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third affiliation listed below the author block.",
+            "quote": "³Université de Montréal"
+          },
+          {
+            "value": "Canada CIFAR AI Chair",
+            "reasoning": "The superscript '7' next to the author's name corresponds to the seventh affiliation listed below the author block.",
+            "quote": "⁷Canada CIFAR AI Chair"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Alexandre Lacoste",
+          "reasoning": "The name is listed in the author block on the first page of the paper. The superscripts '27' link this author to two affiliations.",
+          "quote": "Alexandre Lacoste²⁷"
+        },
+        "affiliations": [
+          {
+            "value": "ElementAI",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed below the author block.",
+            "quote": "²ElementAI"
+          },
+          {
+            "value": "Canada CIFAR AI Chair",
+            "reasoning": "The superscript '7' next to the author's name corresponds to the seventh affiliation listed below the author block.",
+            "quote": "⁷Canada CIFAR AI Chair"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "David Vazquez",
+          "reasoning": "The name is listed in the author block on the first page of the paper. The superscript '2' links this author to one affiliation.",
+          "quote": "David Vazquez²"
+        },
+        "affiliations": [
+          {
+            "value": "ElementAI",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed below the author block.",
+            "quote": "²ElementAI"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Laurent Charlin",
+          "reasoning": "The name is listed in the author block on the first page of the paper. The superscripts '167' link this author to three affiliations.",
+          "quote": "Laurent Charlin¹⁶⁷"
+        },
+        "affiliations": [
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed below the author block.",
+            "quote": "¹Mila - Quebec AI Institute"
+          },
+          {
+            "value": "HEC Montréal",
+            "reasoning": "The superscript '6' next to the author's name corresponds to the sixth affiliation listed below the author block.",
+            "quote": "⁶HEC Montréal"
+          },
+          {
+            "value": "Canada CIFAR AI Chair",
+            "reasoning": "The superscript '7' next to the author's name corresponds to the seventh affiliation listed below the author block.",
+            "quote": "⁷Canada CIFAR AI Chair"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Mila - Quebec AI Institute",
+        "reasoning": "This affiliation is listed with the superscript '1' below the author list on the first page.",
+        "quote": "¹Mila - Quebec AI Institute"
+      },
+      {
+        "value": "ElementAI",
+        "reasoning": "This affiliation is listed with the superscript '2' below the author list on the first page.",
+        "quote": "²ElementAI"
+      },
+      {
+        "value": "Université de Montréal",
+        "reasoning": "This affiliation is listed with the superscript '3' below the author list on the first page.",
+        "quote": "³Université de Montréal"
+      },
+      {
+        "value": "Facebook AI Research",
+        "reasoning": "This affiliation is listed with the superscript '4' below the author list on the first page.",
+        "quote": "⁴Facebook AI Research"
+      },
+      {
+        "value": "McGill University",
+        "reasoning": "This affiliation is listed with the superscript '5' below the author list on the first page.",
+        "quote": "⁵McGill University"
+      },
+      {
+        "value": "HEC Montréal",
+        "reasoning": "This affiliation is listed with the superscript '6' below the author list on the first page.",
+        "quote": "⁶HEC Montréal"
+      },
+      {
+        "value": "Canada CIFAR AI Chair",
+        "reasoning": "This affiliation is listed with the superscript '7' below the author list on the first page.",
+        "quote": "⁷Canada CIFAR AI Chair"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

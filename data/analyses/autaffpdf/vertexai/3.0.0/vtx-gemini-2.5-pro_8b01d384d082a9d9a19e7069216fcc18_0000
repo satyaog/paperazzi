@@ -1,0 +1,322 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:12:18 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=49110",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Kuldeep Kumar\",\n        \"reasoning\": \"The name 'Kuldeep Kumar' is listed as the first author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.\",\n        \"quote\": \"Kuldeep Kumar ¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"University of Montreal\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first listed affiliation, 'University of Montreal'.\",\n          \"quote\": \"Kuldeep Kumar ¹... ¹ University of Montreal\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Sayeh Kazem\",\n        \"reasoning\": \"The name 'Sayeh Kazem' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.\",\n        \"quote\": \"Sayeh Kazem ¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"University of Montreal\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first listed affiliation, 'University of Montreal'.\",\n          \"quote\": \"Sayeh Kazem ¹... ¹ University of Montreal\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Guillaume Huguet\",\n        \"reasoning\": \"The name 'Guillaume Huguet' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.\",\n        \"quote\": \"Guillaume Huguet ¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"University of Montreal\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first listed affiliation, 'University of Montreal'.\",\n          \"quote\": \"Guillaume Huguet ¹... ¹ University of Montreal\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Thomas Renne\",\n        \"reasoning\": \"The name 'Thomas Renne' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.\",\n        \"quote\": \"Thomas Renne ¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"University of Montreal\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first listed affiliation, 'University of Montreal'.\",\n          \"quote\": \"Thomas Renne ¹... ¹ University of Montreal\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Bank Engchuan\",\n        \"reasoning\": \"The name 'Bank Engchuan' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.\",\n        \"quote\": \"Bank Engchuan²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Hospital for Sick Children\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second listed affiliation, 'Hospital for Sick Children'.\",\n          \"quote\": \"Bank Engchuan²... ² Hospital for Sick Children\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Omar Shanta\",\n        \"reasoning\": \"The name 'Omar Shanta' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.\",\n        \"quote\": \"Omar Shanta ³\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"University of California\",\n          \"reasoning\": \"The superscript '3' next to the author's name corresponds to the third listed affiliation, 'University of California'.\",\n          \"quote\": \"Omar Shanta ³... ³ University of California\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Bhooma Thiruvahindrapuram\",\n        \"reasoning\": \"The name 'Bhooma Thiruvahindrapuram' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.\",\n        \"quote\": \"Bhooma Thiruvahindrapuram²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Hospital for Sick Children\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second listed affiliation, 'Hospital for Sick Children'.\",\n          \"quote\": \"Bhooma Thiruvahindrapuram²... ² Hospital for Sick Children\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jeff MacDonald\",\n        \"reasoning\": \"The name 'Jeff MacDonald' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.\",\n        \"quote\": \"Jeff MacDonald ²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Hospital for Sick Children\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second listed affiliation, 'Hospital for Sick Children'.\",\n          \"quote\": \"Jeff MacDonald ²... ² Hospital for Sick Children\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Marieke Klein\",\n        \"reasoning\": \"The name 'Marieke Klein' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.\",\n        \"quote\": \"Marieke Klein ³\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"University of California\",\n          \"reasoning\": \"The superscript '3' next to the author's name corresponds to the third listed affiliation, 'University of California'.\",\n          \"quote\": \"Marieke Klein ³... ³ University of California\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Stephen Scherer\",\n        \"reasoning\": \"The name 'Stephen Scherer' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.\",\n        \"quote\": \"Stephen Scherer ²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Hospital for Sick Children\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second listed affiliation, 'Hospital for Sick Children'.\",\n          \"quote\": \"Stephen Scherer ²... ² Hospital for Sick Children\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Laura Almasy\",\n        \"reasoning\": \"The name 'Laura Almasy' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.\",\n        \"quote\": \"Laura Almasy ⁴\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Childrens Hospital of Philadelphia\",\n          \"reasoning\": \"The superscript '4' next to the author's name corresponds to the fourth listed affiliation, 'Childrens Hospital of Philadelphia'.\",\n          \"quote\": \"Laura Almasy ⁴... ⁴ Childrens Hospital of Philadelphia\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jonathan Sebat\",\n        \"reasoning\": \"The name 'Jonathan Sebat' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.\",\n        \"quote\": \"Jonathan Sebat ³\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"University of California\",\n          \"reasoning\": \"The superscript '3' next to the author's name corresponds to the third listed affiliation, 'University of California'.\",\n          \"quote\": \"Jonathan Sebat ³... ³ University of California\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"David Glahn\",\n        \"reasoning\": \"The name 'David Glahn' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.\",\n        \"quote\": \"David Glahn ⁵\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Harvard Medical School/Boston Children's Hospital\",\n          \"reasoning\": \"The superscript '5' next to the author's name corresponds to the fifth listed affiliation, 'Harvard Medical School/Boston Children's Hospital'.\",\n          \"quote\": \"David Glahn ⁵... ⁵ Harvard Medical School/Boston Children's Hospital\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Guillaume Dumas\",\n        \"reasoning\": \"The name 'Guillaume Dumas' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.\",\n        \"quote\": \"Guillaume Dumas ¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"University of Montreal\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first listed affiliation, 'University of Montreal'.\",\n          \"quote\": \"Guillaume Dumas ¹... ¹ University of Montreal\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Sébastien Jacquemont\",\n        \"reasoning\": \"The name 'Sébastien Jacquemont' is listed as the last author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.\",\n        \"quote\": \"Sébastien Jacquemont ¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"University of Montreal\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first listed affiliation, 'University of Montreal'.\",\n          \"quote\": \"Sébastien Jacquemont ¹... ¹ University of Montreal\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"University of Montreal\",\n      \"reasoning\": \"This affiliation is identified by the superscript '1' in the affiliations list and is associated with multiple authors.\",\n      \"quote\": \"¹ University of Montreal\"\n    },\n    {\n      \"value\": \"Hospital for Sick Children\",\n      \"reasoning\": \"This affiliation is identified by the superscript '2' in the affiliations list and is associated with multiple authors.\",\n      \"quote\": \"² Hospital for Sick Children\"\n    },\n    {\n      \"value\": \"University of California\",\n      \"reasoning\": \"This affiliation is identified by the superscript '3' in the affiliations list and is associated with multiple authors.\",\n      \"quote\": \"³ University of California\"\n    },\n    {\n      \"value\": \"Childrens Hospital of Philadelphia\",\n      \"reasoning\": \"This affiliation is identified by the superscript '4' in the affiliations list and is associated with author Laura Almasy.\",\n      \"quote\": \"⁴ Childrens Hospital of Philadelphia\"\n    },\n    {\n      \"value\": \"Harvard Medical School/Boston Children's Hospital\",\n      \"reasoning\": \"This affiliation is identified by the superscript '5' in the affiliations list and is associated with author David Glahn.\",\n      \"quote\": \"⁵ Harvard Medical School/Boston Children's Hospital\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 2680,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 671,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 258
+      }
+    ],
+    "thoughts_token_count": 2907,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 6258,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Kuldeep Kumar",
+          "reasoning": "The name 'Kuldeep Kumar' is listed as the first author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.",
+          "quote": "Kuldeep Kumar ¹"
+        },
+        "affiliations": [
+          {
+            "value": "University of Montreal",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first listed affiliation, 'University of Montreal'.",
+            "quote": "Kuldeep Kumar ¹... ¹ University of Montreal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Sayeh Kazem",
+          "reasoning": "The name 'Sayeh Kazem' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.",
+          "quote": "Sayeh Kazem ¹"
+        },
+        "affiliations": [
+          {
+            "value": "University of Montreal",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first listed affiliation, 'University of Montreal'.",
+            "quote": "Sayeh Kazem ¹... ¹ University of Montreal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Guillaume Huguet",
+          "reasoning": "The name 'Guillaume Huguet' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.",
+          "quote": "Guillaume Huguet ¹"
+        },
+        "affiliations": [
+          {
+            "value": "University of Montreal",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first listed affiliation, 'University of Montreal'.",
+            "quote": "Guillaume Huguet ¹... ¹ University of Montreal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Thomas Renne",
+          "reasoning": "The name 'Thomas Renne' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.",
+          "quote": "Thomas Renne ¹"
+        },
+        "affiliations": [
+          {
+            "value": "University of Montreal",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first listed affiliation, 'University of Montreal'.",
+            "quote": "Thomas Renne ¹... ¹ University of Montreal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Bank Engchuan",
+          "reasoning": "The name 'Bank Engchuan' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.",
+          "quote": "Bank Engchuan²"
+        },
+        "affiliations": [
+          {
+            "value": "Hospital for Sick Children",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second listed affiliation, 'Hospital for Sick Children'.",
+            "quote": "Bank Engchuan²... ² Hospital for Sick Children"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Omar Shanta",
+          "reasoning": "The name 'Omar Shanta' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.",
+          "quote": "Omar Shanta ³"
+        },
+        "affiliations": [
+          {
+            "value": "University of California",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third listed affiliation, 'University of California'.",
+            "quote": "Omar Shanta ³... ³ University of California"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Bhooma Thiruvahindrapuram",
+          "reasoning": "The name 'Bhooma Thiruvahindrapuram' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.",
+          "quote": "Bhooma Thiruvahindrapuram²"
+        },
+        "affiliations": [
+          {
+            "value": "Hospital for Sick Children",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second listed affiliation, 'Hospital for Sick Children'.",
+            "quote": "Bhooma Thiruvahindrapuram²... ² Hospital for Sick Children"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jeff MacDonald",
+          "reasoning": "The name 'Jeff MacDonald' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.",
+          "quote": "Jeff MacDonald ²"
+        },
+        "affiliations": [
+          {
+            "value": "Hospital for Sick Children",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second listed affiliation, 'Hospital for Sick Children'.",
+            "quote": "Jeff MacDonald ²... ² Hospital for Sick Children"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Marieke Klein",
+          "reasoning": "The name 'Marieke Klein' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.",
+          "quote": "Marieke Klein ³"
+        },
+        "affiliations": [
+          {
+            "value": "University of California",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third listed affiliation, 'University of California'.",
+            "quote": "Marieke Klein ³... ³ University of California"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Stephen Scherer",
+          "reasoning": "The name 'Stephen Scherer' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.",
+          "quote": "Stephen Scherer ²"
+        },
+        "affiliations": [
+          {
+            "value": "Hospital for Sick Children",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second listed affiliation, 'Hospital for Sick Children'.",
+            "quote": "Stephen Scherer ²... ² Hospital for Sick Children"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Laura Almasy",
+          "reasoning": "The name 'Laura Almasy' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.",
+          "quote": "Laura Almasy ⁴"
+        },
+        "affiliations": [
+          {
+            "value": "Childrens Hospital of Philadelphia",
+            "reasoning": "The superscript '4' next to the author's name corresponds to the fourth listed affiliation, 'Childrens Hospital of Philadelphia'.",
+            "quote": "Laura Almasy ⁴... ⁴ Childrens Hospital of Philadelphia"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jonathan Sebat",
+          "reasoning": "The name 'Jonathan Sebat' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.",
+          "quote": "Jonathan Sebat ³"
+        },
+        "affiliations": [
+          {
+            "value": "University of California",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third listed affiliation, 'University of California'.",
+            "quote": "Jonathan Sebat ³... ³ University of California"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "David Glahn",
+          "reasoning": "The name 'David Glahn' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.",
+          "quote": "David Glahn ⁵"
+        },
+        "affiliations": [
+          {
+            "value": "Harvard Medical School/Boston Children's Hospital",
+            "reasoning": "The superscript '5' next to the author's name corresponds to the fifth listed affiliation, 'Harvard Medical School/Boston Children's Hospital'.",
+            "quote": "David Glahn ⁵... ⁵ Harvard Medical School/Boston Children's Hospital"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Guillaume Dumas",
+          "reasoning": "The name 'Guillaume Dumas' is listed as an author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.",
+          "quote": "Guillaume Dumas ¹"
+        },
+        "affiliations": [
+          {
+            "value": "University of Montreal",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first listed affiliation, 'University of Montreal'.",
+            "quote": "Guillaume Dumas ¹... ¹ University of Montreal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Sébastien Jacquemont",
+          "reasoning": "The name 'Sébastien Jacquemont' is listed as the last author for the paper 'W56. UNRAVELING THE IMPACT OF GENOMIC VARIATIONS...'.",
+          "quote": "Sébastien Jacquemont ¹"
+        },
+        "affiliations": [
+          {
+            "value": "University of Montreal",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first listed affiliation, 'University of Montreal'.",
+            "quote": "Sébastien Jacquemont ¹... ¹ University of Montreal"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "University of Montreal",
+        "reasoning": "This affiliation is identified by the superscript '1' in the affiliations list and is associated with multiple authors.",
+        "quote": "¹ University of Montreal"
+      },
+      {
+        "value": "Hospital for Sick Children",
+        "reasoning": "This affiliation is identified by the superscript '2' in the affiliations list and is associated with multiple authors.",
+        "quote": "² Hospital for Sick Children"
+      },
+      {
+        "value": "University of California",
+        "reasoning": "This affiliation is identified by the superscript '3' in the affiliations list and is associated with multiple authors.",
+        "quote": "³ University of California"
+      },
+      {
+        "value": "Childrens Hospital of Philadelphia",
+        "reasoning": "This affiliation is identified by the superscript '4' in the affiliations list and is associated with author Laura Almasy.",
+        "quote": "⁴ Childrens Hospital of Philadelphia"
+      },
+      {
+        "value": "Harvard Medical School/Boston Children's Hospital",
+        "reasoning": "This affiliation is identified by the superscript '5' in the affiliations list and is associated with author David Glahn.",
+        "quote": "⁵ Harvard Medical School/Boston Children's Hospital"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

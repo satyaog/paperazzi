@@ -1,0 +1,240 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:59:13 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=44032",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Moksh Jain\",\n        \"reasoning\": \"The author's name is listed at the beginning of the paper with superscripts '12' indicating affiliations.\",\n        \"quote\": \"Moksh Jain 12\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Université de Montréal\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to 'Université de Montréal' in the affiliations footnote.\",\n          \"quote\": \"¹ Université de Montréal\"\n        },\n        {\n          \"value\": \"Mila - Quebec AI Institute\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to 'Mila - Quebec AI Institute' in the affiliations footnote.\",\n          \"quote\": \"²Mila - Quebec AI Institute\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Sharath Chandra Raparthy\",\n        \"reasoning\": \"The author's name is listed at the beginning of the paper with superscripts '12' indicating affiliations.\",\n        \"quote\": \"Sharath Chandra Raparthy 12*\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Université de Montréal\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to 'Université de Montréal' in the affiliations footnote.\",\n          \"quote\": \"¹ Université de Montréal\"\n        },\n        {\n          \"value\": \"Mila - Quebec AI Institute\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to 'Mila - Quebec AI Institute' in the affiliations footnote.\",\n          \"quote\": \"²Mila - Quebec AI Institute\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Alex Hernandez-Garcia\",\n        \"reasoning\": \"The author's name is listed at the beginning of the paper with superscripts '12' indicating affiliations.\",\n        \"quote\": \"Alex Hernandez-Garcia 12\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Université de Montréal\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to 'Université de Montréal' in the affiliations footnote.\",\n          \"quote\": \"¹ Université de Montréal\"\n        },\n        {\n          \"value\": \"Mila - Quebec AI Institute\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to 'Mila - Quebec AI Institute' in the affiliations footnote.\",\n          \"quote\": \"²Mila - Quebec AI Institute\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jarrid Rector-Brooks\",\n        \"reasoning\": \"The author's name is listed at the beginning of the paper with superscripts '1 2' indicating affiliations.\",\n        \"quote\": \"Jarrid Rector-Brooks 1 2\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Université de Montréal\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to 'Université de Montréal' in the affiliations footnote.\",\n          \"quote\": \"¹ Université de Montréal\"\n        },\n        {\n          \"value\": \"Mila - Quebec AI Institute\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to 'Mila - Quebec AI Institute' in the affiliations footnote.\",\n          \"quote\": \"²Mila - Quebec AI Institute\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Yoshua Bengio\",\n        \"reasoning\": \"The author's name is listed at the beginning of the paper with superscripts '123' indicating affiliations.\",\n        \"quote\": \"Yoshua Bengio 123\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Université de Montréal\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to 'Université de Montréal' in the affiliations footnote.\",\n          \"quote\": \"¹ Université de Montréal\"\n        },\n        {\n          \"value\": \"Mila - Quebec AI Institute\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to 'Mila - Quebec AI Institute' in the affiliations footnote.\",\n          \"quote\": \"²Mila - Quebec AI Institute\"\n        },\n        {\n          \"value\": \"CIFAR Fellow & IVADO\",\n          \"reasoning\": \"The superscript '3' next to the author's name corresponds to 'CIFAR Fellow & IVADO' in the affiliations footnote.\",\n          \"quote\": \"³ CIFAR Fellow & IVADO\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Santiago Miret\",\n        \"reasoning\": \"The author's name is listed at the beginning of the paper with superscript '4' indicating an affiliation.\",\n        \"quote\": \"Santiago Miret 4\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Intel Labs\",\n          \"reasoning\": \"The superscript '4' next to the author's name corresponds to 'Intel Labs' in the affiliations footnote.\",\n          \"quote\": \"⁴Intel Labs\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Emmanuel Bengio\",\n        \"reasoning\": \"The author's name is listed at the beginning of the paper with superscript '5' indicating an affiliation.\",\n        \"quote\": \"Emmanuel Bengio 5\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Recursion\",\n          \"reasoning\": \"The superscript '5' next to the author's name corresponds to 'Recursion' in the affiliations footnote.\",\n          \"quote\": \"⁵Recursion.\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Université de Montréal\",\n      \"reasoning\": \"This affiliation is marked with the superscript '1' in the footnote on the first page and is associated with multiple authors.\",\n      \"quote\": \"¹Université de Montréal\"\n    },\n    {\n      \"value\": \"Mila - Quebec AI Institute\",\n      \"reasoning\": \"This affiliation is marked with the superscript '2' in the footnote on the first page and is associated with multiple authors.\",\n      \"quote\": \"²Mila - Quebec AI Institute\"\n    },\n    {\n      \"value\": \"CIFAR Fellow & IVADO\",\n      \"reasoning\": \"This affiliation is marked with the superscript '3' in the footnote on the first page and is associated with author Yoshua Bengio.\",\n      \"quote\": \"³CIFAR Fellow & IVADO\"\n    },\n    {\n      \"value\": \"Intel Labs\",\n      \"reasoning\": \"This affiliation is marked with the superscript '4' in the footnote on the first page and is associated with author Santiago Miret.\",\n      \"quote\": \"⁴Intel Labs\"\n    },\n    {\n      \"value\": \"Recursion\",\n      \"reasoning\": \"This affiliation is marked with the superscript '5' in the footnote on the first page and is associated with author Emmanuel Bengio. It is also mentioned as the location of an internship for another author.\",\n      \"quote\": \"⁵Recursion.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 1708,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 6347,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 5934
+      }
+    ],
+    "thoughts_token_count": 2415,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 10470,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Moksh Jain",
+          "reasoning": "The author's name is listed at the beginning of the paper with superscripts '12' indicating affiliations.",
+          "quote": "Moksh Jain 12"
+        },
+        "affiliations": [
+          {
+            "value": "Université de Montréal",
+            "reasoning": "The superscript '1' next to the author's name corresponds to 'Université de Montréal' in the affiliations footnote.",
+            "quote": "¹ Université de Montréal"
+          },
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '2' next to the author's name corresponds to 'Mila - Quebec AI Institute' in the affiliations footnote.",
+            "quote": "²Mila - Quebec AI Institute"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Sharath Chandra Raparthy",
+          "reasoning": "The author's name is listed at the beginning of the paper with superscripts '12' indicating affiliations.",
+          "quote": "Sharath Chandra Raparthy 12*"
+        },
+        "affiliations": [
+          {
+            "value": "Université de Montréal",
+            "reasoning": "The superscript '1' next to the author's name corresponds to 'Université de Montréal' in the affiliations footnote.",
+            "quote": "¹ Université de Montréal"
+          },
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '2' next to the author's name corresponds to 'Mila - Quebec AI Institute' in the affiliations footnote.",
+            "quote": "²Mila - Quebec AI Institute"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Alex Hernandez-Garcia",
+          "reasoning": "The author's name is listed at the beginning of the paper with superscripts '12' indicating affiliations.",
+          "quote": "Alex Hernandez-Garcia 12"
+        },
+        "affiliations": [
+          {
+            "value": "Université de Montréal",
+            "reasoning": "The superscript '1' next to the author's name corresponds to 'Université de Montréal' in the affiliations footnote.",
+            "quote": "¹ Université de Montréal"
+          },
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '2' next to the author's name corresponds to 'Mila - Quebec AI Institute' in the affiliations footnote.",
+            "quote": "²Mila - Quebec AI Institute"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jarrid Rector-Brooks",
+          "reasoning": "The author's name is listed at the beginning of the paper with superscripts '1 2' indicating affiliations.",
+          "quote": "Jarrid Rector-Brooks 1 2"
+        },
+        "affiliations": [
+          {
+            "value": "Université de Montréal",
+            "reasoning": "The superscript '1' next to the author's name corresponds to 'Université de Montréal' in the affiliations footnote.",
+            "quote": "¹ Université de Montréal"
+          },
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '2' next to the author's name corresponds to 'Mila - Quebec AI Institute' in the affiliations footnote.",
+            "quote": "²Mila - Quebec AI Institute"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Yoshua Bengio",
+          "reasoning": "The author's name is listed at the beginning of the paper with superscripts '123' indicating affiliations.",
+          "quote": "Yoshua Bengio 123"
+        },
+        "affiliations": [
+          {
+            "value": "Université de Montréal",
+            "reasoning": "The superscript '1' next to the author's name corresponds to 'Université de Montréal' in the affiliations footnote.",
+            "quote": "¹ Université de Montréal"
+          },
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '2' next to the author's name corresponds to 'Mila - Quebec AI Institute' in the affiliations footnote.",
+            "quote": "²Mila - Quebec AI Institute"
+          },
+          {
+            "value": "CIFAR Fellow & IVADO",
+            "reasoning": "The superscript '3' next to the author's name corresponds to 'CIFAR Fellow & IVADO' in the affiliations footnote.",
+            "quote": "³ CIFAR Fellow & IVADO"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Santiago Miret",
+          "reasoning": "The author's name is listed at the beginning of the paper with superscript '4' indicating an affiliation.",
+          "quote": "Santiago Miret 4"
+        },
+        "affiliations": [
+          {
+            "value": "Intel Labs",
+            "reasoning": "The superscript '4' next to the author's name corresponds to 'Intel Labs' in the affiliations footnote.",
+            "quote": "⁴Intel Labs"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Emmanuel Bengio",
+          "reasoning": "The author's name is listed at the beginning of the paper with superscript '5' indicating an affiliation.",
+          "quote": "Emmanuel Bengio 5"
+        },
+        "affiliations": [
+          {
+            "value": "Recursion",
+            "reasoning": "The superscript '5' next to the author's name corresponds to 'Recursion' in the affiliations footnote.",
+            "quote": "⁵Recursion."
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Université de Montréal",
+        "reasoning": "This affiliation is marked with the superscript '1' in the footnote on the first page and is associated with multiple authors.",
+        "quote": "¹Université de Montréal"
+      },
+      {
+        "value": "Mila - Quebec AI Institute",
+        "reasoning": "This affiliation is marked with the superscript '2' in the footnote on the first page and is associated with multiple authors.",
+        "quote": "²Mila - Quebec AI Institute"
+      },
+      {
+        "value": "CIFAR Fellow & IVADO",
+        "reasoning": "This affiliation is marked with the superscript '3' in the footnote on the first page and is associated with author Yoshua Bengio.",
+        "quote": "³CIFAR Fellow & IVADO"
+      },
+      {
+        "value": "Intel Labs",
+        "reasoning": "This affiliation is marked with the superscript '4' in the footnote on the first page and is associated with author Santiago Miret.",
+        "quote": "⁴Intel Labs"
+      },
+      {
+        "value": "Recursion",
+        "reasoning": "This affiliation is marked with the superscript '5' in the footnote on the first page and is associated with author Emmanuel Bengio. It is also mentioned as the location of an internship for another author.",
+        "quote": "⁵Recursion."
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}
