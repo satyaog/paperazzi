@@ -1,0 +1,207 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:08:44 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=42588",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Yangtian Zhang\",\n        \"reasoning\": \"The name is listed first in the author section of the paper. Superscripts '1' and '2' are associated with this author.\",\n        \"quote\": \"Yangtian Zhang 1,2 *\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila - Québec AI Institute\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed.\",\n          \"quote\": \"¹Mila - Québec AI Institute\"\n        },\n        {\n          \"value\": \"Université de Montréal\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed.\",\n          \"quote\": \"²Université de Montréal\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Zuobai Zhang\",\n        \"reasoning\": \"The name is listed second in the author section of the paper. Superscripts '1' and '2' are associated with this author.\",\n        \"quote\": \"Zuobai Zhang1,2*\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila - Québec AI Institute\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed.\",\n          \"quote\": \"¹Mila - Québec AI Institute\"\n        },\n        {\n          \"value\": \"Université de Montréal\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed.\",\n          \"quote\": \"²Université de Montréal\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Bozitao Zhong\",\n        \"reasoning\": \"The name is listed third in the author section of the paper. Superscripts '1' and '2' are associated with this author.\",\n        \"quote\": \"Bozitao Zhong1,2\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila - Québec AI Institute\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed.\",\n          \"quote\": \"¹Mila - Québec AI Institute\"\n        },\n        {\n          \"value\": \"Université de Montréal\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed.\",\n          \"quote\": \"²Université de Montréal\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Sanchit Misra\",\n        \"reasoning\": \"The name is listed fourth in the author section of the paper. Superscript '3' is associated with this author.\",\n        \"quote\": \"Sanchit Misra³\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Intel\",\n          \"reasoning\": \"The superscript '3' next to the author's name corresponds to the third affiliation listed.\",\n          \"quote\": \"³Intel\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jian Tang\",\n        \"reasoning\": \"The name is listed last in the author section of the paper. Superscripts '1', '4', and '5' are associated with this author.\",\n        \"quote\": \"Jian Tang 1,4,5 †\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila - Québec AI Institute\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed.\",\n          \"quote\": \"¹Mila - Québec AI Institute\"\n        },\n        {\n          \"value\": \"HEC Montréal\",\n          \"reasoning\": \"The superscript '4' next to the author's name corresponds to the fourth affiliation listed.\",\n          \"quote\": \"⁴HEC Montréal\"\n        },\n        {\n          \"value\": \"CIFAR AI Research Chair\",\n          \"reasoning\": \"The superscript '5' next to the author's name corresponds to the fifth affiliation listed.\",\n          \"quote\": \"⁵CIFAR AI Research Chair\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Mila - Québec AI Institute\",\n      \"reasoning\": \"This institution is listed as the first affiliation, marked by the superscript '1' and associated with authors Yangtian Zhang, Zuobai Zhang, Bozitao Zhong, and Jian Tang.\",\n      \"quote\": \"¹Mila - Québec AI Institute\"\n    },\n    {\n      \"value\": \"Université de Montréal\",\n      \"reasoning\": \"This institution is listed as the second affiliation, marked by the superscript '2' and associated with authors Yangtian Zhang, Zuobai Zhang, and Bozitao Zhong.\",\n      \"quote\": \"²Université de Montréal\"\n    },\n    {\n      \"value\": \"Intel\",\n      \"reasoning\": \"This institution is listed as the third affiliation, marked by the superscript '3' and associated with author Sanchit Misra.\",\n      \"quote\": \"³Intel\"\n    },\n    {\n      \"value\": \"HEC Montréal\",\n      \"reasoning\": \"This institution is listed as the fourth affiliation, marked by the superscript '4' and associated with author Jian Tang.\",\n      \"quote\": \"⁴HEC Montréal\"\n    },\n    {\n      \"value\": \"CIFAR AI Research Chair\",\n      \"reasoning\": \"This institution is listed as the fifth affiliation, marked by the superscript '5' and associated with author Jian Tang.\",\n      \"quote\": \"⁵CIFAR AI Research Chair\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 1331,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 6347,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 5934
+      }
+    ],
+    "thoughts_token_count": 1347,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 9025,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Yangtian Zhang",
+          "reasoning": "The name is listed first in the author section of the paper. Superscripts '1' and '2' are associated with this author.",
+          "quote": "Yangtian Zhang 1,2 *"
+        },
+        "affiliations": [
+          {
+            "value": "Mila - Québec AI Institute",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed.",
+            "quote": "¹Mila - Québec AI Institute"
+          },
+          {
+            "value": "Université de Montréal",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed.",
+            "quote": "²Université de Montréal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Zuobai Zhang",
+          "reasoning": "The name is listed second in the author section of the paper. Superscripts '1' and '2' are associated with this author.",
+          "quote": "Zuobai Zhang1,2*"
+        },
+        "affiliations": [
+          {
+            "value": "Mila - Québec AI Institute",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed.",
+            "quote": "¹Mila - Québec AI Institute"
+          },
+          {
+            "value": "Université de Montréal",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed.",
+            "quote": "²Université de Montréal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Bozitao Zhong",
+          "reasoning": "The name is listed third in the author section of the paper. Superscripts '1' and '2' are associated with this author.",
+          "quote": "Bozitao Zhong1,2"
+        },
+        "affiliations": [
+          {
+            "value": "Mila - Québec AI Institute",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed.",
+            "quote": "¹Mila - Québec AI Institute"
+          },
+          {
+            "value": "Université de Montréal",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed.",
+            "quote": "²Université de Montréal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Sanchit Misra",
+          "reasoning": "The name is listed fourth in the author section of the paper. Superscript '3' is associated with this author.",
+          "quote": "Sanchit Misra³"
+        },
+        "affiliations": [
+          {
+            "value": "Intel",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third affiliation listed.",
+            "quote": "³Intel"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jian Tang",
+          "reasoning": "The name is listed last in the author section of the paper. Superscripts '1', '4', and '5' are associated with this author.",
+          "quote": "Jian Tang 1,4,5 †"
+        },
+        "affiliations": [
+          {
+            "value": "Mila - Québec AI Institute",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed.",
+            "quote": "¹Mila - Québec AI Institute"
+          },
+          {
+            "value": "HEC Montréal",
+            "reasoning": "The superscript '4' next to the author's name corresponds to the fourth affiliation listed.",
+            "quote": "⁴HEC Montréal"
+          },
+          {
+            "value": "CIFAR AI Research Chair",
+            "reasoning": "The superscript '5' next to the author's name corresponds to the fifth affiliation listed.",
+            "quote": "⁵CIFAR AI Research Chair"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Mila - Québec AI Institute",
+        "reasoning": "This institution is listed as the first affiliation, marked by the superscript '1' and associated with authors Yangtian Zhang, Zuobai Zhang, Bozitao Zhong, and Jian Tang.",
+        "quote": "¹Mila - Québec AI Institute"
+      },
+      {
+        "value": "Université de Montréal",
+        "reasoning": "This institution is listed as the second affiliation, marked by the superscript '2' and associated with authors Yangtian Zhang, Zuobai Zhang, and Bozitao Zhong.",
+        "quote": "²Université de Montréal"
+      },
+      {
+        "value": "Intel",
+        "reasoning": "This institution is listed as the third affiliation, marked by the superscript '3' and associated with author Sanchit Misra.",
+        "quote": "³Intel"
+      },
+      {
+        "value": "HEC Montréal",
+        "reasoning": "This institution is listed as the fourth affiliation, marked by the superscript '4' and associated with author Jian Tang.",
+        "quote": "⁴HEC Montréal"
+      },
+      {
+        "value": "CIFAR AI Research Chair",
+        "reasoning": "This institution is listed as the fifth affiliation, marked by the superscript '5' and associated with author Jian Tang.",
+        "quote": "⁵CIFAR AI Research Chair"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:53:52 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=84974",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Annie Xie\",\n        \"reasoning\": \"The author's name 'Annie Xie' is listed first in the author list, followed by a superscript '1' which links to her affiliation.\",\n        \"quote\": \"Annie Xie¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Stanford University\",\n          \"reasoning\": \"The superscript '1' next to the author's name, 'Annie Xie', corresponds to the first affiliation listed in the footer of the first page.\",\n          \"quote\": \"¹Stanford University\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Shagun Sodhani\",\n        \"reasoning\": \"The author's name 'Shagun Sodhani' is listed second in the author list, followed by a superscript '2' which links to his affiliation.\",\n        \"quote\": \"Shagun Sodhani²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Facebook AI Research\",\n          \"reasoning\": \"The superscript '2' next to the author's name, 'Shagun Sodhani', corresponds to the second affiliation listed in the footer of the first page.\",\n          \"quote\": \"²Facebook AI Research.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Chelsea Finn\",\n        \"reasoning\": \"The author's name 'Chelsea Finn' is listed third in the author list, followed by a superscript '1' which links to her affiliation.\",\n        \"quote\": \"Chelsea Finn¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Stanford University\",\n          \"reasoning\": \"The superscript '1' next to the author's name, 'Chelsea Finn', corresponds to the first affiliation listed in the footer of the first page.\",\n          \"quote\": \"¹Stanford University\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Joelle Pineau\",\n        \"reasoning\": \"The author's name 'Joelle Pineau' is listed fourth in the author list, followed by a superscript '2' which links to her affiliation.\",\n        \"quote\": \"Joelle Pineau ²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Facebook AI Research\",\n          \"reasoning\": \"The superscript '2' next to the author's name, 'Joelle Pineau', corresponds to the second affiliation listed in the footer of the first page.\",\n          \"quote\": \"²Facebook AI Research.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Amy Zhang\",\n        \"reasoning\": \"The author's name 'Amy Zhang' is listed fifth in the author list, followed by a superscript '2' which links to her affiliation.\",\n        \"quote\": \"Amy Zhang ²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Facebook AI Research\",\n          \"reasoning\": \"The superscript '2' next to the author's name, 'Amy Zhang', corresponds to the second affiliation listed in the footer of the first page.\",\n          \"quote\": \"²Facebook AI Research.\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Stanford University\",\n      \"reasoning\": \"This affiliation is explicitly mentioned in the footer of the first page and is associated with the superscript '1'.\",\n      \"quote\": \"¹Stanford University\"\n    },\n    {\n      \"value\": \"Facebook AI Research\",\n      \"reasoning\": \"This affiliation is explicitly mentioned in the footer of the first page and is associated with the superscript '2'.\",\n      \"quote\": \"²Facebook AI Research.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 877,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 4283,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 3870
+      }
+    ],
+    "thoughts_token_count": 1036,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 6196,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Annie Xie",
+          "reasoning": "The author's name 'Annie Xie' is listed first in the author list, followed by a superscript '1' which links to her affiliation.",
+          "quote": "Annie Xie¹"
+        },
+        "affiliations": [
+          {
+            "value": "Stanford University",
+            "reasoning": "The superscript '1' next to the author's name, 'Annie Xie', corresponds to the first affiliation listed in the footer of the first page.",
+            "quote": "¹Stanford University"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Shagun Sodhani",
+          "reasoning": "The author's name 'Shagun Sodhani' is listed second in the author list, followed by a superscript '2' which links to his affiliation.",
+          "quote": "Shagun Sodhani²"
+        },
+        "affiliations": [
+          {
+            "value": "Facebook AI Research",
+            "reasoning": "The superscript '2' next to the author's name, 'Shagun Sodhani', corresponds to the second affiliation listed in the footer of the first page.",
+            "quote": "²Facebook AI Research."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Chelsea Finn",
+          "reasoning": "The author's name 'Chelsea Finn' is listed third in the author list, followed by a superscript '1' which links to her affiliation.",
+          "quote": "Chelsea Finn¹"
+        },
+        "affiliations": [
+          {
+            "value": "Stanford University",
+            "reasoning": "The superscript '1' next to the author's name, 'Chelsea Finn', corresponds to the first affiliation listed in the footer of the first page.",
+            "quote": "¹Stanford University"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Joelle Pineau",
+          "reasoning": "The author's name 'Joelle Pineau' is listed fourth in the author list, followed by a superscript '2' which links to her affiliation.",
+          "quote": "Joelle Pineau ²"
+        },
+        "affiliations": [
+          {
+            "value": "Facebook AI Research",
+            "reasoning": "The superscript '2' next to the author's name, 'Joelle Pineau', corresponds to the second affiliation listed in the footer of the first page.",
+            "quote": "²Facebook AI Research."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Amy Zhang",
+          "reasoning": "The author's name 'Amy Zhang' is listed fifth in the author list, followed by a superscript '2' which links to her affiliation.",
+          "quote": "Amy Zhang ²"
+        },
+        "affiliations": [
+          {
+            "value": "Facebook AI Research",
+            "reasoning": "The superscript '2' next to the author's name, 'Amy Zhang', corresponds to the second affiliation listed in the footer of the first page.",
+            "quote": "²Facebook AI Research."
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Stanford University",
+        "reasoning": "This affiliation is explicitly mentioned in the footer of the first page and is associated with the superscript '1'.",
+        "quote": "¹Stanford University"
+      },
+      {
+        "value": "Facebook AI Research",
+        "reasoning": "This affiliation is explicitly mentioned in the footer of the first page and is associated with the superscript '2'.",
+        "quote": "²Facebook AI Research."
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

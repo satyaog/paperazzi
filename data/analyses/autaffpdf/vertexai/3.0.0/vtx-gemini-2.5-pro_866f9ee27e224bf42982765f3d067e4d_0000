@@ -1,0 +1,314 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:02:16 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=39911",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Taisuke Kondo\",\n        \"reasoning\": \"The author's name is listed first in the author list, associated with a superscript '1'.\",\n        \"quote\": \"Taisuke Kondo, PhD¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Pediatric Oncology Branch, National Cancer Institute, National Institutes of Health, Bethesda, MD\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed below the author block.\",\n          \"quote\": \"1 Pediatric Oncology Branch, National Cancer Institute, National Institutes of Health, Bethesda, MD\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"François Bourassa\",\n        \"reasoning\": \"The author's name is listed second in the author list, associated with a superscript '2'.\",\n        \"quote\": \"François Bourassa²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Université de Montréal, Montréal, Canada\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed below the author block.\",\n          \"quote\": \"2 Université de Montréal, Montréal, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Sooraj Achar\",\n        \"reasoning\": \"The author's name is listed third in the author list, associated with a superscript '3'.\",\n        \"quote\": \"Sooraj Achar, B.S.³\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"National Cancer Institute, Bethesda, MD\",\n          \"reasoning\": \"The superscript '3' next to the author's name corresponds to the third affiliation listed below the author block.\",\n          \"quote\": \"3 National Cancer Institute, Bethesda, MD\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Justyn DuSold\",\n        \"reasoning\": \"The author's name is listed fourth in the author list, associated with a superscript '1'.\",\n        \"quote\": \"Justyn DuSold¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Pediatric Oncology Branch, National Cancer Institute, National Institutes of Health, Bethesda, MD\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to the first affiliation listed below the author block.\",\n          \"quote\": \"1 Pediatric Oncology Branch, National Cancer Institute, National Institutes of Health, Bethesda, MD\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Pablo Cespedes\",\n        \"reasoning\": \"The author's name is listed fifth in the author list, associated with a superscript '4'.\",\n        \"quote\": \"Pablo Cespedes⁴\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"University of Oxford, Oxford, United Kingdom\",\n          \"reasoning\": \"The superscript '4' next to the author's name corresponds to the fourth affiliation listed below the author block.\",\n          \"quote\": \"4 University of Oxford, Oxford, United Kingdom\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Madison Wahlsten\",\n        \"reasoning\": \"The author's name is listed sixth in the author list, associated with a superscript '5'.\",\n        \"quote\": \"Madison Wahlsten, B.S.⁵\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"National Cancer Institute, Bethesda\",\n          \"reasoning\": \"The superscript '5' next to the author's name corresponds to the fifth affiliation listed below the author block.\",\n          \"quote\": \"5 National Cancer Institute, Bethesda\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Audun Kvalvaag\",\n        \"reasoning\": \"The author's name is listed seventh in the author list, associated with a superscript '4'.\",\n        \"quote\": \"Audun Kvalvaag⁴\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"University of Oxford, Oxford, United Kingdom\",\n          \"reasoning\": \"The superscript '4' next to the author's name corresponds to the fourth affiliation listed below the author block.\",\n          \"quote\": \"4 University of Oxford, Oxford, United Kingdom\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Guillaume Gaud\",\n        \"reasoning\": \"The author's name is listed eighth in the author list, associated with a superscript '6'.\",\n        \"quote\": \"Guillaume Gaud⁶\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Eunice Kennedy Shriver National Institute of Child Health and Human Development, Bethesda\",\n          \"reasoning\": \"The superscript '6' next to the author's name corresponds to the sixth affiliation listed below the author block.\",\n          \"quote\": \"6 Eunice Kennedy Shriver National Institute of Child Health and Human Development, Bethesda\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Paul Love\",\n        \"reasoning\": \"The author's name is listed ninth in the author list, associated with a superscript '7'.\",\n        \"quote\": \"Paul Love, MDPhD⁷\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"NICHD/NIH, Bethesda, MD\",\n          \"reasoning\": \"The superscript '7' next to the author's name corresponds to the seventh affiliation listed below the author block.\",\n          \"quote\": \"7 NICHD/NIH, Bethesda, MD\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Michael Dustin\",\n        \"reasoning\": \"The author's name is listed tenth in the author list, associated with a superscript '8'.\",\n        \"quote\": \"Michael Dustin, PhD⁸\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"The Kennedy Institute of Rheumatology, University of Oxford, Oxford, United Kingdom\",\n          \"reasoning\": \"The superscript '8' next to the author's name corresponds to the eighth affiliation listed below the author block.\",\n          \"quote\": \"8 The Kennedy Institute of Rheumatology, University of Oxford, Oxford, United Kingdom\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Gregoire Altan-Bonnet\",\n        \"reasoning\": \"The author's name is listed eleventh in the author list, associated with a superscript '3'.\",\n        \"quote\": \"Gregoire Altan-Bonnet, PhD³\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"National Cancer Institute, Bethesda, MD\",\n          \"reasoning\": \"The superscript '3' next to the author's name corresponds to the third affiliation listed below the author block.\",\n          \"quote\": \"3 National Cancer Institute, Bethesda, MD\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Paul François\",\n        \"reasoning\": \"The author's name is listed twelfth in the author list, associated with a superscript '2'.\",\n        \"quote\": \"Paul François²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Université de Montréal, Montréal, Canada\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to the second affiliation listed below the author block.\",\n          \"quote\": \"2 Université de Montréal, Montréal, Canada\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Naomi Taylor\",\n        \"reasoning\": \"The author's name is listed last in the author list, associated with a superscript '9'.\",\n        \"quote\": \"Naomi Taylor, MD, PhD⁹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Pediatric Oncology Branch, National Institutes of Health, Bethesda, MD\",\n          \"reasoning\": \"The superscript '9' next to the author's name corresponds to the ninth affiliation listed below the author block.\",\n          \"quote\": \"9 Pediatric Oncology Branch, National Institutes of Health, Bethesda, MD\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Pediatric Oncology Branch, National Cancer Institute, National Institutes of Health, Bethesda, MD\",\n      \"reasoning\": \"This is the first affiliation listed, denoted by the superscript '1', and is associated with authors Taisuke Kondo and Justyn DuSold.\",\n      \"quote\": \"1 Pediatric Oncology Branch, National Cancer Institute, National Institutes of Health, Bethesda, MD\"\n    },\n    {\n      \"value\": \"Université de Montréal, Montréal, Canada\",\n      \"reasoning\": \"This is the second affiliation listed, denoted by the superscript '2', and is associated with authors François Bourassa and Paul François.\",\n      \"quote\": \"2 Université de Montréal, Montréal, Canada\"\n    },\n    {\n      \"value\": \"National Cancer Institute, Bethesda, MD\",\n      \"reasoning\": \"This is the third affiliation listed, denoted by the superscript '3', and is associated with authors Sooraj Achar and Gregoire Altan-Bonnet.\",\n      \"quote\": \"3 National Cancer Institute, Bethesda, MD\"\n    },\n    {\n      \"value\": \"University of Oxford, Oxford, United Kingdom\",\n      \"reasoning\": \"This is the fourth affiliation listed, denoted by the superscript '4', and is associated with authors Pablo Cespedes and Audun Kvalvaag.\",\n      \"quote\": \"4 University of Oxford, Oxford, United Kingdom\"\n    },\n    {\n      \"value\": \"National Cancer Institute, Bethesda\",\n      \"reasoning\": \"This is the fifth affiliation listed, denoted by the superscript '5', and is associated with author Madison Wahlsten.\",\n      \"quote\": \"5 National Cancer Institute, Bethesda\"\n    },\n    {\n      \"value\": \"Eunice Kennedy Shriver National Institute of Child Health and Human Development, Bethesda\",\n      \"reasoning\": \"This is the sixth affiliation listed, denoted by the superscript '6', and is associated with author Guillaume Gaud.\",\n      \"quote\": \"6 Eunice Kennedy Shriver National Institute of Child Health and Human Development, Bethesda\"\n    },\n    {\n      \"value\": \"NICHD/NIH, Bethesda, MD\",\n      \"reasoning\": \"This is the seventh affiliation listed, denoted by the superscript '7', and is associated with author Paul Love.\",\n      \"quote\": \"7 NICHD/NIH, Bethesda, MD\"\n    },\n    {\n      \"value\": \"The Kennedy Institute of Rheumatology, University of Oxford, Oxford, United Kingdom\",\n      \"reasoning\": \"This is the eighth affiliation listed, denoted by the superscript '8', and is associated with author Michael Dustin.\",\n      \"quote\": \"8 The Kennedy Institute of Rheumatology, University of Oxford, Oxford, United Kingdom\"\n    },\n    {\n      \"value\": \"Pediatric Oncology Branch, National Institutes of Health, Bethesda, MD\",\n      \"reasoning\": \"This is the ninth affiliation listed, denoted by the superscript '9', and is associated with author Naomi Taylor.\",\n      \"quote\": \"9 Pediatric Oncology Branch, National Institutes of Health, Bethesda, MD\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 2624,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 671,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 258
+      }
+    ],
+    "thoughts_token_count": 1864,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 5159,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Taisuke Kondo",
+          "reasoning": "The author's name is listed first in the author list, associated with a superscript '1'.",
+          "quote": "Taisuke Kondo, PhD¹"
+        },
+        "affiliations": [
+          {
+            "value": "Pediatric Oncology Branch, National Cancer Institute, National Institutes of Health, Bethesda, MD",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed below the author block.",
+            "quote": "1 Pediatric Oncology Branch, National Cancer Institute, National Institutes of Health, Bethesda, MD"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "François Bourassa",
+          "reasoning": "The author's name is listed second in the author list, associated with a superscript '2'.",
+          "quote": "François Bourassa²"
+        },
+        "affiliations": [
+          {
+            "value": "Université de Montréal, Montréal, Canada",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed below the author block.",
+            "quote": "2 Université de Montréal, Montréal, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Sooraj Achar",
+          "reasoning": "The author's name is listed third in the author list, associated with a superscript '3'.",
+          "quote": "Sooraj Achar, B.S.³"
+        },
+        "affiliations": [
+          {
+            "value": "National Cancer Institute, Bethesda, MD",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third affiliation listed below the author block.",
+            "quote": "3 National Cancer Institute, Bethesda, MD"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Justyn DuSold",
+          "reasoning": "The author's name is listed fourth in the author list, associated with a superscript '1'.",
+          "quote": "Justyn DuSold¹"
+        },
+        "affiliations": [
+          {
+            "value": "Pediatric Oncology Branch, National Cancer Institute, National Institutes of Health, Bethesda, MD",
+            "reasoning": "The superscript '1' next to the author's name corresponds to the first affiliation listed below the author block.",
+            "quote": "1 Pediatric Oncology Branch, National Cancer Institute, National Institutes of Health, Bethesda, MD"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Pablo Cespedes",
+          "reasoning": "The author's name is listed fifth in the author list, associated with a superscript '4'.",
+          "quote": "Pablo Cespedes⁴"
+        },
+        "affiliations": [
+          {
+            "value": "University of Oxford, Oxford, United Kingdom",
+            "reasoning": "The superscript '4' next to the author's name corresponds to the fourth affiliation listed below the author block.",
+            "quote": "4 University of Oxford, Oxford, United Kingdom"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Madison Wahlsten",
+          "reasoning": "The author's name is listed sixth in the author list, associated with a superscript '5'.",
+          "quote": "Madison Wahlsten, B.S.⁵"
+        },
+        "affiliations": [
+          {
+            "value": "National Cancer Institute, Bethesda",
+            "reasoning": "The superscript '5' next to the author's name corresponds to the fifth affiliation listed below the author block.",
+            "quote": "5 National Cancer Institute, Bethesda"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Audun Kvalvaag",
+          "reasoning": "The author's name is listed seventh in the author list, associated with a superscript '4'.",
+          "quote": "Audun Kvalvaag⁴"
+        },
+        "affiliations": [
+          {
+            "value": "University of Oxford, Oxford, United Kingdom",
+            "reasoning": "The superscript '4' next to the author's name corresponds to the fourth affiliation listed below the author block.",
+            "quote": "4 University of Oxford, Oxford, United Kingdom"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Guillaume Gaud",
+          "reasoning": "The author's name is listed eighth in the author list, associated with a superscript '6'.",
+          "quote": "Guillaume Gaud⁶"
+        },
+        "affiliations": [
+          {
+            "value": "Eunice Kennedy Shriver National Institute of Child Health and Human Development, Bethesda",
+            "reasoning": "The superscript '6' next to the author's name corresponds to the sixth affiliation listed below the author block.",
+            "quote": "6 Eunice Kennedy Shriver National Institute of Child Health and Human Development, Bethesda"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Paul Love",
+          "reasoning": "The author's name is listed ninth in the author list, associated with a superscript '7'.",
+          "quote": "Paul Love, MDPhD⁷"
+        },
+        "affiliations": [
+          {
+            "value": "NICHD/NIH, Bethesda, MD",
+            "reasoning": "The superscript '7' next to the author's name corresponds to the seventh affiliation listed below the author block.",
+            "quote": "7 NICHD/NIH, Bethesda, MD"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Michael Dustin",
+          "reasoning": "The author's name is listed tenth in the author list, associated with a superscript '8'.",
+          "quote": "Michael Dustin, PhD⁸"
+        },
+        "affiliations": [
+          {
+            "value": "The Kennedy Institute of Rheumatology, University of Oxford, Oxford, United Kingdom",
+            "reasoning": "The superscript '8' next to the author's name corresponds to the eighth affiliation listed below the author block.",
+            "quote": "8 The Kennedy Institute of Rheumatology, University of Oxford, Oxford, United Kingdom"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Gregoire Altan-Bonnet",
+          "reasoning": "The author's name is listed eleventh in the author list, associated with a superscript '3'.",
+          "quote": "Gregoire Altan-Bonnet, PhD³"
+        },
+        "affiliations": [
+          {
+            "value": "National Cancer Institute, Bethesda, MD",
+            "reasoning": "The superscript '3' next to the author's name corresponds to the third affiliation listed below the author block.",
+            "quote": "3 National Cancer Institute, Bethesda, MD"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Paul François",
+          "reasoning": "The author's name is listed twelfth in the author list, associated with a superscript '2'.",
+          "quote": "Paul François²"
+        },
+        "affiliations": [
+          {
+            "value": "Université de Montréal, Montréal, Canada",
+            "reasoning": "The superscript '2' next to the author's name corresponds to the second affiliation listed below the author block.",
+            "quote": "2 Université de Montréal, Montréal, Canada"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Naomi Taylor",
+          "reasoning": "The author's name is listed last in the author list, associated with a superscript '9'.",
+          "quote": "Naomi Taylor, MD, PhD⁹"
+        },
+        "affiliations": [
+          {
+            "value": "Pediatric Oncology Branch, National Institutes of Health, Bethesda, MD",
+            "reasoning": "The superscript '9' next to the author's name corresponds to the ninth affiliation listed below the author block.",
+            "quote": "9 Pediatric Oncology Branch, National Institutes of Health, Bethesda, MD"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Pediatric Oncology Branch, National Cancer Institute, National Institutes of Health, Bethesda, MD",
+        "reasoning": "This is the first affiliation listed, denoted by the superscript '1', and is associated with authors Taisuke Kondo and Justyn DuSold.",
+        "quote": "1 Pediatric Oncology Branch, National Cancer Institute, National Institutes of Health, Bethesda, MD"
+      },
+      {
+        "value": "Université de Montréal, Montréal, Canada",
+        "reasoning": "This is the second affiliation listed, denoted by the superscript '2', and is associated with authors François Bourassa and Paul François.",
+        "quote": "2 Université de Montréal, Montréal, Canada"
+      },
+      {
+        "value": "National Cancer Institute, Bethesda, MD",
+        "reasoning": "This is the third affiliation listed, denoted by the superscript '3', and is associated with authors Sooraj Achar and Gregoire Altan-Bonnet.",
+        "quote": "3 National Cancer Institute, Bethesda, MD"
+      },
+      {
+        "value": "University of Oxford, Oxford, United Kingdom",
+        "reasoning": "This is the fourth affiliation listed, denoted by the superscript '4', and is associated with authors Pablo Cespedes and Audun Kvalvaag.",
+        "quote": "4 University of Oxford, Oxford, United Kingdom"
+      },
+      {
+        "value": "National Cancer Institute, Bethesda",
+        "reasoning": "This is the fifth affiliation listed, denoted by the superscript '5', and is associated with author Madison Wahlsten.",
+        "quote": "5 National Cancer Institute, Bethesda"
+      },
+      {
+        "value": "Eunice Kennedy Shriver National Institute of Child Health and Human Development, Bethesda",
+        "reasoning": "This is the sixth affiliation listed, denoted by the superscript '6', and is associated with author Guillaume Gaud.",
+        "quote": "6 Eunice Kennedy Shriver National Institute of Child Health and Human Development, Bethesda"
+      },
+      {
+        "value": "NICHD/NIH, Bethesda, MD",
+        "reasoning": "This is the seventh affiliation listed, denoted by the superscript '7', and is associated with author Paul Love.",
+        "quote": "7 NICHD/NIH, Bethesda, MD"
+      },
+      {
+        "value": "The Kennedy Institute of Rheumatology, University of Oxford, Oxford, United Kingdom",
+        "reasoning": "This is the eighth affiliation listed, denoted by the superscript '8', and is associated with author Michael Dustin.",
+        "quote": "8 The Kennedy Institute of Rheumatology, University of Oxford, Oxford, United Kingdom"
+      },
+      {
+        "value": "Pediatric Oncology Branch, National Institutes of Health, Bethesda, MD",
+        "reasoning": "This is the ninth affiliation listed, denoted by the superscript '9', and is associated with author Naomi Taylor.",
+        "quote": "9 Pediatric Oncology Branch, National Institutes of Health, Bethesda, MD"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

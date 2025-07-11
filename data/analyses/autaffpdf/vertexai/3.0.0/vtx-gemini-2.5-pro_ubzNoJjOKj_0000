@@ -1,0 +1,299 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:37:15 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=41121",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Eric Nguyen\",\n        \"reasoning\": \"The author's name is listed first in the author block of the paper. A superscript '1' and an asterisk '*' are associated with the name, indicating the affiliation and equal contribution, respectively.\",\n        \"quote\": \"Eric Nguyen*,1\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Stanford University\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.\",\n          \"quote\": \"1Stanford University.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Michael Poli\",\n        \"reasoning\": \"The author's name is listed second in the author block. A superscript '1' and an asterisk '*' are associated with the name, indicating the affiliation and equal contribution, respectively.\",\n        \"quote\": \"Michael Poli*,1\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Stanford University\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.\",\n          \"quote\": \"1Stanford University.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Marjan Faizi\",\n        \"reasoning\": \"The author's name is listed third in the author block. A superscript '2' and an asterisk '*' are associated with the name, indicating the affiliation and equal contribution, respectively.\",\n        \"quote\": \"Marjan Faizi²,*\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Harvard University\",\n          \"reasoning\": \"The superscript '2' next to the author's name corresponds to 'Harvard University' in the affiliations list provided at the bottom of the first page.\",\n          \"quote\": \"2Harvard University.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Armin W. Thomas\",\n        \"reasoning\": \"The author's name is listed fourth in the author block. A superscript '1' is associated with the name, indicating the affiliation.\",\n        \"quote\": \"Armin W. Thomas¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Stanford University\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.\",\n          \"quote\": \"1Stanford University.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Callum Birch Sykes\",\n        \"reasoning\": \"The author's name is listed fifth in the author block. A superscript '3' is associated with the name, indicating the affiliation.\",\n        \"quote\": \"Callum Birch Sykes³\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"SynTensor\",\n          \"reasoning\": \"The superscript '3' next to the author's name corresponds to 'SynTensor' in the affiliations list provided at the bottom of the first page.\",\n          \"quote\": \"3 SynTensor.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Michael Wornow\",\n        \"reasoning\": \"The author's name is listed sixth in the author block. A superscript '1' is associated with the name, indicating the affiliation.\",\n        \"quote\": \"Michael Wornow¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Stanford University\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.\",\n          \"quote\": \"1Stanford University.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Aman Patel\",\n        \"reasoning\": \"The author's name is listed seventh in the author block. A superscript '1' is associated with the name, indicating the affiliation.\",\n        \"quote\": \"Aman Patel¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Stanford University\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.\",\n          \"quote\": \"1Stanford University.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Clayton Rabideau\",\n        \"reasoning\": \"The author's name is listed eighth in the author block. A superscript '3' is associated with the name, indicating the affiliation.\",\n        \"quote\": \"Clayton Rabideau³\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"SynTensor\",\n          \"reasoning\": \"The superscript '3' next to the author's name corresponds to 'SynTensor' in the affiliations list provided at the bottom of the first page.\",\n          \"quote\": \"3 SynTensor.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Stefano Massaroli\",\n        \"reasoning\": \"The author's name is listed ninth in the author block. Superscripts '1' and '4' are associated with the name, indicating two affiliations.\",\n        \"quote\": \"Stefano Massaroli¹,⁴\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Stanford University\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.\",\n          \"quote\": \"1Stanford University.\"\n        },\n        {\n          \"value\": \"Mila and Université de Montréal\",\n          \"reasoning\": \"The superscript '4' next to the author's name corresponds to 'Mila and Université de Montréal' in the affiliations list provided at the bottom of the first page.\",\n          \"quote\": \"4Mila and Université de Montréal.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Yoshua Bengio\",\n        \"reasoning\": \"The author's name is listed tenth in the author block. Superscripts '1' and '4' are associated with the name, indicating two affiliations.\",\n        \"quote\": \"Yoshua Bengio¹,⁴\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Stanford University\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.\",\n          \"quote\": \"1Stanford University.\"\n        },\n        {\n          \"value\": \"Mila and Université de Montréal\",\n          \"reasoning\": \"The superscript '4' next to the author's name corresponds to 'Mila and Université de Montréal' in the affiliations list provided at the bottom of the first page.\",\n          \"quote\": \"4Mila and Université de Montréal.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Stefano Ermon\",\n        \"reasoning\": \"The author's name is listed eleventh in the author block. A superscript '1' is associated with the name, indicating the affiliation.\",\n        \"quote\": \"Stefano Ermon¹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Stanford University\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.\",\n          \"quote\": \"1Stanford University.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Stephen A. Baccus\",\n        \"reasoning\": \"The author's name is listed twelfth in the author block. A superscript '1' and a dagger symbol '†' are associated with the name, indicating the affiliation and equal senior authorship.\",\n        \"quote\": \"Stephen A. Baccus¹,†\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Stanford University\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.\",\n          \"quote\": \"1Stanford University.\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Christopher Ré\",\n        \"reasoning\": \"The author's name is listed thirteenth in the author block. A superscript '1' and a dagger symbol '†' are associated with the name, indicating the affiliation and equal senior authorship.\",\n        \"quote\": \"Christopher Ré¹,†\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Stanford University\",\n          \"reasoning\": \"The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.\",\n          \"quote\": \"1Stanford University.\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Stanford University\",\n      \"reasoning\": \"This affiliation is marked with a superscript '1' and is listed at the bottom of the first page. Multiple authors are associated with this affiliation.\",\n      \"quote\": \"1Stanford University.\"\n    },\n    {\n      \"value\": \"Harvard University\",\n      \"reasoning\": \"This affiliation is marked with a superscript '2' and is listed at the bottom of the first page.\",\n      \"quote\": \"2Harvard University.\"\n    },\n    {\n      \"value\": \"SynTensor\",\n      \"reasoning\": \"This affiliation is marked with a superscript '3' and is listed at the bottom of the first page.\",\n      \"quote\": \"3 SynTensor.\"\n    },\n    {\n      \"value\": \"Mila and Université de Montréal\",\n      \"reasoning\": \"This affiliation is marked with a superscript '4' and is listed at the bottom of the first page. Two authors are associated with this affiliation.\",\n      \"quote\": \"4Mila and Université de Montréal.\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 2369,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 6863,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 6450
+      }
+    ],
+    "thoughts_token_count": 1516,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 10748,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Eric Nguyen",
+          "reasoning": "The author's name is listed first in the author block of the paper. A superscript '1' and an asterisk '*' are associated with the name, indicating the affiliation and equal contribution, respectively.",
+          "quote": "Eric Nguyen*,1"
+        },
+        "affiliations": [
+          {
+            "value": "Stanford University",
+            "reasoning": "The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.",
+            "quote": "1Stanford University."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Michael Poli",
+          "reasoning": "The author's name is listed second in the author block. A superscript '1' and an asterisk '*' are associated with the name, indicating the affiliation and equal contribution, respectively.",
+          "quote": "Michael Poli*,1"
+        },
+        "affiliations": [
+          {
+            "value": "Stanford University",
+            "reasoning": "The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.",
+            "quote": "1Stanford University."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Marjan Faizi",
+          "reasoning": "The author's name is listed third in the author block. A superscript '2' and an asterisk '*' are associated with the name, indicating the affiliation and equal contribution, respectively.",
+          "quote": "Marjan Faizi²,*"
+        },
+        "affiliations": [
+          {
+            "value": "Harvard University",
+            "reasoning": "The superscript '2' next to the author's name corresponds to 'Harvard University' in the affiliations list provided at the bottom of the first page.",
+            "quote": "2Harvard University."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Armin W. Thomas",
+          "reasoning": "The author's name is listed fourth in the author block. A superscript '1' is associated with the name, indicating the affiliation.",
+          "quote": "Armin W. Thomas¹"
+        },
+        "affiliations": [
+          {
+            "value": "Stanford University",
+            "reasoning": "The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.",
+            "quote": "1Stanford University."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Callum Birch Sykes",
+          "reasoning": "The author's name is listed fifth in the author block. A superscript '3' is associated with the name, indicating the affiliation.",
+          "quote": "Callum Birch Sykes³"
+        },
+        "affiliations": [
+          {
+            "value": "SynTensor",
+            "reasoning": "The superscript '3' next to the author's name corresponds to 'SynTensor' in the affiliations list provided at the bottom of the first page.",
+            "quote": "3 SynTensor."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Michael Wornow",
+          "reasoning": "The author's name is listed sixth in the author block. A superscript '1' is associated with the name, indicating the affiliation.",
+          "quote": "Michael Wornow¹"
+        },
+        "affiliations": [
+          {
+            "value": "Stanford University",
+            "reasoning": "The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.",
+            "quote": "1Stanford University."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Aman Patel",
+          "reasoning": "The author's name is listed seventh in the author block. A superscript '1' is associated with the name, indicating the affiliation.",
+          "quote": "Aman Patel¹"
+        },
+        "affiliations": [
+          {
+            "value": "Stanford University",
+            "reasoning": "The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.",
+            "quote": "1Stanford University."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Clayton Rabideau",
+          "reasoning": "The author's name is listed eighth in the author block. A superscript '3' is associated with the name, indicating the affiliation.",
+          "quote": "Clayton Rabideau³"
+        },
+        "affiliations": [
+          {
+            "value": "SynTensor",
+            "reasoning": "The superscript '3' next to the author's name corresponds to 'SynTensor' in the affiliations list provided at the bottom of the first page.",
+            "quote": "3 SynTensor."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Stefano Massaroli",
+          "reasoning": "The author's name is listed ninth in the author block. Superscripts '1' and '4' are associated with the name, indicating two affiliations.",
+          "quote": "Stefano Massaroli¹,⁴"
+        },
+        "affiliations": [
+          {
+            "value": "Stanford University",
+            "reasoning": "The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.",
+            "quote": "1Stanford University."
+          },
+          {
+            "value": "Mila and Université de Montréal",
+            "reasoning": "The superscript '4' next to the author's name corresponds to 'Mila and Université de Montréal' in the affiliations list provided at the bottom of the first page.",
+            "quote": "4Mila and Université de Montréal."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Yoshua Bengio",
+          "reasoning": "The author's name is listed tenth in the author block. Superscripts '1' and '4' are associated with the name, indicating two affiliations.",
+          "quote": "Yoshua Bengio¹,⁴"
+        },
+        "affiliations": [
+          {
+            "value": "Stanford University",
+            "reasoning": "The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.",
+            "quote": "1Stanford University."
+          },
+          {
+            "value": "Mila and Université de Montréal",
+            "reasoning": "The superscript '4' next to the author's name corresponds to 'Mila and Université de Montréal' in the affiliations list provided at the bottom of the first page.",
+            "quote": "4Mila and Université de Montréal."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Stefano Ermon",
+          "reasoning": "The author's name is listed eleventh in the author block. A superscript '1' is associated with the name, indicating the affiliation.",
+          "quote": "Stefano Ermon¹"
+        },
+        "affiliations": [
+          {
+            "value": "Stanford University",
+            "reasoning": "The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.",
+            "quote": "1Stanford University."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Stephen A. Baccus",
+          "reasoning": "The author's name is listed twelfth in the author block. A superscript '1' and a dagger symbol '†' are associated with the name, indicating the affiliation and equal senior authorship.",
+          "quote": "Stephen A. Baccus¹,†"
+        },
+        "affiliations": [
+          {
+            "value": "Stanford University",
+            "reasoning": "The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.",
+            "quote": "1Stanford University."
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Christopher Ré",
+          "reasoning": "The author's name is listed thirteenth in the author block. A superscript '1' and a dagger symbol '†' are associated with the name, indicating the affiliation and equal senior authorship.",
+          "quote": "Christopher Ré¹,†"
+        },
+        "affiliations": [
+          {
+            "value": "Stanford University",
+            "reasoning": "The superscript '1' next to the author's name corresponds to 'Stanford University' in the affiliations list provided at the bottom of the first page.",
+            "quote": "1Stanford University."
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Stanford University",
+        "reasoning": "This affiliation is marked with a superscript '1' and is listed at the bottom of the first page. Multiple authors are associated with this affiliation.",
+        "quote": "1Stanford University."
+      },
+      {
+        "value": "Harvard University",
+        "reasoning": "This affiliation is marked with a superscript '2' and is listed at the bottom of the first page.",
+        "quote": "2Harvard University."
+      },
+      {
+        "value": "SynTensor",
+        "reasoning": "This affiliation is marked with a superscript '3' and is listed at the bottom of the first page.",
+        "quote": "3 SynTensor."
+      },
+      {
+        "value": "Mila and Université de Montréal",
+        "reasoning": "This affiliation is marked with a superscript '4' and is listed at the bottom of the first page. Two authors are associated with this affiliation.",
+        "quote": "4Mila and Université de Montréal."
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}

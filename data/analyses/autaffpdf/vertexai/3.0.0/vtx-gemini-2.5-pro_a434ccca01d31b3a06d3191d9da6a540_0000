@@ -1,0 +1,350 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Fri, 27 Jun 2025 20:33:49 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=46566",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Julia Gastinger\",\n        \"reasoning\": \"The author's name 'Julia Gastinger' is listed first in the author block of the paper, followed by superscripts '1,2,6' which link to her affiliations.\",\n        \"quote\": \"Julia Gastinger¹,²,⁶*\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila - Quebec AI Institute\",\n          \"reasoning\": \"The superscript '1' next to Julia Gastinger's name corresponds to the first affiliation listed: 'Mila - Quebec AI Institute'.\",\n          \"quote\": \"¹Mila - Quebec AI Institute\"\n        },\n        {\n          \"value\": \"Mannheim University\",\n          \"reasoning\": \"The superscript '2' next to Julia Gastinger's name corresponds to the second affiliation listed: 'Mannheim University'.\",\n          \"quote\": \"²Mannheim University\"\n        },\n        {\n          \"value\": \"DIRO, Université de Montréal\",\n          \"reasoning\": \"The superscript '6' next to Julia Gastinger's name corresponds to the sixth affiliation listed: 'DIRO, Université de Montréal'.\",\n          \"quote\": \"⁶DIRO, Université de Montréal\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Shenyang Huang\",\n        \"reasoning\": \"The author's name 'Shenyang Huang' is listed second in the author block of the paper, followed by superscripts '1,4' which link to his affiliations.\",\n        \"quote\": \"Shenyang Huang¹,⁴*\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila - Quebec AI Institute\",\n          \"reasoning\": \"The superscript '1' next to Shenyang Huang's name corresponds to the first affiliation listed: 'Mila - Quebec AI Institute'.\",\n          \"quote\": \"¹Mila - Quebec AI Institute\"\n        },\n        {\n          \"value\": \"School of Computer Science, McGill University\",\n          \"reasoning\": \"The superscript '4' next to Shenyang Huang's name corresponds to the fourth affiliation listed: 'School of Computer Science, McGill University'.\",\n          \"quote\": \"⁴School of Computer Science, McGill University\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Mikhail Galkin\",\n        \"reasoning\": \"The author's name 'Mikhail Galkin' is listed third in the author block of the paper, followed by superscript '3' which links to his affiliation.\",\n        \"quote\": \"Mikhail Galkin³\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Intel AI Lab\",\n          \"reasoning\": \"The superscript '3' next to Mikhail Galkin's name corresponds to the third affiliation listed: 'Intel AI Lab'.\",\n          \"quote\": \"³Intel AI Lab\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Erfan Loghmani\",\n        \"reasoning\": \"The author's name 'Erfan Loghmani' is listed in the author block of the paper, followed by superscript '9' which links to his affiliation.\",\n        \"quote\": \"Erfan Loghmani⁹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"New Jersey Institute of Technology\",\n          \"reasoning\": \"The superscript '9' next to Erfan Loghmani's name corresponds to the ninth affiliation listed: 'New Jersey Institute of Technology'.\",\n          \"quote\": \"⁹New Jersey Institute of Technology\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Ali Parviz\",\n        \"reasoning\": \"The author's name 'Ali Parviz' is listed in the author block of the paper, followed by superscripts '1,9' which link to his affiliations.\",\n        \"quote\": \"Ali Parviz ¹,⁹\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila - Quebec AI Institute\",\n          \"reasoning\": \"The superscript '1' next to Ali Parviz's name corresponds to the first affiliation listed: 'Mila - Quebec AI Institute'.\",\n          \"quote\": \"¹Mila - Quebec AI Institute\"\n        },\n        {\n          \"value\": \"New Jersey Institute of Technology\",\n          \"reasoning\": \"The superscript '9' next to Ali Parviz's name corresponds to the ninth affiliation listed: 'New Jersey Institute of Technology'.\",\n          \"quote\": \"⁹New Jersey Institute of Technology\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Farimah Poursafaei\",\n        \"reasoning\": \"The author's name 'Farimah Poursafaei' is listed in the author block of the paper, followed by superscripts '1,4' which link to her affiliations.\",\n        \"quote\": \"Farimah Poursafaei ¹,⁴\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila - Quebec AI Institute\",\n          \"reasoning\": \"The superscript '1' next to Farimah Poursafaei's name corresponds to the first affiliation listed: 'Mila - Quebec AI Institute'.\",\n          \"quote\": \"¹Mila - Quebec AI Institute\"\n        },\n        {\n          \"value\": \"School of Computer Science, McGill University\",\n          \"reasoning\": \"The superscript '4' next to Farimah Poursafaei's name corresponds to the fourth affiliation listed: 'School of Computer Science, McGill University'.\",\n          \"quote\": \"⁴School of Computer Science, McGill University\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jacob Danovitch\",\n        \"reasoning\": \"The author's name 'Jacob Danovitch' is listed in the author block of the paper, followed by superscripts '1,4' which link to his affiliations.\",\n        \"quote\": \"Jacob Danovitch ¹,⁴\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila - Quebec AI Institute\",\n          \"reasoning\": \"The superscript '1' next to Jacob Danovitch's name corresponds to the first affiliation listed: 'Mila - Quebec AI Institute'.\",\n          \"quote\": \"¹Mila - Quebec AI Institute\"\n        },\n        {\n          \"value\": \"School of Computer Science, McGill University\",\n          \"reasoning\": \"The superscript '4' next to Jacob Danovitch's name corresponds to the fourth affiliation listed: 'School of Computer Science, McGill University'.\",\n          \"quote\": \"⁴School of Computer Science, McGill University\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Emanuele Rossi\",\n        \"reasoning\": \"The author's name 'Emanuele Rossi' is listed in the author block of the paper, followed by superscript '5' which links to his affiliation.\",\n        \"quote\": \"Emanuele Rossi⁵\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Imperial College London\",\n          \"reasoning\": \"The superscript '5' next to Emanuele Rossi's name corresponds to the fifth affiliation listed: 'Imperial College London'.\",\n          \"quote\": \"⁵Imperial College London\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Ioannis Koutis\",\n        \"reasoning\": \"The author's name 'Ioannis Koutis' is listed in the author block of the paper, followed by superscript '8' which links to his affiliation.\",\n        \"quote\": \"Ioannis Koutis⁸\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"University of Washington\",\n          \"reasoning\": \"The superscript '8' next to Ioannis Koutis's name corresponds to the eighth affiliation listed: 'University of Washington'.\",\n          \"quote\": \"⁸University of Washington\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Heiner Stuckenschmidt\",\n        \"reasoning\": \"The author's name 'Heiner Stuckenschmidt' is listed in the author block of the paper, followed by superscript '2' which links to his affiliation.\",\n        \"quote\": \"Heiner Stuckenschmidt²\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mannheim University\",\n          \"reasoning\": \"The superscript '2' next to Heiner Stuckenschmidt's name corresponds to the second affiliation listed: 'Mannheim University'.\",\n          \"quote\": \"²Mannheim University\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Reihaneh Rabbany\",\n        \"reasoning\": \"The author's name 'Reihaneh Rabbany' is listed in the author block of the paper, followed by superscripts '1,4,7' which link to her affiliations.\",\n        \"quote\": \"Reihaneh Rabbany ¹,⁴,⁷\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila - Quebec AI Institute\",\n          \"reasoning\": \"The superscript '1' next to Reihaneh Rabbany's name corresponds to the first affiliation listed: 'Mila - Quebec AI Institute'.\",\n          \"quote\": \"¹Mila - Quebec AI Institute\"\n        },\n        {\n          \"value\": \"School of Computer Science, McGill University\",\n          \"reasoning\": \"The superscript '4' next to Reihaneh Rabbany's name corresponds to the fourth affiliation listed: 'School of Computer Science, McGill University'.\",\n          \"quote\": \"⁴School of Computer Science, McGill University\"\n        },\n        {\n          \"value\": \"CIFAR AI Chair\",\n          \"reasoning\": \"The superscript '7' next to Reihaneh Rabbany's name corresponds to the seventh affiliation listed: 'CIFAR AI Chair'.\",\n          \"quote\": \"⁷CIFAR AI Chair\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Guillaume Rabusseau\",\n        \"reasoning\": \"The author's name 'Guillaume Rabusseau' is listed last in the author block of the paper, followed by superscripts '1,6,7' which link to his affiliations.\",\n        \"quote\": \"Guillaume Rabusseau ¹,⁶,⁷\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mila - Quebec AI Institute\",\n          \"reasoning\": \"The superscript '1' next to Guillaume Rabusseau's name corresponds to the first affiliation listed: 'Mila - Quebec AI Institute'.\",\n          \"quote\": \"¹Mila - Quebec AI Institute\"\n        },\n        {\n          \"value\": \"DIRO, Université de Montréal\",\n          \"reasoning\": \"The superscript '6' next to Guillaume Rabusseau's name corresponds to the sixth affiliation listed: 'DIRO, Université de Montréal'.\",\n          \"quote\": \"⁶DIRO, Université de Montréal\"\n        },\n        {\n          \"value\": \"CIFAR AI Chair\",\n          \"reasoning\": \"The superscript '7' next to Guillaume Rabusseau's name corresponds to the seventh affiliation listed: 'CIFAR AI Chair'.\",\n          \"quote\": \"⁷CIFAR AI Chair\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Mila - Quebec AI Institute\",\n      \"reasoning\": \"This affiliation is listed as number '1' in the affiliation list and is associated with multiple authors.\",\n      \"quote\": \"¹Mila - Quebec AI Institute\"\n    },\n    {\n      \"value\": \"Mannheim University\",\n      \"reasoning\": \"This affiliation is listed as number '2' in the affiliation list and is associated with multiple authors.\",\n      \"quote\": \"²Mannheim University\"\n    },\n    {\n      \"value\": \"Intel AI Lab\",\n      \"reasoning\": \"This affiliation is listed as number '3' in the affiliation list.\",\n      \"quote\": \"³Intel AI Lab\"\n    },\n    {\n      \"value\": \"School of Computer Science, McGill University\",\n      \"reasoning\": \"This affiliation is listed as number '4' in the affiliation list and is associated with multiple authors.\",\n      \"quote\": \"⁴School of Computer Science, McGill University\"\n    },\n    {\n      \"value\": \"Imperial College London\",\n      \"reasoning\": \"This affiliation is listed as number '5' in the affiliation list.\",\n      \"quote\": \"⁵Imperial College London\"\n    },\n    {\n      \"value\": \"DIRO, Université de Montréal\",\n      \"reasoning\": \"This affiliation is listed as number '6' in the affiliation list and is associated with multiple authors.\",\n      \"quote\": \"⁶DIRO, Université de Montréal\"\n    },\n    {\n      \"value\": \"CIFAR AI Chair\",\n      \"reasoning\": \"This affiliation is listed as number '7' in the affiliation list and is associated with multiple authors.\",\n      \"quote\": \"⁷CIFAR AI Chair\"\n    },\n    {\n      \"value\": \"University of Washington\",\n      \"reasoning\": \"This affiliation is listed as number '8' in the affiliation list.\",\n      \"quote\": \"⁸University of Washington\"\n    },\n    {\n      \"value\": \"New Jersey Institute of Technology\",\n      \"reasoning\": \"This affiliation is listed as number '9' in the affiliation list.\",\n      \"quote\": \"⁹New Jersey Institute of Technology\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 3137,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 7895,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 413
+      },
+      {
+        "modality": "DOCUMENT",
+        "token_count": 7482
+      }
+    ],
+    "thoughts_token_count": 1579,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 12611,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Julia Gastinger",
+          "reasoning": "The author's name 'Julia Gastinger' is listed first in the author block of the paper, followed by superscripts '1,2,6' which link to her affiliations.",
+          "quote": "Julia Gastinger¹,²,⁶*"
+        },
+        "affiliations": [
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '1' next to Julia Gastinger's name corresponds to the first affiliation listed: 'Mila - Quebec AI Institute'.",
+            "quote": "¹Mila - Quebec AI Institute"
+          },
+          {
+            "value": "Mannheim University",
+            "reasoning": "The superscript '2' next to Julia Gastinger's name corresponds to the second affiliation listed: 'Mannheim University'.",
+            "quote": "²Mannheim University"
+          },
+          {
+            "value": "DIRO, Université de Montréal",
+            "reasoning": "The superscript '6' next to Julia Gastinger's name corresponds to the sixth affiliation listed: 'DIRO, Université de Montréal'.",
+            "quote": "⁶DIRO, Université de Montréal"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Shenyang Huang",
+          "reasoning": "The author's name 'Shenyang Huang' is listed second in the author block of the paper, followed by superscripts '1,4' which link to his affiliations.",
+          "quote": "Shenyang Huang¹,⁴*"
+        },
+        "affiliations": [
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '1' next to Shenyang Huang's name corresponds to the first affiliation listed: 'Mila - Quebec AI Institute'.",
+            "quote": "¹Mila - Quebec AI Institute"
+          },
+          {
+            "value": "School of Computer Science, McGill University",
+            "reasoning": "The superscript '4' next to Shenyang Huang's name corresponds to the fourth affiliation listed: 'School of Computer Science, McGill University'.",
+            "quote": "⁴School of Computer Science, McGill University"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Mikhail Galkin",
+          "reasoning": "The author's name 'Mikhail Galkin' is listed third in the author block of the paper, followed by superscript '3' which links to his affiliation.",
+          "quote": "Mikhail Galkin³"
+        },
+        "affiliations": [
+          {
+            "value": "Intel AI Lab",
+            "reasoning": "The superscript '3' next to Mikhail Galkin's name corresponds to the third affiliation listed: 'Intel AI Lab'.",
+            "quote": "³Intel AI Lab"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Erfan Loghmani",
+          "reasoning": "The author's name 'Erfan Loghmani' is listed in the author block of the paper, followed by superscript '9' which links to his affiliation.",
+          "quote": "Erfan Loghmani⁹"
+        },
+        "affiliations": [
+          {
+            "value": "New Jersey Institute of Technology",
+            "reasoning": "The superscript '9' next to Erfan Loghmani's name corresponds to the ninth affiliation listed: 'New Jersey Institute of Technology'.",
+            "quote": "⁹New Jersey Institute of Technology"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Ali Parviz",
+          "reasoning": "The author's name 'Ali Parviz' is listed in the author block of the paper, followed by superscripts '1,9' which link to his affiliations.",
+          "quote": "Ali Parviz ¹,⁹"
+        },
+        "affiliations": [
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '1' next to Ali Parviz's name corresponds to the first affiliation listed: 'Mila - Quebec AI Institute'.",
+            "quote": "¹Mila - Quebec AI Institute"
+          },
+          {
+            "value": "New Jersey Institute of Technology",
+            "reasoning": "The superscript '9' next to Ali Parviz's name corresponds to the ninth affiliation listed: 'New Jersey Institute of Technology'.",
+            "quote": "⁹New Jersey Institute of Technology"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Farimah Poursafaei",
+          "reasoning": "The author's name 'Farimah Poursafaei' is listed in the author block of the paper, followed by superscripts '1,4' which link to her affiliations.",
+          "quote": "Farimah Poursafaei ¹,⁴"
+        },
+        "affiliations": [
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '1' next to Farimah Poursafaei's name corresponds to the first affiliation listed: 'Mila - Quebec AI Institute'.",
+            "quote": "¹Mila - Quebec AI Institute"
+          },
+          {
+            "value": "School of Computer Science, McGill University",
+            "reasoning": "The superscript '4' next to Farimah Poursafaei's name corresponds to the fourth affiliation listed: 'School of Computer Science, McGill University'.",
+            "quote": "⁴School of Computer Science, McGill University"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jacob Danovitch",
+          "reasoning": "The author's name 'Jacob Danovitch' is listed in the author block of the paper, followed by superscripts '1,4' which link to his affiliations.",
+          "quote": "Jacob Danovitch ¹,⁴"
+        },
+        "affiliations": [
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '1' next to Jacob Danovitch's name corresponds to the first affiliation listed: 'Mila - Quebec AI Institute'.",
+            "quote": "¹Mila - Quebec AI Institute"
+          },
+          {
+            "value": "School of Computer Science, McGill University",
+            "reasoning": "The superscript '4' next to Jacob Danovitch's name corresponds to the fourth affiliation listed: 'School of Computer Science, McGill University'.",
+            "quote": "⁴School of Computer Science, McGill University"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Emanuele Rossi",
+          "reasoning": "The author's name 'Emanuele Rossi' is listed in the author block of the paper, followed by superscript '5' which links to his affiliation.",
+          "quote": "Emanuele Rossi⁵"
+        },
+        "affiliations": [
+          {
+            "value": "Imperial College London",
+            "reasoning": "The superscript '5' next to Emanuele Rossi's name corresponds to the fifth affiliation listed: 'Imperial College London'.",
+            "quote": "⁵Imperial College London"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Ioannis Koutis",
+          "reasoning": "The author's name 'Ioannis Koutis' is listed in the author block of the paper, followed by superscript '8' which links to his affiliation.",
+          "quote": "Ioannis Koutis⁸"
+        },
+        "affiliations": [
+          {
+            "value": "University of Washington",
+            "reasoning": "The superscript '8' next to Ioannis Koutis's name corresponds to the eighth affiliation listed: 'University of Washington'.",
+            "quote": "⁸University of Washington"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Heiner Stuckenschmidt",
+          "reasoning": "The author's name 'Heiner Stuckenschmidt' is listed in the author block of the paper, followed by superscript '2' which links to his affiliation.",
+          "quote": "Heiner Stuckenschmidt²"
+        },
+        "affiliations": [
+          {
+            "value": "Mannheim University",
+            "reasoning": "The superscript '2' next to Heiner Stuckenschmidt's name corresponds to the second affiliation listed: 'Mannheim University'.",
+            "quote": "²Mannheim University"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Reihaneh Rabbany",
+          "reasoning": "The author's name 'Reihaneh Rabbany' is listed in the author block of the paper, followed by superscripts '1,4,7' which link to her affiliations.",
+          "quote": "Reihaneh Rabbany ¹,⁴,⁷"
+        },
+        "affiliations": [
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '1' next to Reihaneh Rabbany's name corresponds to the first affiliation listed: 'Mila - Quebec AI Institute'.",
+            "quote": "¹Mila - Quebec AI Institute"
+          },
+          {
+            "value": "School of Computer Science, McGill University",
+            "reasoning": "The superscript '4' next to Reihaneh Rabbany's name corresponds to the fourth affiliation listed: 'School of Computer Science, McGill University'.",
+            "quote": "⁴School of Computer Science, McGill University"
+          },
+          {
+            "value": "CIFAR AI Chair",
+            "reasoning": "The superscript '7' next to Reihaneh Rabbany's name corresponds to the seventh affiliation listed: 'CIFAR AI Chair'.",
+            "quote": "⁷CIFAR AI Chair"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Guillaume Rabusseau",
+          "reasoning": "The author's name 'Guillaume Rabusseau' is listed last in the author block of the paper, followed by superscripts '1,6,7' which link to his affiliations.",
+          "quote": "Guillaume Rabusseau ¹,⁶,⁷"
+        },
+        "affiliations": [
+          {
+            "value": "Mila - Quebec AI Institute",
+            "reasoning": "The superscript '1' next to Guillaume Rabusseau's name corresponds to the first affiliation listed: 'Mila - Quebec AI Institute'.",
+            "quote": "¹Mila - Quebec AI Institute"
+          },
+          {
+            "value": "DIRO, Université de Montréal",
+            "reasoning": "The superscript '6' next to Guillaume Rabusseau's name corresponds to the sixth affiliation listed: 'DIRO, Université de Montréal'.",
+            "quote": "⁶DIRO, Université de Montréal"
+          },
+          {
+            "value": "CIFAR AI Chair",
+            "reasoning": "The superscript '7' next to Guillaume Rabusseau's name corresponds to the seventh affiliation listed: 'CIFAR AI Chair'.",
+            "quote": "⁷CIFAR AI Chair"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Mila - Quebec AI Institute",
+        "reasoning": "This affiliation is listed as number '1' in the affiliation list and is associated with multiple authors.",
+        "quote": "¹Mila - Quebec AI Institute"
+      },
+      {
+        "value": "Mannheim University",
+        "reasoning": "This affiliation is listed as number '2' in the affiliation list and is associated with multiple authors.",
+        "quote": "²Mannheim University"
+      },
+      {
+        "value": "Intel AI Lab",
+        "reasoning": "This affiliation is listed as number '3' in the affiliation list.",
+        "quote": "³Intel AI Lab"
+      },
+      {
+        "value": "School of Computer Science, McGill University",
+        "reasoning": "This affiliation is listed as number '4' in the affiliation list and is associated with multiple authors.",
+        "quote": "⁴School of Computer Science, McGill University"
+      },
+      {
+        "value": "Imperial College London",
+        "reasoning": "This affiliation is listed as number '5' in the affiliation list.",
+        "quote": "⁵Imperial College London"
+      },
+      {
+        "value": "DIRO, Université de Montréal",
+        "reasoning": "This affiliation is listed as number '6' in the affiliation list and is associated with multiple authors.",
+        "quote": "⁶DIRO, Université de Montréal"
+      },
+      {
+        "value": "CIFAR AI Chair",
+        "reasoning": "This affiliation is listed as number '7' in the affiliation list and is associated with multiple authors.",
+        "quote": "⁷CIFAR AI Chair"
+      },
+      {
+        "value": "University of Washington",
+        "reasoning": "This affiliation is listed as number '8' in the affiliation list.",
+        "quote": "⁸University of Washington"
+      },
+      {
+        "value": "New Jersey Institute of Technology",
+        "reasoning": "This affiliation is listed as number '9' in the affiliation list.",
+        "quote": "⁹New Jersey Institute of Technology"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffpdf",
+    "model_version": "3.0.0",
+    "llm_model": "models/gemini-2.5-pro"
+  }
+}
