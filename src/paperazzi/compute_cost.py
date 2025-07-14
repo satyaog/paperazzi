@@ -58,6 +58,17 @@ def main(argv: list = None):
 
             response_json: dict = json.loads(response.read_text())
 
+            try:
+                with response.open("rb") as f:
+                    get_platform().ResponseSerializer().load(f)
+            except (TypeError, pydantic_core.ValidationError):
+                with response.open("rb") as f:
+                    (
+                        get_platform()
+                        .ParsedResponseSerializer(get_structured_output().Analysis)
+                        .load(f)
+                    )
+
             if PLATFORM_INSTRUCTOR in response_json:
                 # Response data is located in the _raw_response key
                 response_json = response_json[PLATFORM_INSTRUCTOR]

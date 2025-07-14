@@ -13,6 +13,8 @@ from paperazzi.structured_output.utils import Metadata
 CODE = "VTX"
 
 
+# TODO: make this a class that you need to instantiate (dump and load should take the
+# self or cls argument)
 @dataclass
 class ResponseSerializer:
     def dump(response: types.GenerateContentResponse, file_obj: BinaryIO):

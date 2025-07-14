@@ -10,6 +10,8 @@ from paperazzi.structured_output.utils import Metadata
 CODE = "MST"
 
 
+# TODO: make this a class that you need to instantiate (dump and load should take the
+# self or cls argument)
 @dataclass
 class OCRResponseSerializer:
     def dump(response: OCRResponse, file_obj: BinaryIO):
