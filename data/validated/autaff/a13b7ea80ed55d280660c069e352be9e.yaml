@@ -29,10 +29,6 @@ authors_affiliations:
     reasoning: A distinguished research entity known for its cutting-edge AI investigations spanning broader scoped adjacency
       with enrolled academic figures in focus here.
     quote: "${ }^{3}$ MILA - Qu\xE9bec AI Institute, 6666 Rue Saint-Urbain, Montreal, QC H2S 3H1, Canada"
-  - value: "MILA - Qu\xE9bec AI Institute, 6666 Rue Saint-Urbain, Montreal, QC H2S 3H1, Canada"
-    reasoning: Affiliation indicated by the superscript corresponding to his name highlight his association with the institute
-      focusing on AI research.
-    quote: "${ }^{3}$ MILA - Qu\xE9bec AI Institute, 6666 Rue Saint-Urbain, Montreal, QC H2S 3H1, Canada"
 - author:
     value: J. Benjamin Kacerovsky
     reasoning: J. Benjamin Kacerovsky is among the authors, indicated with specific affiliations using a set of numbers after

@@ -212,12 +212,22 @@ def load_analysis(file_path: Path) -> Analysis:
     else:
         data = json.loads(file_path.read_bytes().decode("utf-8"))
 
-    # LLM output: nested under 'analysis'
+    # vertexai output
     if "parsed" in data:
         return (
             get_platform()
             .ParsedResponseSerializer(get_structured_output().Analysis)
             .load(BytesIO(file_path.read_bytes()))
+            .parsed
+        )
+    # openai output
+    elif "output" in data:
+        return (
+            get_platform()
+            .ParsedResponseSerializer(get_structured_output().Analysis)
+            .load(BytesIO(file_path.read_bytes()))
+            .output[0]
+            .content[0]
             .parsed
         )
     else:

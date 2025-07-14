@@ -221,7 +221,7 @@ class DiskStoreFunc(DiskCachedFunc):
         prefix: str = None,
         version: Version = None,
         index: int = None,
-    ):
+    ) -> "DiskStoreFunc":
         if store is not None:
             store_kwargs = {k: v for k, v in vars(store).items() if v is not None}
         else:
