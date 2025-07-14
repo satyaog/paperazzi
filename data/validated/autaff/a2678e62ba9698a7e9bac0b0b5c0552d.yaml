@@ -5,10 +5,10 @@ authors_affiliations:
       primary role in the research. His name appears with a superscript 1,2* indicating multiple affiliations.
     quote: Alexander Thiel ${ }^{1,2 *}$
   affiliations:
-  - value: Jewish General Hospital and Lady Davis Institute for Medical Research, 3755 Chernin de la Cote St. Cathérine, Montreal,
+  - value: Jewish General Hospital and Lady Davis Institute for Medical Research, 3755 Chemin de la Cote St. Cathérine, Montreal,
       Québec H3T 1E2, Canada
     reasoning: The superscript 1 indicates this affiliation for Alexander Thiel as mentioned in the correspondence section.
-    quote: ${ }^{1}$ Jewish General Hospital and Lady Davis Institute for Medical Research, 3755 Chernin de la Cote St. Cathérine,
+    quote: ${ }^{1}$ Jewish General Hospital and Lady Davis Institute for Medical Research, 3755 Chemin de la Cote St. Cathérine,
       Montreal, Québec H3T 1E2, Canada
   - value: Department of Neurology & Neurosurgery, McGill Univesrity, Montreal, Canada.
     reasoning: ''
@@ -33,7 +33,7 @@ authors_affiliations:
       institutions.
     quote: Hailey Ahn ${ }^{1,5}$
   affiliations:
-  - value: Jewish General Hospital and Lady Davis Institute for Medical Research, 3755 Chernin de la Cote St. Cathérine, Montreal,
+  - value: Jewish General Hospital and Lady Davis Institute for Medical Research, 3755 Chemin de la Cote St. Cathérine, Montreal,
       Québec H3T 1E2, Canada
     reasoning: The mention of superscript 1 aligns Hailey Ahn with this specific institution.
     quote: Hailey Ahn ${ }^{1,5}$
@@ -46,7 +46,7 @@ authors_affiliations:
       1 and 5.
     quote: Youstina Daoud ${ }^{1,5}$
   affiliations:
-  - value: Jewish General Hospital and Lady Davis Institute for Medical Research, 3755 Chernin de la Cote St. Cathérine, Montreal,
+  - value: Jewish General Hospital and Lady Davis Institute for Medical Research, 3755 Chemin de la Cote St. Cathérine, Montreal,
       Québec H3T 1E2, Canada
     reasoning: The superscript 1 affiliation for Hailey Ahn also applies to Youstina Daoud, as both are marked by the same
       numbers.
@@ -127,7 +127,7 @@ authors_affiliations:
     reasoning: Shirin holds dual affiliations marked as 1 and 5, suggesting shared research duties.
     quote: Shirin A. Enger ${ }^{1,5}$
   affiliations:
-  - value: Jewish General Hospital and Lady Davis Institute for Medical Research, 3755 Chernin de la Cote St. Cathérine, Montreal,
+  - value: Jewish General Hospital and Lady Davis Institute for Medical Research, 3755 Chemin de la Cote St. Cathérine, Montreal,
       Québec H3T 1E2, Canada
     reasoning: The relevant superscript 1 aligns with the primary institution linked earlier.
     quote: Shirin A. Enger ${ }^{1,5}$
@@ -146,10 +146,10 @@ authors_affiliations:
     reasoning: ''
     quote: 11 Department of Oncology, Division of Oncologic Imaging, University of Alberta, Edmonton, Canada.
 affiliations:
-- value: Jewish General Hospital and Lady Davis Institute for Medical Research, 3755 Chernin de la Cote St. Cathérine, Montreal,
+- value: Jewish General Hospital and Lady Davis Institute for Medical Research, 3755 Chemin de la Cote St. Cathérine, Montreal,
     Québec H3T 1E2, Canada
   reasoning: Identified as a main institution where several of the authors are associated, as marked by superscript 1.
-  quote: ${ }^{1}$ Jewish General Hospital and Lady Davis Institute for Medical Research, 3755 Chernin de la Cote St. Cathérine,
+  quote: ${ }^{1}$ Jewish General Hospital and Lady Davis Institute for Medical Research, 3755 Chemin de la Cote St. Cathérine,
     Montreal, Québec H3T 1E2, Canada
 - value: Department of Neurology & Neurosurgery, McGill Univesrity, Montreal, Canada.
   reasoning: ''

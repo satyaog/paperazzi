@@ -32,7 +32,7 @@ class ParsedResponseSerializer(ResponseSerializer):
     content_type: type[ParsedResponse] = ParsedResponse
 
     def dump(self, response: Response, file_obj: BinaryIO):
-        return ResponseSerializer.dump(response, file_obj)
+        return super().dump(response, file_obj)
 
     def load(self, file_obj: BinaryIO) -> ParsedResponse:
         # filter out the "text" field to avoid the following error:
@@ -47,7 +47,7 @@ class ParsedResponseSerializer(ResponseSerializer):
         #     For further information visit https://errors.pydantic.dev/2.11/v/literal_error
         data = json.load(file_obj)
         data.pop("text", None)
-        return self.content_type.model_validate(data)
+        return ParsedResponse[self.content_type].model_validate(data)
 
 
 @dataclass

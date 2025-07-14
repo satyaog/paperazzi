@@ -10,15 +10,20 @@ from pydantic import BaseModel
 
 import paperazzi
 from paperazzi.config import CFG
-from paperazzi.platforms.openai.utils import Message, ResponseSerializer
+from paperazzi.platforms.openai.utils import (
+    Message,
+)
+from paperazzi.platforms.openai.utils import (
+    ResponseSerializer as OpenAIResponseSerializer,
+)
 from paperazzi.structured_output.utils import Metadata
 
 CODE = "INS"
 
 
 @dataclass
-class ResponseSerializer(ResponseSerializer):
-    content_type: type[BaseModel] = BaseModel
+class ResponseSerializer(OpenAIResponseSerializer):
+    content_type: type[BaseModel]
 
     def dump(self, response: BaseModel, file_obj: BinaryIO):
         model_dump = response.model_dump()
@@ -31,6 +36,7 @@ class ResponseSerializer(ResponseSerializer):
     def load(self, file_obj: BinaryIO) -> BaseModel:
         data = json.load(file_obj)
         raw_response = data.pop("_raw_response")
+        metadata = data.pop("_metadata")
         loaded_model = self.content_type.model_validate(data)
 
         # Fix legacy / incomplete _raw_response
@@ -41,6 +47,7 @@ class ResponseSerializer(ResponseSerializer):
         raw_response["object"] = raw_response.pop("object", "chat.completion")
 
         loaded_model._raw_response = ChatCompletion.model_validate(raw_response)
+        loaded_model._metadata = Metadata.model_validate(metadata)
         return loaded_model
 
 

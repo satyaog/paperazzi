@@ -1,15 +1,19 @@
 import argparse
 import json
+import math
+from pathlib import Path
 
 import pandas as pd
 import pydantic_core
 from pydantic import BaseModel
 
+from paperazzi.config import CFG
 from paperazzi.log import logger
 from paperazzi.platforms.utils import get_platform
 from paperazzi.structured_output.utils import get_structured_output, make_disk_store
 
 PLATFORM_INSTRUCTOR = "_raw_response"
+PLATFORM_OPENAI = "usage"
 PLATFORM_VERTEXAI = "usage_metadata"
 
 
@@ -44,50 +48,69 @@ def main(argv: list = None):
     retries = []
 
     metadata = get_structured_output().METADATA
+    metadata.llm_model = CFG[CFG.platform.select].model
 
     disk_store = make_disk_store(metadata)
 
     for response in disk_store.iter_files(key="*"):
         try:
-            *_, index = response.stem.split("_")
+            index = Path(response.name.split("_")[-1]).stem
 
-            json_data = json.loads(response.read_text())
+            response_json: dict = json.loads(response.read_text())
 
-            if PLATFORM_INSTRUCTOR in json_data:
-                # Parse instructor response
+            try:
                 with response.open("rb") as f:
-                    response = (
-                        get_platform()
-                        .ResponseSerializer(get_structured_output().Analysis)
-                        .load(f)
-                    )
-                usage: BaseModel = response._raw_response.usage
-                usage = usage.model_dump()
-            elif PLATFORM_VERTEXAI in json_data:
-                # Parse vertexai response
+                    get_platform().ResponseSerializer().load(f)
+            except (TypeError, pydantic_core.ValidationError):
                 with response.open("rb") as f:
-                    response = (
+                    (
                         get_platform()
                         .ParsedResponseSerializer(get_structured_output().Analysis)
                         .load(f)
                     )
-                usage: BaseModel = response.usage_metadata
-                usage = usage.model_dump()
+
+            if PLATFORM_INSTRUCTOR in response_json:
+                # Response data is located in the _raw_response key
+                response_json = response_json[PLATFORM_INSTRUCTOR]
+
+            if PLATFORM_VERTEXAI in response_json:
+                # Parse vertexai response
+                usage = response_json[PLATFORM_VERTEXAI]
+
+            elif PLATFORM_OPENAI in response_json:
+                # Parse openai response
+                usage = response_json[PLATFORM_OPENAI]
 
             in_tokens.append(
-                usage.get("prompt_tokens", None)
-                or usage.get(
-                    "input_tokens",
-                    # vertexai
-                    usage["prompt_token_count"],
+                next(
+                    filter(
+                        lambda x: x >= 0,
+                        [
+                            # openai
+                            usage.get(
+                                "prompt_tokens", usage.get("input_tokens", -math.inf)
+                            ),
+                            # vertexai
+                            usage.get("prompt_token_count", -math.inf),
+                        ],
+                    )
                 )
             )
             out_tokens.append(
-                usage.get("completion_tokens", None)
-                or usage.get(
-                    "output_tokens",
-                    # vertexai
-                    usage["candidates_token_count"] + usage["thoughts_token_count"],
+                next(
+                    filter(
+                        lambda x: x >= 0,
+                        [
+                            # openai
+                            usage.get(
+                                "completion_tokens",
+                                usage.get("output_tokens", -math.inf),
+                            ),
+                            # vertexai
+                            usage.get("candidates_token_count", -math.inf)
+                            + usage.get("thoughts_token_count", -math.inf),
+                        ],
+                    )
                 )
             )
 

@@ -71,7 +71,7 @@ class TestComputeCost:
 
         with Config.push() as cfg:
             cfg.platform.select = "openai"
-            cfg.platform.instructor = True
+            cfg.platform.instructor = "1"
 
             # Run main function - should handle validation errors gracefully
             main(["2.5", "10"])
