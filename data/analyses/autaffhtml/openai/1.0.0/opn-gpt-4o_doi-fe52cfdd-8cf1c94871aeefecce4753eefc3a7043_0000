@@ -1,0 +1,273 @@
+{
+  "id": "resp_687146efc5f081a1beb1bd3d204c1eaf029275bae4b19688",
+  "created_at": 1752254191.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4o-2024-08-06",
+  "object": "response",
+  "output": [
+    {
+      "id": "msg_687146f0928081a1ba2ce070ef47ade3029275bae4b19688",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"authors_affiliations\":[{\"author\":{\"value\":\"Yonatan Bisk\",\"reasoning\":\"Yonatan Bisk is listed in the metadata and in the paragraph containing the list of authors.\",\"quote\":\"<a href=/people/y/yonatan-bisk/>Yonatan Bisk</a>\"},\"affiliations\":[]},{\"author\":{\"value\":\"Ari Holtzman\",\"reasoning\":\"Ari Holtzman is listed in the metadata and in the paragraph containing the list of authors.\",\"quote\":\"<a href=/people/a/ari-holtzman/>Ari Holtzman</a>\"},\"affiliations\":[]},{\"author\":{\"value\":\"Jesse Thomason\",\"reasoning\":\"Jesse Thomason is listed in the metadata and in the paragraph containing the list of authors.\",\"quote\":\"<a href=/people/j/jesse-thomason/>Jesse Thomason</a>\"},\"affiliations\":[]},{\"author\":{\"value\":\"Jacob Andreas\",\"reasoning\":\"Jacob Andreas is listed in the metadata and in the paragraph containing the list of authors.\",\"quote\":\"<a href=/people/j/jacob-andreas/>Jacob Andreas</a>\"},\"affiliations\":[]},{\"author\":{\"value\":\"Yoshua Bengio\",\"reasoning\":\"Yoshua Bengio is listed in the metadata and in the paragraph containing the list of authors.\",\"quote\":\"<a href=/people/y/yoshua-bengio/>Yoshua Bengio</a>\"},\"affiliations\":[]},{\"author\":{\"value\":\"Joyce Chai\",\"reasoning\":\"Joyce Chai is listed in the metadata and in the paragraph containing the list of authors.\",\"quote\":\"<a href=/people/j/joyce-chai/>Joyce Chai</a>\"},\"affiliations\":[]},{\"author\":{\"value\":\"Mirella Lapata\",\"reasoning\":\"Mirella Lapata is listed in the metadata and in the paragraph containing the list of authors.\",\"quote\":\"<a href=/people/m/mirella-lapata/>Mirella Lapata</a>\"},\"affiliations\":[]},{\"author\":{\"value\":\"Angeliki Lazaridou\",\"reasoning\":\"Angeliki Lazaridou is listed in the metadata and in the paragraph containing the list of authors.\",\"quote\":\"<a href=/people/a/angeliki-lazaridou/>Angeliki Lazaridou</a>\"},\"affiliations\":[]},{\"author\":{\"value\":\"Jonathan May\",\"reasoning\":\"Jonathan May is listed in the metadata and in the paragraph containing the list of authors.\",\"quote\":\"<a href=/people/j/jonathan-may/>Jonathan May</a>\"},\"affiliations\":[]},{\"author\":{\"value\":\"Aleksandr Nisnevich\",\"reasoning\":\"Aleksandr Nisnevich is listed in the metadata and in the paragraph containing the list of authors.\",\"quote\":\"<a href=/people/a/aleksandr-nisnevich/>Aleksandr Nisnevich</a>\"},\"affiliations\":[]},{\"author\":{\"value\":\"Nicolas Pinto\",\"reasoning\":\"Nicolas Pinto is listed in the metadata and in the paragraph containing the list of authors.\",\"quote\":\"<a href=/people/n/nicolas-pinto/>Nicolas Pinto</a>\"},\"affiliations\":[]},{\"author\":{\"value\":\"Joseph Turian\",\"reasoning\":\"Joseph Turian is listed in the metadata and in the paragraph containing the list of authors.\",\"quote\":\"<a href=/people/j/joseph-turian/>Joseph Turian</a>\"},\"affiliations\":[]}],\"affiliations\":[]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "authors_affiliations": [
+              {
+                "author": {
+                  "value": "Yonatan Bisk",
+                  "reasoning": "Yonatan Bisk is listed in the metadata and in the paragraph containing the list of authors.",
+                  "quote": "<a href=/people/y/yonatan-bisk/>Yonatan Bisk</a>"
+                },
+                "affiliations": []
+              },
+              {
+                "author": {
+                  "value": "Ari Holtzman",
+                  "reasoning": "Ari Holtzman is listed in the metadata and in the paragraph containing the list of authors.",
+                  "quote": "<a href=/people/a/ari-holtzman/>Ari Holtzman</a>"
+                },
+                "affiliations": []
+              },
+              {
+                "author": {
+                  "value": "Jesse Thomason",
+                  "reasoning": "Jesse Thomason is listed in the metadata and in the paragraph containing the list of authors.",
+                  "quote": "<a href=/people/j/jesse-thomason/>Jesse Thomason</a>"
+                },
+                "affiliations": []
+              },
+              {
+                "author": {
+                  "value": "Jacob Andreas",
+                  "reasoning": "Jacob Andreas is listed in the metadata and in the paragraph containing the list of authors.",
+                  "quote": "<a href=/people/j/jacob-andreas/>Jacob Andreas</a>"
+                },
+                "affiliations": []
+              },
+              {
+                "author": {
+                  "value": "Yoshua Bengio",
+                  "reasoning": "Yoshua Bengio is listed in the metadata and in the paragraph containing the list of authors.",
+                  "quote": "<a href=/people/y/yoshua-bengio/>Yoshua Bengio</a>"
+                },
+                "affiliations": []
+              },
+              {
+                "author": {
+                  "value": "Joyce Chai",
+                  "reasoning": "Joyce Chai is listed in the metadata and in the paragraph containing the list of authors.",
+                  "quote": "<a href=/people/j/joyce-chai/>Joyce Chai</a>"
+                },
+                "affiliations": []
+              },
+              {
+                "author": {
+                  "value": "Mirella Lapata",
+                  "reasoning": "Mirella Lapata is listed in the metadata and in the paragraph containing the list of authors.",
+                  "quote": "<a href=/people/m/mirella-lapata/>Mirella Lapata</a>"
+                },
+                "affiliations": []
+              },
+              {
+                "author": {
+                  "value": "Angeliki Lazaridou",
+                  "reasoning": "Angeliki Lazaridou is listed in the metadata and in the paragraph containing the list of authors.",
+                  "quote": "<a href=/people/a/angeliki-lazaridou/>Angeliki Lazaridou</a>"
+                },
+                "affiliations": []
+              },
+              {
+                "author": {
+                  "value": "Jonathan May",
+                  "reasoning": "Jonathan May is listed in the metadata and in the paragraph containing the list of authors.",
+                  "quote": "<a href=/people/j/jonathan-may/>Jonathan May</a>"
+                },
+                "affiliations": []
+              },
+              {
+                "author": {
+                  "value": "Aleksandr Nisnevich",
+                  "reasoning": "Aleksandr Nisnevich is listed in the metadata and in the paragraph containing the list of authors.",
+                  "quote": "<a href=/people/a/aleksandr-nisnevich/>Aleksandr Nisnevich</a>"
+                },
+                "affiliations": []
+              },
+              {
+                "author": {
+                  "value": "Nicolas Pinto",
+                  "reasoning": "Nicolas Pinto is listed in the metadata and in the paragraph containing the list of authors.",
+                  "quote": "<a href=/people/n/nicolas-pinto/>Nicolas Pinto</a>"
+                },
+                "affiliations": []
+              },
+              {
+                "author": {
+                  "value": "Joseph Turian",
+                  "reasoning": "Joseph Turian is listed in the metadata and in the paragraph containing the list of authors.",
+                  "quote": "<a href=/people/j/joseph-turian/>Joseph Turian</a>"
+                },
+                "affiliations": []
+              }
+            ],
+            "affiliations": []
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 1.0,
+  "background": false,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "Analysis",
+      "schema_": {
+        "$defs": {
+          "AuthorAffiliations": {
+            "properties": {
+              "author": {
+                "description": "An author present in the Deep Learning scientific paper",
+                "properties": {
+                  "value": {
+                    "title": "Value",
+                    "type": "string"
+                  },
+                  "reasoning": {
+                    "description": "A detailed explanation for the choice of the value",
+                    "title": "Reasoning",
+                    "type": "string"
+                  },
+                  "quote": {
+                    "description": "The best literal quote from the paper which supports the value",
+                    "title": "Quote",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "value",
+                  "reasoning",
+                  "quote"
+                ],
+                "title": "Explained[str]",
+                "type": "object",
+                "additionalProperties": false
+              },
+              "affiliations": {
+                "description": "List of the author's affiliations present in the Deep Learning scientific paper",
+                "items": {
+                  "$ref": "#/$defs/Explained_str_"
+                },
+                "title": "Affiliations",
+                "type": "array"
+              }
+            },
+            "required": [
+              "author",
+              "affiliations"
+            ],
+            "title": "AuthorAffiliations",
+            "type": "object",
+            "additionalProperties": false
+          },
+          "Explained_str_": {
+            "properties": {
+              "value": {
+                "title": "Value",
+                "type": "string"
+              },
+              "reasoning": {
+                "description": "A detailed explanation for the choice of the value",
+                "title": "Reasoning",
+                "type": "string"
+              },
+              "quote": {
+                "description": "The best literal quote from the paper which supports the value",
+                "title": "Quote",
+                "type": "string"
+              }
+            },
+            "required": [
+              "value",
+              "reasoning",
+              "quote"
+            ],
+            "title": "Explained[str]",
+            "type": "object",
+            "additionalProperties": false
+          }
+        },
+        "properties": {
+          "authors_affiliations": {
+            "description": "List of all authors present in the Deep Learning scientific paper with theirs affiliations",
+            "items": {
+              "$ref": "#/$defs/AuthorAffiliations"
+            },
+            "title": "Authors Affiliations",
+            "type": "array"
+          },
+          "affiliations": {
+            "description": "List of all affiliations present in the Deep Learning scientific paper",
+            "items": {
+              "$ref": "#/$defs/Explained_str_"
+            },
+            "title": "Affiliations",
+            "type": "array"
+          }
+        },
+        "required": [
+          "authors_affiliations",
+          "affiliations"
+        ],
+        "title": "Analysis",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    }
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 12113,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 729,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12842
+  },
+  "user": null,
+  "store": true,
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "gpt-4o"
+  }
+}

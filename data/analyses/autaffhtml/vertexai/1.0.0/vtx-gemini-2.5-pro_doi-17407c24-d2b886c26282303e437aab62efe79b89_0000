@@ -1,0 +1,396 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sat, 12 Jul 2025 03:34:03 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=99645",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Sathya Karunananthan\",\n        \"reasoning\": \"The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-1\\\"><a href=\\\"http://orcid.org/0000-0002-4247-4752\\\" class=\\\"bmjj-markup-orcid-logo\\\" target=\\\"_blank\\\">http://orcid.org/0000-0002-4247-4752</a><span class=\\\"name\\\">Sathya Karunananthan</span><a id=\\\"xref-aff-1-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-1\\\">1</a><span class=\\\"xref-sep\\\">,</span><a id=\\\"xref-aff-2-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-2\\\">2</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Interdisciplinary School of Health Sciences, University of Ottawa, Ottawa, Ontario, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '1' and an 'a' tag with href '#aff-1'. The full affiliation text is extracted from the 'li' element with id 'aff-1' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-1\\\" name=\\\"aff-1\\\"></a><address><sup>1</sup><span class=\\\"institution\\\">Interdisciplinary School of Health Sciences</span>, <span class=\\\"institution\\\">University of Ottawa</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n        },\n        {\n          \"value\": \"Bruyere Research Institute, Ottawa, Ontario, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '2' and an 'a' tag with href '#aff-2'. The full affiliation text is extracted from the 'li' element with id 'aff-2' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-2\\\" name=\\\"aff-2\\\"></a><address><sup>2</sup><span class=\\\"institution\\\">Bruyere Research Institute</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Arya Rahgozar\",\n        \"reasoning\": \"The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-2\\\"><span class=\\\"name\\\">Arya Rahgozar</span><a id=\\\"xref-aff-3-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-3\\\">3</a><span class=\\\"xref-sep\\\">,</span><a id=\\\"xref-aff-4-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-4\\\">4</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"The Ottawa Hospital Research Institute, Ottawa, Ontario, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '3' and an 'a' tag with href '#aff-3'. The full affiliation text is extracted from the 'li' element with id 'aff-3' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-3\\\" name=\\\"aff-3\\\"></a><address><sup>3</sup><span class=\\\"institution\\\">The Ottawa Hospital Research Institute</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n        },\n        {\n          \"value\": \"Department of Family Medicine, University of Ottawa, Ottawa, Ontario, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '4' and an 'a' tag with href '#aff-4'. The full affiliation text is extracted from the 'li' element with id 'aff-4' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-4\\\" name=\\\"aff-4\\\"></a><address><sup>4</sup><span class=\\\"institution\\\">Department of Family Medicine</span>, <span class=\\\"institution\\\">University of Ottawa</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Ramtin Hakimjavadi\",\n        \"reasoning\": \"The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-3\\\"><span class=\\\"name\\\">Ramtin Hakimjavadi</span><a id=\\\"xref-aff-2-2\\\" class=\\\"xref-aff\\\" href=\\\"#aff-2\\\">2</a><span class=\\\"xref-sep\\\">,</span><a id=\\\"xref-aff-5-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-5\\\">5</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Bruyere Research Institute, Ottawa, Ontario, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '2' and an 'a' tag with href '#aff-2'. The full affiliation text is extracted from the 'li' element with id 'aff-2' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-2\\\" name=\\\"aff-2\\\"></a><address><sup>2</sup><span class=\\\"institution\\\">Bruyere Research Institute</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n        },\n        {\n          \"value\": \"Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '5' and an 'a' tag with href '#aff-5'. The full affiliation text is extracted from the 'li' element with id 'aff-5' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-5\\\" name=\\\"aff-5\\\"></a><address><sup>5</sup><span class=\\\"institution\\\">Faculty of Medicine</span>, <span class=\\\"institution\\\">University of Ottawa</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Hui Yan\",\n        \"reasoning\": \"The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-4\\\"><span class=\\\"name\\\">Hui Yan</span><a id=\\\"xref-aff-2-3\\\" class=\\\"xref-aff\\\" href=\\\"#aff-2\\\">2</a><span class=\\\"xref-sep\\\">,</span><a id=\\\"xref-aff-5-2\\\" class=\\\"xref-aff\\\" href=\\\"#aff-5\\\">5</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Bruyere Research Institute, Ottawa, Ontario, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '2' and an 'a' tag with href '#aff-2'. The full affiliation text is extracted from the 'li' element with id 'aff-2' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-2\\\" name=\\\"aff-2\\\"></a><address><sup>2</sup><span class=\\\"institution\\\">Bruyere Research Institute</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n        },\n        {\n          \"value\": \"Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '5' and an 'a' tag with href '#aff-5'. The full affiliation text is extracted from the 'li' element with id 'aff-5' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-5\\\" name=\\\"aff-5\\\"></a><address><sup>5</sup><span class=\\\"institution\\\">Faculty of Medicine</span>, <span class=\\\"institution\\\">University of Ottawa</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Kunal A Dalsania\",\n        \"reasoning\": \"The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-5\\\"><span class=\\\"name\\\">Kunal A Dalsania</span><a id=\\\"xref-aff-1-2\\\" class=\\\"xref-aff\\\" href=\\\"#aff-1\\\">1</a><span class=\\\"xref-sep\\\">,</span><a id=\\\"xref-aff-2-4\\\" class=\\\"xref-aff\\\" href=\\\"#aff-2\\\">2</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Interdisciplinary School of Health Sciences, University of Ottawa, Ottawa, Ontario, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '1' and an 'a' tag with href '#aff-1'. The full affiliation text is extracted from the 'li' element with id 'aff-1' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-1\\\" name=\\\"aff-1\\\"></a><address><sup>1</sup><span class=\\\"institution\\\">Interdisciplinary School of Health Sciences</span>, <span class=\\\"institution\\\">University of Ottawa</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n        },\n        {\n          \"value\": \"Bruyere Research Institute, Ottawa, Ontario, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '2' and an 'a' tag with href '#aff-2'. The full affiliation text is extracted from the 'li' element with id 'aff-2' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-2\\\" name=\\\"aff-2\\\"></a><address><sup>2</sup><span class=\\\"institution\\\">Bruyere Research Institute</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Howard Bergman\",\n        \"reasoning\": \"The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-6\\\"><span class=\\\"name\\\">Howard Bergman</span><a id=\\\"xref-aff-6-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-6\\\">6</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Family Medicine, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '6' and an 'a' tag with href '#aff-6'. The full affiliation text is extracted from the 'li' element with id 'aff-6' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-6\\\" name=\\\"aff-6\\\"></a><address><sup>6</sup><span class=\\\"institution\\\">Department of Family Medicine</span>, <span class=\\\"institution\\\">McGill University</span>, <span class=\\\"addr-line\\\">Montreal</span>, <span class=\\\"addr-line\\\">Quebec</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Bishwajit Ghose\",\n        \"reasoning\": \"The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-7\\\"><a href=\\\"http://orcid.org/0000-0003-4461-3821\\\" class=\\\"bmjj-markup-orcid-logo\\\" target=\\\"_blank\\\">http://orcid.org/0000-0003-4461-3821</a><span class=\\\"name\\\">Bishwajit Ghose</span><a id=\\\"xref-aff-7-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-7\\\">7</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Faculty of Health Sciences, University of Ottawa, Ottawa, Ontario, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '7' and an 'a' tag with href '#aff-7'. The full affiliation text is extracted from the 'li' element with id 'aff-7' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-7\\\" name=\\\"aff-7\\\"></a><address><sup>7</sup><span class=\\\"institution\\\">Faculty of Health Sciences</span>, <span class=\\\"institution\\\">University of Ottawa</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jim LaPlante\",\n        \"reasoning\": \"The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-8\\\"><span class=\\\"name\\\">Jim LaPlante</span><a id=\\\"xref-aff-8-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-8\\\">8</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Care Partner, Ottawa, Ontario, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '8' and an 'a' tag with href '#aff-8'. The full affiliation text is extracted from the 'li' element with id 'aff-8' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-8\\\" name=\\\"aff-8\\\"></a><address><sup>8</sup><span class=\\\"institution\\\">Care Partner</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Tess McCutcheon\",\n        \"reasoning\": \"The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-9\\\"><span class=\\\"name\\\">Tess McCutcheon</span><a id=\\\"xref-aff-9-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-9\\\">9</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"C.T. Lamont Primary Health Care Research Centre, Bruyère Research Institute, Ottawa, Ontario, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '9' and an 'a' tag with href '#aff-9'. The full affiliation text is extracted from the 'li' element with id 'aff-9' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-9\\\" name=\\\"aff-9\\\"></a><address><sup>9</sup><span class=\\\"institution\\\">C.T. Lamont Primary Health Care Research Centre</span>, <span class=\\\"institution\\\">Bruyère Research Institute</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Daniel I McIsaac\",\n        \"reasoning\": \"The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-10\\\"><a href=\\\"http://orcid.org/0000-0002-8543-1859\\\" class=\\\"bmjj-markup-orcid-logo\\\" target=\\\"_blank\\\">http://orcid.org/0000-0002-8543-1859</a><span class=\\\"name\\\">Daniel I McIsaac</span><a id=\\\"xref-aff-10-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-10\\\">10</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Anesthesiology and Pain Medicine, The Ottawa Hospital, Ottawa, Ontario, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '10' and an 'a' tag with href '#aff-10'. The full affiliation text is extracted from the 'li' element with id 'aff-10' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-10\\\" name=\\\"aff-10\\\"></a><address><sup>10</sup><span class=\\\"institution\\\">Anesthesiology and Pain Medicine</span>, <span class=\\\"institution\\\">The Ottawa Hospital</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Samira Abbasgholizadeh Rahimi\",\n        \"reasoning\": \"The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-11\\\"><a href=\\\"http://orcid.org/0000-0003-3781-1360\\\" class=\\\"bmjj-markup-orcid-logo\\\" target=\\\"_blank\\\">http://orcid.org/0000-0003-3781-1360</a><span class=\\\"name\\\">Samira Abbasgholizadeh Rahimi</span><a id=\\\"xref-aff-6-2\\\" class=\\\"xref-aff\\\" href=\\\"#aff-6\\\">6</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Family Medicine, McGill University, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '6' and an 'a' tag with href '#aff-6'. The full affiliation text is extracted from the 'li' element with id 'aff-6' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-6\\\" name=\\\"aff-6\\\"></a><address><sup>6</sup><span class=\\\"institution\\\">Department of Family Medicine</span>, <span class=\\\"institution\\\">McGill University</span>, <span class=\\\"addr-line\\\">Montreal</span>, <span class=\\\"addr-line\\\">Quebec</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Nadia Sourial\",\n        \"reasoning\": \"The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-12\\\"><span class=\\\"name\\\">Nadia Sourial</span><a id=\\\"xref-aff-11-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-11\\\">11</a><span class=\\\"xref-sep\\\">,</span><a id=\\\"xref-aff-12-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-12\\\">12</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Health Management, Evaluation & Policy, Université de Montréal, Montreal, Québec, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '11' and an 'a' tag with href '#aff-11'. The full affiliation text is extracted from the 'li' element with id 'aff-11' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-11\\\" name=\\\"aff-11\\\"></a><address><sup>11</sup><span class=\\\"institution\\\">Department of Health Management, Evaluation &amp; Policy</span>, <span class=\\\"institution\\\">Université de Montréal</span>, <span class=\\\"addr-line\\\">Montreal</span>, <span class=\\\"addr-line\\\">Québec</span>, Canada</address></li>\"\n        },\n        {\n          \"value\": \"Research Center of the Centre Hospitalier de l'Université de Montréal, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '12' and an 'a' tag with href '#aff-12'. The full affiliation text is extracted from the 'li' element with id 'aff-12' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-12\\\" name=\\\"aff-12\\\"></a><address><sup>12</sup><span class=\\\"institution\\\">Research Center of the Centre Hospitalier de l'Université de Montréal</span>, <span class=\\\"addr-line\\\">Montreal</span>, <span class=\\\"addr-line\\\">Quebec</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Manpreet Thandi\",\n        \"reasoning\": \"The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-13\\\"><span class=\\\"name\\\">Manpreet Thandi</span><a id=\\\"xref-aff-13-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-13\\\">13</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Centre for Health Services and Policy Research, University of British Columbia, Vancouver, British Columbia, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '13' and an 'a' tag with href '#aff-13'. The full affiliation text is extracted from the 'li' element with id 'aff-13' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-13\\\" name=\\\"aff-13\\\"></a><address><sup>13</sup><span class=\\\"institution\\\">Centre for Health Services and Policy Research</span>, <span class=\\\"institution\\\">University of British Columbia</span>, <span class=\\\"addr-line\\\">Vancouver</span>, <span class=\\\"addr-line\\\">British Columbia</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Sabrina T Wong\",\n        \"reasoning\": \"The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-14\\\"><a href=\\\"http://orcid.org/0000-0002-9619-9012\\\" class=\\\"bmjj-markup-orcid-logo\\\" target=\\\"_blank\\\">http://orcid.org/0000-0002-9619-9012</a><span class=\\\"name\\\">Sabrina T Wong</span><a id=\\\"xref-aff-13-2\\\" class=\\\"xref-aff\\\" href=\\\"#aff-13\\\">13</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Centre for Health Services and Policy Research, University of British Columbia, Vancouver, British Columbia, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '13' and an 'a' tag with href '#aff-13'. The full affiliation text is extracted from the 'li' element with id 'aff-13' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-13\\\" name=\\\"aff-13\\\"></a><address><sup>13</sup><span class=\\\"institution\\\">Centre for Health Services and Policy Research</span>, <span class=\\\"institution\\\">University of British Columbia</span>, <span class=\\\"addr-line\\\">Vancouver</span>, <span class=\\\"addr-line\\\">British Columbia</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Clare Liddy\",\n        \"reasoning\": \"The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.\",\n        \"quote\": \"<li class=\\\"last\\\" id=\\\"contrib-15\\\"><a href=\\\"http://orcid.org/0000-0003-0699-5494\\\" class=\\\"bmjj-markup-orcid-logo\\\" target=\\\"_blank\\\">http://orcid.org/0000-0003-0699-5494</a><span class=\\\"name\\\">Clare Liddy</span><a id=\\\"xref-aff-4-2\\\" class=\\\"xref-aff\\\" href=\\\"#aff-4\\\">4</a><span class=\\\"xref-sep\\\">,</span><a id=\\\"xref-aff-9-2\\\" class=\\\"xref-aff\\\" href=\\\"#aff-9\\\">9</a></li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Family Medicine, University of Ottawa, Ottawa, Ontario, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '4' and an 'a' tag with href '#aff-4'. The full affiliation text is extracted from the 'li' element with id 'aff-4' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-4\\\" name=\\\"aff-4\\\"></a><address><sup>4</sup><span class=\\\"institution\\\">Department of Family Medicine</span>, <span class=\\\"institution\\\">University of Ottawa</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n        },\n        {\n          \"value\": \"C.T. Lamont Primary Health Care Research Centre, Bruyère Research Institute, Ottawa, Ontario, Canada\",\n          \"reasoning\": \"The affiliation is linked to the author by a superscript '9' and an 'a' tag with href '#aff-9'. The full affiliation text is extracted from the 'li' element with id 'aff-9' in the affiliation list.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-9\\\" name=\\\"aff-9\\\"></a><address><sup>9</sup><span class=\\\"institution\\\">C.T. Lamont Primary Health Care Research Centre</span>, <span class=\\\"institution\\\">Bruyère Research Institute</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Interdisciplinary School of Health Sciences, University of Ottawa, Ottawa, Ontario, Canada\",\n      \"reasoning\": \"The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-1' within the ordered list of affiliations. This affiliation is referenced by multiple authors.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-1\\\" name=\\\"aff-1\\\"></a><address><sup>1</sup><span class=\\\"institution\\\">Interdisciplinary School of Health Sciences</span>, <span class=\\\"institution\\\">University of Ottawa</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n    },\n    {\n      \"value\": \"Bruyere Research Institute, Ottawa, Ontario, Canada\",\n      \"reasoning\": \"The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-2' within the ordered list of affiliations. This affiliation is referenced by multiple authors.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-2\\\" name=\\\"aff-2\\\"></a><address><sup>2</sup><span class=\\\"institution\\\">Bruyere Research Institute</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n    },\n    {\n      \"value\": \"The Ottawa Hospital Research Institute, Ottawa, Ontario, Canada\",\n      \"reasoning\": \"The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-3' within the ordered list of affiliations.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-3\\\" name=\\\"aff-3\\\"></a><address><sup>3</sup><span class=\\\"institution\\\">The Ottawa Hospital Research Institute</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n    },\n    {\n      \"value\": \"Department of Family Medicine, University of Ottawa, Ottawa, Ontario, Canada\",\n      \"reasoning\": \"The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-4' within the ordered list of affiliations. This affiliation is referenced by multiple authors.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-4\\\" name=\\\"aff-4\\\"></a><address><sup>4</sup><span class=\\\"institution\\\">Department of Family Medicine</span>, <span class=\\\"institution\\\">University of Ottawa</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n    },\n    {\n      \"value\": \"Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada\",\n      \"reasoning\": \"The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-5' within the ordered list of affiliations. This affiliation is referenced by multiple authors.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-5\\\" name=\\\"aff-5\\\"></a><address><sup>5</sup><span class=\\\"institution\\\">Faculty of Medicine</span>, <span class=\\\"institution\\\">University of Ottawa</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n    },\n    {\n      \"value\": \"Department of Family Medicine, McGill University, Montreal, Quebec, Canada\",\n      \"reasoning\": \"The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-6' within the ordered list of affiliations. This affiliation is referenced by multiple authors.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-6\\\" name=\\\"aff-6\\\"></a><address><sup>6</sup><span class=\\\"institution\\\">Department of Family Medicine</span>, <span class=\\\"institution\\\">McGill University</span>, <span class=\\\"addr-line\\\">Montreal</span>, <span class=\\\"addr-line\\\">Quebec</span>, Canada</address></li>\"\n    },\n    {\n      \"value\": \"Faculty of Health Sciences, University of Ottawa, Ottawa, Ontario, Canada\",\n      \"reasoning\": \"The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-7' within the ordered list of affiliations.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-7\\\" name=\\\"aff-7\\\"></a><address><sup>7</sup><span class=\\\"institution\\\">Faculty of Health Sciences</span>, <span class=\\\"institution\\\">University of Ottawa</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n    },\n    {\n      \"value\": \"Care Partner, Ottawa, Ontario, Canada\",\n      \"reasoning\": \"The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-8' within the ordered list of affiliations.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-8\\\" name=\\\"aff-8\\\"></a><address><sup>8</sup><span class=\\\"institution\\\">Care Partner</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n    },\n    {\n      \"value\": \"C.T. Lamont Primary Health Care Research Centre, Bruyère Research Institute, Ottawa, Ontario, Canada\",\n      \"reasoning\": \"The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-9' within the ordered list of affiliations. This affiliation is referenced by multiple authors.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-9\\\" name=\\\"aff-9\\\"></a><address><sup>9</sup><span class=\\\"institution\\\">C.T. Lamont Primary Health Care Research Centre</span>, <span class=\\\"institution\\\">Bruyère Research Institute</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n    },\n    {\n      \"value\": \"Anesthesiology and Pain Medicine, The Ottawa Hospital, Ottawa, Ontario, Canada\",\n      \"reasoning\": \"The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-10' within the ordered list of affiliations.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-10\\\" name=\\\"aff-10\\\"></a><address><sup>10</sup><span class=\\\"institution\\\">Anesthesiology and Pain Medicine</span>, <span class=\\\"institution\\\">The Ottawa Hospital</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n    },\n    {\n      \"value\": \"Department of Health Management, Evaluation & Policy, Université de Montréal, Montreal, Québec, Canada\",\n      \"reasoning\": \"The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-11' within the ordered list of affiliations.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-11\\\" name=\\\"aff-11\\\"></a><address><sup>11</sup><span class=\\\"institution\\\">Department of Health Management, Evaluation &amp; Policy</span>, <span class=\\\"institution\\\">Université de Montréal</span>, <span class=\\\"addr-line\\\">Montreal</span>, <span class=\\\"addr-line\\\">Québec</span>, Canada</address></li>\"\n    },\n    {\n      \"value\": \"Research Center of the Centre Hospitalier de l'Université de Montréal, Montreal, Quebec, Canada\",\n      \"reasoning\": \"The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-12' within the ordered list of affiliations.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-12\\\" name=\\\"aff-12\\\"></a><address><sup>12</sup><span class=\\\"institution\\\">Research Center of the Centre Hospitalier de l'Université de Montréal</span>, <span class=\\\"addr-line\\\">Montreal</span>, <span class=\\\"addr-line\\\">Quebec</span>, Canada</address></li>\"\n    },\n    {\n      \"value\": \"Centre for Health Services and Policy Research, University of British Columbia, Vancouver, British Columbia, Canada\",\n      \"reasoning\": \"The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-13' within the ordered list of affiliations. This affiliation is referenced by multiple authors.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-13\\\" name=\\\"aff-13\\\"></a><address><sup>13</sup><span class=\\\"institution\\\">Centre for Health Services and Policy Research</span>, <span class=\\\"institution\\\">University of British Columbia</span>, <span class=\\\"addr-line\\\">Vancouver</span>, <span class=\\\"addr-line\\\">British Columbia</span>, Canada</address></li>\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 8619,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 91351,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 91351
+      }
+    ],
+    "thoughts_token_count": 3697,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 103667,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Sathya Karunananthan",
+          "reasoning": "The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.",
+          "quote": "<li class=\"contributor\" id=\"contrib-1\"><a href=\"http://orcid.org/0000-0002-4247-4752\" class=\"bmjj-markup-orcid-logo\" target=\"_blank\">http://orcid.org/0000-0002-4247-4752</a><span class=\"name\">Sathya Karunananthan</span><a id=\"xref-aff-1-1\" class=\"xref-aff\" href=\"#aff-1\">1</a><span class=\"xref-sep\">,</span><a id=\"xref-aff-2-1\" class=\"xref-aff\" href=\"#aff-2\">2</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Interdisciplinary School of Health Sciences, University of Ottawa, Ottawa, Ontario, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '1' and an 'a' tag with href '#aff-1'. The full affiliation text is extracted from the 'li' element with id 'aff-1' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-1\" name=\"aff-1\"></a><address><sup>1</sup><span class=\"institution\">Interdisciplinary School of Health Sciences</span>, <span class=\"institution\">University of Ottawa</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+          },
+          {
+            "value": "Bruyere Research Institute, Ottawa, Ontario, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '2' and an 'a' tag with href '#aff-2'. The full affiliation text is extracted from the 'li' element with id 'aff-2' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-2\" name=\"aff-2\"></a><address><sup>2</sup><span class=\"institution\">Bruyere Research Institute</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Arya Rahgozar",
+          "reasoning": "The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.",
+          "quote": "<li class=\"contributor\" id=\"contrib-2\"><span class=\"name\">Arya Rahgozar</span><a id=\"xref-aff-3-1\" class=\"xref-aff\" href=\"#aff-3\">3</a><span class=\"xref-sep\">,</span><a id=\"xref-aff-4-1\" class=\"xref-aff\" href=\"#aff-4\">4</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "The Ottawa Hospital Research Institute, Ottawa, Ontario, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '3' and an 'a' tag with href '#aff-3'. The full affiliation text is extracted from the 'li' element with id 'aff-3' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-3\" name=\"aff-3\"></a><address><sup>3</sup><span class=\"institution\">The Ottawa Hospital Research Institute</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+          },
+          {
+            "value": "Department of Family Medicine, University of Ottawa, Ottawa, Ontario, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '4' and an 'a' tag with href '#aff-4'. The full affiliation text is extracted from the 'li' element with id 'aff-4' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-4\" name=\"aff-4\"></a><address><sup>4</sup><span class=\"institution\">Department of Family Medicine</span>, <span class=\"institution\">University of Ottawa</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Ramtin Hakimjavadi",
+          "reasoning": "The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.",
+          "quote": "<li class=\"contributor\" id=\"contrib-3\"><span class=\"name\">Ramtin Hakimjavadi</span><a id=\"xref-aff-2-2\" class=\"xref-aff\" href=\"#aff-2\">2</a><span class=\"xref-sep\">,</span><a id=\"xref-aff-5-1\" class=\"xref-aff\" href=\"#aff-5\">5</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Bruyere Research Institute, Ottawa, Ontario, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '2' and an 'a' tag with href '#aff-2'. The full affiliation text is extracted from the 'li' element with id 'aff-2' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-2\" name=\"aff-2\"></a><address><sup>2</sup><span class=\"institution\">Bruyere Research Institute</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+          },
+          {
+            "value": "Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '5' and an 'a' tag with href '#aff-5'. The full affiliation text is extracted from the 'li' element with id 'aff-5' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-5\" name=\"aff-5\"></a><address><sup>5</sup><span class=\"institution\">Faculty of Medicine</span>, <span class=\"institution\">University of Ottawa</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Hui Yan",
+          "reasoning": "The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.",
+          "quote": "<li class=\"contributor\" id=\"contrib-4\"><span class=\"name\">Hui Yan</span><a id=\"xref-aff-2-3\" class=\"xref-aff\" href=\"#aff-2\">2</a><span class=\"xref-sep\">,</span><a id=\"xref-aff-5-2\" class=\"xref-aff\" href=\"#aff-5\">5</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Bruyere Research Institute, Ottawa, Ontario, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '2' and an 'a' tag with href '#aff-2'. The full affiliation text is extracted from the 'li' element with id 'aff-2' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-2\" name=\"aff-2\"></a><address><sup>2</sup><span class=\"institution\">Bruyere Research Institute</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+          },
+          {
+            "value": "Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '5' and an 'a' tag with href '#aff-5'. The full affiliation text is extracted from the 'li' element with id 'aff-5' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-5\" name=\"aff-5\"></a><address><sup>5</sup><span class=\"institution\">Faculty of Medicine</span>, <span class=\"institution\">University of Ottawa</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Kunal A Dalsania",
+          "reasoning": "The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.",
+          "quote": "<li class=\"contributor\" id=\"contrib-5\"><span class=\"name\">Kunal A Dalsania</span><a id=\"xref-aff-1-2\" class=\"xref-aff\" href=\"#aff-1\">1</a><span class=\"xref-sep\">,</span><a id=\"xref-aff-2-4\" class=\"xref-aff\" href=\"#aff-2\">2</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Interdisciplinary School of Health Sciences, University of Ottawa, Ottawa, Ontario, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '1' and an 'a' tag with href '#aff-1'. The full affiliation text is extracted from the 'li' element with id 'aff-1' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-1\" name=\"aff-1\"></a><address><sup>1</sup><span class=\"institution\">Interdisciplinary School of Health Sciences</span>, <span class=\"institution\">University of Ottawa</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+          },
+          {
+            "value": "Bruyere Research Institute, Ottawa, Ontario, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '2' and an 'a' tag with href '#aff-2'. The full affiliation text is extracted from the 'li' element with id 'aff-2' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-2\" name=\"aff-2\"></a><address><sup>2</sup><span class=\"institution\">Bruyere Research Institute</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Howard Bergman",
+          "reasoning": "The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.",
+          "quote": "<li class=\"contributor\" id=\"contrib-6\"><span class=\"name\">Howard Bergman</span><a id=\"xref-aff-6-1\" class=\"xref-aff\" href=\"#aff-6\">6</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Family Medicine, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '6' and an 'a' tag with href '#aff-6'. The full affiliation text is extracted from the 'li' element with id 'aff-6' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-6\" name=\"aff-6\"></a><address><sup>6</sup><span class=\"institution\">Department of Family Medicine</span>, <span class=\"institution\">McGill University</span>, <span class=\"addr-line\">Montreal</span>, <span class=\"addr-line\">Quebec</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Bishwajit Ghose",
+          "reasoning": "The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.",
+          "quote": "<li class=\"contributor\" id=\"contrib-7\"><a href=\"http://orcid.org/0000-0003-4461-3821\" class=\"bmjj-markup-orcid-logo\" target=\"_blank\">http://orcid.org/0000-0003-4461-3821</a><span class=\"name\">Bishwajit Ghose</span><a id=\"xref-aff-7-1\" class=\"xref-aff\" href=\"#aff-7\">7</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Faculty of Health Sciences, University of Ottawa, Ottawa, Ontario, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '7' and an 'a' tag with href '#aff-7'. The full affiliation text is extracted from the 'li' element with id 'aff-7' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-7\" name=\"aff-7\"></a><address><sup>7</sup><span class=\"institution\">Faculty of Health Sciences</span>, <span class=\"institution\">University of Ottawa</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jim LaPlante",
+          "reasoning": "The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.",
+          "quote": "<li class=\"contributor\" id=\"contrib-8\"><span class=\"name\">Jim LaPlante</span><a id=\"xref-aff-8-1\" class=\"xref-aff\" href=\"#aff-8\">8</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Care Partner, Ottawa, Ontario, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '8' and an 'a' tag with href '#aff-8'. The full affiliation text is extracted from the 'li' element with id 'aff-8' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-8\" name=\"aff-8\"></a><address><sup>8</sup><span class=\"institution\">Care Partner</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Tess McCutcheon",
+          "reasoning": "The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.",
+          "quote": "<li class=\"contributor\" id=\"contrib-9\"><span class=\"name\">Tess McCutcheon</span><a id=\"xref-aff-9-1\" class=\"xref-aff\" href=\"#aff-9\">9</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "C.T. Lamont Primary Health Care Research Centre, Bruyère Research Institute, Ottawa, Ontario, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '9' and an 'a' tag with href '#aff-9'. The full affiliation text is extracted from the 'li' element with id 'aff-9' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-9\" name=\"aff-9\"></a><address><sup>9</sup><span class=\"institution\">C.T. Lamont Primary Health Care Research Centre</span>, <span class=\"institution\">Bruyère Research Institute</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Daniel I McIsaac",
+          "reasoning": "The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.",
+          "quote": "<li class=\"contributor\" id=\"contrib-10\"><a href=\"http://orcid.org/0000-0002-8543-1859\" class=\"bmjj-markup-orcid-logo\" target=\"_blank\">http://orcid.org/0000-0002-8543-1859</a><span class=\"name\">Daniel I McIsaac</span><a id=\"xref-aff-10-1\" class=\"xref-aff\" href=\"#aff-10\">10</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Anesthesiology and Pain Medicine, The Ottawa Hospital, Ottawa, Ontario, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '10' and an 'a' tag with href '#aff-10'. The full affiliation text is extracted from the 'li' element with id 'aff-10' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-10\" name=\"aff-10\"></a><address><sup>10</sup><span class=\"institution\">Anesthesiology and Pain Medicine</span>, <span class=\"institution\">The Ottawa Hospital</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Samira Abbasgholizadeh Rahimi",
+          "reasoning": "The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.",
+          "quote": "<li class=\"contributor\" id=\"contrib-11\"><a href=\"http://orcid.org/0000-0003-3781-1360\" class=\"bmjj-markup-orcid-logo\" target=\"_blank\">http://orcid.org/0000-0003-3781-1360</a><span class=\"name\">Samira Abbasgholizadeh Rahimi</span><a id=\"xref-aff-6-2\" class=\"xref-aff\" href=\"#aff-6\">6</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Family Medicine, McGill University, Montreal, Quebec, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '6' and an 'a' tag with href '#aff-6'. The full affiliation text is extracted from the 'li' element with id 'aff-6' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-6\" name=\"aff-6\"></a><address><sup>6</sup><span class=\"institution\">Department of Family Medicine</span>, <span class=\"institution\">McGill University</span>, <span class=\"addr-line\">Montreal</span>, <span class=\"addr-line\">Quebec</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Nadia Sourial",
+          "reasoning": "The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.",
+          "quote": "<li class=\"contributor\" id=\"contrib-12\"><span class=\"name\">Nadia Sourial</span><a id=\"xref-aff-11-1\" class=\"xref-aff\" href=\"#aff-11\">11</a><span class=\"xref-sep\">,</span><a id=\"xref-aff-12-1\" class=\"xref-aff\" href=\"#aff-12\">12</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Health Management, Evaluation & Policy, Université de Montréal, Montreal, Québec, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '11' and an 'a' tag with href '#aff-11'. The full affiliation text is extracted from the 'li' element with id 'aff-11' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-11\" name=\"aff-11\"></a><address><sup>11</sup><span class=\"institution\">Department of Health Management, Evaluation &amp; Policy</span>, <span class=\"institution\">Université de Montréal</span>, <span class=\"addr-line\">Montreal</span>, <span class=\"addr-line\">Québec</span>, Canada</address></li>"
+          },
+          {
+            "value": "Research Center of the Centre Hospitalier de l'Université de Montréal, Montreal, Quebec, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '12' and an 'a' tag with href '#aff-12'. The full affiliation text is extracted from the 'li' element with id 'aff-12' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-12\" name=\"aff-12\"></a><address><sup>12</sup><span class=\"institution\">Research Center of the Centre Hospitalier de l'Université de Montréal</span>, <span class=\"addr-line\">Montreal</span>, <span class=\"addr-line\">Quebec</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Manpreet Thandi",
+          "reasoning": "The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.",
+          "quote": "<li class=\"contributor\" id=\"contrib-13\"><span class=\"name\">Manpreet Thandi</span><a id=\"xref-aff-13-1\" class=\"xref-aff\" href=\"#aff-13\">13</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Centre for Health Services and Policy Research, University of British Columbia, Vancouver, British Columbia, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '13' and an 'a' tag with href '#aff-13'. The full affiliation text is extracted from the 'li' element with id 'aff-13' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-13\" name=\"aff-13\"></a><address><sup>13</sup><span class=\"institution\">Centre for Health Services and Policy Research</span>, <span class=\"institution\">University of British Columbia</span>, <span class=\"addr-line\">Vancouver</span>, <span class=\"addr-line\">British Columbia</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Sabrina T Wong",
+          "reasoning": "The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.",
+          "quote": "<li class=\"contributor\" id=\"contrib-14\"><a href=\"http://orcid.org/0000-0002-9619-9012\" class=\"bmjj-markup-orcid-logo\" target=\"_blank\">http://orcid.org/0000-0002-9619-9012</a><span class=\"name\">Sabrina T Wong</span><a id=\"xref-aff-13-2\" class=\"xref-aff\" href=\"#aff-13\">13</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Centre for Health Services and Policy Research, University of British Columbia, Vancouver, British Columbia, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '13' and an 'a' tag with href '#aff-13'. The full affiliation text is extracted from the 'li' element with id 'aff-13' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-13\" name=\"aff-13\"></a><address><sup>13</sup><span class=\"institution\">Centre for Health Services and Policy Research</span>, <span class=\"institution\">University of British Columbia</span>, <span class=\"addr-line\">Vancouver</span>, <span class=\"addr-line\">British Columbia</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Clare Liddy",
+          "reasoning": "The author's name is extracted from a 'li' element with class 'contributor' within an ordered list of contributors. The name is found within a 'span' element with class 'name'.",
+          "quote": "<li class=\"last\" id=\"contrib-15\"><a href=\"http://orcid.org/0000-0003-0699-5494\" class=\"bmjj-markup-orcid-logo\" target=\"_blank\">http://orcid.org/0000-0003-0699-5494</a><span class=\"name\">Clare Liddy</span><a id=\"xref-aff-4-2\" class=\"xref-aff\" href=\"#aff-4\">4</a><span class=\"xref-sep\">,</span><a id=\"xref-aff-9-2\" class=\"xref-aff\" href=\"#aff-9\">9</a></li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Family Medicine, University of Ottawa, Ottawa, Ontario, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '4' and an 'a' tag with href '#aff-4'. The full affiliation text is extracted from the 'li' element with id 'aff-4' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-4\" name=\"aff-4\"></a><address><sup>4</sup><span class=\"institution\">Department of Family Medicine</span>, <span class=\"institution\">University of Ottawa</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+          },
+          {
+            "value": "C.T. Lamont Primary Health Care Research Centre, Bruyère Research Institute, Ottawa, Ontario, Canada",
+            "reasoning": "The affiliation is linked to the author by a superscript '9' and an 'a' tag with href '#aff-9'. The full affiliation text is extracted from the 'li' element with id 'aff-9' in the affiliation list.",
+            "quote": "<li class=\"aff\"><a id=\"aff-9\" name=\"aff-9\"></a><address><sup>9</sup><span class=\"institution\">C.T. Lamont Primary Health Care Research Centre</span>, <span class=\"institution\">Bruyère Research Institute</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Interdisciplinary School of Health Sciences, University of Ottawa, Ottawa, Ontario, Canada",
+        "reasoning": "The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-1' within the ordered list of affiliations. This affiliation is referenced by multiple authors.",
+        "quote": "<li class=\"aff\"><a id=\"aff-1\" name=\"aff-1\"></a><address><sup>1</sup><span class=\"institution\">Interdisciplinary School of Health Sciences</span>, <span class=\"institution\">University of Ottawa</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+      },
+      {
+        "value": "Bruyere Research Institute, Ottawa, Ontario, Canada",
+        "reasoning": "The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-2' within the ordered list of affiliations. This affiliation is referenced by multiple authors.",
+        "quote": "<li class=\"aff\"><a id=\"aff-2\" name=\"aff-2\"></a><address><sup>2</sup><span class=\"institution\">Bruyere Research Institute</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+      },
+      {
+        "value": "The Ottawa Hospital Research Institute, Ottawa, Ontario, Canada",
+        "reasoning": "The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-3' within the ordered list of affiliations.",
+        "quote": "<li class=\"aff\"><a id=\"aff-3\" name=\"aff-3\"></a><address><sup>3</sup><span class=\"institution\">The Ottawa Hospital Research Institute</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+      },
+      {
+        "value": "Department of Family Medicine, University of Ottawa, Ottawa, Ontario, Canada",
+        "reasoning": "The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-4' within the ordered list of affiliations. This affiliation is referenced by multiple authors.",
+        "quote": "<li class=\"aff\"><a id=\"aff-4\" name=\"aff-4\"></a><address><sup>4</sup><span class=\"institution\">Department of Family Medicine</span>, <span class=\"institution\">University of Ottawa</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+      },
+      {
+        "value": "Faculty of Medicine, University of Ottawa, Ottawa, Ontario, Canada",
+        "reasoning": "The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-5' within the ordered list of affiliations. This affiliation is referenced by multiple authors.",
+        "quote": "<li class=\"aff\"><a id=\"aff-5\" name=\"aff-5\"></a><address><sup>5</sup><span class=\"institution\">Faculty of Medicine</span>, <span class=\"institution\">University of Ottawa</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+      },
+      {
+        "value": "Department of Family Medicine, McGill University, Montreal, Quebec, Canada",
+        "reasoning": "The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-6' within the ordered list of affiliations. This affiliation is referenced by multiple authors.",
+        "quote": "<li class=\"aff\"><a id=\"aff-6\" name=\"aff-6\"></a><address><sup>6</sup><span class=\"institution\">Department of Family Medicine</span>, <span class=\"institution\">McGill University</span>, <span class=\"addr-line\">Montreal</span>, <span class=\"addr-line\">Quebec</span>, Canada</address></li>"
+      },
+      {
+        "value": "Faculty of Health Sciences, University of Ottawa, Ottawa, Ontario, Canada",
+        "reasoning": "The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-7' within the ordered list of affiliations.",
+        "quote": "<li class=\"aff\"><a id=\"aff-7\" name=\"aff-7\"></a><address><sup>7</sup><span class=\"institution\">Faculty of Health Sciences</span>, <span class=\"institution\">University of Ottawa</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+      },
+      {
+        "value": "Care Partner, Ottawa, Ontario, Canada",
+        "reasoning": "The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-8' within the ordered list of affiliations.",
+        "quote": "<li class=\"aff\"><a id=\"aff-8\" name=\"aff-8\"></a><address><sup>8</sup><span class=\"institution\">Care Partner</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+      },
+      {
+        "value": "C.T. Lamont Primary Health Care Research Centre, Bruyère Research Institute, Ottawa, Ontario, Canada",
+        "reasoning": "The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-9' within the ordered list of affiliations. This affiliation is referenced by multiple authors.",
+        "quote": "<li class=\"aff\"><a id=\"aff-9\" name=\"aff-9\"></a><address><sup>9</sup><span class=\"institution\">C.T. Lamont Primary Health Care Research Centre</span>, <span class=\"institution\">Bruyère Research Institute</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+      },
+      {
+        "value": "Anesthesiology and Pain Medicine, The Ottawa Hospital, Ottawa, Ontario, Canada",
+        "reasoning": "The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-10' within the ordered list of affiliations.",
+        "quote": "<li class=\"aff\"><a id=\"aff-10\" name=\"aff-10\"></a><address><sup>10</sup><span class=\"institution\">Anesthesiology and Pain Medicine</span>, <span class=\"institution\">The Ottawa Hospital</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+      },
+      {
+        "value": "Department of Health Management, Evaluation & Policy, Université de Montréal, Montreal, Québec, Canada",
+        "reasoning": "The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-11' within the ordered list of affiliations.",
+        "quote": "<li class=\"aff\"><a id=\"aff-11\" name=\"aff-11\"></a><address><sup>11</sup><span class=\"institution\">Department of Health Management, Evaluation &amp; Policy</span>, <span class=\"institution\">Université de Montréal</span>, <span class=\"addr-line\">Montreal</span>, <span class=\"addr-line\">Québec</span>, Canada</address></li>"
+      },
+      {
+        "value": "Research Center of the Centre Hospitalier de l'Université de Montréal, Montreal, Quebec, Canada",
+        "reasoning": "The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-12' within the ordered list of affiliations.",
+        "quote": "<li class=\"aff\"><a id=\"aff-12\" name=\"aff-12\"></a><address><sup>12</sup><span class=\"institution\">Research Center of the Centre Hospitalier de l'Université de Montréal</span>, <span class=\"addr-line\">Montreal</span>, <span class=\"addr-line\">Quebec</span>, Canada</address></li>"
+      },
+      {
+        "value": "Centre for Health Services and Policy Research, University of British Columbia, Vancouver, British Columbia, Canada",
+        "reasoning": "The affiliation text is extracted from an 'li' element with class 'aff' and id 'aff-13' within the ordered list of affiliations. This affiliation is referenced by multiple authors.",
+        "quote": "<li class=\"aff\"><a id=\"aff-13\" name=\"aff-13\"></a><address><sup>13</sup><span class=\"institution\">Centre for Health Services and Policy Research</span>, <span class=\"institution\">University of British Columbia</span>, <span class=\"addr-line\">Vancouver</span>, <span class=\"addr-line\">British Columbia</span>, Canada</address></li>"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.1136/bmjopen-2023-076918"
+    }
+  }
+}

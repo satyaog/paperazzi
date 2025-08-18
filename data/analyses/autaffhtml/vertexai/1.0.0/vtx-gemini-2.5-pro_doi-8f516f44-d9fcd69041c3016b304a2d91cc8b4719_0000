@@ -1,0 +1,210 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Mon, 14 Jul 2025 19:02:25 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=78887",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Jacob S Prince\",\n        \"reasoning\": \"The author's name is extracted from the `author_list` section. The detailed information, including the affiliation, is found in a corresponding popup div identified by the `id` attribute, which matches the `href` in the author link.\",\n        \"quote\": \"<li class=\\\"author_list_item\\\"><span class=\\\"author\\\"><a href=\\\"/articles/77599#x2ca33824\\\" data-behaviour=\\\"Popup\\\" class=\\\"author_link\\\">Jacob S Prince</a><span class=\\\"author_suffix\\\">&nbsp;<picture>\\n                    <source srcset=\\\"/assets/patterns/img/icons/corresponding-author.d7eda27b.svg\\\" type=\\\"image/svg+xml\\\">\\n                    <img src=\\\"/assets/patterns/img/icons/corresponding-author@1x.075234c5.png\\\" srcset=\\\"/assets/patterns/img/icons/corresponding-author@2x.5d6281b5.png 2x, /assets/patterns/img/icons/corresponding-author@1x.075234c5.png 1x\\\" alt=\\\"Is a corresponding author\\\" class=\\\"author_icon\\\">\\n                </picture></span></span></li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Psychology, Harvard University, Cambridge, United States\",\n          \"reasoning\": \"The affiliation is found within the detailed author information popup div, specifically inside a `<span>` with class `author-details__text`.\",\n          \"quote\": \"<span class=\\\"author-details__text\\\">Department of Psychology, Harvard University, Cambridge, United States</span>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Ian Charest\",\n        \"reasoning\": \"The author's name is extracted from the `author_list` section. The detailed information, including affiliations, is found in a corresponding popup div identified by the `id` attribute, which matches the `href` in the author link.\",\n        \"quote\": \"<li class=\\\"author_list_item\\\"><span class=\\\"author\\\"><a href=\\\"/articles/77599#x9974e7fa\\\" data-behaviour=\\\"Popup\\\" class=\\\"author_link\\\">Ian Charest</a></span></li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Center for Human Brain Health, School of Psychology, University of Birmingham, Birmingham, United Kingdom\",\n          \"reasoning\": \"This affiliation is listed as the first item for this author within the detailed author information popup div, specifically in an `<li>` with class `author-details__text`.\",\n          \"quote\": \"<li class=\\\"author-details__text\\\">Center for Human Brain Health, School of Psychology, University of Birmingham, Birmingham, United Kingdom</li>\"\n        },\n        {\n          \"value\": \"cerebrUM, Département de Psychologie, Université de Montréal, Montréal, Canada\",\n          \"reasoning\": \"This affiliation is listed as the second item for this author within the detailed author information popup div, specifically in an `<li>` with class `author-details__text`.\",\n          \"quote\": \"<li class=\\\"author-details__text\\\">cerebrUM, Département de Psychologie, Université de Montréal, Montréal, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jan W Kurzawski\",\n        \"reasoning\": \"The author's name is extracted from the `author_list` section. The detailed information, including the affiliation, is found in a corresponding popup div identified by the `id` attribute, which matches the `href` in the author link.\",\n        \"quote\": \"<li class=\\\"author_list_item\\\"><span class=\\\"author\\\"><a href=\\\"/articles/77599#xa5256a6a\\\" data-behaviour=\\\"Popup\\\" class=\\\"author_link\\\">Jan W Kurzawski</a></span></li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Psychology, New York University, New York, United States\",\n          \"reasoning\": \"The affiliation is found within the detailed author information popup div, specifically inside a `<span>` with class `author-details__text`.\",\n          \"quote\": \"<span class=\\\"author-details__text\\\">Department of Psychology, New York University, New York, United States</span>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"John A Pyles\",\n        \"reasoning\": \"The author's name is extracted from the `author_list` section. The detailed information, including the affiliation, is found in a corresponding popup div identified by the `id` attribute, which matches the `href` in the author link.\",\n        \"quote\": \"<li class=\\\"author_list_item\\\"><span class=\\\"author\\\"><a href=\\\"/articles/77599#x0b0f0d1b\\\" data-behaviour=\\\"Popup\\\" class=\\\"author_link\\\">John A Pyles</a></span></li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Center for Human Neuroscience, Department of Psychology, University of Washington, Seattle, United States\",\n          \"reasoning\": \"The affiliation is found within the detailed author information popup div, specifically inside a `<span>` with class `author-details__text`.\",\n          \"quote\": \"<span class=\\\"author-details__text\\\">Center for Human Neuroscience, Department of Psychology, University of Washington, Seattle, United States</span>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Michael J Tarr\",\n        \"reasoning\": \"The author's name is extracted from the `author_list` section. The detailed information, including the affiliation, is found in a corresponding popup div identified by the `id` attribute, which matches the `href` in the author link.\",\n        \"quote\": \"<li class=\\\"author_list_item\\\"><span class=\\\"author\\\"><a href=\\\"/articles/77599#xffa037ab\\\" data-behaviour=\\\"Popup\\\" class=\\\"author_link\\\">Michael J Tarr</a></span></li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Psychology, Neuroscience Institute, Carnegie Mellon University, Pittsburgh, United States\",\n          \"reasoning\": \"The affiliation is found within the detailed author information popup div, specifically inside a `<span>` with class `author-details__text`.\",\n          \"quote\": \"<span class=\\\"author-details__text\\\">Department of Psychology, Neuroscience Institute, Carnegie Mellon University, Pittsburgh, United States</span>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Kendrick N Kay\",\n        \"reasoning\": \"The author's name is extracted from the `author_list` section. The detailed information, including the affiliation, is found in a corresponding popup div identified by the `id` attribute, which matches the `href` in the author link.\",\n        \"quote\": \"<li class=\\\"author_list_item\\\"><span class=\\\"author\\\"><a href=\\\"/articles/77599#x3565dc3f\\\" data-behaviour=\\\"Popup\\\" class=\\\"author_link\\\">Kendrick N Kay</a></span></li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Center for Magnetic Resonance Research (CMRR), Department of Radiology, University of Minnesota, Minneapolis, United States\",\n          \"reasoning\": \"The affiliation is found within the detailed author information popup div, specifically inside a `<span>` with class `author-details__text`.\",\n          \"quote\": \"<span class=\\\"author-details__text\\\">Center for Magnetic Resonance Research (CMRR), Department of Radiology, University of Minnesota, Minneapolis, United States</span>\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Department of Psychology, Harvard University, United States\",\n      \"reasoning\": \"This affiliation is explicitly listed in an ordered list with class 'institution_list' which enumerates all author institutions.\",\n      \"quote\": \"<li class=\\\"institution_list_item\\\">\\n                  <span class=\\\"institution\\\">Department of Psychology, Harvard University, United States<span class=\\\"institution_separator\\\" aria-hidden=\\\"true\\\">;</span>\\n                  </span>\\n                </li>\"\n    },\n    {\n      \"value\": \"Center for Human Brain Health, School of Psychology, University of Birmingham, United Kingdom\",\n      \"reasoning\": \"This affiliation is explicitly listed in an ordered list with class 'institution_list' which enumerates all author institutions.\",\n      \"quote\": \"<li class=\\\"institution_list_item\\\">\\n                  <span class=\\\"institution\\\">Center for Human Brain Health, School of Psychology, University of Birmingham, United Kingdom<span class=\\\"institution_separator\\\" aria-hidden=\\\"true\\\">;</span>\\n                  </span>\\n                </li>\"\n    },\n    {\n      \"value\": \"cerebrUM, Département de Psychologie, Université de Montréal, Canada\",\n      \"reasoning\": \"This affiliation is explicitly listed in an ordered list with class 'institution_list' which enumerates all author institutions.\",\n      \"quote\": \"<li class=\\\"institution_list_item\\\">\\n                  <span class=\\\"institution\\\">cerebrUM, Département de Psychologie, Université de Montréal, Canada<span class=\\\"institution_separator\\\" aria-hidden=\\\"true\\\">;</span>\\n                  </span>\\n                </li>\"\n    },\n    {\n      \"value\": \"Department of Psychology, New York University, United States\",\n      \"reasoning\": \"This affiliation is explicitly listed in an ordered list with class 'institution_list' which enumerates all author institutions.\",\n      \"quote\": \"<li class=\\\"institution_list_item\\\">\\n                  <span class=\\\"institution\\\">Department of Psychology, New York University, United States<span class=\\\"institution_separator\\\" aria-hidden=\\\"true\\\">;</span>\\n                  </span>\\n                </li>\"\n    },\n    {\n      \"value\": \"Center for Human Neuroscience, Department of Psychology, University of Washington, United States\",\n      \"reasoning\": \"This affiliation is explicitly listed in an ordered list with class 'institution_list' which enumerates all author institutions.\",\n      \"quote\": \"<li class=\\\"institution_list_item\\\">\\n                  <span class=\\\"institution\\\">Center for Human Neuroscience, Department of Psychology, University of Washington, United States<span class=\\\"institution_separator\\\" aria-hidden=\\\"true\\\">;</span>\\n                  </span>\\n                </li>\"\n    },\n    {\n      \"value\": \"Department of Psychology, Neuroscience Institute, Carnegie Mellon University, United States\",\n      \"reasoning\": \"This affiliation is explicitly listed in an ordered list with class 'institution_list' which enumerates all author institutions.\",\n      \"quote\": \"<li class=\\\"institution_list_item\\\">\\n                  <span class=\\\"institution\\\">Department of Psychology, Neuroscience Institute, Carnegie Mellon University, United States<span class=\\\"institution_separator\\\" aria-hidden=\\\"true\\\">;</span>\\n                  </span>\\n                </li>\"\n    },\n    {\n      \"value\": \"Center for Magnetic Resonance Research (CMRR), Department of Radiology, University of Minnesota, United States\",\n      \"reasoning\": \"This affiliation is explicitly listed in an ordered list with class 'institution_list' which enumerates all author institutions.\",\n      \"quote\": \"<li class=\\\"institution_list_item\\\">\\n                  <span class=\\\"institution\\\">Center for Magnetic Resonance Research (CMRR), Department of Radiology, University of Minnesota, United States<span class=\\\"institution_separator\\\" aria-hidden=\\\"true\\\">;</span>\\n                  </span>\\n                </li>\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 2638,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 169125,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 169125
+      }
+    ],
+    "thoughts_token_count": 4461,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 176224,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Jacob S Prince",
+          "reasoning": "The author's name is extracted from the `author_list` section. The detailed information, including the affiliation, is found in a corresponding popup div identified by the `id` attribute, which matches the `href` in the author link.",
+          "quote": "<li class=\"author_list_item\"><span class=\"author\"><a href=\"/articles/77599#x2ca33824\" data-behaviour=\"Popup\" class=\"author_link\">Jacob S Prince</a><span class=\"author_suffix\">&nbsp;<picture>\n                    <source srcset=\"/assets/patterns/img/icons/corresponding-author.d7eda27b.svg\" type=\"image/svg+xml\">\n                    <img src=\"/assets/patterns/img/icons/corresponding-author@1x.075234c5.png\" srcset=\"/assets/patterns/img/icons/corresponding-author@2x.5d6281b5.png 2x, /assets/patterns/img/icons/corresponding-author@1x.075234c5.png 1x\" alt=\"Is a corresponding author\" class=\"author_icon\">\n                </picture></span></span></li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Psychology, Harvard University, Cambridge, United States",
+            "reasoning": "The affiliation is found within the detailed author information popup div, specifically inside a `<span>` with class `author-details__text`.",
+            "quote": "<span class=\"author-details__text\">Department of Psychology, Harvard University, Cambridge, United States</span>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Ian Charest",
+          "reasoning": "The author's name is extracted from the `author_list` section. The detailed information, including affiliations, is found in a corresponding popup div identified by the `id` attribute, which matches the `href` in the author link.",
+          "quote": "<li class=\"author_list_item\"><span class=\"author\"><a href=\"/articles/77599#x9974e7fa\" data-behaviour=\"Popup\" class=\"author_link\">Ian Charest</a></span></li>"
+        },
+        "affiliations": [
+          {
+            "value": "Center for Human Brain Health, School of Psychology, University of Birmingham, Birmingham, United Kingdom",
+            "reasoning": "This affiliation is listed as the first item for this author within the detailed author information popup div, specifically in an `<li>` with class `author-details__text`.",
+            "quote": "<li class=\"author-details__text\">Center for Human Brain Health, School of Psychology, University of Birmingham, Birmingham, United Kingdom</li>"
+          },
+          {
+            "value": "cerebrUM, Département de Psychologie, Université de Montréal, Montréal, Canada",
+            "reasoning": "This affiliation is listed as the second item for this author within the detailed author information popup div, specifically in an `<li>` with class `author-details__text`.",
+            "quote": "<li class=\"author-details__text\">cerebrUM, Département de Psychologie, Université de Montréal, Montréal, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jan W Kurzawski",
+          "reasoning": "The author's name is extracted from the `author_list` section. The detailed information, including the affiliation, is found in a corresponding popup div identified by the `id` attribute, which matches the `href` in the author link.",
+          "quote": "<li class=\"author_list_item\"><span class=\"author\"><a href=\"/articles/77599#xa5256a6a\" data-behaviour=\"Popup\" class=\"author_link\">Jan W Kurzawski</a></span></li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Psychology, New York University, New York, United States",
+            "reasoning": "The affiliation is found within the detailed author information popup div, specifically inside a `<span>` with class `author-details__text`.",
+            "quote": "<span class=\"author-details__text\">Department of Psychology, New York University, New York, United States</span>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "John A Pyles",
+          "reasoning": "The author's name is extracted from the `author_list` section. The detailed information, including the affiliation, is found in a corresponding popup div identified by the `id` attribute, which matches the `href` in the author link.",
+          "quote": "<li class=\"author_list_item\"><span class=\"author\"><a href=\"/articles/77599#x0b0f0d1b\" data-behaviour=\"Popup\" class=\"author_link\">John A Pyles</a></span></li>"
+        },
+        "affiliations": [
+          {
+            "value": "Center for Human Neuroscience, Department of Psychology, University of Washington, Seattle, United States",
+            "reasoning": "The affiliation is found within the detailed author information popup div, specifically inside a `<span>` with class `author-details__text`.",
+            "quote": "<span class=\"author-details__text\">Center for Human Neuroscience, Department of Psychology, University of Washington, Seattle, United States</span>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Michael J Tarr",
+          "reasoning": "The author's name is extracted from the `author_list` section. The detailed information, including the affiliation, is found in a corresponding popup div identified by the `id` attribute, which matches the `href` in the author link.",
+          "quote": "<li class=\"author_list_item\"><span class=\"author\"><a href=\"/articles/77599#xffa037ab\" data-behaviour=\"Popup\" class=\"author_link\">Michael J Tarr</a></span></li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Psychology, Neuroscience Institute, Carnegie Mellon University, Pittsburgh, United States",
+            "reasoning": "The affiliation is found within the detailed author information popup div, specifically inside a `<span>` with class `author-details__text`.",
+            "quote": "<span class=\"author-details__text\">Department of Psychology, Neuroscience Institute, Carnegie Mellon University, Pittsburgh, United States</span>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Kendrick N Kay",
+          "reasoning": "The author's name is extracted from the `author_list` section. The detailed information, including the affiliation, is found in a corresponding popup div identified by the `id` attribute, which matches the `href` in the author link.",
+          "quote": "<li class=\"author_list_item\"><span class=\"author\"><a href=\"/articles/77599#x3565dc3f\" data-behaviour=\"Popup\" class=\"author_link\">Kendrick N Kay</a></span></li>"
+        },
+        "affiliations": [
+          {
+            "value": "Center for Magnetic Resonance Research (CMRR), Department of Radiology, University of Minnesota, Minneapolis, United States",
+            "reasoning": "The affiliation is found within the detailed author information popup div, specifically inside a `<span>` with class `author-details__text`.",
+            "quote": "<span class=\"author-details__text\">Center for Magnetic Resonance Research (CMRR), Department of Radiology, University of Minnesota, Minneapolis, United States</span>"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Department of Psychology, Harvard University, United States",
+        "reasoning": "This affiliation is explicitly listed in an ordered list with class 'institution_list' which enumerates all author institutions.",
+        "quote": "<li class=\"institution_list_item\">\n                  <span class=\"institution\">Department of Psychology, Harvard University, United States<span class=\"institution_separator\" aria-hidden=\"true\">;</span>\n                  </span>\n                </li>"
+      },
+      {
+        "value": "Center for Human Brain Health, School of Psychology, University of Birmingham, United Kingdom",
+        "reasoning": "This affiliation is explicitly listed in an ordered list with class 'institution_list' which enumerates all author institutions.",
+        "quote": "<li class=\"institution_list_item\">\n                  <span class=\"institution\">Center for Human Brain Health, School of Psychology, University of Birmingham, United Kingdom<span class=\"institution_separator\" aria-hidden=\"true\">;</span>\n                  </span>\n                </li>"
+      },
+      {
+        "value": "cerebrUM, Département de Psychologie, Université de Montréal, Canada",
+        "reasoning": "This affiliation is explicitly listed in an ordered list with class 'institution_list' which enumerates all author institutions.",
+        "quote": "<li class=\"institution_list_item\">\n                  <span class=\"institution\">cerebrUM, Département de Psychologie, Université de Montréal, Canada<span class=\"institution_separator\" aria-hidden=\"true\">;</span>\n                  </span>\n                </li>"
+      },
+      {
+        "value": "Department of Psychology, New York University, United States",
+        "reasoning": "This affiliation is explicitly listed in an ordered list with class 'institution_list' which enumerates all author institutions.",
+        "quote": "<li class=\"institution_list_item\">\n                  <span class=\"institution\">Department of Psychology, New York University, United States<span class=\"institution_separator\" aria-hidden=\"true\">;</span>\n                  </span>\n                </li>"
+      },
+      {
+        "value": "Center for Human Neuroscience, Department of Psychology, University of Washington, United States",
+        "reasoning": "This affiliation is explicitly listed in an ordered list with class 'institution_list' which enumerates all author institutions.",
+        "quote": "<li class=\"institution_list_item\">\n                  <span class=\"institution\">Center for Human Neuroscience, Department of Psychology, University of Washington, United States<span class=\"institution_separator\" aria-hidden=\"true\">;</span>\n                  </span>\n                </li>"
+      },
+      {
+        "value": "Department of Psychology, Neuroscience Institute, Carnegie Mellon University, United States",
+        "reasoning": "This affiliation is explicitly listed in an ordered list with class 'institution_list' which enumerates all author institutions.",
+        "quote": "<li class=\"institution_list_item\">\n                  <span class=\"institution\">Department of Psychology, Neuroscience Institute, Carnegie Mellon University, United States<span class=\"institution_separator\" aria-hidden=\"true\">;</span>\n                  </span>\n                </li>"
+      },
+      {
+        "value": "Center for Magnetic Resonance Research (CMRR), Department of Radiology, University of Minnesota, United States",
+        "reasoning": "This affiliation is explicitly listed in an ordered list with class 'institution_list' which enumerates all author institutions.",
+        "quote": "<li class=\"institution_list_item\">\n                  <span class=\"institution\">Center for Magnetic Resonance Research (CMRR), Department of Radiology, University of Minnesota, United States<span class=\"institution_separator\" aria-hidden=\"true\">;</span>\n                  </span>\n                </li>"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.7554/eLife.77599"
+    }
+  }
+}

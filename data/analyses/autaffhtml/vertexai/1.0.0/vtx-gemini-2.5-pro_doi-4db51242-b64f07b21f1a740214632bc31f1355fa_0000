@@ -1,0 +1,294 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sat, 12 Jul 2025 03:18:17 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=56362",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"JianLi Wang\",\n        \"reasoning\": \"The author's name is explicitly listed in an ordered list of contributors within the HTML. The first list item identifies 'JianLi Wang' as a contributor.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-1\\\"><a href=\\\"http://orcid.org/0000-0002-1329-914X\\\" class=\\\"bmjj-markup-orcid-logo\\\" target=\\\"_blank\\\">http://orcid.org/0000-0002-1329-914X</a><span class=\\\"name\\\">JianLi Wang</span><a id=\\\"xref-aff-1-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-1\\\">1</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Community Health and Epidemiology, Dalhousie University, Halifax, Nova Scotia, Canada\",\n          \"reasoning\": \"The author 'JianLi Wang' has a superscript '1' next to their name, which corresponds to the first affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-1'.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-1\\\" name=\\\"aff-1\\\"></a><address><sup>1</sup><span class=\\\"institution\\\">Department of Community Health and Epidemiology</span>, <span class=\\\"institution\\\">Dalhousie University</span>, <span class=\\\"addr-line\\\">Halifax</span>, <span class=\\\"addr-line\\\">Nova Scotia</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Fatemeh Gholi Zadeh Kharrat\",\n        \"reasoning\": \"The author's name is explicitly listed in an ordered list of contributors within the HTML. The second list item identifies 'Fatemeh Gholi Zadeh Kharrat' as a contributor.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-2\\\"><span class=\\\"name\\\">Fatemeh Gholi Zadeh Kharrat</span><a id=\\\"xref-aff-2-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-2\\\">2</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Electrical Engineering and Computer Engineering, Laval University, Quebec, Quebec, Canada\",\n          \"reasoning\": \"The author 'Fatemeh Gholi Zadeh Kharrat' has a superscript '2' next to their name, which corresponds to the second affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-2'.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-2\\\" name=\\\"aff-2\\\"></a><address><sup>2</sup><span class=\\\"institution\\\">Department of Electrical Engineering and Computer Engineering</span>, <span class=\\\"institution\\\">Laval University</span>, <span class=\\\"addr-line\\\">Quebec</span>, <span class=\\\"addr-line\\\">Quebec</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jean-François Pelletier\",\n        \"reasoning\": \"The author's name is explicitly listed in an ordered list of contributors within the HTML. The third list item identifies 'Jean-François Pelletier' as a contributor.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-3\\\"><span class=\\\"name\\\">Jean-François Pelletier</span><a id=\\\"xref-aff-3-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-3\\\">3</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Psychiatry, University of Montreal, Montreal, Québec, Canada\",\n          \"reasoning\": \"The author 'Jean-François Pelletier' has a superscript '3' next to their name, which corresponds to the third affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-3'.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-3\\\" name=\\\"aff-3\\\"></a><address><sup>3</sup><span class=\\\"institution\\\">Department of Psychiatry</span>, <span class=\\\"institution\\\">University of Montreal</span>, <span class=\\\"addr-line\\\">Montreal</span>, <span class=\\\"addr-line\\\">Québec</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Louis Rochette\",\n        \"reasoning\": \"The author's name is explicitly listed in an ordered list of contributors within the HTML. The fourth list item identifies 'Louis Rochette' as a contributor.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-4\\\"><span class=\\\"name\\\">Louis Rochette</span><a id=\\\"xref-aff-4-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-4\\\">4</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada\",\n          \"reasoning\": \"The author 'Louis Rochette' has a superscript '4' next to their name, which corresponds to the fourth affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-4'.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-4\\\" name=\\\"aff-4\\\"></a><address><sup>4</sup><span class=\\\"institution\\\">Institut national de sante publique du Quebec (INSPQ)</span>, <span class=\\\"addr-line\\\">Quebec City</span>, <span class=\\\"addr-line\\\">Quebec</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Eric Pelletier\",\n        \"reasoning\": \"The author's name is explicitly listed in an ordered list of contributors within the HTML. The fifth list item identifies 'Eric Pelletier' as a contributor.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-5\\\"><span class=\\\"name\\\">Eric Pelletier</span><a id=\\\"xref-aff-4-2\\\" class=\\\"xref-aff\\\" href=\\\"#aff-4\\\">4</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada\",\n          \"reasoning\": \"The author 'Eric Pelletier' has a superscript '4' next to their name, which corresponds to the fourth affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-4'.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-4\\\" name=\\\"aff-4\\\"></a><address><sup>4</sup><span class=\\\"institution\\\">Institut national de sante publique du Quebec (INSPQ)</span>, <span class=\\\"addr-line\\\">Quebec City</span>, <span class=\\\"addr-line\\\">Quebec</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Pascale Lévesque\",\n        \"reasoning\": \"The author's name is explicitly listed in an ordered list of contributors within the HTML. The sixth list item identifies 'Pascale Lévesque' as a contributor.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-6\\\"><span class=\\\"name\\\">Pascale Lévesque</span><a id=\\\"xref-aff-4-3\\\" class=\\\"xref-aff\\\" href=\\\"#aff-4\\\">4</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada\",\n          \"reasoning\": \"The author 'Pascale Lévesque' has a superscript '4' next to their name, which corresponds to the fourth affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-4'.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-4\\\" name=\\\"aff-4\\\"></a><address><sup>4</sup><span class=\\\"institution\\\">Institut national de sante publique du Quebec (INSPQ)</span>, <span class=\\\"addr-line\\\">Quebec City</span>, <span class=\\\"addr-line\\\">Quebec</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Victoria Massamba\",\n        \"reasoning\": \"The author's name is explicitly listed in an ordered list of contributors within the HTML. The seventh list item identifies 'Victoria Massamba' as a contributor.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-7\\\"><span class=\\\"name\\\">Victoria Massamba</span><a id=\\\"xref-aff-4-4\\\" class=\\\"xref-aff\\\" href=\\\"#aff-4\\\">4</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada\",\n          \"reasoning\": \"The author 'Victoria Massamba' has a superscript '4' next to their name, which corresponds to the fourth affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-4'.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-4\\\" name=\\\"aff-4\\\"></a><address><sup>4</sup><span class=\\\"institution\\\">Institut national de sante publique du Quebec (INSPQ)</span>, <span class=\\\"addr-line\\\">Quebec City</span>, <span class=\\\"addr-line\\\">Quebec</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Camille Brousseau-Paradis\",\n        \"reasoning\": \"The author's name is explicitly listed in an ordered list of contributors within the HTML. The eighth list item identifies 'Camille Brousseau-Paradis' as a contributor.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-8\\\"><span class=\\\"name\\\">Camille Brousseau-Paradis</span><a id=\\\"xref-aff-3-2\\\" class=\\\"xref-aff\\\" href=\\\"#aff-3\\\">3</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Psychiatry, University of Montreal, Montreal, Québec, Canada\",\n          \"reasoning\": \"The author 'Camille Brousseau-Paradis' has a superscript '3' next to their name, which corresponds to the third affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-3'.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-3\\\" name=\\\"aff-3\\\"></a><address><sup>3</sup><span class=\\\"institution\\\">Department of Psychiatry</span>, <span class=\\\"institution\\\">University of Montreal</span>, <span class=\\\"addr-line\\\">Montreal</span>, <span class=\\\"addr-line\\\">Québec</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Mada Mohammed\",\n        \"reasoning\": \"The author's name is explicitly listed in an ordered list of contributors within the HTML. The ninth list item identifies 'Mada Mohammed' as a contributor.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-9\\\"><span class=\\\"name\\\">Mada Mohammed</span><a id=\\\"xref-aff-1-2\\\" class=\\\"xref-aff\\\" href=\\\"#aff-1\\\">1</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Community Health and Epidemiology, Dalhousie University, Halifax, Nova Scotia, Canada\",\n          \"reasoning\": \"The author 'Mada Mohammed' has a superscript '1' next to their name, which corresponds to the first affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-1'.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-1\\\" name=\\\"aff-1\\\"></a><address><sup>1</sup><span class=\\\"institution\\\">Department of Community Health and Epidemiology</span>, <span class=\\\"institution\\\">Dalhousie University</span>, <span class=\\\"addr-line\\\">Halifax</span>, <span class=\\\"addr-line\\\">Nova Scotia</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Geneviève Gariépy\",\n        \"reasoning\": \"The author's name is explicitly listed in an ordered list of contributors within the HTML. The tenth list item identifies 'Geneviève Gariépy' as a contributor.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-10\\\"><span class=\\\"name\\\">Geneviève Gariépy</span><a id=\\\"xref-aff-5-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-5\\\">5</a><span class=\\\"xref-sep\\\">,</span><a id=\\\"xref-aff-6-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-6\\\">6</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Public Health Agency of Canada, Ottawa, Ontario, Canada\",\n          \"reasoning\": \"The author 'Geneviève Gariépy' has a superscript '5' next to their name, which corresponds to the fifth affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-5'.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-5\\\" name=\\\"aff-5\\\"></a><address><sup>5</sup><span class=\\\"institution\\\">Public Health Agency of Canada</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n        },\n        {\n          \"value\": \"Department of Social and Preventive Medicine, University of Montreal, Montreal, Québec, Canada\",\n          \"reasoning\": \"The author 'Geneviève Gariépy' has a superscript '6' next to their name, which corresponds to the sixth affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-6'.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-6\\\" name=\\\"aff-6\\\"></a><address><sup>6</sup><span class=\\\"institution\\\">Department of Social and Preventive Medicine</span>, <span class=\\\"institution\\\">University of Montreal</span>, <span class=\\\"addr-line\\\">Montreal</span>, <span class=\\\"addr-line\\\">Québec</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Christian Gagné\",\n        \"reasoning\": \"The author's name is explicitly listed in an ordered list of contributors within the HTML. The eleventh list item identifies 'Christian Gagné' as a contributor.\",\n        \"quote\": \"<li class=\\\"contributor\\\" id=\\\"contrib-11\\\"><span class=\\\"name\\\">Christian Gagné</span><a id=\\\"xref-aff-2-2\\\" class=\\\"xref-aff\\\" href=\\\"#aff-2\\\">2</a>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Electrical Engineering and Computer Engineering, Laval University, Quebec, Quebec, Canada\",\n          \"reasoning\": \"The author 'Christian Gagné' has a superscript '2' next to their name, which corresponds to the second affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-2'.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-2\\\" name=\\\"aff-2\\\"></a><address><sup>2</sup><span class=\\\"institution\\\">Department of Electrical Engineering and Computer Engineering</span>, <span class=\\\"institution\\\">Laval University</span>, <span class=\\\"addr-line\\\">Quebec</span>, <span class=\\\"addr-line\\\">Quebec</span>, Canada</address></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Alain Lesage\",\n        \"reasoning\": \"The author's name is explicitly listed in an ordered list of contributors within the HTML. The twelfth and final list item identifies 'Alain Lesage' as a contributor.\",\n        \"quote\": \"<li class=\\\"last\\\" id=\\\"contrib-12\\\"><span class=\\\"name\\\">Alain Lesage</span><a id=\\\"xref-aff-7-1\\\" class=\\\"xref-aff\\\" href=\\\"#aff-7\\\">7</a></li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Institut universitaire en sante mentale de Montreal, Montreal, Québec, Canada\",\n          \"reasoning\": \"The author 'Alain Lesage' has a superscript '7' next to their name, which corresponds to the seventh affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-7'.\",\n          \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-7\\\" name=\\\"aff-7\\\"></a><address><sup>7</sup><span class=\\\"institution\\\">Institut universitaire en sante mentale de Montreal</span>, <span class=\\\"addr-line\\\">Montreal</span>, <span class=\\\"addr-line\\\">Québec</span>, Canada</address></li>\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Department of Community Health and Epidemiology, Dalhousie University, Halifax, Nova Scotia, Canada\",\n      \"reasoning\": \"This affiliation is listed as the first item in the ordered list of affiliations, identified by the superscript '1' and id 'aff-1'.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-1\\\" name=\\\"aff-1\\\"></a><address><sup>1</sup><span class=\\\"institution\\\">Department of Community Health and Epidemiology</span>, <span class=\\\"institution\\\">Dalhousie University</span>, <span class=\\\"addr-line\\\">Halifax</span>, <span class=\\\"addr-line\\\">Nova Scotia</span>, Canada</address></li>\"\n    },\n    {\n      \"value\": \"Department of Electrical Engineering and Computer Engineering, Laval University, Quebec, Quebec, Canada\",\n      \"reasoning\": \"This affiliation is listed as the second item in the ordered list of affiliations, identified by the superscript '2' and id 'aff-2'.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-2\\\" name=\\\"aff-2\\\"></a><address><sup>2</sup><span class=\\\"institution\\\">Department of Electrical Engineering and Computer Engineering</span>, <span class=\\\"institution\\\">Laval University</span>, <span class=\\\"addr-line\\\">Quebec</span>, <span class=\\\"addr-line\\\">Quebec</span>, Canada</address></li>\"\n    },\n    {\n      \"value\": \"Department of Psychiatry, University of Montreal, Montreal, Québec, Canada\",\n      \"reasoning\": \"This affiliation is listed as the third item in the ordered list of affiliations, identified by the superscript '3' and id 'aff-3'.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-3\\\" name=\\\"aff-3\\\"></a><address><sup>3</sup><span class=\\\"institution\\\">Department of Psychiatry</span>, <span class=\\\"institution\\\">University of Montreal</span>, <span class=\\\"addr-line\\\">Montreal</span>, <span class=\\\"addr-line\\\">Québec</span>, Canada</address></li>\"\n    },\n    {\n      \"value\": \"Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada\",\n      \"reasoning\": \"This affiliation is listed as the fourth item in the ordered list of affiliations, identified by the superscript '4' and id 'aff-4'.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-4\\\" name=\\\"aff-4\\\"></a><address><sup>4</sup><span class=\\\"institution\\\">Institut national de sante publique du Quebec (INSPQ)</span>, <span class=\\\"addr-line\\\">Quebec City</span>, <span class=\\\"addr-line\\\">Quebec</span>, Canada</address></li>\"\n    },\n    {\n      \"value\": \"Public Health Agency of Canada, Ottawa, Ontario, Canada\",\n      \"reasoning\": \"This affiliation is listed as the fifth item in the ordered list of affiliations, identified by the superscript '5' and id 'aff-5'.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-5\\\" name=\\\"aff-5\\\"></a><address><sup>5</sup><span class=\\\"institution\\\">Public Health Agency of Canada</span>, <span class=\\\"addr-line\\\">Ottawa</span>, <span class=\\\"addr-line\\\">Ontario</span>, Canada</address></li>\"\n    },\n    {\n      \"value\": \"Department of Social and Preventive Medicine, University of Montreal, Montreal, Québec, Canada\",\n      \"reasoning\": \"This affiliation is listed as the sixth item in the ordered list of affiliations, identified by the superscript '6' and id 'aff-6'.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-6\\\" name=\\\"aff-6\\\"></a><address><sup>6</sup><span class=\\\"institution\\\">Department of Social and Preventive Medicine</span>, <span class=\\\"institution\\\">University of Montreal</span>, <span class=\\\"addr-line\\\">Montreal</span>, <span class=\\\"addr-line\\\">Québec</span>, Canada</address></li>\"\n    },\n    {\n      \"value\": \"Institut universitaire en sante mentale de Montreal, Montreal, Québec, Canada\",\n      \"reasoning\": \"This affiliation is listed as the seventh item in the ordered list of affiliations, identified by the superscript '7' and id 'aff-7'.\",\n      \"quote\": \"<li class=\\\"aff\\\"><a id=\\\"aff-7\\\" name=\\\"aff-7\\\"></a><address><sup>7</sup><span class=\\\"institution\\\">Institut universitaire en sante mentale de Montreal</span>, <span class=\\\"addr-line\\\">Montreal</span>, <span class=\\\"addr-line\\\">Québec</span>, Canada</address></li>\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 5074,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 74332,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 74332
+      }
+    ],
+    "thoughts_token_count": 1439,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 80845,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "JianLi Wang",
+          "reasoning": "The author's name is explicitly listed in an ordered list of contributors within the HTML. The first list item identifies 'JianLi Wang' as a contributor.",
+          "quote": "<li class=\"contributor\" id=\"contrib-1\"><a href=\"http://orcid.org/0000-0002-1329-914X\" class=\"bmjj-markup-orcid-logo\" target=\"_blank\">http://orcid.org/0000-0002-1329-914X</a><span class=\"name\">JianLi Wang</span><a id=\"xref-aff-1-1\" class=\"xref-aff\" href=\"#aff-1\">1</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Community Health and Epidemiology, Dalhousie University, Halifax, Nova Scotia, Canada",
+            "reasoning": "The author 'JianLi Wang' has a superscript '1' next to their name, which corresponds to the first affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-1'.",
+            "quote": "<li class=\"aff\"><a id=\"aff-1\" name=\"aff-1\"></a><address><sup>1</sup><span class=\"institution\">Department of Community Health and Epidemiology</span>, <span class=\"institution\">Dalhousie University</span>, <span class=\"addr-line\">Halifax</span>, <span class=\"addr-line\">Nova Scotia</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Fatemeh Gholi Zadeh Kharrat",
+          "reasoning": "The author's name is explicitly listed in an ordered list of contributors within the HTML. The second list item identifies 'Fatemeh Gholi Zadeh Kharrat' as a contributor.",
+          "quote": "<li class=\"contributor\" id=\"contrib-2\"><span class=\"name\">Fatemeh Gholi Zadeh Kharrat</span><a id=\"xref-aff-2-1\" class=\"xref-aff\" href=\"#aff-2\">2</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Electrical Engineering and Computer Engineering, Laval University, Quebec, Quebec, Canada",
+            "reasoning": "The author 'Fatemeh Gholi Zadeh Kharrat' has a superscript '2' next to their name, which corresponds to the second affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-2'.",
+            "quote": "<li class=\"aff\"><a id=\"aff-2\" name=\"aff-2\"></a><address><sup>2</sup><span class=\"institution\">Department of Electrical Engineering and Computer Engineering</span>, <span class=\"institution\">Laval University</span>, <span class=\"addr-line\">Quebec</span>, <span class=\"addr-line\">Quebec</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jean-François Pelletier",
+          "reasoning": "The author's name is explicitly listed in an ordered list of contributors within the HTML. The third list item identifies 'Jean-François Pelletier' as a contributor.",
+          "quote": "<li class=\"contributor\" id=\"contrib-3\"><span class=\"name\">Jean-François Pelletier</span><a id=\"xref-aff-3-1\" class=\"xref-aff\" href=\"#aff-3\">3</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Psychiatry, University of Montreal, Montreal, Québec, Canada",
+            "reasoning": "The author 'Jean-François Pelletier' has a superscript '3' next to their name, which corresponds to the third affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-3'.",
+            "quote": "<li class=\"aff\"><a id=\"aff-3\" name=\"aff-3\"></a><address><sup>3</sup><span class=\"institution\">Department of Psychiatry</span>, <span class=\"institution\">University of Montreal</span>, <span class=\"addr-line\">Montreal</span>, <span class=\"addr-line\">Québec</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Louis Rochette",
+          "reasoning": "The author's name is explicitly listed in an ordered list of contributors within the HTML. The fourth list item identifies 'Louis Rochette' as a contributor.",
+          "quote": "<li class=\"contributor\" id=\"contrib-4\"><span class=\"name\">Louis Rochette</span><a id=\"xref-aff-4-1\" class=\"xref-aff\" href=\"#aff-4\">4</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada",
+            "reasoning": "The author 'Louis Rochette' has a superscript '4' next to their name, which corresponds to the fourth affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-4'.",
+            "quote": "<li class=\"aff\"><a id=\"aff-4\" name=\"aff-4\"></a><address><sup>4</sup><span class=\"institution\">Institut national de sante publique du Quebec (INSPQ)</span>, <span class=\"addr-line\">Quebec City</span>, <span class=\"addr-line\">Quebec</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Eric Pelletier",
+          "reasoning": "The author's name is explicitly listed in an ordered list of contributors within the HTML. The fifth list item identifies 'Eric Pelletier' as a contributor.",
+          "quote": "<li class=\"contributor\" id=\"contrib-5\"><span class=\"name\">Eric Pelletier</span><a id=\"xref-aff-4-2\" class=\"xref-aff\" href=\"#aff-4\">4</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada",
+            "reasoning": "The author 'Eric Pelletier' has a superscript '4' next to their name, which corresponds to the fourth affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-4'.",
+            "quote": "<li class=\"aff\"><a id=\"aff-4\" name=\"aff-4\"></a><address><sup>4</sup><span class=\"institution\">Institut national de sante publique du Quebec (INSPQ)</span>, <span class=\"addr-line\">Quebec City</span>, <span class=\"addr-line\">Quebec</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Pascale Lévesque",
+          "reasoning": "The author's name is explicitly listed in an ordered list of contributors within the HTML. The sixth list item identifies 'Pascale Lévesque' as a contributor.",
+          "quote": "<li class=\"contributor\" id=\"contrib-6\"><span class=\"name\">Pascale Lévesque</span><a id=\"xref-aff-4-3\" class=\"xref-aff\" href=\"#aff-4\">4</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada",
+            "reasoning": "The author 'Pascale Lévesque' has a superscript '4' next to their name, which corresponds to the fourth affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-4'.",
+            "quote": "<li class=\"aff\"><a id=\"aff-4\" name=\"aff-4\"></a><address><sup>4</sup><span class=\"institution\">Institut national de sante publique du Quebec (INSPQ)</span>, <span class=\"addr-line\">Quebec City</span>, <span class=\"addr-line\">Quebec</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Victoria Massamba",
+          "reasoning": "The author's name is explicitly listed in an ordered list of contributors within the HTML. The seventh list item identifies 'Victoria Massamba' as a contributor.",
+          "quote": "<li class=\"contributor\" id=\"contrib-7\"><span class=\"name\">Victoria Massamba</span><a id=\"xref-aff-4-4\" class=\"xref-aff\" href=\"#aff-4\">4</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada",
+            "reasoning": "The author 'Victoria Massamba' has a superscript '4' next to their name, which corresponds to the fourth affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-4'.",
+            "quote": "<li class=\"aff\"><a id=\"aff-4\" name=\"aff-4\"></a><address><sup>4</sup><span class=\"institution\">Institut national de sante publique du Quebec (INSPQ)</span>, <span class=\"addr-line\">Quebec City</span>, <span class=\"addr-line\">Quebec</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Camille Brousseau-Paradis",
+          "reasoning": "The author's name is explicitly listed in an ordered list of contributors within the HTML. The eighth list item identifies 'Camille Brousseau-Paradis' as a contributor.",
+          "quote": "<li class=\"contributor\" id=\"contrib-8\"><span class=\"name\">Camille Brousseau-Paradis</span><a id=\"xref-aff-3-2\" class=\"xref-aff\" href=\"#aff-3\">3</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Psychiatry, University of Montreal, Montreal, Québec, Canada",
+            "reasoning": "The author 'Camille Brousseau-Paradis' has a superscript '3' next to their name, which corresponds to the third affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-3'.",
+            "quote": "<li class=\"aff\"><a id=\"aff-3\" name=\"aff-3\"></a><address><sup>3</sup><span class=\"institution\">Department of Psychiatry</span>, <span class=\"institution\">University of Montreal</span>, <span class=\"addr-line\">Montreal</span>, <span class=\"addr-line\">Québec</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Mada Mohammed",
+          "reasoning": "The author's name is explicitly listed in an ordered list of contributors within the HTML. The ninth list item identifies 'Mada Mohammed' as a contributor.",
+          "quote": "<li class=\"contributor\" id=\"contrib-9\"><span class=\"name\">Mada Mohammed</span><a id=\"xref-aff-1-2\" class=\"xref-aff\" href=\"#aff-1\">1</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Community Health and Epidemiology, Dalhousie University, Halifax, Nova Scotia, Canada",
+            "reasoning": "The author 'Mada Mohammed' has a superscript '1' next to their name, which corresponds to the first affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-1'.",
+            "quote": "<li class=\"aff\"><a id=\"aff-1\" name=\"aff-1\"></a><address><sup>1</sup><span class=\"institution\">Department of Community Health and Epidemiology</span>, <span class=\"institution\">Dalhousie University</span>, <span class=\"addr-line\">Halifax</span>, <span class=\"addr-line\">Nova Scotia</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Geneviève Gariépy",
+          "reasoning": "The author's name is explicitly listed in an ordered list of contributors within the HTML. The tenth list item identifies 'Geneviève Gariépy' as a contributor.",
+          "quote": "<li class=\"contributor\" id=\"contrib-10\"><span class=\"name\">Geneviève Gariépy</span><a id=\"xref-aff-5-1\" class=\"xref-aff\" href=\"#aff-5\">5</a><span class=\"xref-sep\">,</span><a id=\"xref-aff-6-1\" class=\"xref-aff\" href=\"#aff-6\">6</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Public Health Agency of Canada, Ottawa, Ontario, Canada",
+            "reasoning": "The author 'Geneviève Gariépy' has a superscript '5' next to their name, which corresponds to the fifth affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-5'.",
+            "quote": "<li class=\"aff\"><a id=\"aff-5\" name=\"aff-5\"></a><address><sup>5</sup><span class=\"institution\">Public Health Agency of Canada</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+          },
+          {
+            "value": "Department of Social and Preventive Medicine, University of Montreal, Montreal, Québec, Canada",
+            "reasoning": "The author 'Geneviève Gariépy' has a superscript '6' next to their name, which corresponds to the sixth affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-6'.",
+            "quote": "<li class=\"aff\"><a id=\"aff-6\" name=\"aff-6\"></a><address><sup>6</sup><span class=\"institution\">Department of Social and Preventive Medicine</span>, <span class=\"institution\">University of Montreal</span>, <span class=\"addr-line\">Montreal</span>, <span class=\"addr-line\">Québec</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Christian Gagné",
+          "reasoning": "The author's name is explicitly listed in an ordered list of contributors within the HTML. The eleventh list item identifies 'Christian Gagné' as a contributor.",
+          "quote": "<li class=\"contributor\" id=\"contrib-11\"><span class=\"name\">Christian Gagné</span><a id=\"xref-aff-2-2\" class=\"xref-aff\" href=\"#aff-2\">2</a>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Electrical Engineering and Computer Engineering, Laval University, Quebec, Quebec, Canada",
+            "reasoning": "The author 'Christian Gagné' has a superscript '2' next to their name, which corresponds to the second affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-2'.",
+            "quote": "<li class=\"aff\"><a id=\"aff-2\" name=\"aff-2\"></a><address><sup>2</sup><span class=\"institution\">Department of Electrical Engineering and Computer Engineering</span>, <span class=\"institution\">Laval University</span>, <span class=\"addr-line\">Quebec</span>, <span class=\"addr-line\">Quebec</span>, Canada</address></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Alain Lesage",
+          "reasoning": "The author's name is explicitly listed in an ordered list of contributors within the HTML. The twelfth and final list item identifies 'Alain Lesage' as a contributor.",
+          "quote": "<li class=\"last\" id=\"contrib-12\"><span class=\"name\">Alain Lesage</span><a id=\"xref-aff-7-1\" class=\"xref-aff\" href=\"#aff-7\">7</a></li>"
+        },
+        "affiliations": [
+          {
+            "value": "Institut universitaire en sante mentale de Montreal, Montreal, Québec, Canada",
+            "reasoning": "The author 'Alain Lesage' has a superscript '7' next to their name, which corresponds to the seventh affiliation in the ordered list of affiliations. The text of this affiliation is extracted from the address tag associated with id 'aff-7'.",
+            "quote": "<li class=\"aff\"><a id=\"aff-7\" name=\"aff-7\"></a><address><sup>7</sup><span class=\"institution\">Institut universitaire en sante mentale de Montreal</span>, <span class=\"addr-line\">Montreal</span>, <span class=\"addr-line\">Québec</span>, Canada</address></li>"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Department of Community Health and Epidemiology, Dalhousie University, Halifax, Nova Scotia, Canada",
+        "reasoning": "This affiliation is listed as the first item in the ordered list of affiliations, identified by the superscript '1' and id 'aff-1'.",
+        "quote": "<li class=\"aff\"><a id=\"aff-1\" name=\"aff-1\"></a><address><sup>1</sup><span class=\"institution\">Department of Community Health and Epidemiology</span>, <span class=\"institution\">Dalhousie University</span>, <span class=\"addr-line\">Halifax</span>, <span class=\"addr-line\">Nova Scotia</span>, Canada</address></li>"
+      },
+      {
+        "value": "Department of Electrical Engineering and Computer Engineering, Laval University, Quebec, Quebec, Canada",
+        "reasoning": "This affiliation is listed as the second item in the ordered list of affiliations, identified by the superscript '2' and id 'aff-2'.",
+        "quote": "<li class=\"aff\"><a id=\"aff-2\" name=\"aff-2\"></a><address><sup>2</sup><span class=\"institution\">Department of Electrical Engineering and Computer Engineering</span>, <span class=\"institution\">Laval University</span>, <span class=\"addr-line\">Quebec</span>, <span class=\"addr-line\">Quebec</span>, Canada</address></li>"
+      },
+      {
+        "value": "Department of Psychiatry, University of Montreal, Montreal, Québec, Canada",
+        "reasoning": "This affiliation is listed as the third item in the ordered list of affiliations, identified by the superscript '3' and id 'aff-3'.",
+        "quote": "<li class=\"aff\"><a id=\"aff-3\" name=\"aff-3\"></a><address><sup>3</sup><span class=\"institution\">Department of Psychiatry</span>, <span class=\"institution\">University of Montreal</span>, <span class=\"addr-line\">Montreal</span>, <span class=\"addr-line\">Québec</span>, Canada</address></li>"
+      },
+      {
+        "value": "Institut national de sante publique du Quebec (INSPQ), Quebec City, Quebec, Canada",
+        "reasoning": "This affiliation is listed as the fourth item in the ordered list of affiliations, identified by the superscript '4' and id 'aff-4'.",
+        "quote": "<li class=\"aff\"><a id=\"aff-4\" name=\"aff-4\"></a><address><sup>4</sup><span class=\"institution\">Institut national de sante publique du Quebec (INSPQ)</span>, <span class=\"addr-line\">Quebec City</span>, <span class=\"addr-line\">Quebec</span>, Canada</address></li>"
+      },
+      {
+        "value": "Public Health Agency of Canada, Ottawa, Ontario, Canada",
+        "reasoning": "This affiliation is listed as the fifth item in the ordered list of affiliations, identified by the superscript '5' and id 'aff-5'.",
+        "quote": "<li class=\"aff\"><a id=\"aff-5\" name=\"aff-5\"></a><address><sup>5</sup><span class=\"institution\">Public Health Agency of Canada</span>, <span class=\"addr-line\">Ottawa</span>, <span class=\"addr-line\">Ontario</span>, Canada</address></li>"
+      },
+      {
+        "value": "Department of Social and Preventive Medicine, University of Montreal, Montreal, Québec, Canada",
+        "reasoning": "This affiliation is listed as the sixth item in the ordered list of affiliations, identified by the superscript '6' and id 'aff-6'.",
+        "quote": "<li class=\"aff\"><a id=\"aff-6\" name=\"aff-6\"></a><address><sup>6</sup><span class=\"institution\">Department of Social and Preventive Medicine</span>, <span class=\"institution\">University of Montreal</span>, <span class=\"addr-line\">Montreal</span>, <span class=\"addr-line\">Québec</span>, Canada</address></li>"
+      },
+      {
+        "value": "Institut universitaire en sante mentale de Montreal, Montreal, Québec, Canada",
+        "reasoning": "This affiliation is listed as the seventh item in the ordered list of affiliations, identified by the superscript '7' and id 'aff-7'.",
+        "quote": "<li class=\"aff\"><a id=\"aff-7\" name=\"aff-7\"></a><address><sup>7</sup><span class=\"institution\">Institut universitaire en sante mentale de Montreal</span>, <span class=\"addr-line\">Montreal</span>, <span class=\"addr-line\">Québec</span>, Canada</address></li>"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.1136/bmjopen-2022-066423"
+    }
+  }
+}

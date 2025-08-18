@@ -1,0 +1,141 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sat, 12 Jul 2025 03:20:18 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=19608",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Khaoula Chehbouni\",\n        \"reasoning\": \"The author's full name is extracted from an anchor tag within the 'div' element with the class 'authors'.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Chehbouni,+K\\\" rel=\\\"nofollow\\\">Khaoula Chehbouni</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Megha Roshan\",\n        \"reasoning\": \"The author's full name is extracted from an anchor tag within the 'div' element with the class 'authors'.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Roshan,+M\\\" rel=\\\"nofollow\\\">Megha Roshan</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Emmanuel Ma\",\n        \"reasoning\": \"The author's full name is extracted from an anchor tag within the 'div' element with the class 'authors'.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Ma,+E\\\" rel=\\\"nofollow\\\">Emmanuel Ma</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Futian Andrew Wei\",\n        \"reasoning\": \"The author's full name is extracted from an anchor tag within the 'div' element with the class 'authors'.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Wei,+F+A\\\" rel=\\\"nofollow\\\">Futian Andrew Wei</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Afaf Taik\",\n        \"reasoning\": \"The author's full name is extracted from an anchor tag within the 'div' element with the class 'authors'.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Taik,+A\\\" rel=\\\"nofollow\\\">Afaf Taik</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Jackie CK Cheung\",\n        \"reasoning\": \"The author's full name is extracted from an anchor tag within the 'div' element with the class 'authors'.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Cheung,+J+C\\\" rel=\\\"nofollow\\\">Jackie CK Cheung</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Golnoosh Farnadi\",\n        \"reasoning\": \"The author's full name is extracted from an anchor tag within the 'div' element with the class 'authors'.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Farnadi,+G\\\" rel=\\\"nofollow\\\">Golnoosh Farnadi</a>\"\n      },\n      \"affiliations\": []\n    }\n  ],\n  \"affiliations\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 780,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 19048,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 19048
+      }
+    ],
+    "thoughts_token_count": 1256,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 21084,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Khaoula Chehbouni",
+          "reasoning": "The author's full name is extracted from an anchor tag within the 'div' element with the class 'authors'.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Chehbouni,+K\" rel=\"nofollow\">Khaoula Chehbouni</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Megha Roshan",
+          "reasoning": "The author's full name is extracted from an anchor tag within the 'div' element with the class 'authors'.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Roshan,+M\" rel=\"nofollow\">Megha Roshan</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Emmanuel Ma",
+          "reasoning": "The author's full name is extracted from an anchor tag within the 'div' element with the class 'authors'.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Ma,+E\" rel=\"nofollow\">Emmanuel Ma</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Futian Andrew Wei",
+          "reasoning": "The author's full name is extracted from an anchor tag within the 'div' element with the class 'authors'.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Wei,+F+A\" rel=\"nofollow\">Futian Andrew Wei</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Afaf Taik",
+          "reasoning": "The author's full name is extracted from an anchor tag within the 'div' element with the class 'authors'.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Taik,+A\" rel=\"nofollow\">Afaf Taik</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Jackie CK Cheung",
+          "reasoning": "The author's full name is extracted from an anchor tag within the 'div' element with the class 'authors'.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Cheung,+J+C\" rel=\"nofollow\">Jackie CK Cheung</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Golnoosh Farnadi",
+          "reasoning": "The author's full name is extracted from an anchor tag within the 'div' element with the class 'authors'.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Farnadi,+G\" rel=\"nofollow\">Golnoosh Farnadi</a>"
+        },
+        "affiliations": []
+      }
+    ],
+    "affiliations": []
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.48550/arXiv.2403.13213"
+    }
+  }
+}

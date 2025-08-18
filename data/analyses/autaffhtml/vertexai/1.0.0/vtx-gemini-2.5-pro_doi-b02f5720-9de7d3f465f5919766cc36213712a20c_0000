@@ -1,0 +1,406 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sat, 12 Jul 2025 00:20:24 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=85085",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Cantin Baron\",\n        \"reasoning\": \"The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-0`.\",\n        \"quote\": \"<div class=\\\"author-tooltip-0\\\"><div class=\\\"author-tooltip-name\\\">Cantin Baron </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '1' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Département de Biochimie et de Médecine Moléculaire, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Montreal Heart Institute, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Sarah Cherkaoui\",\n        \"reasoning\": \"The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-1`.\",\n        \"quote\": \"<div class=\\\"author-tooltip-1\\\"><div class=\\\"author-tooltip-name\\\">Sarah Cherkaoui </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Montreal Heart Institute, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Division of Oncology and Children’s Research Center, University Children’s Hospital Zurich, University of Zurich, Switzerland\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '3' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Division of Oncology and Children’s Research Center, University Children’s Hospital Zurich, University of Zurich</span>, <span class='nlm-country'>Switzerland</span></div>\"\n        },\n        {\n          \"value\": \"Department of Pediatric and Adolescent Oncology, Gustave Roussy Cancer Center, Université Paris-Saclay, Villejuif, France\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '4' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>4</span><span class='nlm-institution'>Department of Pediatric and Adolescent Oncology, Gustave Roussy Cancer Center, Université Paris-Saclay</span>, Villejuif, <span class='nlm-country'>France</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Sandra Therrien-Laperriere\",\n        \"reasoning\": \"The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-2`.\",\n        \"quote\": \"<div class=\\\"author-tooltip-2\\\"><div class=\\\"author-tooltip-name\\\">Sandra Therrien-Laperriere </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Montreal Heart Institute, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Yann Ilboudo\",\n        \"reasoning\": \"The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-3`.\",\n        \"quote\": \"<div class=\\\"author-tooltip-3\\\"><div class=\\\"author-tooltip-name\\\">Yann Ilboudo </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '1' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Département de Biochimie et de Médecine Moléculaire, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Montreal Heart Institute, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Raphaël Poujol\",\n        \"reasoning\": \"The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-4`.\",\n        \"quote\": \"<div class=\\\"author-tooltip-4\\\"><div class=\\\"author-tooltip-name\\\">Raphaël Poujol </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Montreal Heart Institute, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Pamela Mehanna\",\n        \"reasoning\": \"The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-5`.\",\n        \"quote\": \"<div class=\\\"author-tooltip-5\\\"><div class=\\\"author-tooltip-name\\\">Pamela Mehanna </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Montreal Heart Institute, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Melanie E. Garrett\",\n        \"reasoning\": \"The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-6`.\",\n        \"quote\": \"<div class=\\\"author-tooltip-6\\\"><div class=\\\"author-tooltip-name\\\">Melanie E. Garrett </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Duke Molecular Physiology Institute, Duke University Medical Center, Durham, NC, USA\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '5' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>5</span><span class='nlm-institution'>Duke Molecular Physiology Institute, Duke University Medical Center</span>, Durham, NC, <span class='nlm-country'>USA</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Marilyn J. Telen\",\n        \"reasoning\": \"The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-7`.\",\n        \"quote\": \"<div class=\\\"author-tooltip-7\\\"><div class=\\\"author-tooltip-name\\\">Marilyn J. Telen </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Division of Hematology, Department of Medicine, Duke University Medical Center, Durham, NC, USA\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '6' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>6</span><span class='nlm-institution'>Division of Hematology, Department of Medicine, Duke University Medical Center</span>, Durham, NC, <span class='nlm-country'>USA</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Allison E. Ashley-Koch\",\n        \"reasoning\": \"The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-8`.\",\n        \"quote\": \"<div class=\\\"author-tooltip-8\\\"><div class=\\\"author-tooltip-name\\\">Allison E. Ashley-Koch </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Duke Molecular Physiology Institute, Duke University Medical Center, Durham, NC, USA\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '5' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>5</span><span class='nlm-institution'>Duke Molecular Physiology Institute, Duke University Medical Center</span>, Durham, NC, <span class='nlm-country'>USA</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Pablo Bartolucci\",\n        \"reasoning\": \"The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-9`.\",\n        \"quote\": \"<div class=\\\"author-tooltip-9\\\"><div class=\\\"author-tooltip-name\\\">Pablo Bartolucci </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Université Paris Est Créteil, Hôpitaux Universitaires Henri Mondor, APHP, Sickle cell referral center – UMGGR, Créteil, France\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '7' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>7</span><span class='nlm-institution'>Université Paris Est Créteil, Hôpitaux Universitaires Henri Mondor, APHP, Sickle cell referral center – UMGGR</span>, Créteil, <span class='nlm-country'>France</span></div>\"\n        },\n        {\n          \"value\": \"Université Paris Est Créteil, IMRB, Laboratory of excellence LABEX, Créteil, France\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '8' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>8</span><span class='nlm-institution'>Université Paris Est Créteil, IMRB, Laboratory of excellence LABEX</span>, Créteil, <span class='nlm-country'>France</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"John D. Rioux\",\n        \"reasoning\": \"The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-10`.\",\n        \"quote\": \"<div class=\\\"author-tooltip-10\\\"><div class=\\\"author-tooltip-name\\\">John D. Rioux </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '1' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Département de Biochimie et de Médecine Moléculaire, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Montreal Heart Institute, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Département de Médecine, Université de Montréal, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '9' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>9</span><span class='nlm-institution'>Département de Médecine, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Guillaume Lettre\",\n        \"reasoning\": \"The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-11`.\",\n        \"quote\": \"<div class=\\\"author-tooltip-11\\\"><div class=\\\"author-tooltip-name\\\">Guillaume Lettre </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Montreal Heart Institute, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Département de Médecine, Université de Montréal, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '9' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>9</span><span class='nlm-institution'>Département de Médecine, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Christine Des Rosiers\",\n        \"reasoning\": \"The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-12`.\",\n        \"quote\": \"<div class=\\\"author-tooltip-12\\\"><div class=\\\"author-tooltip-name\\\">Christine Des Rosiers </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '1' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Département de Biochimie et de Médecine Moléculaire, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Montreal Heart Institute, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Département de Nutrition, Université de Montréal, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '10' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>10</span><span class='nlm-institution'>Département de Nutrition, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Matthieu Ruiz\",\n        \"reasoning\": \"The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-13`.\",\n        \"quote\": \"<div class=\\\"author-tooltip-13\\\"><div class=\\\"author-tooltip-name\\\">Matthieu Ruiz </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Montreal Heart Institute, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Département de Nutrition, Université de Montréal, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '10' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>10</span><span class='nlm-institution'>Département de Nutrition, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Julie G. Hussin\",\n        \"reasoning\": \"The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-14`.\",\n        \"quote\": \"<div class=\\\"author-tooltip-14\\\"><div class=\\\"author-tooltip-name\\\">Julie G. Hussin </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Montreal Heart Institute, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        },\n        {\n          \"value\": \"Département de Médecine, Université de Montréal, Québec, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author by the superscript '9' in a hidden tooltip div, which corresponds to this institution.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>9</span><span class='nlm-institution'>Département de Médecine, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Québec, Canada\",\n      \"reasoning\": \"This affiliation is identified by the superscript '1' in the author tooltips and is present for multiple authors.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Département de Biochimie et de Médecine Moléculaire, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n    },\n    {\n      \"value\": \"Montreal Heart Institute, Québec, Canada\",\n      \"reasoning\": \"This affiliation is identified by the superscript '2' in the author tooltips and is present for multiple authors.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n    },\n    {\n      \"value\": \"Division of Oncology and Children’s Research Center, University Children’s Hospital Zurich, University of Zurich, Switzerland\",\n      \"reasoning\": \"This affiliation is identified by the superscript '3' in the author tooltips.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Division of Oncology and Children’s Research Center, University Children’s Hospital Zurich, University of Zurich</span>, <span class='nlm-country'>Switzerland</span></div>\"\n    },\n    {\n      \"value\": \"Department of Pediatric and Adolescent Oncology, Gustave Roussy Cancer Center, Université Paris-Saclay, Villejuif, France\",\n      \"reasoning\": \"This affiliation is identified by the superscript '4' in the author tooltips.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>4</span><span class='nlm-institution'>Department of Pediatric and Adolescent Oncology, Gustave Roussy Cancer Center, Université Paris-Saclay</span>, Villejuif, <span class='nlm-country'>France</span></div>\"\n    },\n    {\n      \"value\": \"Duke Molecular Physiology Institute, Duke University Medical Center, Durham, NC, USA\",\n      \"reasoning\": \"This affiliation is identified by the superscript '5' in the author tooltips and is present for multiple authors.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>5</span><span class='nlm-institution'>Duke Molecular Physiology Institute, Duke University Medical Center</span>, Durham, NC, <span class='nlm-country'>USA</span></div>\"\n    },\n    {\n      \"value\": \"Division of Hematology, Department of Medicine, Duke University Medical Center, Durham, NC, USA\",\n      \"reasoning\": \"This affiliation is identified by the superscript '6' in the author tooltips.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>6</span><span class='nlm-institution'>Division of Hematology, Department of Medicine, Duke University Medical Center</span>, Durham, NC, <span class='nlm-country'>USA</span></div>\"\n    },\n    {\n      \"value\": \"Université Paris Est Créteil, Hôpitaux Universitaires Henri Mondor, APHP, Sickle cell referral center – UMGGR, Créteil, France\",\n      \"reasoning\": \"This affiliation is identified by the superscript '7' in the author tooltips.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>7</span><span class='nlm-institution'>Université Paris Est Créteil, Hôpitaux Universitaires Henri Mondor, APHP, Sickle cell referral center – UMGGR</span>, Créteil, <span class='nlm-country'>France</span></div>\"\n    },\n    {\n      \"value\": \"Université Paris Est Créteil, IMRB, Laboratory of excellence LABEX, Créteil, France\",\n      \"reasoning\": \"This affiliation is identified by the superscript '8' in the author tooltips.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>8</span><span class='nlm-institution'>Université Paris Est Créteil, IMRB, Laboratory of excellence LABEX</span>, Créteil, <span class='nlm-country'>France</span></div>\"\n    },\n    {\n      \"value\": \"Département de Médecine, Université de Montréal, Québec, Canada\",\n      \"reasoning\": \"This affiliation is identified by the superscript '9' in the author tooltips and is present for multiple authors.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>9</span><span class='nlm-institution'>Département de Médecine, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n    },\n    {\n      \"value\": \"Département de Nutrition, Université de Montréal, Québec, Canada\",\n      \"reasoning\": \"This affiliation is identified by the superscript '10' in the author tooltips and is present for multiple authors.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>10</span><span class='nlm-institution'>Département de Nutrition, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 6019,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 45622,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 45622
+      }
+    ],
+    "thoughts_token_count": 4781,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 56422,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Cantin Baron",
+          "reasoning": "The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-0`.",
+          "quote": "<div class=\"author-tooltip-0\"><div class=\"author-tooltip-name\">Cantin Baron </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '1' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Département de Biochimie et de Médecine Moléculaire, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Montreal Heart Institute, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Sarah Cherkaoui",
+          "reasoning": "The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-1`.",
+          "quote": "<div class=\"author-tooltip-1\"><div class=\"author-tooltip-name\">Sarah Cherkaoui </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Montreal Heart Institute, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Division of Oncology and Children’s Research Center, University Children’s Hospital Zurich, University of Zurich, Switzerland",
+            "reasoning": "This affiliation is linked to the author by the superscript '3' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Division of Oncology and Children’s Research Center, University Children’s Hospital Zurich, University of Zurich</span>, <span class='nlm-country'>Switzerland</span></div>"
+          },
+          {
+            "value": "Department of Pediatric and Adolescent Oncology, Gustave Roussy Cancer Center, Université Paris-Saclay, Villejuif, France",
+            "reasoning": "This affiliation is linked to the author by the superscript '4' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>4</span><span class='nlm-institution'>Department of Pediatric and Adolescent Oncology, Gustave Roussy Cancer Center, Université Paris-Saclay</span>, Villejuif, <span class='nlm-country'>France</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Sandra Therrien-Laperriere",
+          "reasoning": "The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-2`.",
+          "quote": "<div class=\"author-tooltip-2\"><div class=\"author-tooltip-name\">Sandra Therrien-Laperriere </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Montreal Heart Institute, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Yann Ilboudo",
+          "reasoning": "The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-3`.",
+          "quote": "<div class=\"author-tooltip-3\"><div class=\"author-tooltip-name\">Yann Ilboudo </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '1' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Département de Biochimie et de Médecine Moléculaire, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Montreal Heart Institute, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Raphaël Poujol",
+          "reasoning": "The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-4`.",
+          "quote": "<div class=\"author-tooltip-4\"><div class=\"author-tooltip-name\">Raphaël Poujol </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Montreal Heart Institute, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Pamela Mehanna",
+          "reasoning": "The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-5`.",
+          "quote": "<div class=\"author-tooltip-5\"><div class=\"author-tooltip-name\">Pamela Mehanna </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Montreal Heart Institute, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Melanie E. Garrett",
+          "reasoning": "The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-6`.",
+          "quote": "<div class=\"author-tooltip-6\"><div class=\"author-tooltip-name\">Melanie E. Garrett </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Duke Molecular Physiology Institute, Duke University Medical Center, Durham, NC, USA",
+            "reasoning": "This affiliation is linked to the author by the superscript '5' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>5</span><span class='nlm-institution'>Duke Molecular Physiology Institute, Duke University Medical Center</span>, Durham, NC, <span class='nlm-country'>USA</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Marilyn J. Telen",
+          "reasoning": "The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-7`.",
+          "quote": "<div class=\"author-tooltip-7\"><div class=\"author-tooltip-name\">Marilyn J. Telen </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Division of Hematology, Department of Medicine, Duke University Medical Center, Durham, NC, USA",
+            "reasoning": "This affiliation is linked to the author by the superscript '6' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>6</span><span class='nlm-institution'>Division of Hematology, Department of Medicine, Duke University Medical Center</span>, Durham, NC, <span class='nlm-country'>USA</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Allison E. Ashley-Koch",
+          "reasoning": "The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-8`.",
+          "quote": "<div class=\"author-tooltip-8\"><div class=\"author-tooltip-name\">Allison E. Ashley-Koch </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Duke Molecular Physiology Institute, Duke University Medical Center, Durham, NC, USA",
+            "reasoning": "This affiliation is linked to the author by the superscript '5' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>5</span><span class='nlm-institution'>Duke Molecular Physiology Institute, Duke University Medical Center</span>, Durham, NC, <span class='nlm-country'>USA</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Pablo Bartolucci",
+          "reasoning": "The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-9`.",
+          "quote": "<div class=\"author-tooltip-9\"><div class=\"author-tooltip-name\">Pablo Bartolucci </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Université Paris Est Créteil, Hôpitaux Universitaires Henri Mondor, APHP, Sickle cell referral center – UMGGR, Créteil, France",
+            "reasoning": "This affiliation is linked to the author by the superscript '7' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>7</span><span class='nlm-institution'>Université Paris Est Créteil, Hôpitaux Universitaires Henri Mondor, APHP, Sickle cell referral center – UMGGR</span>, Créteil, <span class='nlm-country'>France</span></div>"
+          },
+          {
+            "value": "Université Paris Est Créteil, IMRB, Laboratory of excellence LABEX, Créteil, France",
+            "reasoning": "This affiliation is linked to the author by the superscript '8' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>8</span><span class='nlm-institution'>Université Paris Est Créteil, IMRB, Laboratory of excellence LABEX</span>, Créteil, <span class='nlm-country'>France</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "John D. Rioux",
+          "reasoning": "The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-10`.",
+          "quote": "<div class=\"author-tooltip-10\"><div class=\"author-tooltip-name\">John D. Rioux </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '1' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Département de Biochimie et de Médecine Moléculaire, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Montreal Heart Institute, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Département de Médecine, Université de Montréal, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '9' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>9</span><span class='nlm-institution'>Département de Médecine, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Guillaume Lettre",
+          "reasoning": "The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-11`.",
+          "quote": "<div class=\"author-tooltip-11\"><div class=\"author-tooltip-name\">Guillaume Lettre </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Montreal Heart Institute, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Département de Médecine, Université de Montréal, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '9' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>9</span><span class='nlm-institution'>Département de Médecine, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Christine Des Rosiers",
+          "reasoning": "The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-12`.",
+          "quote": "<div class=\"author-tooltip-12\"><div class=\"author-tooltip-name\">Christine Des Rosiers </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '1' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Département de Biochimie et de Médecine Moléculaire, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Montreal Heart Institute, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Département de Nutrition, Université de Montréal, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '10' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>10</span><span class='nlm-institution'>Département de Nutrition, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Matthieu Ruiz",
+          "reasoning": "The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-13`.",
+          "quote": "<div class=\"author-tooltip-13\"><div class=\"author-tooltip-name\">Matthieu Ruiz </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Montreal Heart Institute, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Département de Nutrition, Université de Montréal, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '10' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>10</span><span class='nlm-institution'>Département de Nutrition, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Julie G. Hussin",
+          "reasoning": "The author's name is extracted from the `div` with class `author-tooltip-name` within the `div` with class `author-tooltip-14`.",
+          "quote": "<div class=\"author-tooltip-14\"><div class=\"author-tooltip-name\">Julie G. Hussin </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Montreal Heart Institute, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '2' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          },
+          {
+            "value": "Département de Médecine, Université de Montréal, Québec, Canada",
+            "reasoning": "This affiliation is linked to the author by the superscript '9' in a hidden tooltip div, which corresponds to this institution.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>9</span><span class='nlm-institution'>Département de Médecine, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Département de Biochimie et de Médecine Moléculaire, Université de Montréal, Québec, Canada",
+        "reasoning": "This affiliation is identified by the superscript '1' in the author tooltips and is present for multiple authors.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Département de Biochimie et de Médecine Moléculaire, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+      },
+      {
+        "value": "Montreal Heart Institute, Québec, Canada",
+        "reasoning": "This affiliation is identified by the superscript '2' in the author tooltips and is present for multiple authors.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>Montreal Heart Institute</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+      },
+      {
+        "value": "Division of Oncology and Children’s Research Center, University Children’s Hospital Zurich, University of Zurich, Switzerland",
+        "reasoning": "This affiliation is identified by the superscript '3' in the author tooltips.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Division of Oncology and Children’s Research Center, University Children’s Hospital Zurich, University of Zurich</span>, <span class='nlm-country'>Switzerland</span></div>"
+      },
+      {
+        "value": "Department of Pediatric and Adolescent Oncology, Gustave Roussy Cancer Center, Université Paris-Saclay, Villejuif, France",
+        "reasoning": "This affiliation is identified by the superscript '4' in the author tooltips.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>4</span><span class='nlm-institution'>Department of Pediatric and Adolescent Oncology, Gustave Roussy Cancer Center, Université Paris-Saclay</span>, Villejuif, <span class='nlm-country'>France</span></div>"
+      },
+      {
+        "value": "Duke Molecular Physiology Institute, Duke University Medical Center, Durham, NC, USA",
+        "reasoning": "This affiliation is identified by the superscript '5' in the author tooltips and is present for multiple authors.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>5</span><span class='nlm-institution'>Duke Molecular Physiology Institute, Duke University Medical Center</span>, Durham, NC, <span class='nlm-country'>USA</span></div>"
+      },
+      {
+        "value": "Division of Hematology, Department of Medicine, Duke University Medical Center, Durham, NC, USA",
+        "reasoning": "This affiliation is identified by the superscript '6' in the author tooltips.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>6</span><span class='nlm-institution'>Division of Hematology, Department of Medicine, Duke University Medical Center</span>, Durham, NC, <span class='nlm-country'>USA</span></div>"
+      },
+      {
+        "value": "Université Paris Est Créteil, Hôpitaux Universitaires Henri Mondor, APHP, Sickle cell referral center – UMGGR, Créteil, France",
+        "reasoning": "This affiliation is identified by the superscript '7' in the author tooltips.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>7</span><span class='nlm-institution'>Université Paris Est Créteil, Hôpitaux Universitaires Henri Mondor, APHP, Sickle cell referral center – UMGGR</span>, Créteil, <span class='nlm-country'>France</span></div>"
+      },
+      {
+        "value": "Université Paris Est Créteil, IMRB, Laboratory of excellence LABEX, Créteil, France",
+        "reasoning": "This affiliation is identified by the superscript '8' in the author tooltips.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>8</span><span class='nlm-institution'>Université Paris Est Créteil, IMRB, Laboratory of excellence LABEX</span>, Créteil, <span class='nlm-country'>France</span></div>"
+      },
+      {
+        "value": "Département de Médecine, Université de Montréal, Québec, Canada",
+        "reasoning": "This affiliation is identified by the superscript '9' in the author tooltips and is present for multiple authors.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>9</span><span class='nlm-institution'>Département de Médecine, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+      },
+      {
+        "value": "Département de Nutrition, Université de Montréal, Québec, Canada",
+        "reasoning": "This affiliation is identified by the superscript '10' in the author tooltips and is present for multiple authors.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>10</span><span class='nlm-institution'>Département de Nutrition, Université de Montréal</span>, Québec, <span class='nlm-country'>Canada</span></div>"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.1101/2023.03.22.533869"
+    }
+  }
+}

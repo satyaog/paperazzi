@@ -24,12 +24,14 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dependencies = [
+  "fake-useragent",
   "Levenshtein",
   "openai",
   "packaging",
   "pandas",
   "pydantic",
   "pyyaml",
+  "requests-cache",
   "rich",
 ]
 [project.optional-dependencies]

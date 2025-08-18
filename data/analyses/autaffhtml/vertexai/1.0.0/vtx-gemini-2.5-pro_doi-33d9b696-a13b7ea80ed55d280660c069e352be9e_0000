@@ -1,0 +1,283 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sat, 12 Jul 2025 00:22:47 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=78400",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Christopher K. Salmon\",\n        \"reasoning\": \"The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-0`. This structured format clearly identifies the author's name.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Christopher K. Salmon </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada\",\n          \"reasoning\": \"This affiliation is associated with the author Christopher K. Salmon. The connection is established via the superscript '1' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Tabish A. Syed\",\n        \"reasoning\": \"The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-1`. This structured format clearly identifies the author's name.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Tabish A. Syed </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"School of Computer Science and Centre for Intelligent Machines, McGill University, Montreal, QC, H3A 2A7, Canada\",\n          \"reasoning\": \"This affiliation is associated with the author Tabish A. Syed. The connection is established via the superscript '2' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>School of Computer Science and Centre for Intelligent Machines, McGill University</span>, Montreal, QC, H3A 2A7, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"J. Benjamin Kacerovsky\",\n        \"reasoning\": \"The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-2`. This structured format clearly identifies the author's name.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">J. Benjamin Kacerovsky </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada\",\n          \"reasoning\": \"This affiliation is associated with the author J. Benjamin Kacerovsky. The connection is established via the superscript '1' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Nensi Alivodej\",\n        \"reasoning\": \"The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-3`. This structured format clearly identifies the author's name.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Nensi Alivodej </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada\",\n          \"reasoning\": \"This affiliation is associated with the author Nensi Alivodej. The connection is established via the superscript '1' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Alexandra L. Schober\",\n        \"reasoning\": \"The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-4`. This structured format clearly identifies the author's name.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Alexandra L. Schober </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada\",\n          \"reasoning\": \"This affiliation is associated with the author Alexandra L. Schober. The connection is established via the superscript '1' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Michael T. Pratte\",\n        \"reasoning\": \"The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-5`. This structured format clearly identifies the author's name.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Michael T. Pratte </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada\",\n          \"reasoning\": \"This affiliation is associated with the author Michael T. Pratte. The connection is established via the superscript '1' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Michael P. Rosen\",\n        \"reasoning\": \"The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-6`. This structured format clearly identifies the author's name.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Michael P. Rosen </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada\",\n          \"reasoning\": \"This affiliation is associated with the author Michael P. Rosen. The connection is established via the superscript '1' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Miranda Green\",\n        \"reasoning\": \"The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-7`. This structured format clearly identifies the author's name.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Miranda Green </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada\",\n          \"reasoning\": \"This affiliation is associated with the author Miranda Green. The connection is established via the superscript '1' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Adario DasGupta\",\n        \"reasoning\": \"The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-8`. This structured format clearly identifies the author's name.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Adario DasGupta </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada\",\n          \"reasoning\": \"This affiliation is associated with the author Adario DasGupta. The connection is established via the superscript '1' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Hojatollah Vali\",\n        \"reasoning\": \"The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-9`. This structured format clearly identifies the author's name.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Hojatollah Vali </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Anatomy and Cell Biology, McGill University, Montreal, QC Canada\",\n          \"reasoning\": \"This affiliation is associated with the author Hojatollah Vali. The connection is established via the superscript '3' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Department of Anatomy and Cell Biology, McGill University</span>, Montreal, QC <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Craig A. Mandato\",\n        \"reasoning\": \"The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-10`. This structured format clearly identifies the author's name.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Craig A. Mandato </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Anatomy and Cell Biology, McGill University, Montreal, QC Canada\",\n          \"reasoning\": \"This affiliation is associated with the author Craig A. Mandato. The connection is established via the superscript '3' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Department of Anatomy and Cell Biology, McGill University</span>, Montreal, QC <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Kaleem Siddiqi\",\n        \"reasoning\": \"The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-11`. This structured format clearly identifies the author's name.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Kaleem Siddiqi </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"School of Computer Science and Centre for Intelligent Machines, McGill University, Montreal, QC, H3A 2A7, Canada\",\n          \"reasoning\": \"This affiliation is associated with the author Kaleem Siddiqi. The connection is established via the superscript '2' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>School of Computer Science and Centre for Intelligent Machines, McGill University</span>, Montreal, QC, H3A 2A7, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Keith K. Murai\",\n        \"reasoning\": \"The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-12`. This structured format clearly identifies the author's name.\",\n        \"quote\": \"<div class=\\\"author-tooltip-name\\\">Keith K. Murai </div>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada\",\n          \"reasoning\": \"This affiliation is associated with the author Keith K. Murai. The connection is established via the superscript '1' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.\",\n          \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada\",\n      \"reasoning\": \"This is one of the three unique affiliations listed in the paper. It's identified by the superscript '1' and associated with multiple authors. The full text is assembled from the content of the `author-affiliation` div in the author tooltips.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>\"\n    },\n    {\n      \"value\": \"School of Computer Science and Centre for Intelligent Machines, McGill University, Montreal, QC, H3A 2A7, Canada\",\n      \"reasoning\": \"This is one of the three unique affiliations listed in the paper. It's identified by the superscript '2' and associated with multiple authors. The full text is assembled from the content of the `author-affiliation` div in the author tooltips.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>School of Computer Science and Centre for Intelligent Machines, McGill University</span>, Montreal, QC, H3A 2A7, <span class='nlm-country'>Canada</span></div>\"\n    },\n    {\n      \"value\": \"Department of Anatomy and Cell Biology, McGill University, Montreal, QC Canada\",\n      \"reasoning\": \"This is one of the three unique affiliations listed in the paper. It's identified by the superscript '3' and associated with multiple authors. The full text is assembled from the content of the `author-affiliation` div in the author tooltips.\",\n      \"quote\": \"<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Department of Anatomy and Cell Biology, McGill University</span>, Montreal, QC <span class='nlm-country'>Canada</span></div>\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 4941,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 47104,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 47104
+      }
+    ],
+    "thoughts_token_count": 4957,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 57002,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Christopher K. Salmon",
+          "reasoning": "The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-0`. This structured format clearly identifies the author's name.",
+          "quote": "<div class=\"author-tooltip-name\">Christopher K. Salmon </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada",
+            "reasoning": "This affiliation is associated with the author Christopher K. Salmon. The connection is established via the superscript '1' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Tabish A. Syed",
+          "reasoning": "The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-1`. This structured format clearly identifies the author's name.",
+          "quote": "<div class=\"author-tooltip-name\">Tabish A. Syed </div>"
+        },
+        "affiliations": [
+          {
+            "value": "School of Computer Science and Centre for Intelligent Machines, McGill University, Montreal, QC, H3A 2A7, Canada",
+            "reasoning": "This affiliation is associated with the author Tabish A. Syed. The connection is established via the superscript '2' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>School of Computer Science and Centre for Intelligent Machines, McGill University</span>, Montreal, QC, H3A 2A7, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "J. Benjamin Kacerovsky",
+          "reasoning": "The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-2`. This structured format clearly identifies the author's name.",
+          "quote": "<div class=\"author-tooltip-name\">J. Benjamin Kacerovsky </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada",
+            "reasoning": "This affiliation is associated with the author J. Benjamin Kacerovsky. The connection is established via the superscript '1' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Nensi Alivodej",
+          "reasoning": "The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-3`. This structured format clearly identifies the author's name.",
+          "quote": "<div class=\"author-tooltip-name\">Nensi Alivodej </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada",
+            "reasoning": "This affiliation is associated with the author Nensi Alivodej. The connection is established via the superscript '1' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Alexandra L. Schober",
+          "reasoning": "The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-4`. This structured format clearly identifies the author's name.",
+          "quote": "<div class=\"author-tooltip-name\">Alexandra L. Schober </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada",
+            "reasoning": "This affiliation is associated with the author Alexandra L. Schober. The connection is established via the superscript '1' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Michael T. Pratte",
+          "reasoning": "The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-5`. This structured format clearly identifies the author's name.",
+          "quote": "<div class=\"author-tooltip-name\">Michael T. Pratte </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada",
+            "reasoning": "This affiliation is associated with the author Michael T. Pratte. The connection is established via the superscript '1' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Michael P. Rosen",
+          "reasoning": "The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-6`. This structured format clearly identifies the author's name.",
+          "quote": "<div class=\"author-tooltip-name\">Michael P. Rosen </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada",
+            "reasoning": "This affiliation is associated with the author Michael P. Rosen. The connection is established via the superscript '1' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Miranda Green",
+          "reasoning": "The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-7`. This structured format clearly identifies the author's name.",
+          "quote": "<div class=\"author-tooltip-name\">Miranda Green </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada",
+            "reasoning": "This affiliation is associated with the author Miranda Green. The connection is established via the superscript '1' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Adario DasGupta",
+          "reasoning": "The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-8`. This structured format clearly identifies the author's name.",
+          "quote": "<div class=\"author-tooltip-name\">Adario DasGupta </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada",
+            "reasoning": "This affiliation is associated with the author Adario DasGupta. The connection is established via the superscript '1' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Hojatollah Vali",
+          "reasoning": "The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-9`. This structured format clearly identifies the author's name.",
+          "quote": "<div class=\"author-tooltip-name\">Hojatollah Vali </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Anatomy and Cell Biology, McGill University, Montreal, QC Canada",
+            "reasoning": "This affiliation is associated with the author Hojatollah Vali. The connection is established via the superscript '3' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Department of Anatomy and Cell Biology, McGill University</span>, Montreal, QC <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Craig A. Mandato",
+          "reasoning": "The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-10`. This structured format clearly identifies the author's name.",
+          "quote": "<div class=\"author-tooltip-name\">Craig A. Mandato </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Anatomy and Cell Biology, McGill University, Montreal, QC Canada",
+            "reasoning": "This affiliation is associated with the author Craig A. Mandato. The connection is established via the superscript '3' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Department of Anatomy and Cell Biology, McGill University</span>, Montreal, QC <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Kaleem Siddiqi",
+          "reasoning": "The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-11`. This structured format clearly identifies the author's name.",
+          "quote": "<div class=\"author-tooltip-name\">Kaleem Siddiqi </div>"
+        },
+        "affiliations": [
+          {
+            "value": "School of Computer Science and Centre for Intelligent Machines, McGill University, Montreal, QC, H3A 2A7, Canada",
+            "reasoning": "This affiliation is associated with the author Kaleem Siddiqi. The connection is established via the superscript '2' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>School of Computer Science and Centre for Intelligent Machines, McGill University</span>, Montreal, QC, H3A 2A7, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Keith K. Murai",
+          "reasoning": "The author's full name is extracted from the `div` element with the class `author-tooltip-name` which is located inside a `div` with the class `author-tooltip-12`. This structured format clearly identifies the author's name.",
+          "quote": "<div class=\"author-tooltip-name\">Keith K. Murai </div>"
+        },
+        "affiliations": [
+          {
+            "value": "Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada",
+            "reasoning": "This affiliation is associated with the author Keith K. Murai. The connection is established via the superscript '1' in the `author-affiliation` div, which corresponds to this author in the author list. The text is a concatenation of the content within the `nlm-institution` and `nlm-country` spans, along with the surrounding text, found within the author's tooltip container.",
+            "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital, Montreal, QC, H3G 1A4, Canada",
+        "reasoning": "This is one of the three unique affiliations listed in the paper. It's identified by the superscript '1' and associated with multiple authors. The full text is assembled from the content of the `author-affiliation` div in the author tooltips.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>1</span><span class='nlm-institution'>Centre for Research in Neuroscience, Department of Neurology and Neurosurgery, Brain Repair and Integrative Neuroscience Program, The Research Institute of the McGill University Health Centre, Montreal General Hospital</span>, Montreal, QC, H3G 1A4, <span class='nlm-country'>Canada</span></div>"
+      },
+      {
+        "value": "School of Computer Science and Centre for Intelligent Machines, McGill University, Montreal, QC, H3A 2A7, Canada",
+        "reasoning": "This is one of the three unique affiliations listed in the paper. It's identified by the superscript '2' and associated with multiple authors. The full text is assembled from the content of the `author-affiliation` div in the author tooltips.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>2</span><span class='nlm-institution'>School of Computer Science and Centre for Intelligent Machines, McGill University</span>, Montreal, QC, H3A 2A7, <span class='nlm-country'>Canada</span></div>"
+      },
+      {
+        "value": "Department of Anatomy and Cell Biology, McGill University, Montreal, QC Canada",
+        "reasoning": "This is one of the three unique affiliations listed in the paper. It's identified by the superscript '3' and associated with multiple authors. The full text is assembled from the content of the `author-affiliation` div in the author tooltips.",
+        "quote": "<div class='author-affiliation'><span class='nlm-sup'>3</span><span class='nlm-institution'>Department of Anatomy and Cell Biology, McGill University</span>, Montreal, QC <span class='nlm-country'>Canada</span></div>"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.1101/2021.11.05.467391"
+    }
+  }
+}

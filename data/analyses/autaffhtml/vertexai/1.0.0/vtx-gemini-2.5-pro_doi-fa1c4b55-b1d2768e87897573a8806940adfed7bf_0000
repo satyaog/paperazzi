@@ -1,0 +1,517 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sat, 12 Jul 2025 00:29:16 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=115987",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Laurette Dubé\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '1', which links to the first affiliation in the corresponding list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\">\\n<a href=\\\"https://loop.frontiersin.org/people/69087\\\" class=\\\"user-id-69087\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/images/profile/69087/74\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\" alt=\\\"\\nLaurette Dub&#xE;&#xA;\\\">Laurette Dubé</a><sup>1</sup><sup>*</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the first item in the 'ul' element with class 'notes'. The superscript '1' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>1</sup></span>Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Patricia P. Silveira\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by superscripts '2' and '3', which link to the second and third affiliations in the corresponding list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\"><a href=\\\"https://loop.frontiersin.org/people/465274\\\" class=\\\"user-id-465274\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/images/profile/465274/74\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\" alt=\\\"Patricia P. Silveira,\\\">Patricia P. Silveira</a><sup>2,3</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the second item in the 'ul' element with class 'notes'. The superscript '2' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>2</sup></span>Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the third item in the 'ul' element with class 'notes'. The superscript '3' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>3</sup></span>Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Daiva E. Nielsen\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '4', which links to the fourth affiliation in the corresponding list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\"><a href=\\\"https://loop.frontiersin.org/people/1039607\\\" class=\\\"user-id-1039607\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/images/profile/1039607/74\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\" alt=\\\"Daiva E. Nielsen\\\">Daiva E. Nielsen</a><sup>4</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Faculty of Agricultural and Environmental Sciences, School of Human Nutrition, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the fourth item in the 'ul' element with class 'notes'. The superscript '4' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>4</sup></span>Faculty of Agricultural and Environmental Sciences, School of Human Nutrition, McGill University, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Spencer Moore\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '5', which links to the fifth affiliation in the corresponding list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\"><a href=\\\"https://loop.frontiersin.org/people/1326129\\\" class=\\\"user-id-1326129\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/images/profile/1326129/74\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\" alt=\\\"Spencer Moore\\\">Spencer Moore</a><sup>5</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Health Promotion, Education, and Behavior, Arnold School of Public Health, University of South Carolina, Columbia, SC, United States\",\n          \"reasoning\": \"This affiliation is listed as the fifth item in the 'ul' element with class 'notes'. The superscript '5' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>5</sup></span>Health Promotion, Education, and Behavior, Arnold School of Public Health, University of South Carolina, Columbia, SC, United States</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Catherine Paquet\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '6', which links to the sixth affiliation in the corresponding list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\"><a href=\\\"https://loop.frontiersin.org/people/1254202\\\" class=\\\"user-id-1254202\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/images/profile/1254202/74\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\" alt=\\\"Catherine Paquet\\\">Catherine Paquet</a><sup>6</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Faculté des Sciences de l'Administration, Université Laval, Quebec City, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the sixth item in the 'ul' element with class 'notes'. The superscript '6' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>6</sup></span>Faculté des Sciences de l'Administration, Université Laval, Quebec City, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"J. Miguel Cisneros-Franco\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '1', which links to the first affiliation in the corresponding list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\"><a href=\\\"https://loop.frontiersin.org/people/38810\\\" class=\\\"user-id-38810\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/images/profile/38810/74\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\" alt=\\\"J. Miguel Cisneros-Franco\\\">J. Miguel Cisneros-Franco</a><sup>1</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the first item in the 'ul' element with class 'notes'. The superscript '1' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>1</sup></span>Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Gina Kemp\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by superscripts '1' and '7', which link to the first and seventh affiliations in the corresponding list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\"><a href=\\\"https://loop.frontiersin.org/people/1665702\\\" class=\\\"user-id-1665702\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/images/profile/1665702/74\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\" alt=\\\"Gina Kemp,\\\">Gina Kemp</a><sup>1,7</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the first item in the 'ul' element with class 'notes'. The superscript '1' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>1</sup></span>Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Centre for Research in Neuroscience, The Research Institute of McGill University Health Center, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the seventh item in the 'ul' element with class 'notes'. The superscript '7' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>7</sup></span>Centre for Research in Neuroscience, The Research Institute of McGill University Health Center, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Bärbel Knauper\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '8', which links to the eighth affiliation in the corresponding list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\"><a href=\\\"https://loop.frontiersin.org/people/1376571\\\" class=\\\"user-id-1376571\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/images/profile/1376571/74\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\" alt=\\\"B&#xE;rbel Knauper\\\">Bärbel Knauper</a><sup>8</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Psychology, Faculty of Arts, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the eighth item in the 'ul' element with class 'notes'. The superscript '8' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>8</sup></span>Department of Psychology, Faculty of Arts, McGill University, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Yu Ma\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '1', which links to the first affiliation in the corresponding list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\"><a href=\\\"https://loop.frontiersin.org/people/1406752\\\" class=\\\"user-id-1406752\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/images/profile/1406752/74\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\" alt=\\\"Yu Ma\\\">Yu Ma</a><sup>1</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the first item in the 'ul' element with class 'notes'. The superscript '1' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>1</sup></span>Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Mehmood Khan\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by superscripts '9' and '10', which link to the ninth and tenth affiliations in the corresponding list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/cdn/images/profile/default_32.jpg\\\" alt=\\\"Mehmood Khan,\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\">Mehmood Khan<sup>9,10</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Life Biosciences Chief Executive Officer (CEO), Boston, MA, United States\",\n          \"reasoning\": \"This affiliation is listed as the ninth item in the 'ul' element with class 'notes'. The superscript '9' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>9</sup></span>Life Biosciences Chief Executive Officer (CEO), Boston, MA, United States</li>\"\n        },\n        {\n          \"value\": \"Council on Competitiveness (Chairman of the Board), Washington, DC, United States\",\n          \"reasoning\": \"This affiliation is listed as the tenth item in the 'ul' element with class 'notes'. The superscript '10' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>10</sup></span>Council on Competitiveness (Chairman of the Board), Washington, DC, United States</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Gillian Bartlett-Esquilant\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '11', which links to the eleventh affiliation in the corresponding list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\"><a href=\\\"https://loop.frontiersin.org/people/158240\\\" class=\\\"user-id-158240\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/images/profile/158240/74\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\" alt=\\\"Gillian Bartlett-Esquilant\\\">Gillian Bartlett-Esquilant</a><sup>11</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Family Medicine, Faculty of Medicine, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the eleventh item in the 'ul' element with class 'notes'. The superscript '11' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>11</sup></span>Department of Family Medicine, Faculty of Medicine, McGill University, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Alan C. Evans\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by superscripts '2', '3', and '12', which link to the corresponding affiliations in the list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\"><a href=\\\"https://loop.frontiersin.org/people/158755\\\" class=\\\"user-id-158755\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/images/profile/158755/74\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\" alt=\\\"Alan C. Evans,,\\\">Alan C. Evans</a><sup>2,3,12</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the second item in the 'ul' element with class 'notes'. The superscript '2' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>2</sup></span>Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the third item in the 'ul' element with class 'notes'. The superscript '3' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>3</sup></span>Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the twelfth item in the 'ul' element with class 'notes'. The superscript '12' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>12</sup></span>Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Lesley K. Fellows\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by superscripts '12' and '13', which link to the corresponding affiliations in the list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\"><a href=\\\"https://loop.frontiersin.org/people/6681\\\" class=\\\"user-id-6681\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/images/profile/6681/74\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\" alt=\\\"Lesley K. Fellows,\\\">Lesley K. Fellows</a><sup>12,13</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the twelfth item in the 'ul' element with class 'notes'. The superscript '12' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>12</sup></span>Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the thirteenth item in the 'ul' element with class 'notes'. The superscript '13' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>13</sup></span>Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jorge L. Armony\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by superscripts '3' and '14', which link to the corresponding affiliations in the list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\"><a href=\\\"https://loop.frontiersin.org/people/1085\\\" class=\\\"user-id-1085\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/images/profile/1085/74\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\" alt=\\\"Jorge L. Armony,\\\">Jorge L. Armony</a><sup>3,14</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the third item in the 'ul' element with class 'notes'. The superscript '3' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>3</sup></span>Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Douglas Mental Health University Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the fourteenth item in the 'ul' element with class 'notes'. The superscript '14' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>14</sup></span>Douglas Mental Health University Institute, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"R. Nathan Spreng\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by superscripts '12', '14', '15', and '16', which link to the corresponding affiliations in the list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\"><a href=\\\"https://loop.frontiersin.org/people/18433\\\" class=\\\"user-id-18433\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/images/profile/18433/74\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\" alt=\\\"R. Nathan Spreng,,,\\\">R. Nathan Spreng</a><sup>12,14,15,16</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the twelfth item in the 'ul' element with class 'notes'. The superscript '12' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>12</sup></span>Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Douglas Mental Health University Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the fourteenth item in the 'ul' element with class 'notes'. The superscript '14' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>14</sup></span>Douglas Mental Health University Institute, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Departments of Psychiatry and Psychology, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the fifteenth item in the 'ul' element with class 'notes'. The superscript '15' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>15</sup></span>Departments of Psychiatry and Psychology, McGill University, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"McConnell Brain Imaging Centre, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the sixteenth item in the 'ul' element with class 'notes'. The superscript '16' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>16</sup></span>McConnell Brain Imaging Centre, McGill University, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jian-Yun Nie\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '17', which links to the seventeenth affiliation in the corresponding list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/cdn/images/profile/default_32.jpg\\\" alt=\\\"Jian-Yun Nie\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\">Jian-Yun Nie<sup>17</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Computer Science and Operations Research, University of Montreal, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the seventeenth item in the 'ul' element with class 'notes'. The superscript '17' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>17</sup></span>Department of Computer Science and Operations Research, University of Montreal, Montreal, QC, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Shawn T. Brown\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '18', which links to the eighteenth affiliation in the corresponding list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\"><a href=\\\"https://loop.frontiersin.org/people/1665587\\\" class=\\\"user-id-1665587\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/images/profile/1665587/74\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\" alt=\\\"Shawn T. Brown\\\">Shawn T. Brown</a><sup>18</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Pittsburgh Supercomputing Center, Carnegie Mellon University, Pittsburgh, PA, United States\",\n          \"reasoning\": \"This affiliation is listed as the eighteenth item in the 'ul' element with class 'notes'. The superscript '18' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>18</sup></span>Pittsburgh Supercomputing Center, Carnegie Mellon University, Pittsburgh, PA, United States</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Georg Northoff\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by superscripts '13' and '19', which link to the corresponding affiliations in the list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\"><a href=\\\"https://loop.frontiersin.org/people/14096\\\" class=\\\"user-id-14096\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/images/profile/14096/74\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\" alt=\\\"Georg Northoff,\\\">Georg Northoff</a><sup>13,19</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the thirteenth item in the 'ul' element with class 'notes'. The superscript '13' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>13</sup></span>Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Faculty of Medicine, Brain and Mind Research Institute, University of Ottawa, Ottawa, ON, Canada\",\n          \"reasoning\": \"This affiliation is listed as the nineteenth item in the 'ul' element with class 'notes'. The superscript '19' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>19</sup></span>Faculty of Medicine, Brain and Mind Research Institute, University of Ottawa, Ottawa, ON, Canada</li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Danilo Bzdok\",\n        \"reasoning\": \"The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by superscripts '20' and '21', which link to the corresponding affiliations in the list.\",\n        \"quote\": \"<span class=\\\"author-wrapper notranslate\\\"><a href=\\\"https://loop.frontiersin.org/people/49944\\\" class=\\\"user-id-49944\\\"><img class=\\\"pr5\\\" src=\\\"https://loop.frontiersin.org/images/profile/49944/74\\\" onerror=\\\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\\\" alt=\\\"Danilo Bzdok,\\\">Danilo Bzdok</a><sup>20,21</sup></span>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Biomedical Engineering, Faculty of Medicine, McConnell Brain Imaging Centre (BIC), Montreal Neurological Institute (MNI), McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the twentieth item in the 'ul' element with class 'notes'. The superscript '20' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>20</sup></span>Department of Biomedical Engineering, Faculty of Medicine, McConnell Brain Imaging Centre (BIC), Montreal Neurological Institute (MNI), McGill University, Montreal, QC, Canada</li>\"\n        },\n        {\n          \"value\": \"Mila–Quebec Artificial Intelligence Institute, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is listed as the twenty-first item in the 'ul' element with class 'notes'. The superscript '21' next to the author's name links to this affiliation.\",\n          \"quote\": \"<li><span><sup>21</sup></span>Mila–Quebec Artificial Intelligence Institute, Montreal, QC, Canada</li>\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is the first item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>1</sup></span>Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is the second item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>2</sup></span>Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is the third item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>3</sup></span>Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Faculty of Agricultural and Environmental Sciences, School of Human Nutrition, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is the fourth item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>4</sup></span>Faculty of Agricultural and Environmental Sciences, School of Human Nutrition, McGill University, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Health Promotion, Education, and Behavior, Arnold School of Public Health, University of South Carolina, Columbia, SC, United States\",\n      \"reasoning\": \"This affiliation is the fifth item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>5</sup></span>Health Promotion, Education, and Behavior, Arnold School of Public Health, University of South Carolina, Columbia, SC, United States</li>\"\n    },\n    {\n      \"value\": \"Faculté des Sciences de l'Administration, Université Laval, Quebec City, QC, Canada\",\n      \"reasoning\": \"This affiliation is the sixth item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>6</sup></span>Faculté des Sciences de l'Administration, Université Laval, Quebec City, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Centre for Research in Neuroscience, The Research Institute of McGill University Health Center, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is the seventh item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>7</sup></span>Centre for Research in Neuroscience, The Research Institute of McGill University Health Center, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Department of Psychology, Faculty of Arts, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is the eighth item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>8</sup></span>Department of Psychology, Faculty of Arts, McGill University, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Life Biosciences Chief Executive Officer (CEO), Boston, MA, United States\",\n      \"reasoning\": \"This affiliation is the ninth item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>9</sup></span>Life Biosciences Chief Executive Officer (CEO), Boston, MA, United States</li>\"\n    },\n    {\n      \"value\": \"Council on Competitiveness (Chairman of the Board), Washington, DC, United States\",\n      \"reasoning\": \"This affiliation is the tenth item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>10</sup></span>Council on Competitiveness (Chairman of the Board), Washington, DC, United States</li>\"\n    },\n    {\n      \"value\": \"Department of Family Medicine, Faculty of Medicine, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is the eleventh item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>11</sup></span>Department of Family Medicine, Faculty of Medicine, McGill University, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is the twelfth item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>12</sup></span>Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is the thirteenth item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>13</sup></span>Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Douglas Mental Health University Institute, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is the fourteenth item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>14</sup></span>Douglas Mental Health University Institute, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Departments of Psychiatry and Psychology, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is the fifteenth item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>15</sup></span>Departments of Psychiatry and Psychology, McGill University, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"McConnell Brain Imaging Centre, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is the sixteenth item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>16</sup></span>McConnell Brain Imaging Centre, McGill University, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Department of Computer Science and Operations Research, University of Montreal, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is the seventeenth item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>17</sup></span>Department of Computer Science and Operations Research, University of Montreal, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Pittsburgh Supercomputing Center, Carnegie Mellon University, Pittsburgh, PA, United States\",\n      \"reasoning\": \"This affiliation is the eighteenth item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>18</sup></span>Pittsburgh Supercomputing Center, Carnegie Mellon University, Pittsburgh, PA, United States</li>\"\n    },\n    {\n      \"value\": \"Faculty of Medicine, Brain and Mind Research Institute, University of Ottawa, Ottawa, ON, Canada\",\n      \"reasoning\": \"This affiliation is the nineteenth item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>19</sup></span>Faculty of Medicine, Brain and Mind Research Institute, University of Ottawa, Ottawa, ON, Canada</li>\"\n    },\n    {\n      \"value\": \"Department of Biomedical Engineering, Faculty of Medicine, McConnell Brain Imaging Centre (BIC), Montreal Neurological Institute (MNI), McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is the twentieth item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>20</sup></span>Department of Biomedical Engineering, Faculty of Medicine, McConnell Brain Imaging Centre (BIC), Montreal Neurological Institute (MNI), McGill University, Montreal, QC, Canada</li>\"\n    },\n    {\n      \"value\": \"Mila–Quebec Artificial Intelligence Institute, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is the twenty-first item in the affiliation list found in the 'ul' element with class 'notes'.\",\n      \"quote\": \"<li><span><sup>21</sup></span>Mila–Quebec Artificial Intelligence Institute, Montreal, QC, Canada</li>\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 9918,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 154292,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 154292
+      }
+    ],
+    "thoughts_token_count": 4289,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 168499,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Laurette Dubé",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '1', which links to the first affiliation in the corresponding list.",
+          "quote": "<span class=\"author-wrapper notranslate\">\n<a href=\"https://loop.frontiersin.org/people/69087\" class=\"user-id-69087\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/images/profile/69087/74\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\" alt=\"\nLaurette Dub&#xE;&#xA;\">Laurette Dubé</a><sup>1</sup><sup>*</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the first item in the 'ul' element with class 'notes'. The superscript '1' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>1</sup></span>Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Patricia P. Silveira",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by superscripts '2' and '3', which link to the second and third affiliations in the corresponding list.",
+          "quote": "<span class=\"author-wrapper notranslate\"><a href=\"https://loop.frontiersin.org/people/465274\" class=\"user-id-465274\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/images/profile/465274/74\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\" alt=\"Patricia P. Silveira,\">Patricia P. Silveira</a><sup>2,3</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the second item in the 'ul' element with class 'notes'. The superscript '2' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>2</sup></span>Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the third item in the 'ul' element with class 'notes'. The superscript '3' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>3</sup></span>Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Daiva E. Nielsen",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '4', which links to the fourth affiliation in the corresponding list.",
+          "quote": "<span class=\"author-wrapper notranslate\"><a href=\"https://loop.frontiersin.org/people/1039607\" class=\"user-id-1039607\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/images/profile/1039607/74\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\" alt=\"Daiva E. Nielsen\">Daiva E. Nielsen</a><sup>4</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Faculty of Agricultural and Environmental Sciences, School of Human Nutrition, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the fourth item in the 'ul' element with class 'notes'. The superscript '4' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>4</sup></span>Faculty of Agricultural and Environmental Sciences, School of Human Nutrition, McGill University, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Spencer Moore",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '5', which links to the fifth affiliation in the corresponding list.",
+          "quote": "<span class=\"author-wrapper notranslate\"><a href=\"https://loop.frontiersin.org/people/1326129\" class=\"user-id-1326129\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/images/profile/1326129/74\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\" alt=\"Spencer Moore\">Spencer Moore</a><sup>5</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Health Promotion, Education, and Behavior, Arnold School of Public Health, University of South Carolina, Columbia, SC, United States",
+            "reasoning": "This affiliation is listed as the fifth item in the 'ul' element with class 'notes'. The superscript '5' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>5</sup></span>Health Promotion, Education, and Behavior, Arnold School of Public Health, University of South Carolina, Columbia, SC, United States</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Catherine Paquet",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '6', which links to the sixth affiliation in the corresponding list.",
+          "quote": "<span class=\"author-wrapper notranslate\"><a href=\"https://loop.frontiersin.org/people/1254202\" class=\"user-id-1254202\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/images/profile/1254202/74\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\" alt=\"Catherine Paquet\">Catherine Paquet</a><sup>6</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Faculté des Sciences de l'Administration, Université Laval, Quebec City, QC, Canada",
+            "reasoning": "This affiliation is listed as the sixth item in the 'ul' element with class 'notes'. The superscript '6' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>6</sup></span>Faculté des Sciences de l'Administration, Université Laval, Quebec City, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "J. Miguel Cisneros-Franco",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '1', which links to the first affiliation in the corresponding list.",
+          "quote": "<span class=\"author-wrapper notranslate\"><a href=\"https://loop.frontiersin.org/people/38810\" class=\"user-id-38810\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/images/profile/38810/74\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\" alt=\"J. Miguel Cisneros-Franco\">J. Miguel Cisneros-Franco</a><sup>1</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the first item in the 'ul' element with class 'notes'. The superscript '1' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>1</sup></span>Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Gina Kemp",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by superscripts '1' and '7', which link to the first and seventh affiliations in the corresponding list.",
+          "quote": "<span class=\"author-wrapper notranslate\"><a href=\"https://loop.frontiersin.org/people/1665702\" class=\"user-id-1665702\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/images/profile/1665702/74\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\" alt=\"Gina Kemp,\">Gina Kemp</a><sup>1,7</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the first item in the 'ul' element with class 'notes'. The superscript '1' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>1</sup></span>Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Centre for Research in Neuroscience, The Research Institute of McGill University Health Center, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the seventh item in the 'ul' element with class 'notes'. The superscript '7' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>7</sup></span>Centre for Research in Neuroscience, The Research Institute of McGill University Health Center, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Bärbel Knauper",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '8', which links to the eighth affiliation in the corresponding list.",
+          "quote": "<span class=\"author-wrapper notranslate\"><a href=\"https://loop.frontiersin.org/people/1376571\" class=\"user-id-1376571\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/images/profile/1376571/74\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\" alt=\"B&#xE;rbel Knauper\">Bärbel Knauper</a><sup>8</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Psychology, Faculty of Arts, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the eighth item in the 'ul' element with class 'notes'. The superscript '8' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>8</sup></span>Department of Psychology, Faculty of Arts, McGill University, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Yu Ma",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '1', which links to the first affiliation in the corresponding list.",
+          "quote": "<span class=\"author-wrapper notranslate\"><a href=\"https://loop.frontiersin.org/people/1406752\" class=\"user-id-1406752\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/images/profile/1406752/74\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\" alt=\"Yu Ma\">Yu Ma</a><sup>1</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the first item in the 'ul' element with class 'notes'. The superscript '1' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>1</sup></span>Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Mehmood Khan",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by superscripts '9' and '10', which link to the ninth and tenth affiliations in the corresponding list.",
+          "quote": "<span class=\"author-wrapper notranslate\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/cdn/images/profile/default_32.jpg\" alt=\"Mehmood Khan,\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\">Mehmood Khan<sup>9,10</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Life Biosciences Chief Executive Officer (CEO), Boston, MA, United States",
+            "reasoning": "This affiliation is listed as the ninth item in the 'ul' element with class 'notes'. The superscript '9' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>9</sup></span>Life Biosciences Chief Executive Officer (CEO), Boston, MA, United States</li>"
+          },
+          {
+            "value": "Council on Competitiveness (Chairman of the Board), Washington, DC, United States",
+            "reasoning": "This affiliation is listed as the tenth item in the 'ul' element with class 'notes'. The superscript '10' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>10</sup></span>Council on Competitiveness (Chairman of the Board), Washington, DC, United States</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Gillian Bartlett-Esquilant",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '11', which links to the eleventh affiliation in the corresponding list.",
+          "quote": "<span class=\"author-wrapper notranslate\"><a href=\"https://loop.frontiersin.org/people/158240\" class=\"user-id-158240\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/images/profile/158240/74\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\" alt=\"Gillian Bartlett-Esquilant\">Gillian Bartlett-Esquilant</a><sup>11</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Family Medicine, Faculty of Medicine, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the eleventh item in the 'ul' element with class 'notes'. The superscript '11' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>11</sup></span>Department of Family Medicine, Faculty of Medicine, McGill University, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Alan C. Evans",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by superscripts '2', '3', and '12', which link to the corresponding affiliations in the list.",
+          "quote": "<span class=\"author-wrapper notranslate\"><a href=\"https://loop.frontiersin.org/people/158755\" class=\"user-id-158755\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/images/profile/158755/74\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\" alt=\"Alan C. Evans,,\">Alan C. Evans</a><sup>2,3,12</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the second item in the 'ul' element with class 'notes'. The superscript '2' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>2</sup></span>Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the third item in the 'ul' element with class 'notes'. The superscript '3' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>3</sup></span>Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the twelfth item in the 'ul' element with class 'notes'. The superscript '12' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>12</sup></span>Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Lesley K. Fellows",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by superscripts '12' and '13', which link to the corresponding affiliations in the list.",
+          "quote": "<span class=\"author-wrapper notranslate\"><a href=\"https://loop.frontiersin.org/people/6681\" class=\"user-id-6681\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/images/profile/6681/74\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\" alt=\"Lesley K. Fellows,\">Lesley K. Fellows</a><sup>12,13</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the twelfth item in the 'ul' element with class 'notes'. The superscript '12' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>12</sup></span>Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the thirteenth item in the 'ul' element with class 'notes'. The superscript '13' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>13</sup></span>Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jorge L. Armony",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by superscripts '3' and '14', which link to the corresponding affiliations in the list.",
+          "quote": "<span class=\"author-wrapper notranslate\"><a href=\"https://loop.frontiersin.org/people/1085\" class=\"user-id-1085\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/images/profile/1085/74\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\" alt=\"Jorge L. Armony,\">Jorge L. Armony</a><sup>3,14</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the third item in the 'ul' element with class 'notes'. The superscript '3' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>3</sup></span>Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Douglas Mental Health University Institute, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the fourteenth item in the 'ul' element with class 'notes'. The superscript '14' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>14</sup></span>Douglas Mental Health University Institute, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "R. Nathan Spreng",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by superscripts '12', '14', '15', and '16', which link to the corresponding affiliations in the list.",
+          "quote": "<span class=\"author-wrapper notranslate\"><a href=\"https://loop.frontiersin.org/people/18433\" class=\"user-id-18433\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/images/profile/18433/74\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\" alt=\"R. Nathan Spreng,,,\">R. Nathan Spreng</a><sup>12,14,15,16</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the twelfth item in the 'ul' element with class 'notes'. The superscript '12' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>12</sup></span>Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Douglas Mental Health University Institute, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the fourteenth item in the 'ul' element with class 'notes'. The superscript '14' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>14</sup></span>Douglas Mental Health University Institute, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Departments of Psychiatry and Psychology, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the fifteenth item in the 'ul' element with class 'notes'. The superscript '15' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>15</sup></span>Departments of Psychiatry and Psychology, McGill University, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "McConnell Brain Imaging Centre, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the sixteenth item in the 'ul' element with class 'notes'. The superscript '16' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>16</sup></span>McConnell Brain Imaging Centre, McGill University, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jian-Yun Nie",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '17', which links to the seventeenth affiliation in the corresponding list.",
+          "quote": "<span class=\"author-wrapper notranslate\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/cdn/images/profile/default_32.jpg\" alt=\"Jian-Yun Nie\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\">Jian-Yun Nie<sup>17</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Computer Science and Operations Research, University of Montreal, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the seventeenth item in the 'ul' element with class 'notes'. The superscript '17' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>17</sup></span>Department of Computer Science and Operations Research, University of Montreal, Montreal, QC, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Shawn T. Brown",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by a superscript '18', which links to the eighteenth affiliation in the corresponding list.",
+          "quote": "<span class=\"author-wrapper notranslate\"><a href=\"https://loop.frontiersin.org/people/1665587\" class=\"user-id-1665587\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/images/profile/1665587/74\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\" alt=\"Shawn T. Brown\">Shawn T. Brown</a><sup>18</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Pittsburgh Supercomputing Center, Carnegie Mellon University, Pittsburgh, PA, United States",
+            "reasoning": "This affiliation is listed as the eighteenth item in the 'ul' element with class 'notes'. The superscript '18' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>18</sup></span>Pittsburgh Supercomputing Center, Carnegie Mellon University, Pittsburgh, PA, United States</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Georg Northoff",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by superscripts '13' and '19', which link to the corresponding affiliations in the list.",
+          "quote": "<span class=\"author-wrapper notranslate\"><a href=\"https://loop.frontiersin.org/people/14096\" class=\"user-id-14096\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/images/profile/14096/74\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\" alt=\"Georg Northoff,\">Georg Northoff</a><sup>13,19</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the thirteenth item in the 'ul' element with class 'notes'. The superscript '13' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>13</sup></span>Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Faculty of Medicine, Brain and Mind Research Institute, University of Ottawa, Ottawa, ON, Canada",
+            "reasoning": "This affiliation is listed as the nineteenth item in the 'ul' element with class 'notes'. The superscript '19' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>19</sup></span>Faculty of Medicine, Brain and Mind Research Institute, University of Ottawa, Ottawa, ON, Canada</li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Danilo Bzdok",
+          "reasoning": "The author's name was extracted from the 'span' element with class 'author-wrapper' inside the 'div' element with class 'authors'. The name is followed by superscripts '20' and '21', which link to the corresponding affiliations in the list.",
+          "quote": "<span class=\"author-wrapper notranslate\"><a href=\"https://loop.frontiersin.org/people/49944\" class=\"user-id-49944\"><img class=\"pr5\" src=\"https://loop.frontiersin.org/images/profile/49944/74\" onerror=\"this.onerror=null;this.src='https://loop.frontiersin.org/cdn/images/profile/default_32.jpg';\" alt=\"Danilo Bzdok,\">Danilo Bzdok</a><sup>20,21</sup></span>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Biomedical Engineering, Faculty of Medicine, McConnell Brain Imaging Centre (BIC), Montreal Neurological Institute (MNI), McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the twentieth item in the 'ul' element with class 'notes'. The superscript '20' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>20</sup></span>Department of Biomedical Engineering, Faculty of Medicine, McConnell Brain Imaging Centre (BIC), Montreal Neurological Institute (MNI), McGill University, Montreal, QC, Canada</li>"
+          },
+          {
+            "value": "Mila–Quebec Artificial Intelligence Institute, Montreal, QC, Canada",
+            "reasoning": "This affiliation is listed as the twenty-first item in the 'ul' element with class 'notes'. The superscript '21' next to the author's name links to this affiliation.",
+            "quote": "<li><span><sup>21</sup></span>Mila–Quebec Artificial Intelligence Institute, Montreal, QC, Canada</li>"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is the first item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>1</sup></span>Desautels Faculty of Management, McGill Center for the Convergence of Health and Economics, McGill University, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is the second item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>2</sup></span>Ludmer Centre for Neuroinformatics and Mental Health, Douglas Mental Health University Institute, McGill University, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is the third item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>3</sup></span>Department of Psychiatry, Faculty of Medicine, McGill University, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Faculty of Agricultural and Environmental Sciences, School of Human Nutrition, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is the fourth item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>4</sup></span>Faculty of Agricultural and Environmental Sciences, School of Human Nutrition, McGill University, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Health Promotion, Education, and Behavior, Arnold School of Public Health, University of South Carolina, Columbia, SC, United States",
+        "reasoning": "This affiliation is the fifth item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>5</sup></span>Health Promotion, Education, and Behavior, Arnold School of Public Health, University of South Carolina, Columbia, SC, United States</li>"
+      },
+      {
+        "value": "Faculté des Sciences de l'Administration, Université Laval, Quebec City, QC, Canada",
+        "reasoning": "This affiliation is the sixth item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>6</sup></span>Faculté des Sciences de l'Administration, Université Laval, Quebec City, QC, Canada</li>"
+      },
+      {
+        "value": "Centre for Research in Neuroscience, The Research Institute of McGill University Health Center, Montreal, QC, Canada",
+        "reasoning": "This affiliation is the seventh item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>7</sup></span>Centre for Research in Neuroscience, The Research Institute of McGill University Health Center, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Department of Psychology, Faculty of Arts, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is the eighth item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>8</sup></span>Department of Psychology, Faculty of Arts, McGill University, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Life Biosciences Chief Executive Officer (CEO), Boston, MA, United States",
+        "reasoning": "This affiliation is the ninth item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>9</sup></span>Life Biosciences Chief Executive Officer (CEO), Boston, MA, United States</li>"
+      },
+      {
+        "value": "Council on Competitiveness (Chairman of the Board), Washington, DC, United States",
+        "reasoning": "This affiliation is the tenth item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>10</sup></span>Council on Competitiveness (Chairman of the Board), Washington, DC, United States</li>"
+      },
+      {
+        "value": "Department of Family Medicine, Faculty of Medicine, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is the eleventh item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>11</sup></span>Department of Family Medicine, Faculty of Medicine, McGill University, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is the twelfth item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>12</sup></span>Laboratory of Brain and Cognition, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada",
+        "reasoning": "This affiliation is the thirteenth item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>13</sup></span>Chronic Mental Illness Service, Montreal Neurological Institute, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Douglas Mental Health University Institute, Montreal, QC, Canada",
+        "reasoning": "This affiliation is the fourteenth item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>14</sup></span>Douglas Mental Health University Institute, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Departments of Psychiatry and Psychology, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is the fifteenth item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>15</sup></span>Departments of Psychiatry and Psychology, McGill University, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "McConnell Brain Imaging Centre, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is the sixteenth item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>16</sup></span>McConnell Brain Imaging Centre, McGill University, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Department of Computer Science and Operations Research, University of Montreal, Montreal, QC, Canada",
+        "reasoning": "This affiliation is the seventeenth item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>17</sup></span>Department of Computer Science and Operations Research, University of Montreal, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Pittsburgh Supercomputing Center, Carnegie Mellon University, Pittsburgh, PA, United States",
+        "reasoning": "This affiliation is the eighteenth item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>18</sup></span>Pittsburgh Supercomputing Center, Carnegie Mellon University, Pittsburgh, PA, United States</li>"
+      },
+      {
+        "value": "Faculty of Medicine, Brain and Mind Research Institute, University of Ottawa, Ottawa, ON, Canada",
+        "reasoning": "This affiliation is the nineteenth item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>19</sup></span>Faculty of Medicine, Brain and Mind Research Institute, University of Ottawa, Ottawa, ON, Canada</li>"
+      },
+      {
+        "value": "Department of Biomedical Engineering, Faculty of Medicine, McConnell Brain Imaging Centre (BIC), Montreal Neurological Institute (MNI), McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is the twentieth item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>20</sup></span>Department of Biomedical Engineering, Faculty of Medicine, McConnell Brain Imaging Centre (BIC), Montreal Neurological Institute (MNI), McGill University, Montreal, QC, Canada</li>"
+      },
+      {
+        "value": "Mila–Quebec Artificial Intelligence Institute, Montreal, QC, Canada",
+        "reasoning": "This affiliation is the twenty-first item in the affiliation list found in the 'ul' element with class 'notes'.",
+        "quote": "<li><span><sup>21</sup></span>Mila–Quebec Artificial Intelligence Institute, Montreal, QC, Canada</li>"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.3389/fpubh.2022.720117"
+    }
+  }
+}

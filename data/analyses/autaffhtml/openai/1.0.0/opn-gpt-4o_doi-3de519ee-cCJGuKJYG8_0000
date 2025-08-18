@@ -1,0 +1,241 @@
+{
+  "id": "resp_68714616a59c81a18d3466081baed7a802abee212f3cac86",
+  "created_at": 1752253974.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4o-2024-08-06",
+  "object": "response",
+  "output": [
+    {
+      "id": "msg_6871461815a081a18ed4993b39312cc102abee212f3cac86",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"authors_affiliations\":[{\"author\":{\"value\":\"Kellin Pelrine\",\"reasoning\":\"The author 'Kellin Pelrine' is listed as one of the contributors to the paper in the HTML content.\",\"quote\":\"<meta content=\\\"Kellin Pelrine\\\" name=citation_author>\"},\"affiliations\":[]},{\"author\":{\"value\":\"Anne Imouza\",\"reasoning\":\"The author 'Anne Imouza' is identified in the HTML metadata as one of the authors of the paper.\",\"quote\":\"<meta content=\\\"Anne Imouza\\\" name=citation_author>\"},\"affiliations\":[]},{\"author\":{\"value\":\"Camille Thibault\",\"reasoning\":\"The author 'Camille Thibault' is included in the list of authors extracted from the HTML metadata.\",\"quote\":\"<meta content=\\\"Camille Thibault\\\" name=citation_author>\"},\"affiliations\":[]},{\"author\":{\"value\":\"Meilina Reksoprodjo\",\"reasoning\":\"The author 'Meilina Reksoprodjo' is found in the HTML metadata as one of the authors.\",\"quote\":\"<meta content=\\\"Meilina Reksoprodjo\\\" name=citation_author>\"},\"affiliations\":[]},{\"author\":{\"value\":\"Caleb Gupta\",\"reasoning\":\"The author 'Caleb Gupta' is mentioned in the HTML as a contributing author to the paper.\",\"quote\":\"<meta content=\\\"Caleb Gupta\\\" name=citation_author>\"},\"affiliations\":[]},{\"author\":{\"value\":\"Joel Christoph\",\"reasoning\":\"The author 'Joel Christoph' is captured as one of the authors in the provided HTML content.\",\"quote\":\"<meta content=\\\"Joel Christoph\\\" name=citation_author>\"},\"affiliations\":[]},{\"author\":{\"value\":\"Jean-François Godbout\",\"reasoning\":\"The author 'Jean-François Godbout' is identified from the list of authors in the HTML metadata.\",\"quote\":\"<meta content=\\\"Jean-François Godbout\\\" name=citation_author>\"},\"affiliations\":[]},{\"author\":{\"value\":\"Reihaneh Rabbany\",\"reasoning\":\"The author 'Reihaneh Rabbany' is listed in the HTML content as an author of the paper.\",\"quote\":\"<meta content=\\\"Reihaneh Rabbany\\\" name=citation_author>\"},\"affiliations\":[]}],\"affiliations\":[]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "authors_affiliations": [
+              {
+                "author": {
+                  "value": "Kellin Pelrine",
+                  "reasoning": "The author 'Kellin Pelrine' is listed as one of the contributors to the paper in the HTML content.",
+                  "quote": "<meta content=\"Kellin Pelrine\" name=citation_author>"
+                },
+                "affiliations": []
+              },
+              {
+                "author": {
+                  "value": "Anne Imouza",
+                  "reasoning": "The author 'Anne Imouza' is identified in the HTML metadata as one of the authors of the paper.",
+                  "quote": "<meta content=\"Anne Imouza\" name=citation_author>"
+                },
+                "affiliations": []
+              },
+              {
+                "author": {
+                  "value": "Camille Thibault",
+                  "reasoning": "The author 'Camille Thibault' is included in the list of authors extracted from the HTML metadata.",
+                  "quote": "<meta content=\"Camille Thibault\" name=citation_author>"
+                },
+                "affiliations": []
+              },
+              {
+                "author": {
+                  "value": "Meilina Reksoprodjo",
+                  "reasoning": "The author 'Meilina Reksoprodjo' is found in the HTML metadata as one of the authors.",
+                  "quote": "<meta content=\"Meilina Reksoprodjo\" name=citation_author>"
+                },
+                "affiliations": []
+              },
+              {
+                "author": {
+                  "value": "Caleb Gupta",
+                  "reasoning": "The author 'Caleb Gupta' is mentioned in the HTML as a contributing author to the paper.",
+                  "quote": "<meta content=\"Caleb Gupta\" name=citation_author>"
+                },
+                "affiliations": []
+              },
+              {
+                "author": {
+                  "value": "Joel Christoph",
+                  "reasoning": "The author 'Joel Christoph' is captured as one of the authors in the provided HTML content.",
+                  "quote": "<meta content=\"Joel Christoph\" name=citation_author>"
+                },
+                "affiliations": []
+              },
+              {
+                "author": {
+                  "value": "Jean-François Godbout",
+                  "reasoning": "The author 'Jean-François Godbout' is identified from the list of authors in the HTML metadata.",
+                  "quote": "<meta content=\"Jean-François Godbout\" name=citation_author>"
+                },
+                "affiliations": []
+              },
+              {
+                "author": {
+                  "value": "Reihaneh Rabbany",
+                  "reasoning": "The author 'Reihaneh Rabbany' is listed in the HTML content as an author of the paper.",
+                  "quote": "<meta content=\"Reihaneh Rabbany\" name=citation_author>"
+                },
+                "affiliations": []
+              }
+            ],
+            "affiliations": []
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 1.0,
+  "background": false,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "Analysis",
+      "schema_": {
+        "$defs": {
+          "AuthorAffiliations": {
+            "properties": {
+              "author": {
+                "description": "An author present in the Deep Learning scientific paper",
+                "properties": {
+                  "value": {
+                    "title": "Value",
+                    "type": "string"
+                  },
+                  "reasoning": {
+                    "description": "A detailed explanation for the choice of the value",
+                    "title": "Reasoning",
+                    "type": "string"
+                  },
+                  "quote": {
+                    "description": "The best literal quote from the paper which supports the value",
+                    "title": "Quote",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "value",
+                  "reasoning",
+                  "quote"
+                ],
+                "title": "Explained[str]",
+                "type": "object",
+                "additionalProperties": false
+              },
+              "affiliations": {
+                "description": "List of the author's affiliations present in the Deep Learning scientific paper",
+                "items": {
+                  "$ref": "#/$defs/Explained_str_"
+                },
+                "title": "Affiliations",
+                "type": "array"
+              }
+            },
+            "required": [
+              "author",
+              "affiliations"
+            ],
+            "title": "AuthorAffiliations",
+            "type": "object",
+            "additionalProperties": false
+          },
+          "Explained_str_": {
+            "properties": {
+              "value": {
+                "title": "Value",
+                "type": "string"
+              },
+              "reasoning": {
+                "description": "A detailed explanation for the choice of the value",
+                "title": "Reasoning",
+                "type": "string"
+              },
+              "quote": {
+                "description": "The best literal quote from the paper which supports the value",
+                "title": "Quote",
+                "type": "string"
+              }
+            },
+            "required": [
+              "value",
+              "reasoning",
+              "quote"
+            ],
+            "title": "Explained[str]",
+            "type": "object",
+            "additionalProperties": false
+          }
+        },
+        "properties": {
+          "authors_affiliations": {
+            "description": "List of all authors present in the Deep Learning scientific paper with theirs affiliations",
+            "items": {
+              "$ref": "#/$defs/AuthorAffiliations"
+            },
+            "title": "Authors Affiliations",
+            "type": "array"
+          },
+          "affiliations": {
+            "description": "List of all affiliations present in the Deep Learning scientific paper",
+            "items": {
+              "$ref": "#/$defs/Explained_str_"
+            },
+            "title": "Affiliations",
+            "type": "array"
+          }
+        },
+        "required": [
+          "authors_affiliations",
+          "affiliations"
+        ],
+        "title": "Analysis",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    }
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 11826,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 485,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12311
+  },
+  "user": null,
+  "store": true,
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "gpt-4o"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sat, 12 Jul 2025 00:02:02 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=16696",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Damien Ferbach\",\n        \"reasoning\": \"The author's name is extracted from an anchor tag within the 'div' element with the class 'authors'.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Ferbach,+D\\\" rel=\\\"nofollow\\\">Damien Ferbach</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Baptiste Goujaud\",\n        \"reasoning\": \"The author's name is extracted from an anchor tag within the 'div' element with the class 'authors'.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Goujaud,+B\\\" rel=\\\"nofollow\\\">Baptiste Goujaud</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Gauthier Gidel\",\n        \"reasoning\": \"The author's name is extracted from an anchor tag within the 'div' element with the class 'authors'.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Gidel,+G\\\" rel=\\\"nofollow\\\">Gauthier Gidel</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Aymeric Dieuleveut\",\n        \"reasoning\": \"The author's name is extracted from an anchor tag within the 'div' element with the class 'authors'.\",\n        \"quote\": \"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Dieuleveut,+A\\\" rel=\\\"nofollow\\\">Aymeric Dieuleveut</a>\"\n      },\n      \"affiliations\": []\n    }\n  ],\n  \"affiliations\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 458,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 18294,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 18294
+      }
+    ],
+    "thoughts_token_count": 1226,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 19978,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Damien Ferbach",
+          "reasoning": "The author's name is extracted from an anchor tag within the 'div' element with the class 'authors'.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Ferbach,+D\" rel=\"nofollow\">Damien Ferbach</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Baptiste Goujaud",
+          "reasoning": "The author's name is extracted from an anchor tag within the 'div' element with the class 'authors'.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Goujaud,+B\" rel=\"nofollow\">Baptiste Goujaud</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Gauthier Gidel",
+          "reasoning": "The author's name is extracted from an anchor tag within the 'div' element with the class 'authors'.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Gidel,+G\" rel=\"nofollow\">Gauthier Gidel</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Aymeric Dieuleveut",
+          "reasoning": "The author's name is extracted from an anchor tag within the 'div' element with the class 'authors'.",
+          "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Dieuleveut,+A\" rel=\"nofollow\">Aymeric Dieuleveut</a>"
+        },
+        "affiliations": []
+      }
+    ],
+    "affiliations": []
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.48550/arXiv.2310.19103"
+    }
+  }
+}

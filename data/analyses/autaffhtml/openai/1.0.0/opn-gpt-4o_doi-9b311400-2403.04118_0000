@@ -1,0 +1,225 @@
+{
+  "id": "resp_687147d074ec81a3a77b672c5aaa475a03cbb11d601e2d2e",
+  "created_at": 1752254416.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4o-2024-08-06",
+  "object": "response",
+  "output": [
+    {
+      "id": "msg_687147d2050c81a3a8a662611b0a4ae603cbb11d601e2d2e",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"authors_affiliations\":[{\"author\":{\"value\":\"Amin Abyaneh\",\"reasoning\":\"Identified from HTML tag: <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Abyaneh,+A\\\" rel=\\\"nofollow\\\">Amin Abyaneh</a>\",\"quote\":\"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Abyaneh,+A\\\" rel=\\\"nofollow\\\">Amin Abyaneh</a>\"},\"affiliations\":[{\"value\":\"Not explicitly mentioned.\",\"reasoning\":\"The provided HTML content does not include affiliation information for Amin Abyaneh within the document.\",\"quote\":\"Not available in the HTML content.\"}]},{\"author\":{\"value\":\"Mariana Sosa Guzmán\",\"reasoning\":\"Identified from HTML tag: <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Guzm%C3%A1n,+M+S\\\" rel=\\\"nofollow\\\">Mariana Sosa Guzmán</a>\",\"quote\":\"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Guzm%C3%A1n,+M+S\\\" rel=\\\"nofollow\\\">Mariana Sosa Guzmán</a>\"},\"affiliations\":[{\"value\":\"Not explicitly mentioned.\",\"reasoning\":\"The provided HTML content does not include affiliation information for Mariana Sosa Guzmán within the document.\",\"quote\":\"Not available in the HTML content.\"}]},{\"author\":{\"value\":\"Hsiu-Chin Lin\",\"reasoning\":\"Identified from HTML tag: <a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Lin,+H\\\" rel=\\\"nofollow\\\">Hsiu-Chin Lin</a>\",\"quote\":\"<a href=\\\"https://arxiv.org/search/cs?searchtype=author&amp;query=Lin,+H\\\" rel=\\\"nofollow\\\">Hsiu-Chin Lin</a>\"},\"affiliations\":[{\"value\":\"Not explicitly mentioned.\",\"reasoning\":\"The provided HTML content does not include affiliation information for Hsiu-Chin Lin within the document.\",\"quote\":\"Not available in the HTML content.\"}]}],\"affiliations\":[{\"value\":\"Not explicitly mentioned for any authors.\",\"reasoning\":\"The affiliations are not presented in the given HTML content, making it impossible to extract them.\",\"quote\":\"The HTML content does not contain explicit affiliation information.\"}]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "authors_affiliations": [
+              {
+                "author": {
+                  "value": "Amin Abyaneh",
+                  "reasoning": "Identified from HTML tag: <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Abyaneh,+A\" rel=\"nofollow\">Amin Abyaneh</a>",
+                  "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Abyaneh,+A\" rel=\"nofollow\">Amin Abyaneh</a>"
+                },
+                "affiliations": [
+                  {
+                    "value": "Not explicitly mentioned.",
+                    "reasoning": "The provided HTML content does not include affiliation information for Amin Abyaneh within the document.",
+                    "quote": "Not available in the HTML content."
+                  }
+                ]
+              },
+              {
+                "author": {
+                  "value": "Mariana Sosa Guzmán",
+                  "reasoning": "Identified from HTML tag: <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Guzm%C3%A1n,+M+S\" rel=\"nofollow\">Mariana Sosa Guzmán</a>",
+                  "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Guzm%C3%A1n,+M+S\" rel=\"nofollow\">Mariana Sosa Guzmán</a>"
+                },
+                "affiliations": [
+                  {
+                    "value": "Not explicitly mentioned.",
+                    "reasoning": "The provided HTML content does not include affiliation information for Mariana Sosa Guzmán within the document.",
+                    "quote": "Not available in the HTML content."
+                  }
+                ]
+              },
+              {
+                "author": {
+                  "value": "Hsiu-Chin Lin",
+                  "reasoning": "Identified from HTML tag: <a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Lin,+H\" rel=\"nofollow\">Hsiu-Chin Lin</a>",
+                  "quote": "<a href=\"https://arxiv.org/search/cs?searchtype=author&amp;query=Lin,+H\" rel=\"nofollow\">Hsiu-Chin Lin</a>"
+                },
+                "affiliations": [
+                  {
+                    "value": "Not explicitly mentioned.",
+                    "reasoning": "The provided HTML content does not include affiliation information for Hsiu-Chin Lin within the document.",
+                    "quote": "Not available in the HTML content."
+                  }
+                ]
+              }
+            ],
+            "affiliations": [
+              {
+                "value": "Not explicitly mentioned for any authors.",
+                "reasoning": "The affiliations are not presented in the given HTML content, making it impossible to extract them.",
+                "quote": "The HTML content does not contain explicit affiliation information."
+              }
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 1.0,
+  "background": false,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "Analysis",
+      "schema_": {
+        "$defs": {
+          "AuthorAffiliations": {
+            "properties": {
+              "author": {
+                "description": "An author present in the Deep Learning scientific paper",
+                "properties": {
+                  "value": {
+                    "title": "Value",
+                    "type": "string"
+                  },
+                  "reasoning": {
+                    "description": "A detailed explanation for the choice of the value",
+                    "title": "Reasoning",
+                    "type": "string"
+                  },
+                  "quote": {
+                    "description": "The best literal quote from the paper which supports the value",
+                    "title": "Quote",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "value",
+                  "reasoning",
+                  "quote"
+                ],
+                "title": "Explained[str]",
+                "type": "object",
+                "additionalProperties": false
+              },
+              "affiliations": {
+                "description": "List of the author's affiliations present in the Deep Learning scientific paper",
+                "items": {
+                  "$ref": "#/$defs/Explained_str_"
+                },
+                "title": "Affiliations",
+                "type": "array"
+              }
+            },
+            "required": [
+              "author",
+              "affiliations"
+            ],
+            "title": "AuthorAffiliations",
+            "type": "object",
+            "additionalProperties": false
+          },
+          "Explained_str_": {
+            "properties": {
+              "value": {
+                "title": "Value",
+                "type": "string"
+              },
+              "reasoning": {
+                "description": "A detailed explanation for the choice of the value",
+                "title": "Reasoning",
+                "type": "string"
+              },
+              "quote": {
+                "description": "The best literal quote from the paper which supports the value",
+                "title": "Quote",
+                "type": "string"
+              }
+            },
+            "required": [
+              "value",
+              "reasoning",
+              "quote"
+            ],
+            "title": "Explained[str]",
+            "type": "object",
+            "additionalProperties": false
+          }
+        },
+        "properties": {
+          "authors_affiliations": {
+            "description": "List of all authors present in the Deep Learning scientific paper with theirs affiliations",
+            "items": {
+              "$ref": "#/$defs/AuthorAffiliations"
+            },
+            "title": "Authors Affiliations",
+            "type": "array"
+          },
+          "affiliations": {
+            "description": "List of all affiliations present in the Deep Learning scientific paper",
+            "items": {
+              "$ref": "#/$defs/Explained_str_"
+            },
+            "title": "Affiliations",
+            "type": "array"
+          }
+        },
+        "required": [
+          "authors_affiliations",
+          "affiliations"
+        ],
+        "title": "Analysis",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    }
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 16515,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 512,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 17027
+  },
+  "user": null,
+  "store": true,
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "gpt-4o"
+  }
+}
