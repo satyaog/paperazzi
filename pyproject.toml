@@ -26,7 +26,6 @@ classifiers = [
 dependencies = [
   "fake-useragent",
   "Levenshtein",
-  "openai",
   "packaging",
   "pandas",
   "pydantic",
@@ -45,7 +44,9 @@ instructor = [
 mistralai = [
   "mistralai",
 ]
-openai = []
+openai = [
+  "openai",
+]
 vertexai = [
   "google-genai",
 ]

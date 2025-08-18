@@ -4,7 +4,7 @@ from typing import Any, BinaryIO, Callable
 
 from mistralai import Mistral, OCRPageDimensions, OCRResponse
 
-from paperazzi.platforms.openai.utils import Message
+from paperazzi.platforms.utils import Message
 from paperazzi.structured_output.utils import Metadata
 
 CODE = "MST"
