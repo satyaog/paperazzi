@@ -30,6 +30,7 @@ dependencies = [
   "pandas",
   "pydantic",
   "pyyaml",
+  "requests-cache",
   "rich",
 ]
 [project.optional-dependencies]
