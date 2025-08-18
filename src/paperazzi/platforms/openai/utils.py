@@ -1,7 +1,6 @@
 import json
-from dataclasses import dataclass, field
-from pathlib import Path
-from typing import Any, BinaryIO, Callable, Literal
+from dataclasses import dataclass
+from typing import Any, BinaryIO, Callable
 
 from openai import OpenAI
 from openai.types.responses.parsed_response import ParsedResponse
@@ -9,6 +8,7 @@ from openai.types.responses.response import Response
 from pydantic import BaseModel
 
 import paperazzi
+from paperazzi.platforms.utils import Message
 from paperazzi.structured_output.utils import Metadata
 
 CODE = "OPN"
@@ -48,28 +48,6 @@ class ParsedResponseSerializer(ResponseSerializer):
         data = json.load(file_obj)
         data.pop("text", None)
         return ParsedResponse[self.content_type].model_validate(data)
-
-
-@dataclass
-class Message:
-    type: Literal["system", "user", "assistant", "application/pdf"]
-    prompt: str
-    args: tuple[Any, ...] = field(default_factory=tuple)
-    kwargs: dict[str, Any] = field(default_factory=dict)
-
-    @property
-    def content(self) -> str | Path:
-        if self.type == "application/pdf":
-            return Path(self.prompt)
-        if self.args or self.kwargs:
-            return self.prompt.format(*self.args, **self.kwargs)
-        return self.prompt
-
-    def format_message(self) -> dict[str, str | Path]:
-        return {
-            "role": self.type,
-            "content": self.content,
-        }
 
 
 def client(*args, **kwargs) -> OpenAI:

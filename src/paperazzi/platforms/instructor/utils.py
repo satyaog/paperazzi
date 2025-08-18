@@ -11,11 +11,9 @@ from pydantic import BaseModel
 import paperazzi
 from paperazzi.config import CFG
 from paperazzi.platforms.openai.utils import (
-    Message,
-)
-from paperazzi.platforms.openai.utils import (
     ResponseSerializer as OpenAIResponseSerializer,
 )
+from paperazzi.platforms.utils import Message
 from paperazzi.structured_output.utils import Metadata
 
 CODE = "INS"
