@@ -1,0 +1,181 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sat, 12 Jul 2025 00:11:25 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=30559",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Yonatan Bisk\",\n        \"reasoning\": \"The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.\",\n        \"quote\": \"<a href=/people/y/yonatan-bisk/>Yonatan Bisk</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Ari Holtzman\",\n        \"reasoning\": \"The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.\",\n        \"quote\": \"<a href=/people/a/ari-holtzman/>Ari Holtzman</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Jesse Thomason\",\n        \"reasoning\": \"The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.\",\n        \"quote\": \"<a href=/people/j/jesse-thomason/>Jesse Thomason</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Jacob Andreas\",\n        \"reasoning\": \"The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.\",\n        \"quote\": \"<a href=/people/j/jacob-andreas/>Jacob Andreas</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Yoshua Bengio\",\n        \"reasoning\": \"The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.\",\n        \"quote\": \"<a href=/people/y/yoshua-bengio/>Yoshua Bengio</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Joyce Chai\",\n        \"reasoning\": \"The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.\",\n        \"quote\": \"<a href=/people/j/joyce-chai/>Joyce Chai</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Mirella Lapata\",\n        \"reasoning\": \"The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.\",\n        \"quote\": \"<a href=/people/m/mirella-lapata/>Mirella Lapata</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Angeliki Lazaridou\",\n        \"reasoning\": \"The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.\",\n        \"quote\": \"<a href=/people/a/angeliki-lazaridou/>Angeliki Lazaridou</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Jonathan May\",\n        \"reasoning\": \"The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.\",\n        \"quote\": \"<a href=/people/j/jonathan-may/>Jonathan May</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Aleksandr Nisnevich\",\n        \"reasoning\": \"The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.\",\n        \"quote\": \"<a href=/people/a/aleksandr-nisnevich/>Aleksandr Nisnevich</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Nicolas Pinto\",\n        \"reasoning\": \"The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.\",\n        \"quote\": \"<a href=/people/n/nicolas-pinto/>Nicolas Pinto</a>\"\n      },\n      \"affiliations\": []\n    },\n    {\n      \"author\": {\n        \"value\": \"Joseph Turian\",\n        \"reasoning\": \"The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.\",\n        \"quote\": \"<a href=/people/j/joseph-turian/>Joseph Turian</a>\"\n      },\n      \"affiliations\": []\n    }\n  ],\n  \"affiliations\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 1154,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 13344,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 13344
+      }
+    ],
+    "thoughts_token_count": 2369,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 16867,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Yonatan Bisk",
+          "reasoning": "The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.",
+          "quote": "<a href=/people/y/yonatan-bisk/>Yonatan Bisk</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Ari Holtzman",
+          "reasoning": "The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.",
+          "quote": "<a href=/people/a/ari-holtzman/>Ari Holtzman</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Jesse Thomason",
+          "reasoning": "The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.",
+          "quote": "<a href=/people/j/jesse-thomason/>Jesse Thomason</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Jacob Andreas",
+          "reasoning": "The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.",
+          "quote": "<a href=/people/j/jacob-andreas/>Jacob Andreas</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Yoshua Bengio",
+          "reasoning": "The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.",
+          "quote": "<a href=/people/y/yoshua-bengio/>Yoshua Bengio</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Joyce Chai",
+          "reasoning": "The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.",
+          "quote": "<a href=/people/j/joyce-chai/>Joyce Chai</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Mirella Lapata",
+          "reasoning": "The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.",
+          "quote": "<a href=/people/m/mirella-lapata/>Mirella Lapata</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Angeliki Lazaridou",
+          "reasoning": "The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.",
+          "quote": "<a href=/people/a/angeliki-lazaridou/>Angeliki Lazaridou</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Jonathan May",
+          "reasoning": "The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.",
+          "quote": "<a href=/people/j/jonathan-may/>Jonathan May</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Aleksandr Nisnevich",
+          "reasoning": "The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.",
+          "quote": "<a href=/people/a/aleksandr-nisnevich/>Aleksandr Nisnevich</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Nicolas Pinto",
+          "reasoning": "The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.",
+          "quote": "<a href=/people/n/nicolas-pinto/>Nicolas Pinto</a>"
+        },
+        "affiliations": []
+      },
+      {
+        "author": {
+          "value": "Joseph Turian",
+          "reasoning": "The author's name is extracted from an anchor tag within a paragraph element with the class 'lead', which lists all the authors of the paper.",
+          "quote": "<a href=/people/j/joseph-turian/>Joseph Turian</a>"
+        },
+        "affiliations": []
+      }
+    ],
+    "affiliations": []
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.18653/v1/2020.emnlp-main.703"
+    }
+  }
+}

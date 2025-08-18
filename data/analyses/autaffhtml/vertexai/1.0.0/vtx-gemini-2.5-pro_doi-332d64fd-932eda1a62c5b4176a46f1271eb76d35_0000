@@ -1,0 +1,171 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sat, 12 Jul 2025 00:15:20 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=52760",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Jesia Yuki\",\n        \"reasoning\": \"The author's name is extracted from the span with id 'ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_0'. A superscript '1' is associated with this author, linking to their affiliation.\",\n        \"quote\": \"<a id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LinkButtonAuthor_0\\\" href=\\\"PersonProfile.aspx?PersonAccountID=w/hGtO6UM08=&amp;t=1\\\"><span id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_0\\\" class=\\\"PublicationsDetailNormal\\\">Jesia&nbsp;Yuki</span></a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"School of Information Studies, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author 'Jesia Yuki' by the superscript '1' which appears next to both the author's name and this affiliation in the HTML.\",\n          \"quote\": \"<sup><span id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_NumbersRepeater_0_Number_0\\\">1</span></sup><a id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LinkButtonAffiliation_0\\\" href=\\\"AffiliationsProfile.aspx?Org=BnliXxgfb2TbOZdMjCrwS2mkaq5HwRHXujtgdxbEPn/pSz+2E2s43QgvYES/1CBnxKbCcPM2PbO1o2s23hy5FtDruxcgcGs/&amp;t=1\\\"><span id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LabelAffiliation_0\\\" class=\\\"PublicationsDetailNormal\\\">School of Information Studies, McGill University, Montreal, QC, Canada</span></a>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Mohammadhossein Amouei\",\n        \"reasoning\": \"The author's name is extracted from the span with id 'ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_1'. A superscript '1' is associated with this author, linking to their affiliation.\",\n        \"quote\": \"<a id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LinkButtonAuthor_1\\\" href=\\\"PersonProfile.aspx?PersonAccountID=kwbBgzlTR3A=&amp;t=1\\\"><span id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_1\\\" class=\\\"PublicationsDetailNormal\\\">Mohammadhossein&nbsp;Amouei</span></a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"School of Information Studies, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author 'Mohammadhossein Amouei' by the superscript '1' which appears next to both the author's name and this affiliation in the HTML.\",\n          \"quote\": \"<sup><span id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_NumbersRepeater_0_Number_0\\\">1</span></sup><a id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LinkButtonAffiliation_0\\\" href=\\\"AffiliationsProfile.aspx?Org=BnliXxgfb2TbOZdMjCrwS2mkaq5HwRHXujtgdxbEPn/pSz+2E2s43QgvYES/1CBnxKbCcPM2PbO1o2s23hy5FtDruxcgcGs/&amp;t=1\\\"><span id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LabelAffiliation_0\\\" class=\\\"PublicationsDetailNormal\\\">School of Information Studies, McGill University, Montreal, QC, Canada</span></a>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Benjamin C. M. Fung\",\n        \"reasoning\": \"The author's name is extracted from the span with id 'ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_2'. A superscript '1' is associated with this author, linking to their affiliation.\",\n        \"quote\": \"<a id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LinkButtonAuthor_2\\\" href=\\\"PersonProfile.aspx?PersonAccountID=fItids2GH/g=&amp;t=1\\\"><span id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_2\\\" class=\\\"PublicationsDetailNormal\\\">Benjamin&nbsp;C. M. Fung</span></a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"School of Information Studies, McGill University, Montreal, QC, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author 'Benjamin C. M. Fung' by the superscript '1' which appears next to both the author's name and this affiliation in the HTML.\",\n          \"quote\": \"<sup><span id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_NumbersRepeater_0_Number_0\\\">1</span></sup><a id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LinkButtonAffiliation_0\\\" href=\\\"AffiliationsProfile.aspx?Org=BnliXxgfb2TbOZdMjCrwS2mkaq5HwRHXujtgdxbEPn/pSz+2E2s43QgvYES/1CBnxKbCcPM2PbO1o2s23hy5FtDruxcgcGs/&amp;t=1\\\"><span id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LabelAffiliation_0\\\" class=\\\"PublicationsDetailNormal\\\">School of Information Studies, McGill University, Montreal, QC, Canada</span></a>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Philippe Charland\",\n        \"reasoning\": \"The author's name is extracted from the span with id 'ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_3'. A superscript '2' is associated with this author, linking to their affiliation.\",\n        \"quote\": \"<a id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LinkButtonAuthor_3\\\" href=\\\"PersonProfile.aspx?PersonAccountID=xfIJcjfJeJg=&amp;t=1\\\"><span id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_3\\\" class=\\\"PublicationsDetailNormal\\\">Philippe&nbsp;Charland</span></a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Mission Critical Cyber Security Section, Defence R&D Canada, Quebec, QC, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author 'Philippe Charland' by the superscript '2' which appears next to both the author's name and this affiliation in the HTML.\",\n          \"quote\": \"<sup><span id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_NumbersRepeater_1_Number_0\\\">2</span></sup><a id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LinkButtonAffiliation_1\\\" href=\\\"AffiliationsProfile.aspx?Org=vE0h4OGCtdqadO3rFBciXZjyHgugPCJ/eOOOGR2ZhMcX1s5dMPNxwfx+zY9caCRtwnEGPVts31KZ1b0/8qqxrjrwkJKLhNzvSXtXoMLobl0=&amp;t=1\\\"><span id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LabelAffiliation_1\\\" class=\\\"PublicationsDetailNormal\\\">Mission Critical Cyber Security Section, Defence R&D Canada, Quebec, QC, Canada</span></a>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Andrew Walenstein\",\n        \"reasoning\": \"The author's name is extracted from the span with id 'ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_4'. A superscript '3' is associated with this author, linking to their affiliation.\",\n        \"quote\": \"<a id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LinkButtonAuthor_4\\\" href=\\\"PersonProfile.aspx?PersonAccountID=ZI4nV9oCUf8=&amp;t=1\\\"><span id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_4\\\" class=\\\"PublicationsDetailNormal\\\">Andrew&nbsp;Walenstein</span></a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"BlackBerry Limited, Waterloo, ON, Canada\",\n          \"reasoning\": \"This affiliation is linked to the author 'Andrew Walenstein' by the superscript '3' which appears next to both the author's name and this affiliation in the HTML.\",\n          \"quote\": \"<sup><span id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_NumbersRepeater_2_Number_0\\\">3</span></sup><a id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LinkButtonAffiliation_2\\\" href=\\\"AffiliationsProfile.aspx?Org=TDOnqJ6hBn/ycq/2jq6DC/LHBfnlDiPGunQhAhYwDhZMhaPsWG1Xzu/LG2jNtOj/&amp;t=1\\\"><span id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LabelAffiliation_2\\\" class=\\\"PublicationsDetailNormal\\\">BlackBerry Limited, Waterloo, ON, Canada</span></a>\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"School of Information Studies, McGill University, Montreal, QC, Canada\",\n      \"reasoning\": \"This affiliation is listed as the first one and is associated with superscript '1', corresponding to the first three authors.\",\n      \"quote\": \"<span id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LabelAffiliation_0\\\" class=\\\"PublicationsDetailNormal\\\">School of Information Studies, McGill University, Montreal, QC, Canada</span>\"\n    },\n    {\n      \"value\": \"Mission Critical Cyber Security Section, Defence R&D Canada, Quebec, QC, Canada\",\n      \"reasoning\": \"This affiliation is listed as the second one and is associated with superscript '2', corresponding to the fourth author.\",\n      \"quote\": \"<span id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LabelAffiliation_1\\\" class=\\\"PublicationsDetailNormal\\\">Mission Critical Cyber Security Section, Defence R&D Canada, Quebec, QC, Canada</span>\"\n    },\n    {\n      \"value\": \"BlackBerry Limited, Waterloo, ON, Canada\",\n      \"reasoning\": \"This affiliation is listed as the third one and is associated with superscript '3', corresponding to the fifth author.\",\n      \"quote\": \"<span id=\\\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LabelAffiliation_2\\\" class=\\\"PublicationsDetailNormal\\\">BlackBerry Limited, Waterloo, ON, Canada</span>\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 2678,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 116336,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 116336
+      }
+    ],
+    "thoughts_token_count": 3436,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 122450,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Jesia Yuki",
+          "reasoning": "The author's name is extracted from the span with id 'ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_0'. A superscript '1' is associated with this author, linking to their affiliation.",
+          "quote": "<a id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LinkButtonAuthor_0\" href=\"PersonProfile.aspx?PersonAccountID=w/hGtO6UM08=&amp;t=1\"><span id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_0\" class=\"PublicationsDetailNormal\">Jesia&nbsp;Yuki</span></a>"
+        },
+        "affiliations": [
+          {
+            "value": "School of Information Studies, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is linked to the author 'Jesia Yuki' by the superscript '1' which appears next to both the author's name and this affiliation in the HTML.",
+            "quote": "<sup><span id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_NumbersRepeater_0_Number_0\">1</span></sup><a id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LinkButtonAffiliation_0\" href=\"AffiliationsProfile.aspx?Org=BnliXxgfb2TbOZdMjCrwS2mkaq5HwRHXujtgdxbEPn/pSz+2E2s43QgvYES/1CBnxKbCcPM2PbO1o2s23hy5FtDruxcgcGs/&amp;t=1\"><span id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LabelAffiliation_0\" class=\"PublicationsDetailNormal\">School of Information Studies, McGill University, Montreal, QC, Canada</span></a>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Mohammadhossein Amouei",
+          "reasoning": "The author's name is extracted from the span with id 'ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_1'. A superscript '1' is associated with this author, linking to their affiliation.",
+          "quote": "<a id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LinkButtonAuthor_1\" href=\"PersonProfile.aspx?PersonAccountID=kwbBgzlTR3A=&amp;t=1\"><span id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_1\" class=\"PublicationsDetailNormal\">Mohammadhossein&nbsp;Amouei</span></a>"
+        },
+        "affiliations": [
+          {
+            "value": "School of Information Studies, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is linked to the author 'Mohammadhossein Amouei' by the superscript '1' which appears next to both the author's name and this affiliation in the HTML.",
+            "quote": "<sup><span id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_NumbersRepeater_0_Number_0\">1</span></sup><a id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LinkButtonAffiliation_0\" href=\"AffiliationsProfile.aspx?Org=BnliXxgfb2TbOZdMjCrwS2mkaq5HwRHXujtgdxbEPn/pSz+2E2s43QgvYES/1CBnxKbCcPM2PbO1o2s23hy5FtDruxcgcGs/&amp;t=1\"><span id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LabelAffiliation_0\" class=\"PublicationsDetailNormal\">School of Information Studies, McGill University, Montreal, QC, Canada</span></a>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Benjamin C. M. Fung",
+          "reasoning": "The author's name is extracted from the span with id 'ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_2'. A superscript '1' is associated with this author, linking to their affiliation.",
+          "quote": "<a id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LinkButtonAuthor_2\" href=\"PersonProfile.aspx?PersonAccountID=fItids2GH/g=&amp;t=1\"><span id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_2\" class=\"PublicationsDetailNormal\">Benjamin&nbsp;C. M. Fung</span></a>"
+        },
+        "affiliations": [
+          {
+            "value": "School of Information Studies, McGill University, Montreal, QC, Canada",
+            "reasoning": "This affiliation is linked to the author 'Benjamin C. M. Fung' by the superscript '1' which appears next to both the author's name and this affiliation in the HTML.",
+            "quote": "<sup><span id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_NumbersRepeater_0_Number_0\">1</span></sup><a id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LinkButtonAffiliation_0\" href=\"AffiliationsProfile.aspx?Org=BnliXxgfb2TbOZdMjCrwS2mkaq5HwRHXujtgdxbEPn/pSz+2E2s43QgvYES/1CBnxKbCcPM2PbO1o2s23hy5FtDruxcgcGs/&amp;t=1\"><span id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LabelAffiliation_0\" class=\"PublicationsDetailNormal\">School of Information Studies, McGill University, Montreal, QC, Canada</span></a>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Philippe Charland",
+          "reasoning": "The author's name is extracted from the span with id 'ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_3'. A superscript '2' is associated with this author, linking to their affiliation.",
+          "quote": "<a id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LinkButtonAuthor_3\" href=\"PersonProfile.aspx?PersonAccountID=xfIJcjfJeJg=&amp;t=1\"><span id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_3\" class=\"PublicationsDetailNormal\">Philippe&nbsp;Charland</span></a>"
+        },
+        "affiliations": [
+          {
+            "value": "Mission Critical Cyber Security Section, Defence R&D Canada, Quebec, QC, Canada",
+            "reasoning": "This affiliation is linked to the author 'Philippe Charland' by the superscript '2' which appears next to both the author's name and this affiliation in the HTML.",
+            "quote": "<sup><span id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_NumbersRepeater_1_Number_0\">2</span></sup><a id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LinkButtonAffiliation_1\" href=\"AffiliationsProfile.aspx?Org=vE0h4OGCtdqadO3rFBciXZjyHgugPCJ/eOOOGR2ZhMcX1s5dMPNxwfx+zY9caCRtwnEGPVts31KZ1b0/8qqxrjrwkJKLhNzvSXtXoMLobl0=&amp;t=1\"><span id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LabelAffiliation_1\" class=\"PublicationsDetailNormal\">Mission Critical Cyber Security Section, Defence R&D Canada, Quebec, QC, Canada</span></a>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Andrew Walenstein",
+          "reasoning": "The author's name is extracted from the span with id 'ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_4'. A superscript '3' is associated with this author, linking to their affiliation.",
+          "quote": "<a id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LinkButtonAuthor_4\" href=\"PersonProfile.aspx?PersonAccountID=ZI4nV9oCUf8=&amp;t=1\"><span id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AuthorsRepeater_LabelAuthor_4\" class=\"PublicationsDetailNormal\">Andrew&nbsp;Walenstein</span></a>"
+        },
+        "affiliations": [
+          {
+            "value": "BlackBerry Limited, Waterloo, ON, Canada",
+            "reasoning": "This affiliation is linked to the author 'Andrew Walenstein' by the superscript '3' which appears next to both the author's name and this affiliation in the HTML.",
+            "quote": "<sup><span id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_NumbersRepeater_2_Number_0\">3</span></sup><a id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LinkButtonAffiliation_2\" href=\"AffiliationsProfile.aspx?Org=TDOnqJ6hBn/ycq/2jq6DC/LHBfnlDiPGunQhAhYwDhZMhaPsWG1Xzu/LG2jNtOj/&amp;t=1\"><span id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LabelAffiliation_2\" class=\"PublicationsDetailNormal\">BlackBerry Limited, Waterloo, ON, Canada</span></a>"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "School of Information Studies, McGill University, Montreal, QC, Canada",
+        "reasoning": "This affiliation is listed as the first one and is associated with superscript '1', corresponding to the first three authors.",
+        "quote": "<span id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LabelAffiliation_0\" class=\"PublicationsDetailNormal\">School of Information Studies, McGill University, Montreal, QC, Canada</span>"
+      },
+      {
+        "value": "Mission Critical Cyber Security Section, Defence R&D Canada, Quebec, QC, Canada",
+        "reasoning": "This affiliation is listed as the second one and is associated with superscript '2', corresponding to the fourth author.",
+        "quote": "<span id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LabelAffiliation_1\" class=\"PublicationsDetailNormal\">Mission Critical Cyber Security Section, Defence R&D Canada, Quebec, QC, Canada</span>"
+      },
+      {
+        "value": "BlackBerry Limited, Waterloo, ON, Canada",
+        "reasoning": "This affiliation is listed as the third one and is associated with superscript '3', corresponding to the fifth author.",
+        "quote": "<span id=\"ContentPlaceHolder1_LinkPaperPage_LinkPaperContent_AffiliationsRepeater_LabelAffiliation_2\" class=\"PublicationsDetailNormal\">BlackBerry Limited, Waterloo, ON, Canada</span>"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.5220/0012761400003753"
+    }
+  }
+}

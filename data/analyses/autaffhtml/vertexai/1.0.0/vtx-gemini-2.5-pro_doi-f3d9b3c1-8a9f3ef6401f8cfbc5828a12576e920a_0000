@@ -1,0 +1,393 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sat, 12 Jul 2025 00:08:14 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=113452",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Melissa Zwaig\",\n        \"reasoning\": \"The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\\\"dc.creator\\\" content=\\\"Zwaig, Melissa\\\"/>'. The name is formatted to 'First Last'.\",\n        \"quote\": \"<li class=\\\"c-article-author-list__item\\\"><a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"1_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Melissa-Zwaig-Aff1\\\" data-author-popup=\\\"auth-Melissa-Zwaig-Aff1\\\" data-author-search=\\\"Zwaig, Melissa\\\">Melissa Zwaig</a><sup class=\\\"u-js-hide\\\"><a href=\\\"#Aff1\\\">1</a></sup>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The author 'Melissa Zwaig' has a superscript '1' which links to the affiliation with id 'Aff1'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Melissa Zwaig, Bo Hu, Jacek Majewski &amp; Jiannis Ragoussis</p></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Audrey Baguette\",\n        \"reasoning\": \"The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\\\"dc.creator\\\" content=\\\"Baguette, Audrey\\\"/>'. The name is formatted to 'First Last'.\",\n        \"quote\": \"<li class=\\\"c-article-author-list__item\\\"><a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"2_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Audrey-Baguette-Aff2\\\" data-author-popup=\\\"auth-Audrey-Baguette-Aff2\\\" data-author-search=\\\"Baguette, Audrey\\\">Audrey Baguette</a><sup class=\\\"u-js-hide\\\"><a href=\\\"#Aff2\\\">2</a></sup>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Quantitative Life Sciences and Lady Davis Institute for Medical Research, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The author 'Audrey Baguette' has a superscript '2' which links to the affiliation with id 'Aff2'.\",\n          \"quote\": \"<li id=\\\"Aff2\\\"><p class=\\\"c-article-author-affiliation__address\\\">Quantitative Life Sciences and Lady Davis Institute for Medical Research, Montreal, Quebec, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Audrey Baguette</p></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Bo Hu\",\n        \"reasoning\": \"The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\\\"dc.creator\\\" content=\\\"Hu, Bo\\\"/>'. The name is formatted to 'First Last'.\",\n        \"quote\": \"<li class=\\\"c-article-author-list__item c-article-author-list__item--hide-small-screen\\\"><a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"3_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Bo-Hu-Aff1\\\" data-author-popup=\\\"auth-Bo-Hu-Aff1\\\" data-author-search=\\\"Hu, Bo\\\">Bo Hu</a><sup class=\\\"u-js-hide\\\"><a href=\\\"#Aff1\\\">1</a></sup>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The author 'Bo Hu' has a superscript '1' which links to the affiliation with id 'Aff1'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Melissa Zwaig, Bo Hu, Jacek Majewski &amp; Jiannis Ragoussis</p></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Michael Johnston\",\n        \"reasoning\": \"The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\\\"dc.creator\\\" content=\\\"Johnston, Michael\\\"/>'. The name is formatted to 'First Last'.\",\n        \"quote\": \"<li class=\\\"c-article-author-list__item c-article-author-list__item--hide-small-screen\\\"><a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"4_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Michael-Johnston-Aff3\\\" data-author-popup=\\\"auth-Michael-Johnston-Aff3\\\" data-author-search=\\\"Johnston, Michael\\\">Michael Johnston</a><sup class=\\\"u-js-hide\\\"><a href=\\\"#Aff3\\\">3</a></sup>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Alberta Children‘s Hospital Research Institute, Charbonneau Cancer Institute, and Department of Biochemistry and Molecular Biology, Cumming School of Medicine, University of Calgary, Calgary, AB, Canada\",\n          \"reasoning\": \"The author 'Michael Johnston' has a superscript '3' which links to the affiliation with id 'Aff3'.\",\n          \"quote\": \"<li id=\\\"Aff3\\\"><p class=\\\"c-article-author-affiliation__address\\\">Alberta Children‘s Hospital Research Institute, Charbonneau Cancer Institute, and Department of Biochemistry and Molecular Biology, Cumming School of Medicine, University of Calgary, Calgary, AB, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Michael Johnston &amp; Marco Gallo</p></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Hussein Lakkis\",\n        \"reasoning\": \"The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\\\"dc.creator\\\" content=\\\"Lakkis, Hussein\\\"/>'. The name is formatted to 'First Last'.\",\n        \"quote\": \"<li class=\\\"c-article-author-list__item c-article-author-list__item--hide-small-screen\\\"><a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"5_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Hussein-Lakkis-Aff4\\\" data-author-popup=\\\"auth-Hussein-Lakkis-Aff4\\\" data-author-search=\\\"Lakkis, Hussein\\\">Hussein Lakkis</a><sup class=\\\"u-js-hide\\\"><a href=\\\"#Aff4\\\">4</a></sup>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Human Genetics and Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The author 'Hussein Lakkis' has a superscript '4' which links to the affiliation with id 'Aff4'.\",\n          \"quote\": \"<li id=\\\"Aff4\\\"><p class=\\\"c-article-author-affiliation__address\\\">Department of Human Genetics and Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Quebec, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Hussein Lakkis &amp; Claudia L. Kleinman</p></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Emily M. Nakada\",\n        \"reasoning\": \"The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\\\"dc.creator\\\" content=\\\"Nakada, Emily M.\\\"/>'. The name is formatted to 'First Last'.\",\n        \"quote\": \"<li class=\\\"c-article-author-list__item c-article-author-list__item--hide-small-screen\\\"><a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"6_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Emily_M_-Nakada-Aff5\\\" data-author-popup=\\\"auth-Emily_M_-Nakada-Aff5\\\" data-author-search=\\\"Nakada, Emily M.\\\">Emily M. Nakada</a><sup class=\\\"u-js-hide\\\"><a href=\\\"#Aff5\\\">5</a></sup>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"The Research Institute of the McGill University Health Centre, Montreal, Canada\",\n          \"reasoning\": \"The author 'Emily M. Nakada' has a superscript '5' which links to the affiliation with id 'Aff5'.\",\n          \"quote\": \"<li id=\\\"Aff5\\\"><p class=\\\"c-article-author-affiliation__address\\\">The Research Institute of the McGill University Health Centre, Montreal, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Emily M. Nakada, Damien Faury &amp; Nikoleta Juretic</p></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Damien Faury\",\n        \"reasoning\": \"The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\\\"dc.creator\\\" content=\\\"Faury, Damien\\\"/>'. The name is formatted to 'First Last'.\",\n        \"quote\": \"<li class=\\\"c-article-author-list__item c-article-author-list__item--hide-small-screen\\\"><a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"7_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Damien-Faury-Aff5\\\" data-author-popup=\\\"auth-Damien-Faury-Aff5\\\" data-author-search=\\\"Faury, Damien\\\">Damien Faury</a><sup class=\\\"u-js-hide\\\"><a href=\\\"#Aff5\\\">5</a></sup>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"The Research Institute of the McGill University Health Centre, Montreal, Canada\",\n          \"reasoning\": \"The author 'Damien Faury' has a superscript '5' which links to the affiliation with id 'Aff5'.\",\n          \"quote\": \"<li id=\\\"Aff5\\\"><p class=\\\"c-article-author-affiliation__address\\\">The Research Institute of the McGill University Health Centre, Montreal, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Emily M. Nakada, Damien Faury &amp; Nikoleta Juretic</p></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Nikoleta Juretic\",\n        \"reasoning\": \"The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\\\"dc.creator\\\" content=\\\"Juretic, Nikoleta\\\"/>'. The name is formatted to 'First Last'.\",\n        \"quote\": \"<li class=\\\"c-article-author-list__item c-article-author-list__item--hide-small-screen\\\"><a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"8_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Nikoleta-Juretic-Aff5\\\" data-author-popup=\\\"auth-Nikoleta-Juretic-Aff5\\\" data-author-search=\\\"Juretic, Nikoleta\\\">Nikoleta Juretic</a><sup class=\\\"u-js-hide\\\"><a href=\\\"#Aff5\\\">5</a></sup>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"The Research Institute of the McGill University Health Centre, Montreal, Canada\",\n          \"reasoning\": \"The author 'Nikoleta Juretic' has a superscript '5' which links to the affiliation with id 'Aff5'.\",\n          \"quote\": \"<li id=\\\"Aff5\\\"><p class=\\\"c-article-author-affiliation__address\\\">The Research Institute of the McGill University Health Centre, Montreal, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Emily M. Nakada, Damien Faury &amp; Nikoleta Juretic</p></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Benjamin Ellezam\",\n        \"reasoning\": \"The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\\\"dc.creator\\\" content=\\\"Ellezam, Benjamin\\\"/>'. The name is formatted to 'First Last'.\",\n        \"quote\": \"<li class=\\\"c-article-author-list__item c-article-author-list__item--hide-small-screen\\\"><a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"9_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Benjamin-Ellezam-Aff6\\\" data-author-popup=\\\"auth-Benjamin-Ellezam-Aff6\\\" data-author-search=\\\"Ellezam, Benjamin\\\">Benjamin Ellezam</a><sup class=\\\"u-js-hide\\\"><a href=\\\"#Aff6\\\">6</a></sup>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Pathology, Centre Hospitalier Universitaire Sainte-Justine, Université de Montréal, Montréal, QC, H3T 1C5, Canada\",\n          \"reasoning\": \"The author 'Benjamin Ellezam' has a superscript '6' which links to the affiliation with id 'Aff6'.\",\n          \"quote\": \"<li id=\\\"Aff6\\\"><p class=\\\"c-article-author-affiliation__address\\\">Department of Pathology, Centre Hospitalier Universitaire Sainte-Justine, Université de Montréal, Montréal, QC, H3T 1C5, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Benjamin Ellezam</p></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Alexandre G. Weil\",\n        \"reasoning\": \"The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\\\"dc.creator\\\" content=\\\"Weil, Alexandre G.\\\"/>'. The name is formatted to 'First Last'.\",\n        \"quote\": \"<li class=\\\"c-article-author-list__item c-article-author-list__item--hide-small-screen\\\"><a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"10_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Alexandre_G_-Weil-Aff7\\\" data-author-popup=\\\"auth-Alexandre_G_-Weil-Aff7\\\" data-author-search=\\\"Weil, Alexandre G.\\\">Alexandre G. Weil</a><sup class=\\\"u-js-hide\\\"><a href=\\\"#Aff7\\\">7</a></sup>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Pediatric Neurosurgery, Centre Hospitalier Universitaire Sainte-Justine, Université de Montréal, Montréal, QC, H3T 1C5, Canada\",\n          \"reasoning\": \"The author 'Alexandre G. Weil' has a superscript '7' which links to the affiliation with id 'Aff7'.\",\n          \"quote\": \"<li id=\\\"Aff7\\\"><p class=\\\"c-article-author-affiliation__address\\\">Department of Pediatric Neurosurgery, Centre Hospitalier Universitaire Sainte-Justine, Université de Montréal, Montréal, QC, H3T 1C5, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Alexandre G. Weil</p></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jason Karamchandani\",\n        \"reasoning\": \"The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\\\"dc.creator\\\" content=\\\"Karamchandani, Jason\\\"/>'. The name is formatted to 'First Last'.\",\n        \"quote\": \"<li class=\\\"c-article-author-list__item c-article-author-list__item--hide-small-screen\\\"><a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"11_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Jason-Karamchandani-Aff8\\\" data-author-popup=\\\"auth-Jason-Karamchandani-Aff8\\\" data-author-search=\\\"Karamchandani, Jason\\\">Jason Karamchandani</a><sup class=\\\"u-js-hide\\\"><a href=\\\"#Aff8\\\">8</a></sup>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Pathology, Montreal Neurological Institute, McGill University, Montreal, QC, H3A 2B4, Canada\",\n          \"reasoning\": \"The author 'Jason Karamchandani' has a superscript '8' which links to the affiliation with id 'Aff8'.\",\n          \"quote\": \"<li id=\\\"Aff8\\\"><p class=\\\"c-article-author-affiliation__address\\\">Department of Pathology, Montreal Neurological Institute, McGill University, Montreal, QC, H3A 2B4, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Jason Karamchandani</p></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jacek Majewski\",\n        \"reasoning\": \"The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\\\"dc.creator\\\" content=\\\"Majewski, Jacek\\\"/>'. The name is formatted to 'First Last'.\",\n        \"quote\": \"<li class=\\\"c-article-author-list__item c-article-author-list__item--hide-small-screen\\\"><a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"12_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Jacek-Majewski-Aff1\\\" data-author-popup=\\\"auth-Jacek-Majewski-Aff1\\\" data-author-search=\\\"Majewski, Jacek\\\">Jacek Majewski</a><sup class=\\\"u-js-hide\\\"><a href=\\\"#Aff1\\\">1</a></sup>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The author 'Jacek Majewski' has a superscript '1' which links to the affiliation with id 'Aff1'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Melissa Zwaig, Bo Hu, Jacek Majewski &amp; Jiannis Ragoussis</p></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Mathieu Blanchette\",\n        \"reasoning\": \"The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\\\"dc.creator\\\" content=\\\"Blanchette, Mathieu\\\"/>'. The name is formatted to 'First Last'.\",\n        \"quote\": \"<li class=\\\"c-article-author-list__item c-article-author-list__item--hide-small-screen\\\"><a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"13_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Mathieu-Blanchette-Aff9\\\" data-author-popup=\\\"auth-Mathieu-Blanchette-Aff9\\\" data-author-search=\\\"Blanchette, Mathieu\\\">Mathieu Blanchette</a><sup class=\\\"u-js-hide\\\"><a href=\\\"#Aff9\\\">9</a></sup>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"School of Computer Science and McGill Center for Bioinformatics, McGill University, Montréal, Québec, Canada\",\n          \"reasoning\": \"The author 'Mathieu Blanchette' has a superscript '9' which links to the affiliation with id 'Aff9'.\",\n          \"quote\": \"<li id=\\\"Aff9\\\"><p class=\\\"c-article-author-affiliation__address\\\">School of Computer Science and McGill Center for Bioinformatics, McGill University, Montréal, Québec, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Mathieu Blanchette</p></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Michael D. Taylor\",\n        \"reasoning\": \"The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\\\"dc.creator\\\" content=\\\"Taylor, Michael D.\\\"/>'. The name is formatted to 'First Last'.\",\n        \"quote\": \"<li class=\\\"c-article-author-list__item c-article-author-list__item--hide-small-screen\\\"><a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"14_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Michael_D_-Taylor-Aff10\\\" data-author-popup=\\\"auth-Michael_D_-Taylor-Aff10\\\" data-author-search=\\\"Taylor, Michael D.\\\">Michael D. Taylor</a><sup class=\\\"u-js-hide\\\"><a href=\\\"#Aff10\\\">10</a></sup>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Arthur and Sonia Labatt Brain Tumour Research Centre, Hospital for Sick Children Research Institute, Toronto, Canada\",\n          \"reasoning\": \"The author 'Michael D. Taylor' has a superscript '10' which links to the affiliation with id 'Aff10'.\",\n          \"quote\": \"<li id=\\\"Aff10\\\"><p class=\\\"c-article-author-affiliation__address\\\">Arthur and Sonia Labatt Brain Tumour Research Centre, Hospital for Sick Children Research Institute, Toronto, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Michael D. Taylor</p></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Marco Gallo\",\n        \"reasoning\": \"The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\\\"dc.creator\\\" content=\\\"Gallo, Marco\\\"/>'. The name is formatted to 'First Last'.\",\n        \"quote\": \"<li class=\\\"c-article-author-list__item c-article-author-list__item--hide-small-screen\\\"><a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"15_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Marco-Gallo-Aff3\\\" data-author-popup=\\\"auth-Marco-Gallo-Aff3\\\" data-author-search=\\\"Gallo, Marco\\\">Marco Gallo</a><sup class=\\\"u-js-hide\\\"><a href=\\\"#Aff3\\\">3</a></sup>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Alberta Children‘s Hospital Research Institute, Charbonneau Cancer Institute, and Department of Biochemistry and Molecular Biology, Cumming School of Medicine, University of Calgary, Calgary, AB, Canada\",\n          \"reasoning\": \"The author 'Marco Gallo' has a superscript '3' which links to the affiliation with id 'Aff3'.\",\n          \"quote\": \"<li id=\\\"Aff3\\\"><p class=\\\"c-article-author-affiliation__address\\\">Alberta Children‘s Hospital Research Institute, Charbonneau Cancer Institute, and Department of Biochemistry and Molecular Biology, Cumming School of Medicine, University of Calgary, Calgary, AB, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Michael Johnston &amp; Marco Gallo</p></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Claudia L. Kleinman\",\n        \"reasoning\": \"The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\\\"dc.creator\\\" content=\\\"Kleinman, Claudia L.\\\"/>'. The name is formatted to 'First Last'.\",\n        \"quote\": \"<li class=\\\"c-article-author-list__item c-article-author-list__item--hide-small-screen\\\"><a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"16_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Claudia_L_-Kleinman-Aff4\\\" data-author-popup=\\\"auth-Claudia_L_-Kleinman-Aff4\\\" data-author-search=\\\"Kleinman, Claudia L.\\\">Claudia L. Kleinman</a><sup class=\\\"u-js-hide\\\"><a href=\\\"#Aff4\\\">4</a></sup>, </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Human Genetics and Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Quebec, Canada\",\n          \"reasoning\": \"The author 'Claudia L. Kleinman' has a superscript '4' which links to the affiliation with id 'Aff4'.\",\n          \"quote\": \"<li id=\\\"Aff4\\\"><p class=\\\"c-article-author-affiliation__address\\\">Department of Human Genetics and Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Quebec, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Hussein Lakkis &amp; Claudia L. Kleinman</p></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Nada Jabado\",\n        \"reasoning\": \"The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\\\"dc.creator\\\" content=\\\"Jabado, Nada\\\"/>'. The name is formatted to 'First Last'.\",\n        \"quote\": \"<li class=\\\"c-article-author-list__item c-article-author-list__item--hide-small-screen\\\"><a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"17_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Nada-Jabado-Aff11\\\" data-author-popup=\\\"auth-Nada-Jabado-Aff11\\\" data-author-search=\\\"Jabado, Nada\\\" data-corresp-id=\\\"c1\\\">Nada Jabado<svg width=\\\"16\\\" height=\\\"16\\\" focusable=\\\"false\\\" role=\\\"img\\\" aria-hidden=\\\"true\\\" class=\\\"u-icon\\\"><use xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" xlink:href=\\\"#icon-eds-i-mail-medium\\\"></use></svg></a><sup class=\\\"u-js-hide\\\"><a href=\\\"#Aff11\\\">11</a></sup> &amp; </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Department of Human Genetics, Department of Pediatrics, and The Research Institute of the McGill University Health Centre, Montreal, Canada\",\n          \"reasoning\": \"The author 'Nada Jabado' has a superscript '11' which links to the affiliation with id 'Aff11'.\",\n          \"quote\": \"<li id=\\\"Aff11\\\"><p class=\\\"c-article-author-affiliation__address\\\">Department of Human Genetics, Department of Pediatrics, and The Research Institute of the McGill University Health Centre, Montreal, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Nada Jabado</p></li>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Jiannis Ragoussis\",\n        \"reasoning\": \"The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\\\"dc.creator\\\" content=\\\"Ragoussis, Jiannis\\\"/>'. The name is formatted to 'First Last'.\",\n        \"quote\": \"<li class=\\\"c-article-author-list__item\\\"><a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"18_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Jiannis-Ragoussis-Aff1\\\" data-author-popup=\\\"auth-Jiannis-Ragoussis-Aff1\\\" data-author-search=\\\"Ragoussis, Jiannis\\\" data-corresp-id=\\\"c2\\\">Jiannis Ragoussis<svg width=\\\"16\\\" height=\\\"16\\\" focusable=\\\"false\\\" role=\\\"img\\\" aria-hidden=\\\"true\\\" class=\\\"u-icon\\\"><use xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" xlink:href=\\\"#icon-eds-i-mail-medium\\\"></use></svg></a><span class=\\\"u-js-hide\\\"> \\n            <a class=\\\"js-orcid\\\" href=\\\"https://orcid.org/0000-0002-8515-0934\\\"><span class=\\\"u-visually-hidden\\\">ORCID: </span>orcid.org/0000-0002-8515-0934</a></span><sup class=\\\"u-js-hide\\\"><a href=\\\"#Aff1\\\">1</a></sup> </li>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada\",\n          \"reasoning\": \"The author 'Jiannis Ragoussis' has a superscript '1' which links to the affiliation with id 'Aff1'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Melissa Zwaig, Bo Hu, Jacek Majewski &amp; Jiannis Ragoussis</p></li>\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada\",\n      \"reasoning\": \"This affiliation is listed as the first item in the ordered list of affiliations and is associated with multiple authors via the superscript '1'.\",\n      \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Melissa Zwaig, Bo Hu, Jacek Majewski &amp; Jiannis Ragoussis</p></li>\"\n    },\n    {\n      \"value\": \"Quantitative Life Sciences and Lady Davis Institute for Medical Research, Montreal, Quebec, Canada\",\n      \"reasoning\": \"This affiliation is listed as the second item in the ordered list of affiliations and is associated with author Audrey Baguette via the superscript '2'.\",\n      \"quote\": \"<li id=\\\"Aff2\\\"><p class=\\\"c-article-author-affiliation__address\\\">Quantitative Life Sciences and Lady Davis Institute for Medical Research, Montreal, Quebec, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Audrey Baguette</p></li>\"\n    },\n    {\n      \"value\": \"Alberta Children‘s Hospital Research Institute, Charbonneau Cancer Institute, and Department of Biochemistry and Molecular Biology, Cumming School of Medicine, University of Calgary, Calgary, AB, Canada\",\n      \"reasoning\": \"This affiliation is listed as the third item in the ordered list of affiliations and is associated with multiple authors via the superscript '3'.\",\n      \"quote\": \"<li id=\\\"Aff3\\\"><p class=\\\"c-article-author-affiliation__address\\\">Alberta Children‘s Hospital Research Institute, Charbonneau Cancer Institute, and Department of Biochemistry and Molecular Biology, Cumming School of Medicine, University of Calgary, Calgary, AB, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Michael Johnston &amp; Marco Gallo</p></li>\"\n    },\n    {\n      \"value\": \"Department of Human Genetics and Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Quebec, Canada\",\n      \"reasoning\": \"This affiliation is listed as the fourth item in the ordered list of affiliations and is associated with multiple authors via the superscript '4'.\",\n      \"quote\": \"<li id=\\\"Aff4\\\"><p class=\\\"c-article-author-affiliation__address\\\">Department of Human Genetics and Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Quebec, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Hussein Lakkis &amp; Claudia L. Kleinman</p></li>\"\n    },\n    {\n      \"value\": \"The Research Institute of the McGill University Health Centre, Montreal, Canada\",\n      \"reasoning\": \"This affiliation is listed as the fifth item in the ordered list of affiliations and is associated with multiple authors via the superscript '5'.\",\n      \"quote\": \"<li id=\\\"Aff5\\\"><p class=\\\"c-article-author-affiliation__address\\\">The Research Institute of the McGill University Health Centre, Montreal, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Emily M. Nakada, Damien Faury &amp; Nikoleta Juretic</p></li>\"\n    },\n    {\n      \"value\": \"Department of Pathology, Centre Hospitalier Universitaire Sainte-Justine, Université de Montréal, Montréal, QC, H3T 1C5, Canada\",\n      \"reasoning\": \"This affiliation is listed as the sixth item in the ordered list of affiliations and is associated with author Benjamin Ellezam via the superscript '6'.\",\n      \"quote\": \"<li id=\\\"Aff6\\\"><p class=\\\"c-article-author-affiliation__address\\\">Department of Pathology, Centre Hospitalier Universitaire Sainte-Justine, Université de Montréal, Montréal, QC, H3T 1C5, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Benjamin Ellezam</p></li>\"\n    },\n    {\n      \"value\": \"Department of Pediatric Neurosurgery, Centre Hospitalier Universitaire Sainte-Justine, Université de Montréal, Montréal, QC, H3T 1C5, Canada\",\n      \"reasoning\": \"This affiliation is listed as the seventh item in the ordered list of affiliations and is associated with author Alexandre G. Weil via the superscript '7'.\",\n      \"quote\": \"<li id=\\\"Aff7\\\"><p class=\\\"c-article-author-affiliation__address\\\">Department of Pediatric Neurosurgery, Centre Hospitalier Universitaire Sainte-Justine, Université de Montréal, Montréal, QC, H3T 1C5, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Alexandre G. Weil</p></li>\"\n    },\n    {\n      \"value\": \"Department of Pathology, Montreal Neurological Institute, McGill University, Montreal, QC, H3A 2B4, Canada\",\n      \"reasoning\": \"This affiliation is listed as the eighth item in the ordered list of affiliations and is associated with author Jason Karamchandani via the superscript '8'.\",\n      \"quote\": \"<li id=\\\"Aff8\\\"><p class=\\\"c-article-author-affiliation__address\\\">Department of Pathology, Montreal Neurological Institute, McGill University, Montreal, QC, H3A 2B4, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Jason Karamchandani</p></li>\"\n    },\n    {\n      \"value\": \"School of Computer Science and McGill Center for Bioinformatics, McGill University, Montréal, Québec, Canada\",\n      \"reasoning\": \"This affiliation is listed as the ninth item in the ordered list of affiliations and is associated with author Mathieu Blanchette via the superscript '9'.\",\n      \"quote\": \"<li id=\\\"Aff9\\\"><p class=\\\"c-article-author-affiliation__address\\\">School of Computer Science and McGill Center for Bioinformatics, McGill University, Montréal, Québec, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Mathieu Blanchette</p></li>\"\n    },\n    {\n      \"value\": \"Arthur and Sonia Labatt Brain Tumour Research Centre, Hospital for Sick Children Research Institute, Toronto, Canada\",\n      \"reasoning\": \"This affiliation is listed as the tenth item in the ordered list of affiliations and is associated with author Michael D. Taylor via the superscript '10'.\",\n      \"quote\": \"<li id=\\\"Aff10\\\"><p class=\\\"c-article-author-affiliation__address\\\">Arthur and Sonia Labatt Brain Tumour Research Centre, Hospital for Sick Children Research Institute, Toronto, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Michael D. Taylor</p></li>\"\n    },\n    {\n      \"value\": \"Department of Human Genetics, Department of Pediatrics, and The Research Institute of the McGill University Health Centre, Montreal, Canada\",\n      \"reasoning\": \"This affiliation is listed as the eleventh item in the ordered list of affiliations and is associated with author Nada Jabado via the superscript '11'.\",\n      \"quote\": \"<li id=\\\"Aff11\\\"><p class=\\\"c-article-author-affiliation__address\\\">Department of Human Genetics, Department of Pediatrics, and The Research Institute of the McGill University Health Centre, Montreal, Canada</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Nada Jabado</p></li>\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 9271,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 247649,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 247649
+      }
+    ],
+    "thoughts_token_count": 3980,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 260900,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Melissa Zwaig",
+          "reasoning": "The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\"dc.creator\" content=\"Zwaig, Melissa\"/>'. The name is formatted to 'First Last'.",
+          "quote": "<li class=\"c-article-author-list__item\"><a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"1_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Melissa-Zwaig-Aff1\" data-author-popup=\"auth-Melissa-Zwaig-Aff1\" data-author-search=\"Zwaig, Melissa\">Melissa Zwaig</a><sup class=\"u-js-hide\"><a href=\"#Aff1\">1</a></sup>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada",
+            "reasoning": "The author 'Melissa Zwaig' has a superscript '1' which links to the affiliation with id 'Aff1'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Melissa Zwaig, Bo Hu, Jacek Majewski &amp; Jiannis Ragoussis</p></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Audrey Baguette",
+          "reasoning": "The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\"dc.creator\" content=\"Baguette, Audrey\"/>'. The name is formatted to 'First Last'.",
+          "quote": "<li class=\"c-article-author-list__item\"><a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"2_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Audrey-Baguette-Aff2\" data-author-popup=\"auth-Audrey-Baguette-Aff2\" data-author-search=\"Baguette, Audrey\">Audrey Baguette</a><sup class=\"u-js-hide\"><a href=\"#Aff2\">2</a></sup>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Quantitative Life Sciences and Lady Davis Institute for Medical Research, Montreal, Quebec, Canada",
+            "reasoning": "The author 'Audrey Baguette' has a superscript '2' which links to the affiliation with id 'Aff2'.",
+            "quote": "<li id=\"Aff2\"><p class=\"c-article-author-affiliation__address\">Quantitative Life Sciences and Lady Davis Institute for Medical Research, Montreal, Quebec, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Audrey Baguette</p></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Bo Hu",
+          "reasoning": "The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\"dc.creator\" content=\"Hu, Bo\"/>'. The name is formatted to 'First Last'.",
+          "quote": "<li class=\"c-article-author-list__item c-article-author-list__item--hide-small-screen\"><a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"3_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Bo-Hu-Aff1\" data-author-popup=\"auth-Bo-Hu-Aff1\" data-author-search=\"Hu, Bo\">Bo Hu</a><sup class=\"u-js-hide\"><a href=\"#Aff1\">1</a></sup>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada",
+            "reasoning": "The author 'Bo Hu' has a superscript '1' which links to the affiliation with id 'Aff1'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Melissa Zwaig, Bo Hu, Jacek Majewski &amp; Jiannis Ragoussis</p></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Michael Johnston",
+          "reasoning": "The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\"dc.creator\" content=\"Johnston, Michael\"/>'. The name is formatted to 'First Last'.",
+          "quote": "<li class=\"c-article-author-list__item c-article-author-list__item--hide-small-screen\"><a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"4_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Michael-Johnston-Aff3\" data-author-popup=\"auth-Michael-Johnston-Aff3\" data-author-search=\"Johnston, Michael\">Michael Johnston</a><sup class=\"u-js-hide\"><a href=\"#Aff3\">3</a></sup>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Alberta Children‘s Hospital Research Institute, Charbonneau Cancer Institute, and Department of Biochemistry and Molecular Biology, Cumming School of Medicine, University of Calgary, Calgary, AB, Canada",
+            "reasoning": "The author 'Michael Johnston' has a superscript '3' which links to the affiliation with id 'Aff3'.",
+            "quote": "<li id=\"Aff3\"><p class=\"c-article-author-affiliation__address\">Alberta Children‘s Hospital Research Institute, Charbonneau Cancer Institute, and Department of Biochemistry and Molecular Biology, Cumming School of Medicine, University of Calgary, Calgary, AB, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Michael Johnston &amp; Marco Gallo</p></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Hussein Lakkis",
+          "reasoning": "The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\"dc.creator\" content=\"Lakkis, Hussein\"/>'. The name is formatted to 'First Last'.",
+          "quote": "<li class=\"c-article-author-list__item c-article-author-list__item--hide-small-screen\"><a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"5_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Hussein-Lakkis-Aff4\" data-author-popup=\"auth-Hussein-Lakkis-Aff4\" data-author-search=\"Lakkis, Hussein\">Hussein Lakkis</a><sup class=\"u-js-hide\"><a href=\"#Aff4\">4</a></sup>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Human Genetics and Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Quebec, Canada",
+            "reasoning": "The author 'Hussein Lakkis' has a superscript '4' which links to the affiliation with id 'Aff4'.",
+            "quote": "<li id=\"Aff4\"><p class=\"c-article-author-affiliation__address\">Department of Human Genetics and Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Quebec, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Hussein Lakkis &amp; Claudia L. Kleinman</p></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Emily M. Nakada",
+          "reasoning": "The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\"dc.creator\" content=\"Nakada, Emily M.\"/>'. The name is formatted to 'First Last'.",
+          "quote": "<li class=\"c-article-author-list__item c-article-author-list__item--hide-small-screen\"><a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"6_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Emily_M_-Nakada-Aff5\" data-author-popup=\"auth-Emily_M_-Nakada-Aff5\" data-author-search=\"Nakada, Emily M.\">Emily M. Nakada</a><sup class=\"u-js-hide\"><a href=\"#Aff5\">5</a></sup>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "The Research Institute of the McGill University Health Centre, Montreal, Canada",
+            "reasoning": "The author 'Emily M. Nakada' has a superscript '5' which links to the affiliation with id 'Aff5'.",
+            "quote": "<li id=\"Aff5\"><p class=\"c-article-author-affiliation__address\">The Research Institute of the McGill University Health Centre, Montreal, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Emily M. Nakada, Damien Faury &amp; Nikoleta Juretic</p></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Damien Faury",
+          "reasoning": "The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\"dc.creator\" content=\"Faury, Damien\"/>'. The name is formatted to 'First Last'.",
+          "quote": "<li class=\"c-article-author-list__item c-article-author-list__item--hide-small-screen\"><a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"7_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Damien-Faury-Aff5\" data-author-popup=\"auth-Damien-Faury-Aff5\" data-author-search=\"Faury, Damien\">Damien Faury</a><sup class=\"u-js-hide\"><a href=\"#Aff5\">5</a></sup>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "The Research Institute of the McGill University Health Centre, Montreal, Canada",
+            "reasoning": "The author 'Damien Faury' has a superscript '5' which links to the affiliation with id 'Aff5'.",
+            "quote": "<li id=\"Aff5\"><p class=\"c-article-author-affiliation__address\">The Research Institute of the McGill University Health Centre, Montreal, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Emily M. Nakada, Damien Faury &amp; Nikoleta Juretic</p></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Nikoleta Juretic",
+          "reasoning": "The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\"dc.creator\" content=\"Juretic, Nikoleta\"/>'. The name is formatted to 'First Last'.",
+          "quote": "<li class=\"c-article-author-list__item c-article-author-list__item--hide-small-screen\"><a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"8_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Nikoleta-Juretic-Aff5\" data-author-popup=\"auth-Nikoleta-Juretic-Aff5\" data-author-search=\"Juretic, Nikoleta\">Nikoleta Juretic</a><sup class=\"u-js-hide\"><a href=\"#Aff5\">5</a></sup>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "The Research Institute of the McGill University Health Centre, Montreal, Canada",
+            "reasoning": "The author 'Nikoleta Juretic' has a superscript '5' which links to the affiliation with id 'Aff5'.",
+            "quote": "<li id=\"Aff5\"><p class=\"c-article-author-affiliation__address\">The Research Institute of the McGill University Health Centre, Montreal, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Emily M. Nakada, Damien Faury &amp; Nikoleta Juretic</p></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Benjamin Ellezam",
+          "reasoning": "The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\"dc.creator\" content=\"Ellezam, Benjamin\"/>'. The name is formatted to 'First Last'.",
+          "quote": "<li class=\"c-article-author-list__item c-article-author-list__item--hide-small-screen\"><a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"9_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Benjamin-Ellezam-Aff6\" data-author-popup=\"auth-Benjamin-Ellezam-Aff6\" data-author-search=\"Ellezam, Benjamin\">Benjamin Ellezam</a><sup class=\"u-js-hide\"><a href=\"#Aff6\">6</a></sup>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Pathology, Centre Hospitalier Universitaire Sainte-Justine, Université de Montréal, Montréal, QC, H3T 1C5, Canada",
+            "reasoning": "The author 'Benjamin Ellezam' has a superscript '6' which links to the affiliation with id 'Aff6'.",
+            "quote": "<li id=\"Aff6\"><p class=\"c-article-author-affiliation__address\">Department of Pathology, Centre Hospitalier Universitaire Sainte-Justine, Université de Montréal, Montréal, QC, H3T 1C5, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Benjamin Ellezam</p></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Alexandre G. Weil",
+          "reasoning": "The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\"dc.creator\" content=\"Weil, Alexandre G.\"/>'. The name is formatted to 'First Last'.",
+          "quote": "<li class=\"c-article-author-list__item c-article-author-list__item--hide-small-screen\"><a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"10_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Alexandre_G_-Weil-Aff7\" data-author-popup=\"auth-Alexandre_G_-Weil-Aff7\" data-author-search=\"Weil, Alexandre G.\">Alexandre G. Weil</a><sup class=\"u-js-hide\"><a href=\"#Aff7\">7</a></sup>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Pediatric Neurosurgery, Centre Hospitalier Universitaire Sainte-Justine, Université de Montréal, Montréal, QC, H3T 1C5, Canada",
+            "reasoning": "The author 'Alexandre G. Weil' has a superscript '7' which links to the affiliation with id 'Aff7'.",
+            "quote": "<li id=\"Aff7\"><p class=\"c-article-author-affiliation__address\">Department of Pediatric Neurosurgery, Centre Hospitalier Universitaire Sainte-Justine, Université de Montréal, Montréal, QC, H3T 1C5, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Alexandre G. Weil</p></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jason Karamchandani",
+          "reasoning": "The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\"dc.creator\" content=\"Karamchandani, Jason\"/>'. The name is formatted to 'First Last'.",
+          "quote": "<li class=\"c-article-author-list__item c-article-author-list__item--hide-small-screen\"><a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"11_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Jason-Karamchandani-Aff8\" data-author-popup=\"auth-Jason-Karamchandani-Aff8\" data-author-search=\"Karamchandani, Jason\">Jason Karamchandani</a><sup class=\"u-js-hide\"><a href=\"#Aff8\">8</a></sup>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Pathology, Montreal Neurological Institute, McGill University, Montreal, QC, H3A 2B4, Canada",
+            "reasoning": "The author 'Jason Karamchandani' has a superscript '8' which links to the affiliation with id 'Aff8'.",
+            "quote": "<li id=\"Aff8\"><p class=\"c-article-author-affiliation__address\">Department of Pathology, Montreal Neurological Institute, McGill University, Montreal, QC, H3A 2B4, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Jason Karamchandani</p></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jacek Majewski",
+          "reasoning": "The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\"dc.creator\" content=\"Majewski, Jacek\"/>'. The name is formatted to 'First Last'.",
+          "quote": "<li class=\"c-article-author-list__item c-article-author-list__item--hide-small-screen\"><a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"12_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Jacek-Majewski-Aff1\" data-author-popup=\"auth-Jacek-Majewski-Aff1\" data-author-search=\"Majewski, Jacek\">Jacek Majewski</a><sup class=\"u-js-hide\"><a href=\"#Aff1\">1</a></sup>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada",
+            "reasoning": "The author 'Jacek Majewski' has a superscript '1' which links to the affiliation with id 'Aff1'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Melissa Zwaig, Bo Hu, Jacek Majewski &amp; Jiannis Ragoussis</p></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Mathieu Blanchette",
+          "reasoning": "The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\"dc.creator\" content=\"Blanchette, Mathieu\"/>'. The name is formatted to 'First Last'.",
+          "quote": "<li class=\"c-article-author-list__item c-article-author-list__item--hide-small-screen\"><a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"13_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Mathieu-Blanchette-Aff9\" data-author-popup=\"auth-Mathieu-Blanchette-Aff9\" data-author-search=\"Blanchette, Mathieu\">Mathieu Blanchette</a><sup class=\"u-js-hide\"><a href=\"#Aff9\">9</a></sup>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "School of Computer Science and McGill Center for Bioinformatics, McGill University, Montréal, Québec, Canada",
+            "reasoning": "The author 'Mathieu Blanchette' has a superscript '9' which links to the affiliation with id 'Aff9'.",
+            "quote": "<li id=\"Aff9\"><p class=\"c-article-author-affiliation__address\">School of Computer Science and McGill Center for Bioinformatics, McGill University, Montréal, Québec, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Mathieu Blanchette</p></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Michael D. Taylor",
+          "reasoning": "The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\"dc.creator\" content=\"Taylor, Michael D.\"/>'. The name is formatted to 'First Last'.",
+          "quote": "<li class=\"c-article-author-list__item c-article-author-list__item--hide-small-screen\"><a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"14_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Michael_D_-Taylor-Aff10\" data-author-popup=\"auth-Michael_D_-Taylor-Aff10\" data-author-search=\"Taylor, Michael D.\">Michael D. Taylor</a><sup class=\"u-js-hide\"><a href=\"#Aff10\">10</a></sup>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Arthur and Sonia Labatt Brain Tumour Research Centre, Hospital for Sick Children Research Institute, Toronto, Canada",
+            "reasoning": "The author 'Michael D. Taylor' has a superscript '10' which links to the affiliation with id 'Aff10'.",
+            "quote": "<li id=\"Aff10\"><p class=\"c-article-author-affiliation__address\">Arthur and Sonia Labatt Brain Tumour Research Centre, Hospital for Sick Children Research Institute, Toronto, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Michael D. Taylor</p></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Marco Gallo",
+          "reasoning": "The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\"dc.creator\" content=\"Gallo, Marco\"/>'. The name is formatted to 'First Last'.",
+          "quote": "<li class=\"c-article-author-list__item c-article-author-list__item--hide-small-screen\"><a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"15_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Marco-Gallo-Aff3\" data-author-popup=\"auth-Marco-Gallo-Aff3\" data-author-search=\"Gallo, Marco\">Marco Gallo</a><sup class=\"u-js-hide\"><a href=\"#Aff3\">3</a></sup>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Alberta Children‘s Hospital Research Institute, Charbonneau Cancer Institute, and Department of Biochemistry and Molecular Biology, Cumming School of Medicine, University of Calgary, Calgary, AB, Canada",
+            "reasoning": "The author 'Marco Gallo' has a superscript '3' which links to the affiliation with id 'Aff3'.",
+            "quote": "<li id=\"Aff3\"><p class=\"c-article-author-affiliation__address\">Alberta Children‘s Hospital Research Institute, Charbonneau Cancer Institute, and Department of Biochemistry and Molecular Biology, Cumming School of Medicine, University of Calgary, Calgary, AB, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Michael Johnston &amp; Marco Gallo</p></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Claudia L. Kleinman",
+          "reasoning": "The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\"dc.creator\" content=\"Kleinman, Claudia L.\"/>'. The name is formatted to 'First Last'.",
+          "quote": "<li class=\"c-article-author-list__item c-article-author-list__item--hide-small-screen\"><a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"16_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Claudia_L_-Kleinman-Aff4\" data-author-popup=\"auth-Claudia_L_-Kleinman-Aff4\" data-author-search=\"Kleinman, Claudia L.\">Claudia L. Kleinman</a><sup class=\"u-js-hide\"><a href=\"#Aff4\">4</a></sup>, </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Human Genetics and Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Quebec, Canada",
+            "reasoning": "The author 'Claudia L. Kleinman' has a superscript '4' which links to the affiliation with id 'Aff4'.",
+            "quote": "<li id=\"Aff4\"><p class=\"c-article-author-affiliation__address\">Department of Human Genetics and Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Quebec, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Hussein Lakkis &amp; Claudia L. Kleinman</p></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Nada Jabado",
+          "reasoning": "The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\"dc.creator\" content=\"Jabado, Nada\"/>'. The name is formatted to 'First Last'.",
+          "quote": "<li class=\"c-article-author-list__item c-article-author-list__item--hide-small-screen\"><a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"17_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Nada-Jabado-Aff11\" data-author-popup=\"auth-Nada-Jabado-Aff11\" data-author-search=\"Jabado, Nada\" data-corresp-id=\"c1\">Nada Jabado<svg width=\"16\" height=\"16\" focusable=\"false\" role=\"img\" aria-hidden=\"true\" class=\"u-icon\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon-eds-i-mail-medium\"></use></svg></a><sup class=\"u-js-hide\"><a href=\"#Aff11\">11</a></sup> &amp; </li>"
+        },
+        "affiliations": [
+          {
+            "value": "Department of Human Genetics, Department of Pediatrics, and The Research Institute of the McGill University Health Centre, Montreal, Canada",
+            "reasoning": "The author 'Nada Jabado' has a superscript '11' which links to the affiliation with id 'Aff11'.",
+            "quote": "<li id=\"Aff11\"><p class=\"c-article-author-affiliation__address\">Department of Human Genetics, Department of Pediatrics, and The Research Institute of the McGill University Health Centre, Montreal, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Nada Jabado</p></li>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Jiannis Ragoussis",
+          "reasoning": "The author's name is extracted from the visible author list and corroborated by the meta tag '<meta name=\"dc.creator\" content=\"Ragoussis, Jiannis\"/>'. The name is formatted to 'First Last'.",
+          "quote": "<li class=\"c-article-author-list__item\"><a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"18_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Jiannis-Ragoussis-Aff1\" data-author-popup=\"auth-Jiannis-Ragoussis-Aff1\" data-author-search=\"Ragoussis, Jiannis\" data-corresp-id=\"c2\">Jiannis Ragoussis<svg width=\"16\" height=\"16\" focusable=\"false\" role=\"img\" aria-hidden=\"true\" class=\"u-icon\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon-eds-i-mail-medium\"></use></svg></a><span class=\"u-js-hide\"> \n            <a class=\"js-orcid\" href=\"https://orcid.org/0000-0002-8515-0934\"><span class=\"u-visually-hidden\">ORCID: </span>orcid.org/0000-0002-8515-0934</a></span><sup class=\"u-js-hide\"><a href=\"#Aff1\">1</a></sup> </li>"
+        },
+        "affiliations": [
+          {
+            "value": "McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada",
+            "reasoning": "The author 'Jiannis Ragoussis' has a superscript '1' which links to the affiliation with id 'Aff1'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Melissa Zwaig, Bo Hu, Jacek Majewski &amp; Jiannis Ragoussis</p></li>"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada",
+        "reasoning": "This affiliation is listed as the first item in the ordered list of affiliations and is associated with multiple authors via the superscript '1'.",
+        "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">McGill Genome Centre and Department of Human Genetics, McGill University, Montreal, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Melissa Zwaig, Bo Hu, Jacek Majewski &amp; Jiannis Ragoussis</p></li>"
+      },
+      {
+        "value": "Quantitative Life Sciences and Lady Davis Institute for Medical Research, Montreal, Quebec, Canada",
+        "reasoning": "This affiliation is listed as the second item in the ordered list of affiliations and is associated with author Audrey Baguette via the superscript '2'.",
+        "quote": "<li id=\"Aff2\"><p class=\"c-article-author-affiliation__address\">Quantitative Life Sciences and Lady Davis Institute for Medical Research, Montreal, Quebec, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Audrey Baguette</p></li>"
+      },
+      {
+        "value": "Alberta Children‘s Hospital Research Institute, Charbonneau Cancer Institute, and Department of Biochemistry and Molecular Biology, Cumming School of Medicine, University of Calgary, Calgary, AB, Canada",
+        "reasoning": "This affiliation is listed as the third item in the ordered list of affiliations and is associated with multiple authors via the superscript '3'.",
+        "quote": "<li id=\"Aff3\"><p class=\"c-article-author-affiliation__address\">Alberta Children‘s Hospital Research Institute, Charbonneau Cancer Institute, and Department of Biochemistry and Molecular Biology, Cumming School of Medicine, University of Calgary, Calgary, AB, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Michael Johnston &amp; Marco Gallo</p></li>"
+      },
+      {
+        "value": "Department of Human Genetics and Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Quebec, Canada",
+        "reasoning": "This affiliation is listed as the fourth item in the ordered list of affiliations and is associated with multiple authors via the superscript '4'.",
+        "quote": "<li id=\"Aff4\"><p class=\"c-article-author-affiliation__address\">Department of Human Genetics and Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Quebec, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Hussein Lakkis &amp; Claudia L. Kleinman</p></li>"
+      },
+      {
+        "value": "The Research Institute of the McGill University Health Centre, Montreal, Canada",
+        "reasoning": "This affiliation is listed as the fifth item in the ordered list of affiliations and is associated with multiple authors via the superscript '5'.",
+        "quote": "<li id=\"Aff5\"><p class=\"c-article-author-affiliation__address\">The Research Institute of the McGill University Health Centre, Montreal, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Emily M. Nakada, Damien Faury &amp; Nikoleta Juretic</p></li>"
+      },
+      {
+        "value": "Department of Pathology, Centre Hospitalier Universitaire Sainte-Justine, Université de Montréal, Montréal, QC, H3T 1C5, Canada",
+        "reasoning": "This affiliation is listed as the sixth item in the ordered list of affiliations and is associated with author Benjamin Ellezam via the superscript '6'.",
+        "quote": "<li id=\"Aff6\"><p class=\"c-article-author-affiliation__address\">Department of Pathology, Centre Hospitalier Universitaire Sainte-Justine, Université de Montréal, Montréal, QC, H3T 1C5, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Benjamin Ellezam</p></li>"
+      },
+      {
+        "value": "Department of Pediatric Neurosurgery, Centre Hospitalier Universitaire Sainte-Justine, Université de Montréal, Montréal, QC, H3T 1C5, Canada",
+        "reasoning": "This affiliation is listed as the seventh item in the ordered list of affiliations and is associated with author Alexandre G. Weil via the superscript '7'.",
+        "quote": "<li id=\"Aff7\"><p class=\"c-article-author-affiliation__address\">Department of Pediatric Neurosurgery, Centre Hospitalier Universitaire Sainte-Justine, Université de Montréal, Montréal, QC, H3T 1C5, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Alexandre G. Weil</p></li>"
+      },
+      {
+        "value": "Department of Pathology, Montreal Neurological Institute, McGill University, Montreal, QC, H3A 2B4, Canada",
+        "reasoning": "This affiliation is listed as the eighth item in the ordered list of affiliations and is associated with author Jason Karamchandani via the superscript '8'.",
+        "quote": "<li id=\"Aff8\"><p class=\"c-article-author-affiliation__address\">Department of Pathology, Montreal Neurological Institute, McGill University, Montreal, QC, H3A 2B4, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Jason Karamchandani</p></li>"
+      },
+      {
+        "value": "School of Computer Science and McGill Center for Bioinformatics, McGill University, Montréal, Québec, Canada",
+        "reasoning": "This affiliation is listed as the ninth item in the ordered list of affiliations and is associated with author Mathieu Blanchette via the superscript '9'.",
+        "quote": "<li id=\"Aff9\"><p class=\"c-article-author-affiliation__address\">School of Computer Science and McGill Center for Bioinformatics, McGill University, Montréal, Québec, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Mathieu Blanchette</p></li>"
+      },
+      {
+        "value": "Arthur and Sonia Labatt Brain Tumour Research Centre, Hospital for Sick Children Research Institute, Toronto, Canada",
+        "reasoning": "This affiliation is listed as the tenth item in the ordered list of affiliations and is associated with author Michael D. Taylor via the superscript '10'.",
+        "quote": "<li id=\"Aff10\"><p class=\"c-article-author-affiliation__address\">Arthur and Sonia Labatt Brain Tumour Research Centre, Hospital for Sick Children Research Institute, Toronto, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Michael D. Taylor</p></li>"
+      },
+      {
+        "value": "Department of Human Genetics, Department of Pediatrics, and The Research Institute of the McGill University Health Centre, Montreal, Canada",
+        "reasoning": "This affiliation is listed as the eleventh item in the ordered list of affiliations and is associated with author Nada Jabado via the superscript '11'.",
+        "quote": "<li id=\"Aff11\"><p class=\"c-article-author-affiliation__address\">Department of Human Genetics, Department of Pediatrics, and The Research Institute of the McGill University Health Centre, Montreal, Canada</p><p class=\"c-article-author-affiliation__authors-list\">Nada Jabado</p></li>"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.1186/s12885-022-10359-z"
+    }
+  }
+}

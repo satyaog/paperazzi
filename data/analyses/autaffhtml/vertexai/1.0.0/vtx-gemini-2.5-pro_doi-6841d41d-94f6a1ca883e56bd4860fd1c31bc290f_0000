@@ -1,0 +1,343 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Sat, 12 Jul 2025 00:16:35 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=74935",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "{\n  \"authors_affiliations\": [\n    {\n      \"author\": {\n        \"value\": \"Avishkar Bhoopchand\",\n        \"reasoning\": \"The author's name is listed first in the author list within the `<ul class=\\\"c-article-author-list\\\">` element and also in the JSON-LD script block.\",\n        \"quote\": \"<a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"1_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Avishkar-Bhoopchand-Aff1\\\" data-author-popup=\\\"auth-Avishkar-Bhoopchand-Aff1\\\" data-author-search=\\\"Bhoopchand, Avishkar\\\">Avishkar Bhoopchand</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n          \"reasoning\": \"The author 'Avishkar Bhoopchand' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Bethanie Brownfield\",\n        \"reasoning\": \"The author's name is listed in the author list within the `<ul class=\\\"c-article-author-list\\\">` element and also in the JSON-LD script block.\",\n        \"quote\": \"<a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"2_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Bethanie-Brownfield-Aff1\\\" data-author-popup=\\\"auth-Bethanie-Brownfield-Aff1\\\" data-author-search=\\\"Brownfield, Bethanie\\\">Bethanie Brownfield</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n          \"reasoning\": \"The author 'Bethanie Brownfield' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Adrian Collister\",\n        \"reasoning\": \"The author's name is listed in the author list within the `<ul class=\\\"c-article-author-list\\\">` element and also in the JSON-LD script block.\",\n        \"quote\": \"<a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"3_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Adrian-Collister-Aff1\\\" data-author-popup=\\\"auth-Adrian-Collister-Aff1\\\" data-author-search=\\\"Collister, Adrian\\\">Adrian Collister</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n          \"reasoning\": \"The author 'Adrian Collister' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Agustin Dal Lago\",\n        \"reasoning\": \"The author's name is listed in the author list within the `<ul class=\\\"c-article-author-list\\\">` element and also in the JSON-LD script block.\",\n        \"quote\": \"<a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"4_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Agustin-Dal_Lago-Aff1\\\" data-author-popup=\\\"auth-Agustin-Dal_Lago-Aff1\\\" data-author-search=\\\"Dal Lago, Agustin\\\">Agustin Dal Lago</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n          \"reasoning\": \"The author 'Agustin Dal Lago' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Ashley Edwards\",\n        \"reasoning\": \"The author's name is listed in the author list within the `<ul class=\\\"c-article-author-list\\\">` element and also in the JSON-LD script block.\",\n        \"quote\": \"<a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"5_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Ashley-Edwards-Aff1\\\" data-author-popup=\\\"auth-Ashley-Edwards-Aff1\\\" data-author-search=\\\"Edwards, Ashley\\\">Ashley Edwards</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n          \"reasoning\": \"The author 'Ashley Edwards' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Richard Everett\",\n        \"reasoning\": \"The author's name is listed in the author list within the `<ul class=\\\"c-article-author-list\\\">` element and also in the JSON-LD script block.\",\n        \"quote\": \"<a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"6_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Richard-Everett-Aff1\\\" data-author-popup=\\\"auth-Richard-Everett-Aff1\\\" data-author-search=\\\"Everett, Richard\\\">Richard Everett</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n          \"reasoning\": \"The author 'Richard Everett' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Alexandre Fréchette\",\n        \"reasoning\": \"The author's name is listed in the author list within the `<ul class=\\\"c-article-author-list\\\">` element and also in the JSON-LD script block.\",\n        \"quote\": \"<a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"7_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Alexandre-Fr_chette-Aff1\\\" data-author-popup=\\\"auth-Alexandre-Fr_chette-Aff1\\\" data-author-search=\\\"Fréchette, Alexandre\\\">Alexandre Fréchette</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n          \"reasoning\": \"The author 'Alexandre Fréchette' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Yanko Gitahy Oliveira\",\n        \"reasoning\": \"The author's name is listed in the author list within the `<ul class=\\\"c-article-author-list\\\">` element and also in the JSON-LD script block.\",\n        \"quote\": \"<a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"8_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Yanko_Gitahy-Oliveira-Aff1\\\" data-author-popup=\\\"auth-Yanko_Gitahy-Oliveira-Aff1\\\" data-author-search=\\\"Oliveira, Yanko Gitahy\\\">Yanko Gitahy Oliveira</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n          \"reasoning\": \"The author 'Yanko Gitahy Oliveira' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Edward Hughes\",\n        \"reasoning\": \"The author's name is listed in the author list within the `<ul class=\\\"c-article-author-list\\\">` element and also in the JSON-LD script block. He is also marked as the corresponding author.\",\n        \"quote\": \"<a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"9_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Edward-Hughes-Aff1\\\" data-author-popup=\\\"auth-Edward-Hughes-Aff1\\\" data-author-search=\\\"Hughes, Edward\\\" data-corresp-id=\\\"c1\\\">Edward Hughes<svg width=\\\"16\\\" height=\\\"16\\\" focusable=\\\"false\\\" role=\\\"img\\\" aria-hidden=\\\"true\\\" class=\\\"u-icon\\\"><use xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" xlink:href=\\\"#icon-eds-i-mail-medium\\\"></use></svg></a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n          \"reasoning\": \"The author 'Edward Hughes' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Kory W. Mathewson\",\n        \"reasoning\": \"The author's name is listed in the author list within the `<ul class=\\\"c-article-author-list\\\">` element and also in the JSON-LD script block.\",\n        \"quote\": \"<a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"10_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Kory_W_-Mathewson-Aff1\\\" data-author-popup=\\\"auth-Kory_W_-Mathewson-Aff1\\\" data-author-search=\\\"Mathewson, Kory W.\\\">Kory W. Mathewson</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n          \"reasoning\": \"The author 'Kory W. Mathewson' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Piermaria Mendolicchio\",\n        \"reasoning\": \"The author's name is listed in the author list within the `<ul class=\\\"c-article-author-list\\\">` element and also in the JSON-LD script block.\",\n        \"quote\": \"<a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"11_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Piermaria-Mendolicchio-Aff1\\\" data-author-popup=\\\"auth-Piermaria-Mendolicchio-Aff1\\\" data-author-search=\\\"Mendolicchio, Piermaria\\\">Piermaria Mendolicchio</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n          \"reasoning\": \"The author 'Piermaria Mendolicchio' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Julia Pawar\",\n        \"reasoning\": \"The author's name is listed in the author list within the `<ul class=\\\"c-article-author-list\\\">` element and also in the JSON-LD script block.\",\n        \"quote\": \"<a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"12_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Julia-Pawar-Aff1\\\" data-author-popup=\\\"auth-Julia-Pawar-Aff1\\\" data-author-search=\\\"Pawar, Julia\\\">Julia Pawar</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n          \"reasoning\": \"The author 'Julia Pawar' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Miruna Pȋslar\",\n        \"reasoning\": \"The author's name is listed in the author list within the `<ul class=\\\"c-article-author-list\\\">` element and also in the JSON-LD script block.\",\n        \"quote\": \"<a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"13_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Miruna-P_slar-Aff1\\\" data-author-popup=\\\"auth-Miruna-P_slar-Aff1\\\" data-author-search=\\\"Pȋslar, Miruna\\\">Miruna Pȋslar</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n          \"reasoning\": \"The author 'Miruna Pȋslar' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Alex Platonov\",\n        \"reasoning\": \"The author's name is listed in the author list within the `<ul class=\\\"c-article-author-list\\\">` element and also in the JSON-LD script block.\",\n        \"quote\": \"<a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"14_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Alex-Platonov-Aff1\\\" data-author-popup=\\\"auth-Alex-Platonov-Aff1\\\" data-author-search=\\\"Platonov, Alex\\\">Alex Platonov</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n          \"reasoning\": \"The author 'Alex Platonov' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Evan Senter\",\n        \"reasoning\": \"The author's name is listed in the author list within the `<ul class=\\\"c-article-author-list\\\">` element and also in the JSON-LD script block.\",\n        \"quote\": \"<a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"15_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Evan-Senter-Aff1\\\" data-author-popup=\\\"auth-Evan-Senter-Aff1\\\" data-author-search=\\\"Senter, Evan\\\">Evan Senter</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n          \"reasoning\": \"The author 'Evan Senter' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Sukhdeep Singh\",\n        \"reasoning\": \"The author's name is listed in the author list within the `<ul class=\\\"c-article-author-list\\\">` element and also in the JSON-LD script block.\",\n        \"quote\": \"<a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"16_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Sukhdeep-Singh-Aff1\\\" data-author-popup=\\\"auth-Sukhdeep-Singh-Aff1\\\" data-author-search=\\\"Singh, Sukhdeep\\\">Sukhdeep Singh</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n          \"reasoning\": \"The author 'Sukhdeep Singh' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Alexander Zacherl\",\n        \"reasoning\": \"The author's name is listed in the author list within the `<ul class=\\\"c-article-author-list\\\">` element and also in the JSON-LD script block.\",\n        \"quote\": \"<a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"17_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Alexander-Zacherl-Aff1\\\" data-author-popup=\\\"auth-Alexander-Zacherl-Aff1\\\" data-author-search=\\\"Zacherl, Alexander\\\">Alexander Zacherl</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n          \"reasoning\": \"The author 'Alexander Zacherl' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>\"\n        }\n      ]\n    },\n    {\n      \"author\": {\n        \"value\": \"Lei M. Zhang\",\n        \"reasoning\": \"The author's name is listed last in the author list within the `<ul class=\\\"c-article-author-list\\\">` element and also in the JSON-LD script block.\",\n        \"quote\": \"<a data-test=\\\"author-name\\\" data-track=\\\"click\\\" data-track-action=\\\"open author\\\" data-track-label=\\\"link\\\" data-track-index=\\\"18_18\\\" data-track-context=\\\"researcher popup with no profile\\\" href=\\\"#auth-Lei_M_-Zhang-Aff1\\\" data-author-popup=\\\"auth-Lei_M_-Zhang-Aff1\\\" data-author-search=\\\"Zhang, Lei M.\\\">Lei M. Zhang</a>\"\n      },\n      \"affiliations\": [\n        {\n          \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n          \"reasoning\": \"The author 'Lei M. Zhang' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.\",\n          \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>\"\n        }\n      ]\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"value\": \"Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK\",\n      \"reasoning\": \"This is the only affiliation listed in the 'Authors and Affiliations' section. It has the ID 'Aff1', and all authors are linked to it via a superscript '1'.\",\n      \"quote\": \"<li id=\\\"Aff1\\\"><p class=\\\"c-article-author-affiliation__address\\\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p><p class=\\\"c-article-author-affiliation__authors-list\\\">Avishkar Bhoopchand, Bethanie Brownfield, Adrian Collister, Agustin Dal Lago, Ashley Edwards, Richard Everett, Alexandre Fréchette, Yanko Gitahy Oliveira, Edward Hughes, Kory W. Mathewson, Piermaria Mendolicchio, Julia Pawar, Miruna Pȋslar, Alex Platonov, Evan Senter, Sukhdeep Singh, Alexander Zacherl &amp; Lei M. Zhang</p></li>\"\n    }\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.5-pro",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 6530,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 208726,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 208726
+      }
+    ],
+    "thoughts_token_count": 1783,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 217039,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": {
+    "authors_affiliations": [
+      {
+        "author": {
+          "value": "Avishkar Bhoopchand",
+          "reasoning": "The author's name is listed first in the author list within the `<ul class=\"c-article-author-list\">` element and also in the JSON-LD script block.",
+          "quote": "<a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"1_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Avishkar-Bhoopchand-Aff1\" data-author-popup=\"auth-Avishkar-Bhoopchand-Aff1\" data-author-search=\"Bhoopchand, Avishkar\">Avishkar Bhoopchand</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+            "reasoning": "The author 'Avishkar Bhoopchand' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Bethanie Brownfield",
+          "reasoning": "The author's name is listed in the author list within the `<ul class=\"c-article-author-list\">` element and also in the JSON-LD script block.",
+          "quote": "<a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"2_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Bethanie-Brownfield-Aff1\" data-author-popup=\"auth-Bethanie-Brownfield-Aff1\" data-author-search=\"Brownfield, Bethanie\">Bethanie Brownfield</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+            "reasoning": "The author 'Bethanie Brownfield' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Adrian Collister",
+          "reasoning": "The author's name is listed in the author list within the `<ul class=\"c-article-author-list\">` element and also in the JSON-LD script block.",
+          "quote": "<a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"3_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Adrian-Collister-Aff1\" data-author-popup=\"auth-Adrian-Collister-Aff1\" data-author-search=\"Collister, Adrian\">Adrian Collister</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+            "reasoning": "The author 'Adrian Collister' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Agustin Dal Lago",
+          "reasoning": "The author's name is listed in the author list within the `<ul class=\"c-article-author-list\">` element and also in the JSON-LD script block.",
+          "quote": "<a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"4_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Agustin-Dal_Lago-Aff1\" data-author-popup=\"auth-Agustin-Dal_Lago-Aff1\" data-author-search=\"Dal Lago, Agustin\">Agustin Dal Lago</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+            "reasoning": "The author 'Agustin Dal Lago' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Ashley Edwards",
+          "reasoning": "The author's name is listed in the author list within the `<ul class=\"c-article-author-list\">` element and also in the JSON-LD script block.",
+          "quote": "<a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"5_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Ashley-Edwards-Aff1\" data-author-popup=\"auth-Ashley-Edwards-Aff1\" data-author-search=\"Edwards, Ashley\">Ashley Edwards</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+            "reasoning": "The author 'Ashley Edwards' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Richard Everett",
+          "reasoning": "The author's name is listed in the author list within the `<ul class=\"c-article-author-list\">` element and also in the JSON-LD script block.",
+          "quote": "<a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"6_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Richard-Everett-Aff1\" data-author-popup=\"auth-Richard-Everett-Aff1\" data-author-search=\"Everett, Richard\">Richard Everett</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+            "reasoning": "The author 'Richard Everett' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Alexandre Fréchette",
+          "reasoning": "The author's name is listed in the author list within the `<ul class=\"c-article-author-list\">` element and also in the JSON-LD script block.",
+          "quote": "<a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"7_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Alexandre-Fr_chette-Aff1\" data-author-popup=\"auth-Alexandre-Fr_chette-Aff1\" data-author-search=\"Fréchette, Alexandre\">Alexandre Fréchette</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+            "reasoning": "The author 'Alexandre Fréchette' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Yanko Gitahy Oliveira",
+          "reasoning": "The author's name is listed in the author list within the `<ul class=\"c-article-author-list\">` element and also in the JSON-LD script block.",
+          "quote": "<a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"8_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Yanko_Gitahy-Oliveira-Aff1\" data-author-popup=\"auth-Yanko_Gitahy-Oliveira-Aff1\" data-author-search=\"Oliveira, Yanko Gitahy\">Yanko Gitahy Oliveira</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+            "reasoning": "The author 'Yanko Gitahy Oliveira' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Edward Hughes",
+          "reasoning": "The author's name is listed in the author list within the `<ul class=\"c-article-author-list\">` element and also in the JSON-LD script block. He is also marked as the corresponding author.",
+          "quote": "<a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"9_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Edward-Hughes-Aff1\" data-author-popup=\"auth-Edward-Hughes-Aff1\" data-author-search=\"Hughes, Edward\" data-corresp-id=\"c1\">Edward Hughes<svg width=\"16\" height=\"16\" focusable=\"false\" role=\"img\" aria-hidden=\"true\" class=\"u-icon\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon-eds-i-mail-medium\"></use></svg></a>"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+            "reasoning": "The author 'Edward Hughes' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Kory W. Mathewson",
+          "reasoning": "The author's name is listed in the author list within the `<ul class=\"c-article-author-list\">` element and also in the JSON-LD script block.",
+          "quote": "<a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"10_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Kory_W_-Mathewson-Aff1\" data-author-popup=\"auth-Kory_W_-Mathewson-Aff1\" data-author-search=\"Mathewson, Kory W.\">Kory W. Mathewson</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+            "reasoning": "The author 'Kory W. Mathewson' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Piermaria Mendolicchio",
+          "reasoning": "The author's name is listed in the author list within the `<ul class=\"c-article-author-list\">` element and also in the JSON-LD script block.",
+          "quote": "<a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"11_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Piermaria-Mendolicchio-Aff1\" data-author-popup=\"auth-Piermaria-Mendolicchio-Aff1\" data-author-search=\"Mendolicchio, Piermaria\">Piermaria Mendolicchio</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+            "reasoning": "The author 'Piermaria Mendolicchio' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Julia Pawar",
+          "reasoning": "The author's name is listed in the author list within the `<ul class=\"c-article-author-list\">` element and also in the JSON-LD script block.",
+          "quote": "<a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"12_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Julia-Pawar-Aff1\" data-author-popup=\"auth-Julia-Pawar-Aff1\" data-author-search=\"Pawar, Julia\">Julia Pawar</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+            "reasoning": "The author 'Julia Pawar' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Miruna Pȋslar",
+          "reasoning": "The author's name is listed in the author list within the `<ul class=\"c-article-author-list\">` element and also in the JSON-LD script block.",
+          "quote": "<a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"13_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Miruna-P_slar-Aff1\" data-author-popup=\"auth-Miruna-P_slar-Aff1\" data-author-search=\"Pȋslar, Miruna\">Miruna Pȋslar</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+            "reasoning": "The author 'Miruna Pȋslar' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Alex Platonov",
+          "reasoning": "The author's name is listed in the author list within the `<ul class=\"c-article-author-list\">` element and also in the JSON-LD script block.",
+          "quote": "<a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"14_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Alex-Platonov-Aff1\" data-author-popup=\"auth-Alex-Platonov-Aff1\" data-author-search=\"Platonov, Alex\">Alex Platonov</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+            "reasoning": "The author 'Alex Platonov' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Evan Senter",
+          "reasoning": "The author's name is listed in the author list within the `<ul class=\"c-article-author-list\">` element and also in the JSON-LD script block.",
+          "quote": "<a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"15_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Evan-Senter-Aff1\" data-author-popup=\"auth-Evan-Senter-Aff1\" data-author-search=\"Senter, Evan\">Evan Senter</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+            "reasoning": "The author 'Evan Senter' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Sukhdeep Singh",
+          "reasoning": "The author's name is listed in the author list within the `<ul class=\"c-article-author-list\">` element and also in the JSON-LD script block.",
+          "quote": "<a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"16_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Sukhdeep-Singh-Aff1\" data-author-popup=\"auth-Sukhdeep-Singh-Aff1\" data-author-search=\"Singh, Sukhdeep\">Sukhdeep Singh</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+            "reasoning": "The author 'Sukhdeep Singh' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Alexander Zacherl",
+          "reasoning": "The author's name is listed in the author list within the `<ul class=\"c-article-author-list\">` element and also in the JSON-LD script block.",
+          "quote": "<a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"17_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Alexander-Zacherl-Aff1\" data-author-popup=\"auth-Alexander-Zacherl-Aff1\" data-author-search=\"Zacherl, Alexander\">Alexander Zacherl</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+            "reasoning": "The author 'Alexander Zacherl' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>"
+          }
+        ]
+      },
+      {
+        "author": {
+          "value": "Lei M. Zhang",
+          "reasoning": "The author's name is listed last in the author list within the `<ul class=\"c-article-author-list\">` element and also in the JSON-LD script block.",
+          "quote": "<a data-test=\"author-name\" data-track=\"click\" data-track-action=\"open author\" data-track-label=\"link\" data-track-index=\"18_18\" data-track-context=\"researcher popup with no profile\" href=\"#auth-Lei_M_-Zhang-Aff1\" data-author-popup=\"auth-Lei_M_-Zhang-Aff1\" data-author-search=\"Zhang, Lei M.\">Lei M. Zhang</a>"
+        },
+        "affiliations": [
+          {
+            "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+            "reasoning": "The author 'Lei M. Zhang' has a superscript link pointing to affiliation ID 'Aff1'. This ID corresponds to the list item containing the affiliation 'Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK'.",
+            "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p>"
+          }
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "value": "Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK",
+        "reasoning": "This is the only affiliation listed in the 'Authors and Affiliations' section. It has the ID 'Aff1', and all authors are linked to it via a superscript '1'.",
+        "quote": "<li id=\"Aff1\"><p class=\"c-article-author-affiliation__address\">Google DeepMind, 6-8 Handyside Street, London, N1C 4UZ, UK</p><p class=\"c-article-author-affiliation__authors-list\">Avishkar Bhoopchand, Bethanie Brownfield, Adrian Collister, Agustin Dal Lago, Ashley Edwards, Richard Everett, Alexandre Fréchette, Yanko Gitahy Oliveira, Edward Hughes, Kory W. Mathewson, Piermaria Mendolicchio, Julia Pawar, Miruna Pȋslar, Alex Platonov, Evan Senter, Sukhdeep Singh, Alexander Zacherl &amp; Lei M. Zhang</p></li>"
+      }
+    ]
+  },
+  "_metadata": {
+    "model_id": "autaffhtml",
+    "model_version": "1.0.0",
+    "llm_model": "models/gemini-2.5-pro",
+    "query": {
+      "url": "https://doi.org/10.1038/s41467-023-42875-2"
+    }
+  }
+}
