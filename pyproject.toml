@@ -146,12 +146,7 @@ detached = true
 [tool.hatch.envs.test-pub.env-vars]
 PAPERAZZI_CFG = "{env:PAPERAZZI_CFG:{root:real}/config.ini}"
 [tool.hatch.envs.test-pub.scripts]
-check = """
-hatch run default:sync
-_VERSION=$(hatch run default:python3 -c "import paperazzi.__about__ ; print(paperazzi.__about__.__version__)")
-hatch run {env_name}:uv pip install -U paperazzi
-[[ ! -z $_VERSION ]] && \
-  hatch run {env_name}:uv pip freeze | grep "paperazzi==$_VERSION"
+check = """hatch run {env_name}:uv pip install -U "paperazzi==$(hatch version)"
 """
 
 [tool.coverage.run]
