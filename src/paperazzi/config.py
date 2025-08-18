@@ -16,7 +16,12 @@ logger.setLevel(logging.WARNING)
 _PREFIX = Path(__file__).parent.name.upper()
 _CFG_VARENV = f"{_PREFIX}_CFG"
 CONFIG_FILE = os.environ.get(
-    _CFG_VARENV, Path(__file__).parent.parent.parent / "config.ini"
+    _CFG_VARENV,
+    next(
+        d / "config.ini"
+        for d in [Path(__file__).parent, Path(__file__).parent.parent.parent]
+        if (d / "config.ini").exists()
+    ),
 )
 
 
