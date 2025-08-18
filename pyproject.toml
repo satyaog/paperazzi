@@ -9,7 +9,7 @@ description = 'LLM-Based Paper Query System with Evaluation Framework'
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
-keywords = []
+keywords = ["llm", "paper-analysis", "evaluation", "research"]
 authors = [
   { name = "Satya Ortiz-Gagne", email = "satya.ortiz-gagne@mila.quebec" },
 ]
@@ -58,8 +58,24 @@ Source = "https://github.com/Satya Ortiz-Gagne/paperazzi"
 [tool.hatch.version]
 path = "src/paperazzi/__about__.py"
 
+[tool.hatch.build.targets.wheel]
+packages = ["src/paperazzi"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "/data",
+  "/src",
+  "/tests",
+  "/README.md",
+  "/LICENSE.txt",
+  "/pyproject.toml",
+]
+exclude = [
+  "data/analyses/**",
+  "data/cache/**",
+]
+
 [tool.hatch.envs.default]
-python = "3.10"
 installer = "uv"
 features = [
   "dev",
@@ -123,6 +139,19 @@ extra-dependencies = [
 ]
 [tool.hatch.envs.types.scripts]
 check = "mypy --install-types --non-interactive {args:src/paperazzi tests}"
+
+[tool.hatch.envs.test-pub]
+detached = true
+[tool.hatch.envs.test-pub.env-vars]
+PAPERAZZI_CFG = "{env:PAPERAZZI_CFG:{root:real}/config.ini}"
+[tool.hatch.envs.test-pub.scripts]
+check = """
+hatch run default:sync
+_VERSION=$(hatch run default:python3 -c "import paperazzi.__about__ ; print(paperazzi.__about__.__version__)")
+hatch run {env_name}:uv pip install -U paperazzi
+[[ ! -z $_VERSION ]] && \
+  hatch run {env_name}:uv pip freeze | grep "paperazzi==$_VERSION"
+"""
 
 [tool.coverage.run]
 source_pkgs = ["paperazzi", "tests"]
