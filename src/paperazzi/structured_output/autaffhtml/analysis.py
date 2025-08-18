@@ -9,6 +9,7 @@ import google
 import requests.exceptions
 import requests_cache
 from fake_useragent import UserAgent
+from requests.adapters import HTTPAdapter, Retry
 
 from paperazzi import CFG
 from paperazzi.log import logger
@@ -30,11 +31,13 @@ def cached_session() -> requests_cache.CachedSession:
 
 
 def download_html(url: str, output: Path):
+    retries = Retry(total=5, backoff_factor=2)
+
     for additional_request_args in (
         {"headers": {"User-Agent": UserAgent(os="Linux", platforms="desktop").firefox}},
         {},
     ):
-        response = cached_session().get(url, **additional_request_args)
+        response = cached_session().get(url, retries=retries, **additional_request_args)
 
         try:
             response.raise_for_status()
