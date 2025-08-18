@@ -67,8 +67,9 @@ include = [
   "/data",
   "/src",
   "/tests",
-  "/README.md",
   "/LICENSE.txt",
+  "/README.md",
+  "/config.ini",
   "/pyproject.toml",
 ]
 exclude = [
