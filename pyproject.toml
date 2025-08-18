@@ -61,6 +61,9 @@ path = "src/paperazzi/__about__.py"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/paperazzi"]
+include = [
+  "/config.ini",
+]
 
 [tool.hatch.build.targets.sdist]
 include = [
