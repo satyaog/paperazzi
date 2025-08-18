@@ -1,0 +1,4 @@
+[submodule "data/analyses"]
+	path = data/analyses
+	url = https://github.com/satyaog/paperazzi-data
+	branch = analyses
