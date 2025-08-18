@@ -8,6 +8,7 @@ from pathlib import Path
 import google
 import requests.exceptions
 import requests_cache
+from fake_useragent import UserAgent
 
 from paperazzi import CFG
 from paperazzi.log import logger
@@ -25,12 +26,27 @@ def paper_make_key(paper: PaperTxt, doi: str):
 
 
 def cached_session() -> requests_cache.CachedSession:
-    return requests_cache.CachedSession(CFG.dir.cache / "requests")
+    return requests_cache.CachedSession(CFG.dir.cache / "requests", stale_if_error=True)
 
 
 def download_html(url: str, output: Path):
-    response = cached_session().get(url)
-    response.raise_for_status()
+    for additional_request_args in (
+        {"headers": {"User-Agent": UserAgent(os="Linux", platforms="desktop").firefox}},
+        {},
+    ):
+        response = cached_session().get(url, **additional_request_args)
+
+        try:
+            response.raise_for_status()
+            break
+
+        except requests.exceptions.HTTPError as e:
+            error = e
+            continue
+
+    else:
+        raise error
+
     output.write_text(response.text)
 
 
