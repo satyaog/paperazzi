@@ -1,4 +1,5 @@
 import logging
+import os
 from pathlib import Path
 
 import pytest
@@ -87,6 +88,34 @@ def test_config_env_vars(monkeypatch, caplog):
         "PAPERAZZI_SECTION_NOOPT" in rec.message
         for rec in filter(lambda r: r.levelname == "WARNING", caplog.records)
     )
+
+
+def test_config_empty_env_vars_dont_override_existing(monkeypatch):
+    """Test that empty values in config.ini file do not replace existing environment variables"""
+
+    # Set up existing environment variables
+    existing_value = "not empty anymore"
+    monkeypatch.setenv("EMPTY_VAR_ENV", existing_value)
+    monkeypatch.setenv("NOT_EMPTY_VAR_ENV", "")
+    monkeypatch.delenv("OPENAI_API_KEY")
+
+    # Create a config with empty values for these env vars
+    config = Config(str(CONFIG_FILE))
+
+    assert config.env.empty_var_env == ""
+
+    # Apply the global config which should set env vars from config
+    Config.apply_global_config(config)
+
+    # Verify that existing empty environment variables are preserved
+    assert os.environ["EMPTY_VAR_ENV"] == existing_value
+
+    # Test that the not empty environment variable is overridden by the config
+    assert os.environ["NOT_EMPTY_VAR_ENV"] == config.env.not_empty_var_env
+
+    # Test that missing environment variables from existing environment are
+    # added empty
+    assert os.environ["OPENAI_API_KEY"] == ""
 
 
 def test_config_dir_section_resolve():
