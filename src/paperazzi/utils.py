@@ -181,9 +181,11 @@ class DiskStoreFunc(DiskCachedFunc):
     class _Info(DiskCachedFunc._Info):
         store: DiskStore = None
 
-    def __init__(self, func: DiskCachedFunc, store: DiskStore):
+    def __init__(self, func: DiskCachedFunc, store: DiskStore, serializer=None):
         store = DiskStore(**vars(store))
 
+        if serializer is None:
+            serializer = func.info.serializer
         if store.cache_dir is None:
             store.cache_dir = func.info.cache_dir
         if store.prefix is None:
@@ -191,7 +193,7 @@ class DiskStoreFunc(DiskCachedFunc):
         if store.make_key is None:
             store.make_key = func.info.make_key
 
-        super().__init__(func.info.func, None, func.info.serializer, None)
+        super().__init__(func.info.func, None, serializer, None)
         # Disable DiskCachedFunc cache_dir and make_key to use the store ones
         self._cache_dir = None
         self._make_key = None
@@ -216,6 +218,7 @@ class DiskStoreFunc(DiskCachedFunc):
         self,
         store: DiskStore = None,
         *,
+        serializer=None,
         cache_dir: Path = None,
         make_key: Callable = None,
         prefix: str = None,
@@ -240,7 +243,7 @@ class DiskStoreFunc(DiskCachedFunc):
 
         store_kwargs = {**vars(self.info.store), **store_kwargs}
 
-        return DiskStoreFunc(self, DiskStore(**store_kwargs))
+        return DiskStoreFunc(self, DiskStore(**store_kwargs), serializer=serializer)
 
 
 def disk_cache(
