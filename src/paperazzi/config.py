@@ -173,6 +173,8 @@ class Config:
             )
 
         for varenv, val in config._config["env"].items():
+            if not val and varenv.upper() in os.environ:
+                continue
             os.environ[varenv.upper()] = val
 
     @contextmanager
