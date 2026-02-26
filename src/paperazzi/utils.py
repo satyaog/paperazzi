@@ -7,6 +7,7 @@ import unicodedata
 from dataclasses import dataclass
 from multiprocessing import Lock
 from pathlib import Path
+from threading import Lock as ThreadLock
 from typing import Callable, Generator
 
 from packaging.version import Version
@@ -14,6 +15,11 @@ from packaging.version import Version
 import paperazzi
 from paperazzi import CFG
 from paperazzi.log import logger
+
+
+@functools.lru_cache(maxsize=1024)
+def get_lock(**kwargs):
+    return ThreadLock()
 
 
 @dataclass
@@ -123,7 +129,6 @@ class DiskCachedFunc:
         self._cache_dir = cache_dir
         self._serializer = serializer
         self._make_key = make_key
-        self._lock = Lock()
 
     @property
     def info(self):
@@ -140,15 +145,15 @@ class DiskCachedFunc:
         return cache_file.exists(), cache_file
 
     def __call__(self, *args, **kwargs):
-        cache_exists, cache_file = self.exists(*args, **kwargs)
+        _, cache_file = self.exists(*args, **kwargs)
 
-        if cache_exists:
-            with self._lock, cache_file.open("rb") as f:
-                return self._serializer.load(f)
+        with get_lock(func=self._func.__name__, key=str(cache_file)):
+            if cache_file.exists():
+                with cache_file.open("rb") as f:
+                    return self._serializer.load(f)
 
-        result = self._func(*args, **kwargs)
+            result = self._func(*args, **kwargs)
 
-        with self._lock:
             cache_file.parent.mkdir(parents=True, exist_ok=True)
             with cache_file.open("wb") as f:
                 self._serializer.dump(result, f)

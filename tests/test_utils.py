@@ -3,6 +3,8 @@
 import json
 import random
 import tempfile
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -311,6 +313,22 @@ class TestDiskCacheDecorator:
             assert result2 == {"result": 10}
 
             assert json_func(5) == json.loads(json_func.exists(5)[1].read_text())
+
+    def test_disk_cached_func_thread_safety(self, tmp_path: Path):
+        """Test DiskCachedFunc.__call__() is thread-safe when called concurrently."""
+
+        @disk_cache(cache_dir=tmp_path)
+        def slow_timestamp(*args, **kwargs):
+            time.sleep(random.uniform(1, 5))
+            return len(args) + len(kwargs) + time.time()
+
+        with ThreadPoolExecutor(max_workers=2) as executor:
+            futures = [executor.submit(slow_timestamp, 0, j=0) for _ in range(2)]
+            results = [f.result() for f in as_completed(futures)]
+
+        assert (
+            results[0] == results[1]
+        ), "Both concurrent calls should return the same cached value"
 
 
 class TestDiskStoreDecorator:
