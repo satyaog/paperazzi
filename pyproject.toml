@@ -33,13 +33,21 @@ dependencies = [
   "requests-cache",
   "rich",
 ]
+
 [project.optional-dependencies]
-dev = [
-  "pytest",
-  "pytest-regressions",
-]
+instructor = ["instructor"]
+mistralai = ["mistralai"]
+openai = ["openai"]
+vertexai = ["google-genai"]
+
+[dependency-groups]
+dev = []
 instructor = [
   "instructor",
+]
+lint = [
+  "black>=25.11.0",
+  "isort>=7.0.0",
 ]
 mistralai = [
   "mistralai",
@@ -81,13 +89,15 @@ exclude = [
 
 [tool.hatch.envs.default]
 installer = "uv"
-features = [
+dependency-groups = [
   "dev",
+]
+post-install-commands = [
+    "uv sync --dev",
 ]
 
 [tool.hatch.envs.default.scripts]
-env_name = '[ "$HATCH_ENV_ACTIVE" == "default" ] && echo "dev" || echo "$HATCH_ENV_ACTIVE"'
-sync = "uv sync --active --extra $(hatch run {env_name}:env_name) {args}"
+uv = 'UV_PROJECT_ENVIRONMENT="{env:VIRTUAL_ENV}" "$(which uv)" {args}'
 
 [tool.hatch.envs.default.env-vars]
 PAPERAZZI_CFG = "{env:PAPERAZZI_CFG:{root:real}/config.ini}"
@@ -96,45 +106,48 @@ PAPERAZZI_CFG = "{env:PAPERAZZI_CFG:{root:real}/config.ini}"
 # PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION = "upb"
 
 [tool.hatch.envs.openai]
-features = [
+dependency-groups = [
   "openai",
 ]
 
 [tool.hatch.envs.mistralai]
-features = [
+dependency-groups = [
   "mistralai",
 ]
 
 [tool.hatch.envs.vertexai]
-features = [
+dependency-groups = [
   "vertexai",
 ]
 
 [tool.hatch.envs.hatch-test]
-features = [
+dependency-groups = [
   "dev",
   "instructor",
   "mistralai",
   "openai",
   "vertexai",
 ]
+post-install-commands = [
+    "uv sync --inexact --all-groups",
+]
 
 [tool.hatch.envs.hatch-test.extra-scripts]
-sync = "uv sync --active --inexact --all-extras {args}"
+uv = 'UV_PROJECT_ENVIRONMENT="{env:VIRTUAL_ENV}" "$(which uv)" {args}'
 
 [[tool.hatch.envs.hatch-test.matrix]]
 python = ["3.10", "3.11", "3.12", "3.13"]
 
 [tool.hatch.envs.lint]
-detached = true
+skip-install = true
 dependencies = [
   "black",
   "isort",
 ]
 [tool.hatch.envs.lint.scripts]
 lint = [
-  "python3 -m black {args} .",
-  "python3 -m isort --profile black {args} .",
+  "black {args} .",
+  "isort --profile black {args} .",
 ]
 
 [tool.hatch.envs.types]
@@ -145,11 +158,14 @@ extra-dependencies = [
 check = "mypy --install-types --non-interactive {args:src/paperazzi tests}"
 
 [tool.hatch.envs.test-pub]
-detached = true
+skip-install = true
+dependency-groups = [
+  "lint",
+]
 [tool.hatch.envs.test-pub.env-vars]
 PAPERAZZI_CFG = "{env:PAPERAZZI_CFG:{root:real}/config.ini}"
 [tool.hatch.envs.test-pub.scripts]
-check = """hatch run {env_name}:uv pip install -U "paperazzi==$(hatch version)"
+check = """uv pip install -U "paperazzi==$(hatch version)"
 """
 
 [tool.coverage.run]
